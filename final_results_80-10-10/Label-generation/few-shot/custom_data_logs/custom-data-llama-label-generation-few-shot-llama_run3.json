@@ -1,0 +1,742 @@
+{
+    "\n                SYSTEM: You are an epidemiology data steward labeling synthetically generated data. Note that you will be working with patient data that was synthetically generated and doesn't exist in real-world.\n\n                INSTRUCTIONS:\n                • Choose exactly ONE label from the OPTIONS list that best describes the INPUT. Note that INPUT should be relative to the OPTIONS that you have. Don't select label if it's just a little bit matches with INPUT.\n                • If none OPTIONS apply, you can generate new label that will match the INPUT. The generated label should be in snake_case format. Generate broad label.\n                • **Respond with EXACTLY the label token, no additional words, punctuation, or explanation.**\n\n                This is just examples how it could look like:\n                INPUT: [\"Moderna\", \"AstraZeneca\", \"Novavax\"]\n                OPTIONS: [\"treatment\", \"country\", \"vaccine_names\"]\n                ANSWER: vaccine_names\n\n                INPUT: [\"Tuberculosis\", \"Malaria\", \"Ebola\"]\n                OPTIONS: [\"vaccine_names\", \"disease\", \"country\"]\n                ANSWER: disease\n\n                Now it's your turn:\n                INPUT: [benv-21955-ben-337, benv-22716-ben-965, benv-22146-ben-503, benv-21955-ben-340, benv-22146-ben-502]\n                OPTIONS: \n                ANSWER:\n            ": {
+        "response": "patient_ids",
+        "context": [
+            "benv-21955-ben-337",
+            "benv-22716-ben-965",
+            "benv-22146-ben-503",
+            "benv-21955-ben-340",
+            "benv-22146-ben-502"
+        ],
+        "ground_truth": "id",
+        "correct": false,
+        "original_model_answer": "patient_ids",
+        "original_label": "id",
+        "file+idx": "0"
+    },
+    "\n                SYSTEM: You are an epidemiology data steward labeling synthetically generated data. Note that you will be working with patient data that was synthetically generated and doesn't exist in real-world.\n\n                INSTRUCTIONS:\n                • Choose exactly ONE label from the OPTIONS list that best describes the INPUT. Note that INPUT should be relative to the OPTIONS that you have. Don't select label if it's just a little bit matches with INPUT.\n                • If none OPTIONS apply, you can generate new label that will match the INPUT. The generated label should be in snake_case format. Generate broad label.\n                • **Respond with EXACTLY the label token, no additional words, punctuation, or explanation.**\n\n                This is just examples how it could look like:\n                INPUT: [\"Moderna\", \"AstraZeneca\", \"Novavax\"]\n                OPTIONS: [\"treatment\", \"country\", \"vaccine_names\"]\n                ANSWER: vaccine_names\n\n                INPUT: [\"Tuberculosis\", \"Malaria\", \"Ebola\"]\n                OPTIONS: [\"vaccine_names\", \"disease\", \"country\"]\n                ANSWER: disease\n\n                Now it's your turn:\n                INPUT: [no]\n                OPTIONS: patient_ids\n                ANSWER:\n            ": {
+        "response": "medical_boolean",
+        "context": [
+            "no"
+        ],
+        "ground_truth": "medical_boolean",
+        "correct": true,
+        "original_model_answer": "medical_boolean",
+        "original_label": "medical_boolean",
+        "file+idx": "1"
+    },
+    "\n                SYSTEM: You are an epidemiology data steward labeling synthetically generated data. Note that you will be working with patient data that was synthetically generated and doesn't exist in real-world.\n\n                INSTRUCTIONS:\n                • Choose exactly ONE label from the OPTIONS list that best describes the INPUT. Note that INPUT should be relative to the OPTIONS that you have. Don't select label if it's just a little bit matches with INPUT.\n                • If none OPTIONS apply, you can generate new label that will match the INPUT. The generated label should be in snake_case format. Generate broad label.\n                • **Respond with EXACTLY the label token, no additional words, punctuation, or explanation.**\n\n                This is just examples how it could look like:\n                INPUT: [\"Moderna\", \"AstraZeneca\", \"Novavax\"]\n                OPTIONS: [\"treatment\", \"country\", \"vaccine_names\"]\n                ANSWER: vaccine_names\n\n                INPUT: [\"Tuberculosis\", \"Malaria\", \"Ebola\"]\n                OPTIONS: [\"vaccine_names\", \"disease\", \"country\"]\n                ANSWER: disease\n\n                Now it's your turn:\n                INPUT: [diednovhep, alive, stilltreatment]\n                OPTIONS: patient_ids - medical_boolean\n                ANSWER:\n            ": {
+        "response": "patient_ids",
+        "context": [
+            "diednovhep",
+            "alive",
+            "stilltreatment"
+        ],
+        "ground_truth": "outcome",
+        "correct": false,
+        "original_model_answer": "patient_ids",
+        "original_label": "outcome",
+        "file+idx": "2"
+    },
+    "\n                SYSTEM: You are an epidemiology data steward labeling synthetically generated data. Note that you will be working with patient data that was synthetically generated and doesn't exist in real-world.\n\n                INSTRUCTIONS:\n                • Choose exactly ONE label from the OPTIONS list that best describes the INPUT. Note that INPUT should be relative to the OPTIONS that you have. Don't select label if it's just a little bit matches with INPUT.\n                • If none OPTIONS apply, you can generate new label that will match the INPUT. The generated label should be in snake_case format. Generate broad label.\n                • **Respond with EXACTLY the label token, no additional words, punctuation, or explanation.**\n\n                This is just examples how it could look like:\n                INPUT: [\"Moderna\", \"AstraZeneca\", \"Novavax\"]\n                OPTIONS: [\"treatment\", \"country\", \"vaccine_names\"]\n                ANSWER: vaccine_names\n\n                INPUT: [\"Tuberculosis\", \"Malaria\", \"Ebola\"]\n                OPTIONS: [\"vaccine_names\", \"disease\", \"country\"]\n                ANSWER: disease\n\n                Now it's your turn:\n                INPUT: [no, yes]\n                OPTIONS: patient_ids - medical_boolean\n                ANSWER:\n            ": {
+        "response": "medical_boolean",
+        "context": [
+            "no",
+            "yes"
+        ],
+        "ground_truth": "medical_boolean",
+        "correct": true,
+        "original_model_answer": "medical_boolean",
+        "original_label": "medical_boolean",
+        "file+idx": "3"
+    },
+    "\n                SYSTEM: You are an epidemiology data steward labeling synthetically generated data. Note that you will be working with patient data that was synthetically generated and doesn't exist in real-world.\n\n                INSTRUCTIONS:\n                • Choose exactly ONE label from the OPTIONS list that best describes the INPUT. Note that INPUT should be relative to the OPTIONS that you have. Don't select label if it's just a little bit matches with INPUT.\n                • If none OPTIONS apply, you can generate new label that will match the INPUT. The generated label should be in snake_case format. Generate broad label.\n                • **Respond with EXACTLY the label token, no additional words, punctuation, or explanation.**\n\n                This is just examples how it could look like:\n                INPUT: [\"Moderna\", \"AstraZeneca\", \"Novavax\"]\n                OPTIONS: [\"treatment\", \"country\", \"vaccine_names\"]\n                ANSWER: vaccine_names\n\n                INPUT: [\"Tuberculosis\", \"Malaria\", \"Ebola\"]\n                OPTIONS: [\"vaccine_names\", \"disease\", \"country\"]\n                ANSWER: disease\n\n                Now it's your turn:\n                INPUT: [2020-06-26, 2020-07-01, 2020-06-12, 2020-06-04, 2020-06-21]\n                OPTIONS: patient_ids - medical_boolean\n                ANSWER:\n            ": {
+        "response": "dates",
+        "context": [
+            "2020-06-26",
+            "2020-07-01",
+            "2020-06-12",
+            "2020-06-04",
+            "2020-06-21"
+        ],
+        "ground_truth": "date",
+        "correct": false,
+        "original_model_answer": "dates",
+        "original_label": "date",
+        "file+idx": "4"
+    },
+    "\n                SYSTEM: You are an epidemiology data steward labeling synthetically generated data. Note that you will be working with patient data that was synthetically generated and doesn't exist in real-world.\n\n                INSTRUCTIONS:\n                • Choose exactly ONE label from the OPTIONS list that best describes the INPUT. Note that INPUT should be relative to the OPTIONS that you have. Don't select label if it's just a little bit matches with INPUT.\n                • If none OPTIONS apply, you can generate new label that will match the INPUT. The generated label should be in snake_case format. Generate broad label.\n                • **Respond with EXACTLY the label token, no additional words, punctuation, or explanation.**\n\n                This is just examples how it could look like:\n                INPUT: [\"Moderna\", \"AstraZeneca\", \"Novavax\"]\n                OPTIONS: [\"treatment\", \"country\", \"vaccine_names\"]\n                ANSWER: vaccine_names\n\n                INPUT: [\"Tuberculosis\", \"Malaria\", \"Ebola\"]\n                OPTIONS: [\"vaccine_names\", \"disease\", \"country\"]\n                ANSWER: disease\n\n                Now it's your turn:\n                INPUT: [2022-04-08, 2022-04-26, 2022-04-20, 2022-04-15, 2022-05-15]\n                OPTIONS: patient_ids - medical_boolean - dates\n                ANSWER:\n            ": {
+        "response": "dates",
+        "context": [
+            "2022-04-08",
+            "2022-04-26",
+            "2022-04-20",
+            "2022-04-15",
+            "2022-05-15"
+        ],
+        "ground_truth": "date",
+        "correct": false,
+        "original_model_answer": "dates",
+        "original_label": "date",
+        "file+idx": "5"
+    },
+    "\n                SYSTEM: You are an epidemiology data steward labeling synthetically generated data. Note that you will be working with patient data that was synthetically generated and doesn't exist in real-world.\n\n                INSTRUCTIONS:\n                • Choose exactly ONE label from the OPTIONS list that best describes the INPUT. Note that INPUT should be relative to the OPTIONS that you have. Don't select label if it's just a little bit matches with INPUT.\n                • If none OPTIONS apply, you can generate new label that will match the INPUT. The generated label should be in snake_case format. Generate broad label.\n                • **Respond with EXACTLY the label token, no additional words, punctuation, or explanation.**\n\n                This is just examples how it could look like:\n                INPUT: [\"Moderna\", \"AstraZeneca\", \"Novavax\"]\n                OPTIONS: [\"treatment\", \"country\", \"vaccine_names\"]\n                ANSWER: vaccine_names\n\n                INPUT: [\"Tuberculosis\", \"Malaria\", \"Ebola\"]\n                OPTIONS: [\"vaccine_names\", \"disease\", \"country\"]\n                ANSWER: disease\n\n                Now it's your turn:\n                INPUT: [2022-05-31, 2022-05-12, 2022-05-09, 2022-05-04]\n                OPTIONS: patient_ids - medical_boolean - dates\n                ANSWER:\n            ": {
+        "response": "dates",
+        "context": [
+            "2022-05-31",
+            "2022-05-12",
+            "2022-05-09",
+            "2022-05-04"
+        ],
+        "ground_truth": "date",
+        "correct": false,
+        "original_model_answer": "dates",
+        "original_label": "date",
+        "file+idx": "6"
+    },
+    "\n                SYSTEM: You are an epidemiology data steward labeling synthetically generated data. Note that you will be working with patient data that was synthetically generated and doesn't exist in real-world.\n\n                INSTRUCTIONS:\n                • Choose exactly ONE label from the OPTIONS list that best describes the INPUT. Note that INPUT should be relative to the OPTIONS that you have. Don't select label if it's just a little bit matches with INPUT.\n                • If none OPTIONS apply, you can generate new label that will match the INPUT. The generated label should be in snake_case format. Generate broad label.\n                • **Respond with EXACTLY the label token, no additional words, punctuation, or explanation.**\n\n                This is just examples how it could look like:\n                INPUT: [\"Moderna\", \"AstraZeneca\", \"Novavax\"]\n                OPTIONS: [\"treatment\", \"country\", \"vaccine_names\"]\n                ANSWER: vaccine_names\n\n                INPUT: [\"Tuberculosis\", \"Malaria\", \"Ebola\"]\n                OPTIONS: [\"vaccine_names\", \"disease\", \"country\"]\n                ANSWER: disease\n\n                Now it's your turn:\n                INPUT: [2020-05-26, 2020-07-07]\n                OPTIONS: patient_ids - medical_boolean - dates\n                ANSWER:\n            ": {
+        "response": "dates",
+        "context": [
+            "2020-05-26",
+            "2020-07-07"
+        ],
+        "ground_truth": "date",
+        "correct": false,
+        "original_model_answer": "dates",
+        "original_label": "date",
+        "file+idx": "7"
+    },
+    "\n                SYSTEM: You are an epidemiology data steward labeling synthetically generated data. Note that you will be working with patient data that was synthetically generated and doesn't exist in real-world.\n\n                INSTRUCTIONS:\n                • Choose exactly ONE label from the OPTIONS list that best describes the INPUT. Note that INPUT should be relative to the OPTIONS that you have. Don't select label if it's just a little bit matches with INPUT.\n                • If none OPTIONS apply, you can generate new label that will match the INPUT. The generated label should be in snake_case format. Generate broad label.\n                • **Respond with EXACTLY the label token, no additional words, punctuation, or explanation.**\n\n                This is just examples how it could look like:\n                INPUT: [\"Moderna\", \"AstraZeneca\", \"Novavax\"]\n                OPTIONS: [\"treatment\", \"country\", \"vaccine_names\"]\n                ANSWER: vaccine_names\n\n                INPUT: [\"Tuberculosis\", \"Malaria\", \"Ebola\"]\n                OPTIONS: [\"vaccine_names\", \"disease\", \"country\"]\n                ANSWER: disease\n\n                Now it's your turn:\n                INPUT: [non, oui]\n                OPTIONS: patient_ids - medical_boolean - dates\n                ANSWER:\n            ": {
+        "response": "medical_boolean",
+        "context": [
+            "non",
+            "oui"
+        ],
+        "ground_truth": "medical_boolean",
+        "correct": true,
+        "original_model_answer": "medical_boolean",
+        "original_label": "medical_boolean",
+        "file+idx": "8"
+    },
+    "\n                SYSTEM: You are an epidemiology data steward labeling synthetically generated data. Note that you will be working with patient data that was synthetically generated and doesn't exist in real-world.\n\n                INSTRUCTIONS:\n                • Choose exactly ONE label from the OPTIONS list that best describes the INPUT. Note that INPUT should be relative to the OPTIONS that you have. Don't select label if it's just a little bit matches with INPUT.\n                • If none OPTIONS apply, you can generate new label that will match the INPUT. The generated label should be in snake_case format. Generate broad label.\n                • **Respond with EXACTLY the label token, no additional words, punctuation, or explanation.**\n\n                This is just examples how it could look like:\n                INPUT: [\"Moderna\", \"AstraZeneca\", \"Novavax\"]\n                OPTIONS: [\"treatment\", \"country\", \"vaccine_names\"]\n                ANSWER: vaccine_names\n\n                INPUT: [\"Tuberculosis\", \"Malaria\", \"Ebola\"]\n                OPTIONS: [\"vaccine_names\", \"disease\", \"country\"]\n                ANSWER: disease\n\n                Now it's your turn:\n                INPUT: [2019-09-26, 2019-03-15, 2019-09-12, 2019-07-21, 2018-10-17]\n                OPTIONS: patient_ids - medical_boolean - dates\n                ANSWER:\n            ": {
+        "response": "dates",
+        "context": [
+            "2019-09-26",
+            "2019-03-15",
+            "2019-09-12",
+            "2019-07-21",
+            "2018-10-17"
+        ],
+        "ground_truth": "date",
+        "correct": false,
+        "original_model_answer": "dates",
+        "original_label": "date",
+        "file+idx": "9"
+    },
+    "\n                SYSTEM: You are an epidemiology data steward labeling synthetically generated data. Note that you will be working with patient data that was synthetically generated and doesn't exist in real-world.\n\n                INSTRUCTIONS:\n                • Choose exactly ONE label from the OPTIONS list that best describes the INPUT. Note that INPUT should be relative to the OPTIONS that you have. Don't select label if it's just a little bit matches with INPUT.\n                • If none OPTIONS apply, you can generate new label that will match the INPUT. The generated label should be in snake_case format. Generate broad label.\n                • **Respond with EXACTLY the label token, no additional words, punctuation, or explanation.**\n\n                This is just examples how it could look like:\n                INPUT: [\"Moderna\", \"AstraZeneca\", \"Novavax\"]\n                OPTIONS: [\"treatment\", \"country\", \"vaccine_names\"]\n                ANSWER: vaccine_names\n\n                INPUT: [\"Tuberculosis\", \"Malaria\", \"Ebola\"]\n                OPTIONS: [\"vaccine_names\", \"disease\", \"country\"]\n                ANSWER: disease\n\n                Now it's your turn:\n                INPUT: [cholera, nil]\n                OPTIONS: patient_ids - medical_boolean - dates\n                ANSWER:\n            ": {
+        "response": "disease",
+        "context": [
+            "cholera",
+            "nil"
+        ],
+        "ground_truth": "medical_boolean",
+        "correct": false,
+        "original_model_answer": "disease",
+        "original_label": "medical_boolean",
+        "file+idx": "10"
+    },
+    "\n                SYSTEM: You are an epidemiology data steward labeling synthetically generated data. Note that you will be working with patient data that was synthetically generated and doesn't exist in real-world.\n\n                INSTRUCTIONS:\n                • Choose exactly ONE label from the OPTIONS list that best describes the INPUT. Note that INPUT should be relative to the OPTIONS that you have. Don't select label if it's just a little bit matches with INPUT.\n                • If none OPTIONS apply, you can generate new label that will match the INPUT. The generated label should be in snake_case format. Generate broad label.\n                • **Respond with EXACTLY the label token, no additional words, punctuation, or explanation.**\n\n                This is just examples how it could look like:\n                INPUT: [\"Moderna\", \"AstraZeneca\", \"Novavax\"]\n                OPTIONS: [\"treatment\", \"country\", \"vaccine_names\"]\n                ANSWER: vaccine_names\n\n                INPUT: [\"Tuberculosis\", \"Malaria\", \"Ebola\"]\n                OPTIONS: [\"vaccine_names\", \"disease\", \"country\"]\n                ANSWER: disease\n\n                Now it's your turn:\n                INPUT: [vivant, dcd]\n                OPTIONS: patient_ids - medical_boolean - dates - disease\n                ANSWER:\n            ": {
+        "response": "patient_ids",
+        "context": [
+            "vivant",
+            "dcd"
+        ],
+        "ground_truth": "case_status",
+        "correct": false,
+        "original_model_answer": "patient_ids",
+        "original_label": "case_status",
+        "file+idx": "11"
+    },
+    "\n                SYSTEM: You are an epidemiology data steward labeling synthetically generated data. Note that you will be working with patient data that was synthetically generated and doesn't exist in real-world.\n\n                INSTRUCTIONS:\n                • Choose exactly ONE label from the OPTIONS list that best describes the INPUT. Note that INPUT should be relative to the OPTIONS that you have. Don't select label if it's just a little bit matches with INPUT.\n                • If none OPTIONS apply, you can generate new label that will match the INPUT. The generated label should be in snake_case format. Generate broad label.\n                • **Respond with EXACTLY the label token, no additional words, punctuation, or explanation.**\n\n                This is just examples how it could look like:\n                INPUT: [\"Moderna\", \"AstraZeneca\", \"Novavax\"]\n                OPTIONS: [\"treatment\", \"country\", \"vaccine_names\"]\n                ANSWER: vaccine_names\n\n                INPUT: [\"Tuberculosis\", \"Malaria\", \"Ebola\"]\n                OPTIONS: [\"vaccine_names\", \"disease\", \"country\"]\n                ANSWER: disease\n\n                Now it's your turn:\n                INPUT: [f, m]\n                OPTIONS: patient_ids - medical_boolean - dates - disease\n                ANSWER:\n            ": {
+        "response": "medical_boolean",
+        "context": [
+            "f",
+            "m"
+        ],
+        "ground_truth": "gender",
+        "correct": false,
+        "original_model_answer": "medical_boolean",
+        "original_label": "gender",
+        "file+idx": "12"
+    },
+    "\n                SYSTEM: You are an epidemiology data steward labeling synthetically generated data. Note that you will be working with patient data that was synthetically generated and doesn't exist in real-world.\n\n                INSTRUCTIONS:\n                • Choose exactly ONE label from the OPTIONS list that best describes the INPUT. Note that INPUT should be relative to the OPTIONS that you have. Don't select label if it's just a little bit matches with INPUT.\n                • If none OPTIONS apply, you can generate new label that will match the INPUT. The generated label should be in snake_case format. Generate broad label.\n                • **Respond with EXACTLY the label token, no additional words, punctuation, or explanation.**\n\n                This is just examples how it could look like:\n                INPUT: [\"Moderna\", \"AstraZeneca\", \"Novavax\"]\n                OPTIONS: [\"treatment\", \"country\", \"vaccine_names\"]\n                ANSWER: vaccine_names\n\n                INPUT: [\"Tuberculosis\", \"Malaria\", \"Ebola\"]\n                OPTIONS: [\"vaccine_names\", \"disease\", \"country\"]\n                ANSWER: disease\n\n                Now it's your turn:\n                INPUT: [no]\n                OPTIONS: patient_ids - medical_boolean - dates - disease\n                ANSWER:\n            ": {
+        "response": "medical_boolean",
+        "context": [
+            "no"
+        ],
+        "ground_truth": "medical_boolean",
+        "correct": true,
+        "original_model_answer": "medical_boolean",
+        "original_label": "medical_boolean",
+        "file+idx": "13"
+    },
+    "\n                SYSTEM: You are an epidemiology data steward labeling synthetically generated data. Note that you will be working with patient data that was synthetically generated and doesn't exist in real-world.\n\n                INSTRUCTIONS:\n                • Choose exactly ONE label from the OPTIONS list that best describes the INPUT. Note that INPUT should be relative to the OPTIONS that you have. Don't select label if it's just a little bit matches with INPUT.\n                • If none OPTIONS apply, you can generate new label that will match the INPUT. The generated label should be in snake_case format. Generate broad label.\n                • **Respond with EXACTLY the label token, no additional words, punctuation, or explanation.**\n\n                This is just examples how it could look like:\n                INPUT: [\"Moderna\", \"AstraZeneca\", \"Novavax\"]\n                OPTIONS: [\"treatment\", \"country\", \"vaccine_names\"]\n                ANSWER: vaccine_names\n\n                INPUT: [\"Tuberculosis\", \"Malaria\", \"Ebola\"]\n                OPTIONS: [\"vaccine_names\", \"disease\", \"country\"]\n                ANSWER: disease\n\n                Now it's your turn:\n                INPUT: [2020-06-22, 2020-06-20]\n                OPTIONS: patient_ids - medical_boolean - dates - disease\n                ANSWER:\n            ": {
+        "response": "dates",
+        "context": [
+            "2020-06-22",
+            "2020-06-20"
+        ],
+        "ground_truth": "date",
+        "correct": false,
+        "original_model_answer": "dates",
+        "original_label": "date",
+        "file+idx": "14"
+    },
+    "\n                SYSTEM: You are an epidemiology data steward labeling synthetically generated data. Note that you will be working with patient data that was synthetically generated and doesn't exist in real-world.\n\n                INSTRUCTIONS:\n                • Choose exactly ONE label from the OPTIONS list that best describes the INPUT. Note that INPUT should be relative to the OPTIONS that you have. Don't select label if it's just a little bit matches with INPUT.\n                • If none OPTIONS apply, you can generate new label that will match the INPUT. The generated label should be in snake_case format. Generate broad label.\n                • **Respond with EXACTLY the label token, no additional words, punctuation, or explanation.**\n\n                This is just examples how it could look like:\n                INPUT: [\"Moderna\", \"AstraZeneca\", \"Novavax\"]\n                OPTIONS: [\"treatment\", \"country\", \"vaccine_names\"]\n                ANSWER: vaccine_names\n\n                INPUT: [\"Tuberculosis\", \"Malaria\", \"Ebola\"]\n                OPTIONS: [\"vaccine_names\", \"disease\", \"country\"]\n                ANSWER: disease\n\n                Now it's your turn:\n                INPUT: [yes, no]\n                OPTIONS: patient_ids - medical_boolean - dates - disease\n                ANSWER:\n            ": {
+        "response": "medical_boolean",
+        "context": [
+            "yes",
+            "no"
+        ],
+        "ground_truth": "medical_boolean",
+        "correct": true,
+        "original_model_answer": "medical_boolean",
+        "original_label": "medical_boolean",
+        "file+idx": "15"
+    },
+    "\n                SYSTEM: You are an epidemiology data steward labeling synthetically generated data. Note that you will be working with patient data that was synthetically generated and doesn't exist in real-world.\n\n                INSTRUCTIONS:\n                • Choose exactly ONE label from the OPTIONS list that best describes the INPUT. Note that INPUT should be relative to the OPTIONS that you have. Don't select label if it's just a little bit matches with INPUT.\n                • If none OPTIONS apply, you can generate new label that will match the INPUT. The generated label should be in snake_case format. Generate broad label.\n                • **Respond with EXACTLY the label token, no additional words, punctuation, or explanation.**\n\n                This is just examples how it could look like:\n                INPUT: [\"Moderna\", \"AstraZeneca\", \"Novavax\"]\n                OPTIONS: [\"treatment\", \"country\", \"vaccine_names\"]\n                ANSWER: vaccine_names\n\n                INPUT: [\"Tuberculosis\", \"Malaria\", \"Ebola\"]\n                OPTIONS: [\"vaccine_names\", \"disease\", \"country\"]\n                ANSWER: disease\n\n                Now it's your turn:\n                INPUT: [g4lb0023, 0bl5g006, 0bg05l46, 48g500lb, 2l0b07g0]\n                OPTIONS: patient_ids - medical_boolean - dates - disease\n                ANSWER:\n            ": {
+        "response": "patient_ids",
+        "context": [
+            "g4lb0023",
+            "0bl5g006",
+            "0bg05l46",
+            "48g500lb",
+            "2l0b07g0"
+        ],
+        "ground_truth": "id",
+        "correct": false,
+        "original_model_answer": "patient_ids",
+        "original_label": "id",
+        "file+idx": "16"
+    },
+    "\n                SYSTEM: You are an epidemiology data steward labeling synthetically generated data. Note that you will be working with patient data that was synthetically generated and doesn't exist in real-world.\n\n                INSTRUCTIONS:\n                • Choose exactly ONE label from the OPTIONS list that best describes the INPUT. Note that INPUT should be relative to the OPTIONS that you have. Don't select label if it's just a little bit matches with INPUT.\n                • If none OPTIONS apply, you can generate new label that will match the INPUT. The generated label should be in snake_case format. Generate broad label.\n                • **Respond with EXACTLY the label token, no additional words, punctuation, or explanation.**\n\n                This is just examples how it could look like:\n                INPUT: [\"Moderna\", \"AstraZeneca\", \"Novavax\"]\n                OPTIONS: [\"treatment\", \"country\", \"vaccine_names\"]\n                ANSWER: vaccine_names\n\n                INPUT: [\"Tuberculosis\", \"Malaria\", \"Ebola\"]\n                OPTIONS: [\"vaccine_names\", \"disease\", \"country\"]\n                ANSWER: disease\n\n                Now it's your turn:\n                INPUT: [55, 6, 70, 8, 34]\n                OPTIONS: patient_ids - medical_boolean - dates - disease\n                ANSWER:\n            ": {
+        "response": "patient_ids",
+        "context": [
+            "55",
+            "6",
+            "70",
+            "8",
+            "34"
+        ],
+        "ground_truth": "age",
+        "correct": false,
+        "original_model_answer": "patient_ids",
+        "original_label": "age",
+        "file+idx": "17"
+    },
+    "\n                SYSTEM: You are an epidemiology data steward labeling synthetically generated data. Note that you will be working with patient data that was synthetically generated and doesn't exist in real-world.\n\n                INSTRUCTIONS:\n                • Choose exactly ONE label from the OPTIONS list that best describes the INPUT. Note that INPUT should be relative to the OPTIONS that you have. Don't select label if it's just a little bit matches with INPUT.\n                • If none OPTIONS apply, you can generate new label that will match the INPUT. The generated label should be in snake_case format. Generate broad label.\n                • **Respond with EXACTLY the label token, no additional words, punctuation, or explanation.**\n\n                This is just examples how it could look like:\n                INPUT: [\"Moderna\", \"AstraZeneca\", \"Novavax\"]\n                OPTIONS: [\"treatment\", \"country\", \"vaccine_names\"]\n                ANSWER: vaccine_names\n\n                INPUT: [\"Tuberculosis\", \"Malaria\", \"Ebola\"]\n                OPTIONS: [\"vaccine_names\", \"disease\", \"country\"]\n                ANSWER: disease\n\n                Now it's your turn:\n                INPUT: [2020-07-11, 2020-07-25, 2020-07-26, 2020-07-27, 2020-07-17]\n                OPTIONS: patient_ids - medical_boolean - dates - disease\n                ANSWER:\n            ": {
+        "response": "dates",
+        "context": [
+            "2020-07-11",
+            "2020-07-25",
+            "2020-07-26",
+            "2020-07-27",
+            "2020-07-17"
+        ],
+        "ground_truth": "date",
+        "correct": false,
+        "original_model_answer": "dates",
+        "original_label": "date",
+        "file+idx": "18"
+    },
+    "\n                SYSTEM: You are an epidemiology data steward labeling synthetically generated data. Note that you will be working with patient data that was synthetically generated and doesn't exist in real-world.\n\n                INSTRUCTIONS:\n                • Choose exactly ONE label from the OPTIONS list that best describes the INPUT. Note that INPUT should be relative to the OPTIONS that you have. Don't select label if it's just a little bit matches with INPUT.\n                • If none OPTIONS apply, you can generate new label that will match the INPUT. The generated label should be in snake_case format. Generate broad label.\n                • **Respond with EXACTLY the label token, no additional words, punctuation, or explanation.**\n\n                This is just examples how it could look like:\n                INPUT: [\"Moderna\", \"AstraZeneca\", \"Novavax\"]\n                OPTIONS: [\"treatment\", \"country\", \"vaccine_names\"]\n                ANSWER: vaccine_names\n\n                INPUT: [\"Tuberculosis\", \"Malaria\", \"Ebola\"]\n                OPTIONS: [\"vaccine_names\", \"disease\", \"country\"]\n                ANSWER: disease\n\n                Now it's your turn:\n                INPUT: [inc, oui, non]\n                OPTIONS: patient_ids - medical_boolean - dates - disease\n                ANSWER:\n            ": {
+        "response": "medical_boolean",
+        "context": [
+            "inc",
+            "oui",
+            "non"
+        ],
+        "ground_truth": "medical_boolean",
+        "correct": true,
+        "original_model_answer": "medical_boolean",
+        "original_label": "medical_boolean",
+        "file+idx": "19"
+    },
+    "\n                SYSTEM: You are an epidemiology data steward labeling synthetically generated data. Note that you will be working with patient data that was synthetically generated and doesn't exist in real-world.\n\n                INSTRUCTIONS:\n                • Choose exactly ONE label from the OPTIONS list that best describes the INPUT. Note that INPUT should be relative to the OPTIONS that you have. Don't select label if it's just a little bit matches with INPUT.\n                • If none OPTIONS apply, you can generate new label that will match the INPUT. The generated label should be in snake_case format. Generate broad label.\n                • **Respond with EXACTLY the label token, no additional words, punctuation, or explanation.**\n\n                This is just examples how it could look like:\n                INPUT: [\"Moderna\", \"AstraZeneca\", \"Novavax\"]\n                OPTIONS: [\"treatment\", \"country\", \"vaccine_names\"]\n                ANSWER: vaccine_names\n\n                INPUT: [\"Tuberculosis\", \"Malaria\", \"Ebola\"]\n                OPTIONS: [\"vaccine_names\", \"disease\", \"country\"]\n                ANSWER: disease\n\n                Now it's your turn:\n                INPUT: [non, inc, oui]\n                OPTIONS: patient_ids - medical_boolean - dates - disease\n                ANSWER:\n            ": {
+        "response": "medical_boolean",
+        "context": [
+            "non",
+            "inc",
+            "oui"
+        ],
+        "ground_truth": "medical_boolean",
+        "correct": true,
+        "original_model_answer": "medical_boolean",
+        "original_label": "medical_boolean",
+        "file+idx": "20"
+    },
+    "\n                SYSTEM: You are an epidemiology data steward labeling synthetically generated data. Note that you will be working with patient data that was synthetically generated and doesn't exist in real-world.\n\n                INSTRUCTIONS:\n                • Choose exactly ONE label from the OPTIONS list that best describes the INPUT. Note that INPUT should be relative to the OPTIONS that you have. Don't select label if it's just a little bit matches with INPUT.\n                • If none OPTIONS apply, you can generate new label that will match the INPUT. The generated label should be in snake_case format. Generate broad label.\n                • **Respond with EXACTLY the label token, no additional words, punctuation, or explanation.**\n\n                This is just examples how it could look like:\n                INPUT: [\"Moderna\", \"AstraZeneca\", \"Novavax\"]\n                OPTIONS: [\"treatment\", \"country\", \"vaccine_names\"]\n                ANSWER: vaccine_names\n\n                INPUT: [\"Tuberculosis\", \"Malaria\", \"Ebola\"]\n                OPTIONS: [\"vaccine_names\", \"disease\", \"country\"]\n                ANSWER: disease\n\n                Now it's your turn:\n                INPUT: [bouca, damara, bossangoa, ndl, ippy]\n                OPTIONS: patient_ids - medical_boolean - dates - disease\n                ANSWER:\n            ": {
+        "response": "patient_ids",
+        "context": [
+            "bouca",
+            "damara",
+            "bossangoa",
+            "ndl",
+            "ippy"
+        ],
+        "ground_truth": "location",
+        "correct": false,
+        "original_model_answer": "patient_ids",
+        "original_label": "location",
+        "file+idx": "21"
+    },
+    "\n                SYSTEM: You are an epidemiology data steward labeling synthetically generated data. Note that you will be working with patient data that was synthetically generated and doesn't exist in real-world.\n\n                INSTRUCTIONS:\n                • Choose exactly ONE label from the OPTIONS list that best describes the INPUT. Note that INPUT should be relative to the OPTIONS that you have. Don't select label if it's just a little bit matches with INPUT.\n                • If none OPTIONS apply, you can generate new label that will match the INPUT. The generated label should be in snake_case format. Generate broad label.\n                • **Respond with EXACTLY the label token, no additional words, punctuation, or explanation.**\n\n                This is just examples how it could look like:\n                INPUT: [\"Moderna\", \"AstraZeneca\", \"Novavax\"]\n                OPTIONS: [\"treatment\", \"country\", \"vaccine_names\"]\n                ANSWER: vaccine_names\n\n                INPUT: [\"Tuberculosis\", \"Malaria\", \"Ebola\"]\n                OPTIONS: [\"vaccine_names\", \"disease\", \"country\"]\n                ANSWER: disease\n\n                Now it's your turn:\n                INPUT: [15, 22, 71, 31, 40]\n                OPTIONS: patient_ids - medical_boolean - dates - disease\n                ANSWER:\n            ": {
+        "response": "patient_ids",
+        "context": [
+            "15",
+            "22",
+            "71",
+            "31",
+            "40"
+        ],
+        "ground_truth": "age",
+        "correct": false,
+        "original_model_answer": "patient_ids",
+        "original_label": "age",
+        "file+idx": "22"
+    },
+    "\n                SYSTEM: You are an epidemiology data steward labeling synthetically generated data. Note that you will be working with patient data that was synthetically generated and doesn't exist in real-world.\n\n                INSTRUCTIONS:\n                • Choose exactly ONE label from the OPTIONS list that best describes the INPUT. Note that INPUT should be relative to the OPTIONS that you have. Don't select label if it's just a little bit matches with INPUT.\n                • If none OPTIONS apply, you can generate new label that will match the INPUT. The generated label should be in snake_case format. Generate broad label.\n                • **Respond with EXACTLY the label token, no additional words, punctuation, or explanation.**\n\n                This is just examples how it could look like:\n                INPUT: [\"Moderna\", \"AstraZeneca\", \"Novavax\"]\n                OPTIONS: [\"treatment\", \"country\", \"vaccine_names\"]\n                ANSWER: vaccine_names\n\n                INPUT: [\"Tuberculosis\", \"Malaria\", \"Ebola\"]\n                OPTIONS: [\"vaccine_names\", \"disease\", \"country\"]\n                ANSWER: disease\n\n                Now it's your turn:\n                INPUT: [inc, oui, non]\n                OPTIONS: patient_ids - medical_boolean - dates - disease\n                ANSWER:\n            *": {
+        "response": "medical_boolean",
+        "context": [
+            "inc",
+            "oui",
+            "non"
+        ],
+        "ground_truth": "medical_boolean",
+        "correct": true,
+        "original_model_answer": "medical_boolean",
+        "original_label": "medical_boolean",
+        "file+idx": "23"
+    },
+    "\n                SYSTEM: You are an epidemiology data steward labeling synthetically generated data. Note that you will be working with patient data that was synthetically generated and doesn't exist in real-world.\n\n                INSTRUCTIONS:\n                • Choose exactly ONE label from the OPTIONS list that best describes the INPUT. Note that INPUT should be relative to the OPTIONS that you have. Don't select label if it's just a little bit matches with INPUT.\n                • If none OPTIONS apply, you can generate new label that will match the INPUT. The generated label should be in snake_case format. Generate broad label.\n                • **Respond with EXACTLY the label token, no additional words, punctuation, or explanation.**\n\n                This is just examples how it could look like:\n                INPUT: [\"Moderna\", \"AstraZeneca\", \"Novavax\"]\n                OPTIONS: [\"treatment\", \"country\", \"vaccine_names\"]\n                ANSWER: vaccine_names\n\n                INPUT: [\"Tuberculosis\", \"Malaria\", \"Ebola\"]\n                OPTIONS: [\"vaccine_names\", \"disease\", \"country\"]\n                ANSWER: disease\n\n                Now it's your turn:\n                INPUT: [-brq6-7tm7ecd300o21, brq2et6-21do-0831cm0, qm0-2et1-30462bcr9od, d--3b23emo620c1tr0q4, 0r26b0-edt137om-cq2]\n                OPTIONS: patient_ids - medical_boolean - dates - disease\n                ANSWER:\n            ": {
+        "response": "patient_ids",
+        "context": [
+            "-brq6-7tm7ecd300o21",
+            "brq2et6-21do-0831cm0",
+            "qm0-2et1-30462bcr9od",
+            "d--3b23emo620c1tr0q4",
+            "0r26b0-edt137om-cq2"
+        ],
+        "ground_truth": "id",
+        "correct": false,
+        "original_model_answer": "patient_ids",
+        "original_label": "id",
+        "file+idx": "24"
+    },
+    "\n                SYSTEM: You are an epidemiology data steward labeling synthetically generated data. Note that you will be working with patient data that was synthetically generated and doesn't exist in real-world.\n\n                INSTRUCTIONS:\n                • Choose exactly ONE label from the OPTIONS list that best describes the INPUT. Note that INPUT should be relative to the OPTIONS that you have. Don't select label if it's just a little bit matches with INPUT.\n                • If none OPTIONS apply, you can generate new label that will match the INPUT. The generated label should be in snake_case format. Generate broad label.\n                • **Respond with EXACTLY the label token, no additional words, punctuation, or explanation.**\n\n                This is just examples how it could look like:\n                INPUT: [\"Moderna\", \"AstraZeneca\", \"Novavax\"]\n                OPTIONS: [\"treatment\", \"country\", \"vaccine_names\"]\n                ANSWER: vaccine_names\n\n                INPUT: [\"Tuberculosis\", \"Malaria\", \"Ebola\"]\n                OPTIONS: [\"vaccine_names\", \"disease\", \"country\"]\n                ANSWER: disease\n\n                Now it's your turn:\n                INPUT: [inconnu, non, oui]\n                OPTIONS: patient_ids - medical_boolean - dates - disease\n                ANSWER:\n            ": {
+        "response": "medical_boolean",
+        "context": [
+            "inconnu",
+            "non",
+            "oui"
+        ],
+        "ground_truth": "medical_boolean",
+        "correct": true,
+        "original_model_answer": "medical_boolean",
+        "original_label": "medical_boolean",
+        "file+idx": "25"
+    },
+    "\n                SYSTEM: You are an epidemiology data steward labeling synthetically generated data. Note that you will be working with patient data that was synthetically generated and doesn't exist in real-world.\n\n                INSTRUCTIONS:\n                • Choose exactly ONE label from the OPTIONS list that best describes the INPUT. Note that INPUT should be relative to the OPTIONS that you have. Don't select label if it's just a little bit matches with INPUT.\n                • If none OPTIONS apply, you can generate new label that will match the INPUT. The generated label should be in snake_case format. Generate broad label.\n                • **Respond with EXACTLY the label token, no additional words, punctuation, or explanation.**\n\n                This is just examples how it could look like:\n                INPUT: [\"Moderna\", \"AstraZeneca\", \"Novavax\"]\n                OPTIONS: [\"treatment\", \"country\", \"vaccine_names\"]\n                ANSWER: vaccine_names\n\n                INPUT: [\"Tuberculosis\", \"Malaria\", \"Ebola\"]\n                OPTIONS: [\"vaccine_names\", \"disease\", \"country\"]\n                ANSWER: disease\n\n                Now it's your turn:\n                INPUT: [ramsey, solano, monmouth, chelan, broward]\n                OPTIONS: patient_ids - medical_boolean - dates - disease\n                ANSWER:\n            ": {
+        "response": "patient_ids",
+        "context": [
+            "ramsey",
+            "solano",
+            "monmouth",
+            "chelan",
+            "broward"
+        ],
+        "ground_truth": "location",
+        "correct": false,
+        "original_model_answer": "patient_ids",
+        "original_label": "location",
+        "file+idx": "26"
+    },
+    "\n                SYSTEM: You are an epidemiology data steward labeling synthetically generated data. Note that you will be working with patient data that was synthetically generated and doesn't exist in real-world.\n\n                INSTRUCTIONS:\n                • Choose exactly ONE label from the OPTIONS list that best describes the INPUT. Note that INPUT should be relative to the OPTIONS that you have. Don't select label if it's just a little bit matches with INPUT.\n                • If none OPTIONS apply, you can generate new label that will match the INPUT. The generated label should be in snake_case format. Generate broad label.\n                • **Respond with EXACTLY the label token, no additional words, punctuation, or explanation.**\n\n                This is just examples how it could look like:\n                INPUT: [\"Moderna\", \"AstraZeneca\", \"Novavax\"]\n                OPTIONS: [\"treatment\", \"country\", \"vaccine_names\"]\n                ANSWER: vaccine_names\n\n                INPUT: [\"Tuberculosis\", \"Malaria\", \"Ebola\"]\n                OPTIONS: [\"vaccine_names\", \"disease\", \"country\"]\n                ANSWER: disease\n\n                Now it's your turn:\n                INPUT: [2020-08-07, 2020-07-28, 2020-06-07, 2020-07-10, 2020-06-04]\n                OPTIONS: patient_ids - medical_boolean - dates - disease\n                ANSWER:\n            ": {
+        "response": "dates",
+        "context": [
+            "2020-08-07",
+            "2020-07-28",
+            "2020-06-07",
+            "2020-07-10",
+            "2020-06-04"
+        ],
+        "ground_truth": "date",
+        "correct": false,
+        "original_model_answer": "dates",
+        "original_label": "date",
+        "file+idx": "27"
+    },
+    "\n                SYSTEM: You are an epidemiology data steward labeling synthetically generated data. Note that you will be working with patient data that was synthetically generated and doesn't exist in real-world.\n\n                INSTRUCTIONS:\n                • Choose exactly ONE label from the OPTIONS list that best describes the INPUT. Note that INPUT should be relative to the OPTIONS that you have. Don't select label if it's just a little bit matches with INPUT.\n                • If none OPTIONS apply, you can generate new label that will match the INPUT. The generated label should be in snake_case format. Generate broad label.\n                • **Respond with EXACTLY the label token, no additional words, punctuation, or explanation.**\n\n                This is just examples how it could look like:\n                INPUT: [\"Moderna\", \"AstraZeneca\", \"Novavax\"]\n                OPTIONS: [\"treatment\", \"country\", \"vaccine_names\"]\n                ANSWER: vaccine_names\n\n                INPUT: [\"Tuberculosis\", \"Malaria\", \"Ebola\"]\n                OPTIONS: [\"vaccine_names\", \"disease\", \"country\"]\n                ANSWER: disease\n\n                Now it's your turn:\n                INPUT: [f, m]\n                OPTIONS: patient_ids - medical_boolean - dates - disease\n                ANSWER:\n            *": {
+        "response": "medical_boolean",
+        "context": [
+            "f",
+            "m"
+        ],
+        "ground_truth": "gender",
+        "correct": false,
+        "original_model_answer": "medical_boolean",
+        "original_label": "gender",
+        "file+idx": "28"
+    },
+    "\n                SYSTEM: You are an epidemiology data steward labeling synthetically generated data. Note that you will be working with patient data that was synthetically generated and doesn't exist in real-world.\n\n                INSTRUCTIONS:\n                • Choose exactly ONE label from the OPTIONS list that best describes the INPUT. Note that INPUT should be relative to the OPTIONS that you have. Don't select label if it's just a little bit matches with INPUT.\n                • If none OPTIONS apply, you can generate new label that will match the INPUT. The generated label should be in snake_case format. Generate broad label.\n                • **Respond with EXACTLY the label token, no additional words, punctuation, or explanation.**\n\n                This is just examples how it could look like:\n                INPUT: [\"Moderna\", \"AstraZeneca\", \"Novavax\"]\n                OPTIONS: [\"treatment\", \"country\", \"vaccine_names\"]\n                ANSWER: vaccine_names\n\n                INPUT: [\"Tuberculosis\", \"Malaria\", \"Ebola\"]\n                OPTIONS: [\"vaccine_names\", \"disease\", \"country\"]\n                ANSWER: disease\n\n                Now it's your turn:\n                INPUT: [estonia, greenland, new zealand, romania, germany]\n                OPTIONS: patient_ids - medical_boolean - dates - disease\n                ANSWER:\n            ": {
+        "response": "patient_ids",
+        "context": [
+            "estonia",
+            "greenland",
+            "new zealand",
+            "romania",
+            "germany"
+        ],
+        "ground_truth": "location",
+        "correct": false,
+        "original_model_answer": "patient_ids",
+        "original_label": "location",
+        "file+idx": "29"
+    },
+    "\n                SYSTEM: You are an epidemiology data steward labeling synthetically generated data. Note that you will be working with patient data that was synthetically generated and doesn't exist in real-world.\n\n                INSTRUCTIONS:\n                • Choose exactly ONE label from the OPTIONS list that best describes the INPUT. Note that INPUT should be relative to the OPTIONS that you have. Don't select label if it's just a little bit matches with INPUT.\n                • If none OPTIONS apply, you can generate new label that will match the INPUT. The generated label should be in snake_case format. Generate broad label.\n                • **Respond with EXACTLY the label token, no additional words, punctuation, or explanation.**\n\n                This is just examples how it could look like:\n                INPUT: [\"Moderna\", \"AstraZeneca\", \"Novavax\"]\n                OPTIONS: [\"treatment\", \"country\", \"vaccine_names\"]\n                ANSWER: vaccine_names\n\n                INPUT: [\"Tuberculosis\", \"Malaria\", \"Ebola\"]\n                OPTIONS: [\"vaccine_names\", \"disease\", \"country\"]\n                ANSWER: disease\n\n                Now it's your turn:\n                INPUT: [2022-11-06, 2022-11-03, 2022-11-04, 2022-10-28, 2022-11-09]\n                OPTIONS: patient_ids - medical_boolean - dates - disease\n                ANSWER:\n            ": {
+        "response": "dates",
+        "context": [
+            "2022-11-06",
+            "2022-11-03",
+            "2022-11-04",
+            "2022-10-28",
+            "2022-11-09"
+        ],
+        "ground_truth": "date",
+        "correct": false,
+        "original_model_answer": "dates",
+        "original_label": "date",
+        "file+idx": "30"
+    },
+    "\n                SYSTEM: You are an epidemiology data steward labeling synthetically generated data. Note that you will be working with patient data that was synthetically generated and doesn't exist in real-world.\n\n                INSTRUCTIONS:\n                • Choose exactly ONE label from the OPTIONS list that best describes the INPUT. Note that INPUT should be relative to the OPTIONS that you have. Don't select label if it's just a little bit matches with INPUT.\n                • If none OPTIONS apply, you can generate new label that will match the INPUT. The generated label should be in snake_case format. Generate broad label.\n                • **Respond with EXACTLY the label token, no additional words, punctuation, or explanation.**\n\n                This is just examples how it could look like:\n                INPUT: [\"Moderna\", \"AstraZeneca\", \"Novavax\"]\n                OPTIONS: [\"treatment\", \"country\", \"vaccine_names\"]\n                ANSWER: vaccine_names\n\n                INPUT: [\"Tuberculosis\", \"Malaria\", \"Ebola\"]\n                OPTIONS: [\"vaccine_names\", \"disease\", \"country\"]\n                ANSWER: disease\n\n                Now it's your turn:\n                INPUT: [oui, non]\n                OPTIONS: patient_ids - medical_boolean - dates - disease\n                ANSWER:\n            ": {
+        "response": "medical_boolean",
+        "context": [
+            "oui",
+            "non"
+        ],
+        "ground_truth": "medical_boolean",
+        "correct": true,
+        "original_model_answer": "medical_boolean",
+        "original_label": "medical_boolean",
+        "file+idx": "31"
+    },
+    "\n                SYSTEM: You are an epidemiology data steward labeling synthetically generated data. Note that you will be working with patient data that was synthetically generated and doesn't exist in real-world.\n\n                INSTRUCTIONS:\n                • Choose exactly ONE label from the OPTIONS list that best describes the INPUT. Note that INPUT should be relative to the OPTIONS that you have. Don't select label if it's just a little bit matches with INPUT.\n                • If none OPTIONS apply, you can generate new label that will match the INPUT. The generated label should be in snake_case format. Generate broad label.\n                • **Respond with EXACTLY the label token, no additional words, punctuation, or explanation.**\n\n                This is just examples how it could look like:\n                INPUT: [\"Moderna\", \"AstraZeneca\", \"Novavax\"]\n                OPTIONS: [\"treatment\", \"country\", \"vaccine_names\"]\n                ANSWER: vaccine_names\n\n                INPUT: [\"Tuberculosis\", \"Malaria\", \"Ebola\"]\n                OPTIONS: [\"vaccine_names\", \"disease\", \"country\"]\n                ANSWER: disease\n\n                Now it's your turn:\n                INPUT: [1.0, 0.0]\n                OPTIONS: patient_ids - medical_boolean - dates - disease\n                ANSWER:\n            ": {
+        "response": "medical_boolean",
+        "context": [
+            "1.0",
+            "0.0"
+        ],
+        "ground_truth": "medical_boolean",
+        "correct": true,
+        "original_model_answer": "medical_boolean",
+        "original_label": "medical_boolean",
+        "file+idx": "32"
+    },
+    "\n                SYSTEM: You are an epidemiology data steward labeling synthetically generated data. Note that you will be working with patient data that was synthetically generated and doesn't exist in real-world.\n\n                INSTRUCTIONS:\n                • Choose exactly ONE label from the OPTIONS list that best describes the INPUT. Note that INPUT should be relative to the OPTIONS that you have. Don't select label if it's just a little bit matches with INPUT.\n                • If none OPTIONS apply, you can generate new label that will match the INPUT. The generated label should be in snake_case format. Generate broad label.\n                • **Respond with EXACTLY the label token, no additional words, punctuation, or explanation.**\n\n                This is just examples how it could look like:\n                INPUT: [\"Moderna\", \"AstraZeneca\", \"Novavax\"]\n                OPTIONS: [\"treatment\", \"country\", \"vaccine_names\"]\n                ANSWER: vaccine_names\n\n                INPUT: [\"Tuberculosis\", \"Malaria\", \"Ebola\"]\n                OPTIONS: [\"vaccine_names\", \"disease\", \"country\"]\n                ANSWER: disease\n\n                Now it's your turn:\n                INPUT: [communautaire, funerailles, nosocomial]\n                OPTIONS: patient_ids - medical_boolean - dates - disease\n                ANSWER:\n            ": {
+        "response": "disease",
+        "context": [
+            "communautaire",
+            "funerailles",
+            "nosocomial"
+        ],
+        "ground_truth": "contact_setting",
+        "correct": false,
+        "original_model_answer": "disease",
+        "original_label": "contact_setting",
+        "file+idx": "33"
+    },
+    "\n                SYSTEM: You are an epidemiology data steward labeling synthetically generated data. Note that you will be working with patient data that was synthetically generated and doesn't exist in real-world.\n\n                INSTRUCTIONS:\n                • Choose exactly ONE label from the OPTIONS list that best describes the INPUT. Note that INPUT should be relative to the OPTIONS that you have. Don't select label if it's just a little bit matches with INPUT.\n                • If none OPTIONS apply, you can generate new label that will match the INPUT. The generated label should be in snake_case format. Generate broad label.\n                • **Respond with EXACTLY the label token, no additional words, punctuation, or explanation.**\n\n                This is just examples how it could look like:\n                INPUT: [\"Moderna\", \"AstraZeneca\", \"Novavax\"]\n                OPTIONS: [\"treatment\", \"country\", \"vaccine_names\"]\n                ANSWER: vaccine_names\n\n                INPUT: [\"Tuberculosis\", \"Malaria\", \"Ebola\"]\n                OPTIONS: [\"vaccine_names\", \"disease\", \"country\"]\n                ANSWER: disease\n\n                Now it's your turn:\n                INPUT: [20s, 60s, 40s, 50s, 10s]\n                OPTIONS: patient_ids - medical_boolean - dates - disease\n                ANSWER:\n            ": {
+        "response": "age_ranges",
+        "context": [
+            "20s",
+            "60s",
+            "40s",
+            "50s",
+            "10s"
+        ],
+        "ground_truth": "age",
+        "correct": false,
+        "original_model_answer": "age_ranges",
+        "original_label": "age",
+        "file+idx": "34"
+    },
+    "\n                SYSTEM: You are an epidemiology data steward labeling synthetically generated data. Note that you will be working with patient data that was synthetically generated and doesn't exist in real-world.\n\n                INSTRUCTIONS:\n                • Choose exactly ONE label from the OPTIONS list that best describes the INPUT. Note that INPUT should be relative to the OPTIONS that you have. Don't select label if it's just a little bit matches with INPUT.\n                • If none OPTIONS apply, you can generate new label that will match the INPUT. The generated label should be in snake_case format. Generate broad label.\n                • **Respond with EXACTLY the label token, no additional words, punctuation, or explanation.**\n\n                This is just examples how it could look like:\n                INPUT: [\"Moderna\", \"AstraZeneca\", \"Novavax\"]\n                OPTIONS: [\"treatment\", \"country\", \"vaccine_names\"]\n                ANSWER: vaccine_names\n\n                INPUT: [\"Tuberculosis\", \"Malaria\", \"Ebola\"]\n                OPTIONS: [\"vaccine_names\", \"disease\", \"country\"]\n                ANSWER: disease\n\n                Now it's your turn:\n                INPUT: [ouaka, basse-kotto, ouham-pend, bangui, haute-kotto]\n                OPTIONS: patient_ids - medical_boolean - dates - disease - age_ranges\n                ANSWER:\n            ": {
+        "response": "patient_ids",
+        "context": [
+            "ouaka",
+            "basse-kotto",
+            "ouham-pend",
+            "bangui",
+            "haute-kotto"
+        ],
+        "ground_truth": "location",
+        "correct": false,
+        "original_model_answer": "patient_ids",
+        "original_label": "location",
+        "file+idx": "35"
+    },
+    "\n                SYSTEM: You are an epidemiology data steward labeling synthetically generated data. Note that you will be working with patient data that was synthetically generated and doesn't exist in real-world.\n\n                INSTRUCTIONS:\n                • Choose exactly ONE label from the OPTIONS list that best describes the INPUT. Note that INPUT should be relative to the OPTIONS that you have. Don't select label if it's just a little bit matches with INPUT.\n                • If none OPTIONS apply, you can generate new label that will match the INPUT. The generated label should be in snake_case format. Generate broad label.\n                • **Respond with EXACTLY the label token, no additional words, punctuation, or explanation.**\n\n                This is just examples how it could look like:\n                INPUT: [\"Moderna\", \"AstraZeneca\", \"Novavax\"]\n                OPTIONS: [\"treatment\", \"country\", \"vaccine_names\"]\n                ANSWER: vaccine_names\n\n                INPUT: [\"Tuberculosis\", \"Malaria\", \"Ebola\"]\n                OPTIONS: [\"vaccine_names\", \"disease\", \"country\"]\n                ANSWER: disease\n\n                Now it's your turn:\n                INPUT: [2t050w0g, 90tg066w, 00209wgt, 1d3tcer00q90, 0909wgt3]\n                OPTIONS: patient_ids - medical_boolean - dates - disease - age_ranges\n                ANSWER:\n            ": {
+        "response": "patient_ids",
+        "context": [
+            "2t050w0g",
+            "90tg066w",
+            "00209wgt",
+            "1d3tcer00q90",
+            "0909wgt3"
+        ],
+        "ground_truth": "id",
+        "correct": false,
+        "original_model_answer": "patient_ids",
+        "original_label": "id",
+        "file+idx": "36"
+    },
+    "\n                SYSTEM: You are an epidemiology data steward labeling synthetically generated data. Note that you will be working with patient data that was synthetically generated and doesn't exist in real-world.\n\n                INSTRUCTIONS:\n                • Choose exactly ONE label from the OPTIONS list that best describes the INPUT. Note that INPUT should be relative to the OPTIONS that you have. Don't select label if it's just a little bit matches with INPUT.\n                • If none OPTIONS apply, you can generate new label that will match the INPUT. The generated label should be in snake_case format. Generate broad label.\n                • **Respond with EXACTLY the label token, no additional words, punctuation, or explanation.**\n\n                This is just examples how it could look like:\n                INPUT: [\"Moderna\", \"AstraZeneca\", \"Novavax\"]\n                OPTIONS: [\"treatment\", \"country\", \"vaccine_names\"]\n                ANSWER: vaccine_names\n\n                INPUT: [\"Tuberculosis\", \"Malaria\", \"Ebola\"]\n                OPTIONS: [\"vaccine_names\", \"disease\", \"country\"]\n                ANSWER: disease\n\n                Now it's your turn:\n                INPUT: [2024-02-09, 2024-02-22, 2024-01-29, 2024-01-30, 2024-03-12]\n                OPTIONS: patient_ids - medical_boolean - dates - disease - age_ranges\n                ANSWER:\n            ": {
+        "response": "dates",
+        "context": [
+            "2024-02-09",
+            "2024-02-22",
+            "2024-01-29",
+            "2024-01-30",
+            "2024-03-12"
+        ],
+        "ground_truth": "date",
+        "correct": false,
+        "original_model_answer": "dates",
+        "original_label": "date",
+        "file+idx": "37"
+    },
+    "\n                SYSTEM: You are an epidemiology data steward labeling synthetically generated data. Note that you will be working with patient data that was synthetically generated and doesn't exist in real-world.\n\n                INSTRUCTIONS:\n                • Choose exactly ONE label from the OPTIONS list that best describes the INPUT. Note that INPUT should be relative to the OPTIONS that you have. Don't select label if it's just a little bit matches with INPUT.\n                • If none OPTIONS apply, you can generate new label that will match the INPUT. The generated label should be in snake_case format. Generate broad label.\n                • **Respond with EXACTLY the label token, no additional words, punctuation, or explanation.**\n\n                This is just examples how it could look like:\n                INPUT: [\"Moderna\", \"AstraZeneca\", \"Novavax\"]\n                OPTIONS: [\"treatment\", \"country\", \"vaccine_names\"]\n                ANSWER: vaccine_names\n\n                INPUT: [\"Tuberculosis\", \"Malaria\", \"Ebola\"]\n                OPTIONS: [\"vaccine_names\", \"disease\", \"country\"]\n                ANSWER: disease\n\n                Now it's your turn:\n                INPUT: [inc, non, oui]\n                OPTIONS: patient_ids - medical_boolean - dates - disease - age_ranges\n                ANSWER:\n            ": {
+        "response": "medical_boolean",
+        "context": [
+            "inc",
+            "non",
+            "oui"
+        ],
+        "ground_truth": "medical_boolean",
+        "correct": true,
+        "original_model_answer": "medical_boolean",
+        "original_label": "medical_boolean",
+        "file+idx": "38"
+    },
+    "\n                SYSTEM: You are an epidemiology data steward labeling synthetically generated data. Note that you will be working with patient data that was synthetically generated and doesn't exist in real-world.\n\n                INSTRUCTIONS:\n                • Choose exactly ONE label from the OPTIONS list that best describes the INPUT. Note that INPUT should be relative to the OPTIONS that you have. Don't select label if it's just a little bit matches with INPUT.\n                • If none OPTIONS apply, you can generate new label that will match the INPUT. The generated label should be in snake_case format. Generate broad label.\n                • **Respond with EXACTLY the label token, no additional words, punctuation, or explanation.**\n\n                This is just examples how it could look like:\n                INPUT: [\"Moderna\", \"AstraZeneca\", \"Novavax\"]\n                OPTIONS: [\"treatment\", \"country\", \"vaccine_names\"]\n                ANSWER: vaccine_names\n\n                INPUT: [\"Tuberculosis\", \"Malaria\", \"Ebola\"]\n                OPTIONS: [\"vaccine_names\", \"disease\", \"country\"]\n                ANSWER: disease\n\n                Now it's your turn:\n                INPUT: [2022-03-20, 2022-04-28, 2022-05-03, 2022-03-17, 2022-03-30]\n                OPTIONS: patient_ids - medical_boolean - dates - disease - age_ranges\n                ANSWER:\n            ": {
+        "response": "dates",
+        "context": [
+            "2022-03-20",
+            "2022-04-28",
+            "2022-05-03",
+            "2022-03-17",
+            "2022-03-30"
+        ],
+        "ground_truth": "date",
+        "correct": false,
+        "original_model_answer": "dates",
+        "original_label": "date",
+        "file+idx": "39"
+    },
+    "\n                SYSTEM: You are an epidemiology data steward labeling synthetically generated data. Note that you will be working with patient data that was synthetically generated and doesn't exist in real-world.\n\n                INSTRUCTIONS:\n                • Choose exactly ONE label from the OPTIONS list that best describes the INPUT. Note that INPUT should be relative to the OPTIONS that you have. Don't select label if it's just a little bit matches with INPUT.\n                • If none OPTIONS apply, you can generate new label that will match the INPUT. The generated label should be in snake_case format. Generate broad label.\n                • **Respond with EXACTLY the label token, no additional words, punctuation, or explanation.**\n\n                This is just examples how it could look like:\n                INPUT: [\"Moderna\", \"AstraZeneca\", \"Novavax\"]\n                OPTIONS: [\"treatment\", \"country\", \"vaccine_names\"]\n                ANSWER: vaccine_names\n\n                INPUT: [\"Tuberculosis\", \"Malaria\", \"Ebola\"]\n                OPTIONS: [\"vaccine_names\", \"disease\", \"country\"]\n                ANSWER: disease\n\n                Now it's your turn:\n                INPUT: [inconnu, oui, non]\n                OPTIONS: patient_ids - medical_boolean - dates - disease - age_ranges\n                ANSWER:\n            ": {
+        "response": "medical_boolean",
+        "context": [
+            "inconnu",
+            "oui",
+            "non"
+        ],
+        "ground_truth": "medical_boolean",
+        "correct": true,
+        "original_model_answer": "medical_boolean",
+        "original_label": "medical_boolean",
+        "file+idx": "40"
+    },
+    "\n                SYSTEM: You are an epidemiology data steward labeling synthetically generated data. Note that you will be working with patient data that was synthetically generated and doesn't exist in real-world.\n\n                INSTRUCTIONS:\n                • Choose exactly ONE label from the OPTIONS list that best describes the INPUT. Note that INPUT should be relative to the OPTIONS that you have. Don't select label if it's just a little bit matches with INPUT.\n                • If none OPTIONS apply, you can generate new label that will match the INPUT. The generated label should be in snake_case format. Generate broad label.\n                • **Respond with EXACTLY the label token, no additional words, punctuation, or explanation.**\n\n                This is just examples how it could look like:\n                INPUT: [\"Moderna\", \"AstraZeneca\", \"Novavax\"]\n                OPTIONS: [\"treatment\", \"country\", \"vaccine_names\"]\n                ANSWER: vaccine_names\n\n                INPUT: [\"Tuberculosis\", \"Malaria\", \"Ebola\"]\n                OPTIONS: [\"vaccine_names\", \"disease\", \"country\"]\n                ANSWER: disease\n\n                Now it's your turn:\n                INPUT: [azerbaijan, cuba, slovakia, albania, ukraine]\n                OPTIONS: patient_ids - medical_boolean - dates - disease - age_ranges\n                ANSWER:\n            ": {
+        "response": "patient_ids",
+        "context": [
+            "azerbaijan",
+            "cuba",
+            "slovakia",
+            "albania",
+            "ukraine"
+        ],
+        "ground_truth": "location",
+        "correct": false,
+        "original_model_answer": "patient_ids",
+        "original_label": "location",
+        "file+idx": "41"
+    },
+    "\n                SYSTEM: You are an epidemiology data steward labeling synthetically generated data. Note that you will be working with patient data that was synthetically generated and doesn't exist in real-world.\n\n                INSTRUCTIONS:\n                • Choose exactly ONE label from the OPTIONS list that best describes the INPUT. Note that INPUT should be relative to the OPTIONS that you have. Don't select label if it's just a little bit matches with INPUT.\n                • If none OPTIONS apply, you can generate new label that will match the INPUT. The generated label should be in snake_case format. Generate broad label.\n                • **Respond with EXACTLY the label token, no additional words, punctuation, or explanation.**\n\n                This is just examples how it could look like:\n                INPUT: [\"Moderna\", \"AstraZeneca\", \"Novavax\"]\n                OPTIONS: [\"treatment\", \"country\", \"vaccine_names\"]\n                ANSWER: vaccine_names\n\n                INPUT: [\"Tuberculosis\", \"Malaria\", \"Ebola\"]\n                OPTIONS: [\"vaccine_names\", \"disease\", \"country\"]\n                ANSWER: disease\n\n                Now it's your turn:\n                INPUT: [no, yes]\n                OPTIONS: patient_ids - medical_boolean - dates - disease - age_ranges\n                ANSWER:\n            ": {
+        "response": "medical_boolean",
+        "context": [
+            "no",
+            "yes"
+        ],
+        "ground_truth": "medical_boolean",
+        "correct": true,
+        "original_model_answer": "medical_boolean",
+        "original_label": "medical_boolean",
+        "file+idx": "42"
+    },
+    "\n                SYSTEM: You are an epidemiology data steward labeling synthetically generated data. Note that you will be working with patient data that was synthetically generated and doesn't exist in real-world.\n\n                INSTRUCTIONS:\n                • Choose exactly ONE label from the OPTIONS list that best describes the INPUT. Note that INPUT should be relative to the OPTIONS that you have. Don't select label if it's just a little bit matches with INPUT.\n                • If none OPTIONS apply, you can generate new label that will match the INPUT. The generated label should be in snake_case format. Generate broad label.\n                • **Respond with EXACTLY the label token, no additional words, punctuation, or explanation.**\n\n                This is just examples how it could look like:\n                INPUT: [\"Moderna\", \"AstraZeneca\", \"Novavax\"]\n                OPTIONS: [\"treatment\", \"country\", \"vaccine_names\"]\n                ANSWER: vaccine_names\n\n                INPUT: [\"Tuberculosis\", \"Malaria\", \"Ebola\"]\n                OPTIONS: [\"vaccine_names\", \"disease\", \"country\"]\n                ANSWER: disease\n\n                Now it's your turn:\n                INPUT: [2020-05-31, 2020-06-02, 2020-06-30, 2020-06-06, 2020-06-29]\n                OPTIONS: patient_ids - medical_boolean - dates - disease - age_ranges\n                ANSWER:\n            ": {
+        "response": "dates",
+        "context": [
+            "2020-05-31",
+            "2020-06-02",
+            "2020-06-30",
+            "2020-06-06",
+            "2020-06-29"
+        ],
+        "ground_truth": "date",
+        "correct": false,
+        "original_model_answer": "dates",
+        "original_label": "date",
+        "file+idx": "43"
+    },
+    "\n                SYSTEM: You are an epidemiology data steward labeling synthetically generated data. Note that you will be working with patient data that was synthetically generated and doesn't exist in real-world.\n\n                INSTRUCTIONS:\n                • Choose exactly ONE label from the OPTIONS list that best describes the INPUT. Note that INPUT should be relative to the OPTIONS that you have. Don't select label if it's just a little bit matches with INPUT.\n                • If none OPTIONS apply, you can generate new label that will match the INPUT. The generated label should be in snake_case format. Generate broad label.\n                • **Respond with EXACTLY the label token, no additional words, punctuation, or explanation.**\n\n                This is just examples how it could look like:\n                INPUT: [\"Moderna\", \"AstraZeneca\", \"Novavax\"]\n                OPTIONS: [\"treatment\", \"country\", \"vaccine_names\"]\n                ANSWER: vaccine_names\n\n                INPUT: [\"Tuberculosis\", \"Malaria\", \"Ebola\"]\n                OPTIONS: [\"vaccine_names\", \"disease\", \"country\"]\n                ANSWER: disease\n\n                Now it's your turn:\n                INPUT: [no]\n                OPTIONS: patient_ids - medical_boolean - dates - disease - age_ranges\n                ANSWER:\n            ": {
+        "response": "medical_boolean",
+        "context": [
+            "no"
+        ],
+        "ground_truth": "medical_boolean",
+        "correct": true,
+        "original_model_answer": "medical_boolean",
+        "original_label": "medical_boolean",
+        "file+idx": "44"
+    },
+    "\n                SYSTEM: You are an epidemiology data steward labeling synthetically generated data. Note that you will be working with patient data that was synthetically generated and doesn't exist in real-world.\n\n                INSTRUCTIONS:\n                • Choose exactly ONE label from the OPTIONS list that best describes the INPUT. Note that INPUT should be relative to the OPTIONS that you have. Don't select label if it's just a little bit matches with INPUT.\n                • If none OPTIONS apply, you can generate new label that will match the INPUT. The generated label should be in snake_case format. Generate broad label.\n                • **Respond with EXACTLY the label token, no additional words, punctuation, or explanation.**\n\n                This is just examples how it could look like:\n                INPUT: [\"Moderna\", \"AstraZeneca\", \"Novavax\"]\n                OPTIONS: [\"treatment\", \"country\", \"vaccine_names\"]\n                ANSWER: vaccine_names\n\n                INPUT: [\"Tuberculosis\", \"Malaria\", \"Ebola\"]\n                OPTIONS: [\"vaccine_names\", \"disease\", \"country\"]\n                ANSWER: disease\n\n                Now it's your turn:\n                INPUT: [dcd, vivant]\n                OPTIONS: patient_ids - medical_boolean - dates - disease - age_ranges\n                ANSWER:\n            ": {
+        "response": "medical_boolean",
+        "context": [
+            "dcd",
+            "vivant"
+        ],
+        "ground_truth": "outcome",
+        "correct": false,
+        "original_model_answer": "medical_boolean",
+        "original_label": "outcome",
+        "file+idx": "45"
+    },
+    "\n                SYSTEM: You are an epidemiology data steward labeling synthetically generated data. Note that you will be working with patient data that was synthetically generated and doesn't exist in real-world.\n\n                INSTRUCTIONS:\n                • Choose exactly ONE label from the OPTIONS list that best describes the INPUT. Note that INPUT should be relative to the OPTIONS that you have. Don't select label if it's just a little bit matches with INPUT.\n                • If none OPTIONS apply, you can generate new label that will match the INPUT. The generated label should be in snake_case format. Generate broad label.\n                • **Respond with EXACTLY the label token, no additional words, punctuation, or explanation.**\n\n                This is just examples how it could look like:\n                INPUT: [\"Moderna\", \"AstraZeneca\", \"Novavax\"]\n                OPTIONS: [\"treatment\", \"country\", \"vaccine_names\"]\n                ANSWER: vaccine_names\n\n                INPUT: [\"Tuberculosis\", \"Malaria\", \"Ebola\"]\n                OPTIONS: [\"vaccine_names\", \"disease\", \"country\"]\n                ANSWER: disease\n\n                Now it's your turn:\n                INPUT: [6l170b0g, g08l03b0, l20gb406, 0bg90l29, 3gl0780b]\n                OPTIONS: patient_ids - medical_boolean - dates - disease - age_ranges\n                ANSWER:\n            ": {
+        "response": "patient_ids",
+        "context": [
+            "6l170b0g",
+            "g08l03b0",
+            "l20gb406",
+            "0bg90l29",
+            "3gl0780b"
+        ],
+        "ground_truth": "id",
+        "correct": false,
+        "original_model_answer": "patient_ids",
+        "original_label": "id",
+        "file+idx": "46"
+    },
+    "\n                SYSTEM: You are an epidemiology data steward labeling synthetically generated data. Note that you will be working with patient data that was synthetically generated and doesn't exist in real-world.\n\n                INSTRUCTIONS:\n                • Choose exactly ONE label from the OPTIONS list that best describes the INPUT. Note that INPUT should be relative to the OPTIONS that you have. Don't select label if it's just a little bit matches with INPUT.\n                • If none OPTIONS apply, you can generate new label that will match the INPUT. The generated label should be in snake_case format. Generate broad label.\n                • **Respond with EXACTLY the label token, no additional words, punctuation, or explanation.**\n\n                This is just examples how it could look like:\n                INPUT: [\"Moderna\", \"AstraZeneca\", \"Novavax\"]\n                OPTIONS: [\"treatment\", \"country\", \"vaccine_names\"]\n                ANSWER: vaccine_names\n\n                INPUT: [\"Tuberculosis\", \"Malaria\", \"Ebola\"]\n                OPTIONS: [\"vaccine_names\", \"disease\", \"country\"]\n                ANSWER: disease\n\n                Now it's your turn:\n                INPUT: [no]\n                OPTIONS: patient_ids - medical_boolean - dates - disease - age_ranges\n                ANSWER:\n            *": {
+        "response": "medical_boolean",
+        "context": [
+            "no"
+        ],
+        "ground_truth": "medical_boolean",
+        "correct": true,
+        "original_model_answer": "medical_boolean",
+        "original_label": "medical_boolean",
+        "file+idx": "47"
+    },
+    "\n                SYSTEM: You are an epidemiology data steward labeling synthetically generated data. Note that you will be working with patient data that was synthetically generated and doesn't exist in real-world.\n\n                INSTRUCTIONS:\n                • Choose exactly ONE label from the OPTIONS list that best describes the INPUT. Note that INPUT should be relative to the OPTIONS that you have. Don't select label if it's just a little bit matches with INPUT.\n                • If none OPTIONS apply, you can generate new label that will match the INPUT. The generated label should be in snake_case format. Generate broad label.\n                • **Respond with EXACTLY the label token, no additional words, punctuation, or explanation.**\n\n                This is just examples how it could look like:\n                INPUT: [\"Moderna\", \"AstraZeneca\", \"Novavax\"]\n                OPTIONS: [\"treatment\", \"country\", \"vaccine_names\"]\n                ANSWER: vaccine_names\n\n                INPUT: [\"Tuberculosis\", \"Malaria\", \"Ebola\"]\n                OPTIONS: [\"vaccine_names\", \"disease\", \"country\"]\n                ANSWER: disease\n\n                Now it's your turn:\n                INPUT: [kaga-bandoro, bambio, kmo, bangui, ouham-pend]\n                OPTIONS: patient_ids - medical_boolean - dates - disease - age_ranges\n                ANSWER:\n            ": {
+        "response": "patient_ids",
+        "context": [
+            "kaga-bandoro",
+            "bambio",
+            "kmo",
+            "bangui",
+            "ouham-pend"
+        ],
+        "ground_truth": "location",
+        "correct": false,
+        "original_model_answer": "patient_ids",
+        "original_label": "location",
+        "file+idx": "48"
+    },
+    "\n                SYSTEM: You are an epidemiology data steward labeling synthetically generated data. Note that you will be working with patient data that was synthetically generated and doesn't exist in real-world.\n\n                INSTRUCTIONS:\n                • Choose exactly ONE label from the OPTIONS list that best describes the INPUT. Note that INPUT should be relative to the OPTIONS that you have. Don't select label if it's just a little bit matches with INPUT.\n                • If none OPTIONS apply, you can generate new label that will match the INPUT. The generated label should be in snake_case format. Generate broad label.\n                • **Respond with EXACTLY the label token, no additional words, punctuation, or explanation.**\n\n                This is just examples how it could look like:\n                INPUT: [\"Moderna\", \"AstraZeneca\", \"Novavax\"]\n                OPTIONS: [\"treatment\", \"country\", \"vaccine_names\"]\n                ANSWER: vaccine_names\n\n                INPUT: [\"Tuberculosis\", \"Malaria\", \"Ebola\"]\n                OPTIONS: [\"vaccine_names\", \"disease\", \"country\"]\n                ANSWER: disease\n\n                Now it's your turn:\n                INPUT: [confirme, probable]\n                OPTIONS: patient_ids - medical_boolean - dates - disease - age_ranges\n                ANSWER:\n            ": {
+        "response": "medical_boolean",
+        "context": [
+            "confirme",
+            "probable"
+        ],
+        "ground_truth": "case_status",
+        "correct": false,
+        "original_model_answer": "medical_boolean",
+        "original_label": "case_status",
+        "file+idx": "49"
+    },
+    "\n                SYSTEM: You are an epidemiology data steward labeling synthetically generated data. Note that you will be working with patient data that was synthetically generated and doesn't exist in real-world.\n\n                INSTRUCTIONS:\n                • Choose exactly ONE label from the OPTIONS list that best describes the INPUT. Note that INPUT should be relative to the OPTIONS that you have. Don't select label if it's just a little bit matches with INPUT.\n                • If none OPTIONS apply, you can generate new label that will match the INPUT. The generated label should be in snake_case format. Generate broad label.\n                • **Respond with EXACTLY the label token, no additional words, punctuation, or explanation.**\n\n                This is just examples how it could look like:\n                INPUT: [\"Moderna\", \"AstraZeneca\", \"Novavax\"]\n                OPTIONS: [\"treatment\", \"country\", \"vaccine_names\"]\n                ANSWER: vaccine_names\n\n                INPUT: [\"Tuberculosis\", \"Malaria\", \"Ebola\"]\n                OPTIONS: [\"vaccine_names\", \"disease\", \"country\"]\n                ANSWER: disease\n\n                Now it's your turn:\n                INPUT: [hepatitis b, high blood pressure,  hypercholesterol,  mia, copd]\n                OPTIONS: patient_ids - medical_boolean - dates - disease - age_ranges\n                ANSWER:\n            ": {
+        "response": "disease",
+        "context": [
+            "hepatitis b",
+            "high blood pressure",
+            " hypercholesterol",
+            " mia",
+            "copd"
+        ],
+        "ground_truth": "symptoms",
+        "correct": false,
+        "original_model_answer": "disease",
+        "original_label": "symptoms",
+        "file+idx": "50"
+    },
+    "\n                SYSTEM: You are an epidemiology data steward labeling synthetically generated data. Note that you will be working with patient data that was synthetically generated and doesn't exist in real-world.\n\n                INSTRUCTIONS:\n                • Choose exactly ONE label from the OPTIONS list that best describes the INPUT. Note that INPUT should be relative to the OPTIONS that you have. Don't select label if it's just a little bit matches with INPUT.\n                • If none OPTIONS apply, you can generate new label that will match the INPUT. The generated label should be in snake_case format. Generate broad label.\n                • **Respond with EXACTLY the label token, no additional words, punctuation, or explanation.**\n\n                This is just examples how it could look like:\n                INPUT: [\"Moderna\", \"AstraZeneca\", \"Novavax\"]\n                OPTIONS: [\"treatment\", \"country\", \"vaccine_names\"]\n                ANSWER: vaccine_names\n\n                INPUT: [\"Tuberculosis\", \"Malaria\", \"Ebola\"]\n                OPTIONS: [\"vaccine_names\", \"disease\", \"country\"]\n                ANSWER: disease\n\n                Now it's your turn:\n                INPUT: [chasseur, cultivateur, infirmier, commercant, reco]\n                OPTIONS: patient_ids - medical_boolean - dates - disease - age_ranges\n                ANSWER:\n            ": {
+        "response": "infirmier",
+        "context": [
+            "chasseur",
+            "cultivateur",
+            "infirmier",
+            "commercant",
+            "reco"
+        ],
+        "ground_truth": "occupation",
+        "correct": false,
+        "original_model_answer": "infirmier",
+        "original_label": "occupation",
+        "file+idx": "51"
+    },
+    "\n                SYSTEM: You are an epidemiology data steward labeling synthetically generated data. Note that you will be working with patient data that was synthetically generated and doesn't exist in real-world.\n\n                INSTRUCTIONS:\n                • Choose exactly ONE label from the OPTIONS list that best describes the INPUT. Note that INPUT should be relative to the OPTIONS that you have. Don't select label if it's just a little bit matches with INPUT.\n                • If none OPTIONS apply, you can generate new label that will match the INPUT. The generated label should be in snake_case format. Generate broad label.\n                • **Respond with EXACTLY the label token, no additional words, punctuation, or explanation.**\n\n                This is just examples how it could look like:\n                INPUT: [\"Moderna\", \"AstraZeneca\", \"Novavax\"]\n                OPTIONS: [\"treatment\", \"country\", \"vaccine_names\"]\n                ANSWER: vaccine_names\n\n                INPUT: [\"Tuberculosis\", \"Malaria\", \"Ebola\"]\n                OPTIONS: [\"vaccine_names\", \"disease\", \"country\"]\n                ANSWER: disease\n\n                Now it's your turn:\n                INPUT: [no, yes]\n                OPTIONS: patient_ids - medical_boolean - dates - disease - age_ranges - infirmier\n                ANSWER:\n            ": {
+        "response": "medical_boolean",
+        "context": [
+            "no",
+            "yes"
+        ],
+        "ground_truth": "medical_boolean",
+        "correct": true,
+        "original_model_answer": "medical_boolean",
+        "original_label": "medical_boolean",
+        "file+idx": "52"
+    },
+    "\n                SYSTEM: You are an epidemiology data steward labeling synthetically generated data. Note that you will be working with patient data that was synthetically generated and doesn't exist in real-world.\n\n                INSTRUCTIONS:\n                • Choose exactly ONE label from the OPTIONS list that best describes the INPUT. Note that INPUT should be relative to the OPTIONS that you have. Don't select label if it's just a little bit matches with INPUT.\n                • If none OPTIONS apply, you can generate new label that will match the INPUT. The generated label should be in snake_case format. Generate broad label.\n                • **Respond with EXACTLY the label token, no additional words, punctuation, or explanation.**\n\n                This is just examples how it could look like:\n                INPUT: [\"Moderna\", \"AstraZeneca\", \"Novavax\"]\n                OPTIONS: [\"treatment\", \"country\", \"vaccine_names\"]\n                ANSWER: vaccine_names\n\n                INPUT: [\"Tuberculosis\", \"Malaria\", \"Ebola\"]\n                OPTIONS: [\"vaccine_names\", \"disease\", \"country\"]\n                ANSWER: disease\n\n                Now it's your turn:\n                INPUT: [0.0, 1.0]\n                OPTIONS: patient_ids - medical_boolean - dates - disease - age_ranges - infirmier\n                ANSWER:\n            ": {
+        "response": "medical_boolean",
+        "context": [
+            "0.0",
+            "1.0"
+        ],
+        "ground_truth": "medical_boolean",
+        "correct": true,
+        "original_model_answer": "medical_boolean",
+        "original_label": "medical_boolean",
+        "file+idx": "53"
+    },
+    "\n                SYSTEM: You are an epidemiology data steward labeling synthetically generated data. Note that you will be working with patient data that was synthetically generated and doesn't exist in real-world.\n\n                INSTRUCTIONS:\n                • Choose exactly ONE label from the OPTIONS list that best describes the INPUT. Note that INPUT should be relative to the OPTIONS that you have. Don't select label if it's just a little bit matches with INPUT.\n                • If none OPTIONS apply, you can generate new label that will match the INPUT. The generated label should be in snake_case format. Generate broad label.\n                • **Respond with EXACTLY the label token, no additional words, punctuation, or explanation.**\n\n                This is just examples how it could look like:\n                INPUT: [\"Moderna\", \"AstraZeneca\", \"Novavax\"]\n                OPTIONS: [\"treatment\", \"country\", \"vaccine_names\"]\n                ANSWER: vaccine_names\n\n                INPUT: [\"Tuberculosis\", \"Malaria\", \"Ebola\"]\n                OPTIONS: [\"vaccine_names\", \"disease\", \"country\"]\n                ANSWER: disease\n\n                Now it's your turn:\n                INPUT: [no]\n                OPTIONS: patient_ids - medical_boolean - dates - disease - age_ranges - infirmier\n                ANSWER:\n            ": {
+        "response": "medical_boolean",
+        "context": [
+            "no"
+        ],
+        "ground_truth": "medical_boolean",
+        "correct": true,
+        "original_model_answer": "medical_boolean",
+        "original_label": "medical_boolean",
+        "file+idx": "54"
+    }
+}

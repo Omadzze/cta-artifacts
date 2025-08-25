@@ -1,0 +1,1469 @@
+{
+    "\n                    INSTRUCTION: Choose exactly ONE label from the OPTIONS list that best describes the INPUT. Note that INPUT should be relative to the OPTIONS that you have.\n\n                    INPUT: [no]\n                    OPTIONS: - outcome\n- case_status\n- gender\n- date\n- occupation\n- location\n- medical_boolean\n- contact_setting\n- symptoms\n- age\n- id\n                    ANSWER:\n\n                    Let’s think step by step:\n                    1. Identify the key features in the INPUT.\n                    2. Try to predict values type like: int, date, string.\n                    3. Compare against each option to see which matches best.\n                    4. Return final answer in one word after ANSWER:\n                    ": {
+        "response": "medical_boolean",
+        "context": [
+            "no"
+        ],
+        "ground_truth": "medical_boolean",
+        "correct": true,
+        "original_model_answer": "medical_boolean",
+        "original_label": "medical_boolean",
+        "file+idx": "0"
+    },
+    "\n                    INSTRUCTION: Choose exactly ONE label from the OPTIONS list that best describes the INPUT. Note that INPUT should be relative to the OPTIONS that you have.\n\n                    INPUT: [october 2020, june 2020, november 2020, september 2020, december 2020]\n                    OPTIONS: - outcome\n- case_status\n- gender\n- date\n- occupation\n- location\n- medical_boolean\n- contact_setting\n- symptoms\n- age\n- id\n                    ANSWER:\n\n                    Let’s think step by step:\n                    1. Identify the key features in the INPUT.\n                    2. Try to predict values type like: int, date, string.\n                    3. Compare against each option to see which matches best.\n                    4. Return final answer in one word after ANSWER:\n                    ": {
+        "response": "date",
+        "context": [
+            "october 2020",
+            "june 2020",
+            "november 2020",
+            "september 2020",
+            "december 2020"
+        ],
+        "ground_truth": "date",
+        "correct": true,
+        "original_model_answer": "date",
+        "original_label": "date",
+        "file+idx": "1"
+    },
+    "\n                    INSTRUCTION: Choose exactly ONE label from the OPTIONS list that best describes the INPUT. Note that INPUT should be relative to the OPTIONS that you have.\n\n                    INPUT: [famille, funerailles,  funerailles, communaute, nosocomial]\n                    OPTIONS: - outcome\n- case_status\n- gender\n- date\n- occupation\n- location\n- medical_boolean\n- contact_setting\n- symptoms\n- age\n- id\n                    ANSWER:\n\n                    Let’s think step by step:\n                    1. Identify the key features in the INPUT.\n                    2. Try to predict values type like: int, date, string.\n                    3. Compare against each option to see which matches best.\n                    4. Return final answer in one word after ANSWER:\n                    ": {
+        "response": "contact_setting",
+        "context": [
+            "famille",
+            "funerailles",
+            " funerailles",
+            "communaute",
+            "nosocomial"
+        ],
+        "ground_truth": "contact_setting",
+        "correct": true,
+        "original_model_answer": "contact_setting",
+        "original_label": "contact_setting",
+        "file+idx": "2"
+    },
+    "\n                    INSTRUCTION: Choose exactly ONE label from the OPTIONS list that best describes the INPUT. Note that INPUT should be relative to the OPTIONS that you have.\n\n                    INPUT: [non, oui]\n                    OPTIONS: - outcome\n- case_status\n- gender\n- date\n- occupation\n- location\n- medical_boolean\n- contact_setting\n- symptoms\n- age\n- id\n                    ANSWER:\n\n                    Let’s think step by step:\n                    1. Identify the key features in the INPUT.\n                    2. Try to predict values type like: int, date, string.\n                    3. Compare against each option to see which matches best.\n                    4. Return final answer in one word after ANSWER:\n                    ": {
+        "response": "outcome",
+        "context": [
+            "non",
+            "oui"
+        ],
+        "ground_truth": "medical_boolean",
+        "correct": false,
+        "original_model_answer": "outcome",
+        "original_label": "medical_boolean",
+        "file+idx": "3"
+    },
+    "\n                    INSTRUCTION: Choose exactly ONE label from the OPTIONS list that best describes the INPUT. Note that INPUT should be relative to the OPTIONS that you have.\n\n                    INPUT: [jaundice, painabdo, weak, fever, rash]\n                    OPTIONS: - outcome\n- case_status\n- gender\n- date\n- occupation\n- location\n- medical_boolean\n- contact_setting\n- symptoms\n- age\n- id\n                    ANSWER:\n\n                    Let’s think step by step:\n                    1. Identify the key features in the INPUT.\n                    2. Try to predict values type like: int, date, string.\n                    3. Compare against each option to see which matches best.\n                    4. Return final answer in one word after ANSWER:\n                    ": {
+        "response": "symptoms",
+        "context": [
+            "jaundice",
+            "painabdo",
+            "weak",
+            "fever",
+            "rash"
+        ],
+        "ground_truth": "symptoms",
+        "correct": true,
+        "original_model_answer": "symptoms",
+        "original_label": "symptoms",
+        "file+idx": "4"
+    },
+    "\n                    INSTRUCTION: Choose exactly ONE label from the OPTIONS list that best describes the INPUT. Note that INPUT should be relative to the OPTIONS that you have.\n\n                    INPUT: [yes, no]\n                    OPTIONS: - outcome\n- case_status\n- gender\n- date\n- occupation\n- location\n- medical_boolean\n- contact_setting\n- symptoms\n- age\n- id\n                    ANSWER:\n\n                    Let’s think step by step:\n                    1. Identify the key features in the INPUT.\n                    2. Try to predict values type like: int, date, string.\n                    3. Compare against each option to see which matches best.\n                    4. Return final answer in one word after ANSWER:\n                    ": {
+        "response": "medical_boolean",
+        "context": [
+            "yes",
+            "no"
+        ],
+        "ground_truth": "medical_boolean",
+        "correct": true,
+        "original_model_answer": "medical_boolean",
+        "original_label": "medical_boolean",
+        "file+idx": "5"
+    },
+    "\n                    INSTRUCTION: Choose exactly ONE label from the OPTIONS list that best describes the INPUT. Note that INPUT should be relative to the OPTIONS that you have.\n\n                    INPUT: [oui, inc, non]\n                    OPTIONS: - outcome\n- case_status\n- gender\n- date\n- occupation\n- location\n- medical_boolean\n- contact_setting\n- symptoms\n- age\n- id\n                    ANSWER:\n\n                    Let’s think step by step:\n                    1. Identify the key features in the INPUT.\n                    2. Try to predict values type like: int, date, string.\n                    3. Compare against each option to see which matches best.\n                    4. Return final answer in one word after ANSWER:\n                    ": {
+        "response": "outcome",
+        "context": [
+            "oui",
+            "inc",
+            "non"
+        ],
+        "ground_truth": "medical_boolean",
+        "correct": false,
+        "original_model_answer": "outcome",
+        "original_label": "medical_boolean",
+        "file+idx": "6"
+    },
+    "\n                    INSTRUCTION: Choose exactly ONE label from the OPTIONS list that best describes the INPUT. Note that INPUT should be relative to the OPTIONS that you have.\n\n                    INPUT: [yes, no]\n                    OPTIONS: - outcome\n- case_status\n- gender\n- date\n- occupation\n- location\n- medical_boolean\n- contact_setting\n- symptoms\n- age\n- id\n                    ANSWER:\n\n                    Let’s think step by step:\n                    1. Identify the key features in the INPUT.\n                    2. Try to predict values type like: int, date, string.\n                    3. Compare against each option to see which matches best.\n                    4. Return final answer in one word after ANSWER:\n                    *": {
+        "response": "medical_boolean",
+        "context": [
+            "yes",
+            "no"
+        ],
+        "ground_truth": "medical_boolean",
+        "correct": true,
+        "original_model_answer": "medical_boolean",
+        "original_label": "medical_boolean",
+        "file+idx": "7"
+    },
+    "\n                    INSTRUCTION: Choose exactly ONE label from the OPTIONS list that best describes the INPUT. Note that INPUT should be relative to the OPTIONS that you have.\n\n                    INPUT: [2020-09-23, 2020-06-06, 2020-06-24, 2020-08-22, 2020-07-28]\n                    OPTIONS: - outcome\n- case_status\n- gender\n- date\n- occupation\n- location\n- medical_boolean\n- contact_setting\n- symptoms\n- age\n- id\n                    ANSWER:\n\n                    Let’s think step by step:\n                    1. Identify the key features in the INPUT.\n                    2. Try to predict values type like: int, date, string.\n                    3. Compare against each option to see which matches best.\n                    4. Return final answer in one word after ANSWER:\n                    ": {
+        "response": "date",
+        "context": [
+            "2020-09-23",
+            "2020-06-06",
+            "2020-06-24",
+            "2020-08-22",
+            "2020-07-28"
+        ],
+        "ground_truth": "date",
+        "correct": true,
+        "original_model_answer": "date",
+        "original_label": "date",
+        "file+idx": "8"
+    },
+    "\n                    INSTRUCTION: Choose exactly ONE label from the OPTIONS list that best describes the INPUT. Note that INPUT should be relative to the OPTIONS that you have.\n\n                    INPUT: [cholera, nil]\n                    OPTIONS: - outcome\n- case_status\n- gender\n- date\n- occupation\n- location\n- medical_boolean\n- contact_setting\n- symptoms\n- age\n- id\n                    ANSWER:\n\n                    Let’s think step by step:\n                    1. Identify the key features in the INPUT.\n                    2. Try to predict values type like: int, date, string.\n                    3. Compare against each option to see which matches best.\n                    4. Return final answer in one word after ANSWER:\n                    ": {
+        "response": "case_status",
+        "context": [
+            "cholera",
+            "nil"
+        ],
+        "ground_truth": "medical_boolean",
+        "correct": false,
+        "original_model_answer": "ANSWER: case_status",
+        "original_label": "medical_boolean",
+        "file+idx": "9"
+    },
+    "\n                    INSTRUCTION: Choose exactly ONE label from the OPTIONS list that best describes the INPUT. Note that INPUT should be relative to the OPTIONS that you have.\n\n                    INPUT: [inc, non, oui]\n                    OPTIONS: - outcome\n- case_status\n- gender\n- date\n- occupation\n- location\n- medical_boolean\n- contact_setting\n- symptoms\n- age\n- id\n                    ANSWER:\n\n                    Let’s think step by step:\n                    1. Identify the key features in the INPUT.\n                    2. Try to predict values type like: int, date, string.\n                    3. Compare against each option to see which matches best.\n                    4. Return final answer in one word after ANSWER:\n                    ": {
+        "response": "outcome",
+        "context": [
+            "inc",
+            "non",
+            "oui"
+        ],
+        "ground_truth": "medical_boolean",
+        "correct": false,
+        "original_model_answer": "**",
+        "original_label": "medical_boolean",
+        "file+idx": "10"
+    },
+    "\n                    INSTRUCTION: Choose exactly ONE label from the OPTIONS list that best describes the INPUT. Note that INPUT should be relative to the OPTIONS that you have.\n\n                    INPUT: [0.0, 1.0, 2.0]\n                    OPTIONS: - outcome\n- case_status\n- gender\n- date\n- occupation\n- location\n- medical_boolean\n- contact_setting\n- symptoms\n- age\n- id\n                    ANSWER:\n\n                    Let’s think step by step:\n                    1. Identify the key features in the INPUT.\n                    2. Try to predict values type like: int, date, string.\n                    3. Compare against each option to see which matches best.\n                    4. Return final answer in one word after ANSWER:\n                    ": {
+        "response": "age",
+        "context": [
+            "0.0",
+            "1.0",
+            "2.0"
+        ],
+        "ground_truth": "medical_boolean",
+        "correct": false,
+        "original_model_answer": "age",
+        "original_label": "medical_boolean",
+        "file+idx": "11"
+    },
+    "\n                    INSTRUCTION: Choose exactly ONE label from the OPTIONS list that best describes the INPUT. Note that INPUT should be relative to the OPTIONS that you have.\n\n                    INPUT: [89t1r7d9qk010bcme06--, 410030er-0qkbdct2-6r, 4cd-01-t1m8eq0k8rb0100, kd1cqm45060b212r2--8t, rb0580-610979ct-dqmke]\n                    OPTIONS: - outcome\n- case_status\n- gender\n- date\n- occupation\n- location\n- medical_boolean\n- contact_setting\n- symptoms\n- age\n- id\n                    ANSWER:\n\n                    Let’s think step by step:\n                    1. Identify the key features in the INPUT.\n                    2. Try to predict values type like: int, date, string.\n                    3. Compare against each option to see which matches best.\n                    4. Return final answer in one word after ANSWER:\n                    ": {
+        "response": "id",
+        "context": [
+            "89t1r7d9qk010bcme06--",
+            "410030er-0qkbdct2-6r",
+            "4cd-01-t1m8eq0k8rb0100",
+            "kd1cqm45060b212r2--8t",
+            "rb0580-610979ct-dqmke"
+        ],
+        "ground_truth": "id",
+        "correct": true,
+        "original_model_answer": "id",
+        "original_label": "id",
+        "file+idx": "12"
+    },
+    "\n                    INSTRUCTION: Choose exactly ONE label from the OPTIONS list that best describes the INPUT. Note that INPUT should be relative to the OPTIONS that you have.\n\n                    INPUT: [oui, inc, non]\n                    OPTIONS: - outcome\n- case_status\n- gender\n- date\n- occupation\n- location\n- medical_boolean\n- contact_setting\n- symptoms\n- age\n- id\n                    ANSWER:\n\n                    Let’s think step by step:\n                    1. Identify the key features in the INPUT.\n                    2. Try to predict values type like: int, date, string.\n                    3. Compare against each option to see which matches best.\n                    4. Return final answer in one word after ANSWER:\n                    *": {
+        "response": "outcome",
+        "context": [
+            "oui",
+            "inc",
+            "non"
+        ],
+        "ground_truth": "medical_boolean",
+        "correct": false,
+        "original_model_answer": "ANSWER: outcome",
+        "original_label": "medical_boolean",
+        "file+idx": "13"
+    },
+    "\n                    INSTRUCTION: Choose exactly ONE label from the OPTIONS list that best describes the INPUT. Note that INPUT should be relative to the OPTIONS that you have.\n\n                    INPUT: [no]\n                    OPTIONS: - outcome\n- case_status\n- gender\n- date\n- occupation\n- location\n- medical_boolean\n- contact_setting\n- symptoms\n- age\n- id\n                    ANSWER:\n\n                    Let’s think step by step:\n                    1. Identify the key features in the INPUT.\n                    2. Try to predict values type like: int, date, string.\n                    3. Compare against each option to see which matches best.\n                    4. Return final answer in one word after ANSWER:\n                    *": {
+        "response": "medical_boolean",
+        "context": [
+            "no"
+        ],
+        "ground_truth": "medical_boolean",
+        "correct": true,
+        "original_model_answer": "medical_boolean",
+        "original_label": "medical_boolean",
+        "file+idx": "14"
+    },
+    "\n                    INSTRUCTION: Choose exactly ONE label from the OPTIONS list that best describes the INPUT. Note that INPUT should be relative to the OPTIONS that you have.\n\n                    INPUT: [n]\n                    OPTIONS: - outcome\n- case_status\n- gender\n- date\n- occupation\n- location\n- medical_boolean\n- contact_setting\n- symptoms\n- age\n- id\n                    ANSWER:\n\n                    Let’s think step by step:\n                    1. Identify the key features in the INPUT.\n                    2. Try to predict values type like: int, date, string.\n                    3. Compare against each option to see which matches best.\n                    4. Return final answer in one word after ANSWER:\n                    ": {
+        "response": "id",
+        "context": [
+            "n"
+        ],
+        "ground_truth": "outcome",
+        "correct": false,
+        "original_model_answer": "id",
+        "original_label": "outcome",
+        "file+idx": "15"
+    },
+    "\n                    INSTRUCTION: Choose exactly ONE label from the OPTIONS list that best describes the INPUT. Note that INPUT should be relative to the OPTIONS that you have.\n\n                    INPUT: [bozoum, gamboula, baboua, bossangoa, batangafo]\n                    OPTIONS: - outcome\n- case_status\n- gender\n- date\n- occupation\n- location\n- medical_boolean\n- contact_setting\n- symptoms\n- age\n- id\n                    ANSWER:\n\n                    Let’s think step by step:\n                    1. Identify the key features in the INPUT.\n                    2. Try to predict values type like: int, date, string.\n                    3. Compare against each option to see which matches best.\n                    4. Return final answer in one word after ANSWER:\n                    ": {
+        "response": "location",
+        "context": [
+            "bozoum",
+            "gamboula",
+            "baboua",
+            "bossangoa",
+            "batangafo"
+        ],
+        "ground_truth": "contact_setting",
+        "correct": false,
+        "original_model_answer": "location",
+        "original_label": "contact_setting",
+        "file+idx": "16"
+    },
+    "\n                    INSTRUCTION: Choose exactly ONE label from the OPTIONS list that best describes the INPUT. Note that INPUT should be relative to the OPTIONS that you have.\n\n                    INPUT: [jamaica, united kingdom, kazakhstan, venezuela, malaysia]\n                    OPTIONS: - outcome\n- case_status\n- gender\n- date\n- occupation\n- location\n- medical_boolean\n- contact_setting\n- symptoms\n- age\n- id\n                    ANSWER:\n\n                    Let’s think step by step:\n                    1. Identify the key features in the INPUT.\n                    2. Try to predict values type like: int, date, string.\n                    3. Compare against each option to see which matches best.\n                    4. Return final answer in one word after ANSWER:\n                    ": {
+        "response": "location",
+        "context": [
+            "jamaica",
+            "united kingdom",
+            "kazakhstan",
+            "venezuela",
+            "malaysia"
+        ],
+        "ground_truth": "location",
+        "correct": true,
+        "original_model_answer": "location",
+        "original_label": "location",
+        "file+idx": "17"
+    },
+    "\n                    INSTRUCTION: Choose exactly ONE label from the OPTIONS list that best describes the INPUT. Note that INPUT should be relative to the OPTIONS that you have.\n\n                    INPUT: [yes, no]\n                    OPTIONS: - outcome\n- case_status\n- gender\n- date\n- occupation\n- location\n- medical_boolean\n- contact_setting\n- symptoms\n- age\n- id\n                    ANSWER:\n\n                    Let’s think step by step:\n                    1. Identify the key features in the INPUT.\n                    2. Try to predict values type like: int, date, string.\n                    3. Compare against each option to see which matches best.\n                    4. Return final answer in one word after ANSWER:\n                    **": {
+        "response": "medical_boolean",
+        "context": [
+            "yes",
+            "no"
+        ],
+        "ground_truth": "medical_boolean",
+        "correct": true,
+        "original_model_answer": "medical_boolean",
+        "original_label": "medical_boolean",
+        "file+idx": "18"
+    },
+    "\n                    INSTRUCTION: Choose exactly ONE label from the OPTIONS list that best describes the INPUT. Note that INPUT should be relative to the OPTIONS that you have.\n\n                    INPUT: [secretary at church, restaurant worker, electrician, church pastor, banker]\n                    OPTIONS: - outcome\n- case_status\n- gender\n- date\n- occupation\n- location\n- medical_boolean\n- contact_setting\n- symptoms\n- age\n- id\n                    ANSWER:\n\n                    Let’s think step by step:\n                    1. Identify the key features in the INPUT.\n                    2. Try to predict values type like: int, date, string.\n                    3. Compare against each option to see which matches best.\n                    4. Return final answer in one word after ANSWER:\n                    ": {
+        "response": "occupation",
+        "context": [
+            "secretary at church",
+            "restaurant worker",
+            "electrician",
+            "church pastor",
+            "banker"
+        ],
+        "ground_truth": "occupation",
+        "correct": true,
+        "original_model_answer": "occupation",
+        "original_label": "occupation",
+        "file+idx": "19"
+    },
+    "\n                    INSTRUCTION: Choose exactly ONE label from the OPTIONS list that best describes the INPUT. Note that INPUT should be relative to the OPTIONS that you have.\n\n                    INPUT: [33.0, 49.0, 35.0, 31.0, 43.0]\n                    OPTIONS: - outcome\n- case_status\n- gender\n- date\n- occupation\n- location\n- medical_boolean\n- contact_setting\n- symptoms\n- age\n- id\n                    ANSWER:\n\n                    Let’s think step by step:\n                    1. Identify the key features in the INPUT.\n                    2. Try to predict values type like: int, date, string.\n                    3. Compare against each option to see which matches best.\n                    4. Return final answer in one word after ANSWER:\n                    ": {
+        "response": "age",
+        "context": [
+            "33.0",
+            "49.0",
+            "35.0",
+            "31.0",
+            "43.0"
+        ],
+        "ground_truth": "age",
+        "correct": true,
+        "original_model_answer": "age",
+        "original_label": "age",
+        "file+idx": "20"
+    },
+    "\n                    INSTRUCTION: Choose exactly ONE label from the OPTIONS list that best describes the INPUT. Note that INPUT should be relative to the OPTIONS that you have.\n\n                    INPUT: [dcd, vivant]\n                    OPTIONS: - outcome\n- case_status\n- gender\n- date\n- occupation\n- location\n- medical_boolean\n- contact_setting\n- symptoms\n- age\n- id\n                    ANSWER:\n\n                    Let’s think step by step:\n                    1. Identify the key features in the INPUT.\n                    2. Try to predict values type like: int, date, string.\n                    3. Compare against each option to see which matches best.\n                    4. Return final answer in one word after ANSWER:\n                    ": {
+        "response": "case_status",
+        "context": [
+            "dcd",
+            "vivant"
+        ],
+        "ground_truth": "outcome",
+        "correct": false,
+        "original_model_answer": "case_status",
+        "original_label": "outcome",
+        "file+idx": "21"
+    },
+    "\n                    INSTRUCTION: Choose exactly ONE label from the OPTIONS list that best describes the INPUT. Note that INPUT should be relative to the OPTIONS that you have.\n\n                    INPUT: [0.0, 1.0]\n                    OPTIONS: - outcome\n- case_status\n- gender\n- date\n- occupation\n- location\n- medical_boolean\n- contact_setting\n- symptoms\n- age\n- id\n                    ANSWER:\n\n                    Let’s think step by step:\n                    1. Identify the key features in the INPUT.\n                    2. Try to predict values type like: int, date, string.\n                    3. Compare against each option to see which matches best.\n                    4. Return final answer in one word after ANSWER:\n                    ": {
+        "response": "outcome",
+        "context": [
+            "0.0",
+            "1.0"
+        ],
+        "ground_truth": "medical_boolean",
+        "correct": false,
+        "original_model_answer": "-outcome",
+        "original_label": "medical_boolean",
+        "file+idx": "22"
+    },
+    "\n                    INSTRUCTION: Choose exactly ONE label from the OPTIONS list that best describes the INPUT. Note that INPUT should be relative to the OPTIONS that you have.\n\n                    INPUT: [chasseur, cultivateur, infirmier, commercant, reco]\n                    OPTIONS: - outcome\n- case_status\n- gender\n- date\n- occupation\n- location\n- medical_boolean\n- contact_setting\n- symptoms\n- age\n- id\n                    ANSWER:\n\n                    Let’s think step by step:\n                    1. Identify the key features in the INPUT.\n                    2. Try to predict values type like: int, date, string.\n                    3. Compare against each option to see which matches best.\n                    4. Return final answer in one word after ANSWER:\n                    ": {
+        "response": "occupation",
+        "context": [
+            "chasseur",
+            "cultivateur",
+            "infirmier",
+            "commercant",
+            "reco"
+        ],
+        "ground_truth": "occupation",
+        "correct": true,
+        "original_model_answer": "occupation",
+        "original_label": "occupation",
+        "file+idx": "23"
+    },
+    "\n                    INSTRUCTION: Choose exactly ONE label from the OPTIONS list that best describes the INPUT. Note that INPUT should be relative to the OPTIONS that you have.\n\n                    INPUT: [belgium, south korea, luxembourg, colombia, moldova]\n                    OPTIONS: - outcome\n- case_status\n- gender\n- date\n- occupation\n- location\n- medical_boolean\n- contact_setting\n- symptoms\n- age\n- id\n                    ANSWER:\n\n                    Let’s think step by step:\n                    1. Identify the key features in the INPUT.\n                    2. Try to predict values type like: int, date, string.\n                    3. Compare against each option to see which matches best.\n                    4. Return final answer in one word after ANSWER:\n                    ": {
+        "response": "location",
+        "context": [
+            "belgium",
+            "south korea",
+            "luxembourg",
+            "colombia",
+            "moldova"
+        ],
+        "ground_truth": "location",
+        "correct": true,
+        "original_model_answer": "location",
+        "original_label": "location",
+        "file+idx": "24"
+    },
+    "\n                    INSTRUCTION: Choose exactly ONE label from the OPTIONS list that best describes the INPUT. Note that INPUT should be relative to the OPTIONS that you have.\n\n                    INPUT: [hepatitis b, high blood pressure,  hypercholesterol,  mia, copd]\n                    OPTIONS: - outcome\n- case_status\n- gender\n- date\n- occupation\n- location\n- medical_boolean\n- contact_setting\n- symptoms\n- age\n- id\n                    ANSWER:\n\n                    Let’s think step by step:\n                    1. Identify the key features in the INPUT.\n                    2. Try to predict values type like: int, date, string.\n                    3. Compare against each option to see which matches best.\n                    4. Return final answer in one word after ANSWER:\n                    ": {
+        "response": "symptoms",
+        "context": [
+            "hepatitis b",
+            "high blood pressure",
+            " hypercholesterol",
+            " mia",
+            "copd"
+        ],
+        "ground_truth": "symptoms",
+        "correct": true,
+        "original_model_answer": "symptoms",
+        "original_label": "symptoms",
+        "file+idx": "25"
+    },
+    "\n                    INSTRUCTION: Choose exactly ONE label from the OPTIONS list that best describes the INPUT. Note that INPUT should be relative to the OPTIONS that you have.\n\n                    INPUT: [sangha-mbar, vakaga]\n                    OPTIONS: - outcome\n- case_status\n- gender\n- date\n- occupation\n- location\n- medical_boolean\n- contact_setting\n- symptoms\n- age\n- id\n                    ANSWER:\n\n                    Let’s think step by step:\n                    1. Identify the key features in the INPUT.\n                    2. Try to predict values type like: int, date, string.\n                    3. Compare against each option to see which matches best.\n                    4. Return final answer in one word after ANSWER:\n                    ": {
+        "response": "case_status",
+        "context": [
+            "sangha-mbar",
+            "vakaga"
+        ],
+        "ground_truth": "location",
+        "correct": false,
+        "original_model_answer": "case_status",
+        "original_label": "location",
+        "file+idx": "26"
+    },
+    "\n                    INSTRUCTION: Choose exactly ONE label from the OPTIONS list that best describes the INPUT. Note that INPUT should be relative to the OPTIONS that you have.\n\n                    INPUT: [positif, ngatif]\n                    OPTIONS: - outcome\n- case_status\n- gender\n- date\n- occupation\n- location\n- medical_boolean\n- contact_setting\n- symptoms\n- age\n- id\n                    ANSWER:\n\n                    Let’s think step by step:\n                    1. Identify the key features in the INPUT.\n                    2. Try to predict values type like: int, date, string.\n                    3. Compare against each option to see which matches best.\n                    4. Return final answer in one word after ANSWER:\n                    ": {
+        "response": "outcome",
+        "context": [
+            "positif",
+            "ngatif"
+        ],
+        "ground_truth": "case_status",
+        "correct": false,
+        "original_model_answer": "outcome",
+        "original_label": "case_status",
+        "file+idx": "27"
+    },
+    "\n                    INSTRUCTION: Choose exactly ONE label from the OPTIONS list that best describes the INPUT. Note that INPUT should be relative to the OPTIONS that you have.\n\n                    INPUT: [no, yes]\n                    OPTIONS: - outcome\n- case_status\n- gender\n- date\n- occupation\n- location\n- medical_boolean\n- contact_setting\n- symptoms\n- age\n- id\n                    ANSWER:\n\n                    Let’s think step by step:\n                    1. Identify the key features in the INPUT.\n                    2. Try to predict values type like: int, date, string.\n                    3. Compare against each option to see which matches best.\n                    4. Return final answer in one word after ANSWER:\n                    ": {
+        "response": "medical_boolean",
+        "context": [
+            "no",
+            "yes"
+        ],
+        "ground_truth": "medical_boolean",
+        "correct": true,
+        "original_model_answer": "medical_boolean",
+        "original_label": "medical_boolean",
+        "file+idx": "28"
+    },
+    "\n                    INSTRUCTION: Choose exactly ONE label from the OPTIONS list that best describes the INPUT. Note that INPUT should be relative to the OPTIONS that you have.\n\n                    INPUT: [oui, non, inc]\n                    OPTIONS: - outcome\n- case_status\n- gender\n- date\n- occupation\n- location\n- medical_boolean\n- contact_setting\n- symptoms\n- age\n- id\n                    ANSWER:\n\n                    Let’s think step by step:\n                    1. Identify the key features in the INPUT.\n                    2. Try to predict values type like: int, date, string.\n                    3. Compare against each option to see which matches best.\n                    4. Return final answer in one word after ANSWER:\n                    ": {
+        "response": "outcome",
+        "context": [
+            "oui",
+            "non",
+            "inc"
+        ],
+        "ground_truth": "medical_boolean",
+        "correct": false,
+        "original_model_answer": "outcome",
+        "original_label": "medical_boolean",
+        "file+idx": "29"
+    },
+    "\n                    INSTRUCTION: Choose exactly ONE label from the OPTIONS list that best describes the INPUT. Note that INPUT should be relative to the OPTIONS that you have.\n\n                    INPUT: [kansas, massachusetts, missouri, new york, florida]\n                    OPTIONS: - outcome\n- case_status\n- gender\n- date\n- occupation\n- location\n- medical_boolean\n- contact_setting\n- symptoms\n- age\n- id\n                    ANSWER:\n\n                    Let’s think step by step:\n                    1. Identify the key features in the INPUT.\n                    2. Try to predict values type like: int, date, string.\n                    3. Compare against each option to see which matches best.\n                    4. Return final answer in one word after ANSWER:\n                    ": {
+        "response": "location",
+        "context": [
+            "kansas",
+            "massachusetts",
+            "missouri",
+            "new york",
+            "florida"
+        ],
+        "ground_truth": "location",
+        "correct": true,
+        "original_model_answer": "location",
+        "original_label": "location",
+        "file+idx": "30"
+    },
+    "\n                    INSTRUCTION: Choose exactly ONE label from the OPTIONS list that best describes the INPUT. Note that INPUT should be relative to the OPTIONS that you have.\n\n                    INPUT: [2021-11-01, 2020-10-21, 2022-01-11, 2022-02-15, 2021-07-01]\n                    OPTIONS: - outcome\n- case_status\n- gender\n- date\n- occupation\n- location\n- medical_boolean\n- contact_setting\n- symptoms\n- age\n- id\n                    ANSWER:\n\n                    Let’s think step by step:\n                    1. Identify the key features in the INPUT.\n                    2. Try to predict values type like: int, date, string.\n                    3. Compare against each option to see which matches best.\n                    4. Return final answer in one word after ANSWER:\n                    ": {
+        "response": "date",
+        "context": [
+            "2021-11-01",
+            "2020-10-21",
+            "2022-01-11",
+            "2022-02-15",
+            "2021-07-01"
+        ],
+        "ground_truth": "date",
+        "correct": true,
+        "original_model_answer": "date",
+        "original_label": "date",
+        "file+idx": "31"
+    },
+    "\n                    INSTRUCTION: Choose exactly ONE label from the OPTIONS list that best describes the INPUT. Note that INPUT should be relative to the OPTIONS that you have.\n\n                    INPUT: [poland, french polynesia, finland, argentina, switzerland]\n                    OPTIONS: - outcome\n- case_status\n- gender\n- date\n- occupation\n- location\n- medical_boolean\n- contact_setting\n- symptoms\n- age\n- id\n                    ANSWER:\n\n                    Let’s think step by step:\n                    1. Identify the key features in the INPUT.\n                    2. Try to predict values type like: int, date, string.\n                    3. Compare against each option to see which matches best.\n                    4. Return final answer in one word after ANSWER:\n                    ": {
+        "response": "location",
+        "context": [
+            "poland",
+            "french polynesia",
+            "finland",
+            "argentina",
+            "switzerland"
+        ],
+        "ground_truth": "location",
+        "correct": true,
+        "original_model_answer": "location",
+        "original_label": "location",
+        "file+idx": "32"
+    },
+    "\n                    INSTRUCTION: Choose exactly ONE label from the OPTIONS list that best describes the INPUT. Note that INPUT should be relative to the OPTIONS that you have.\n\n                    INPUT: [y, n]\n                    OPTIONS: - outcome\n- case_status\n- gender\n- date\n- occupation\n- location\n- medical_boolean\n- contact_setting\n- symptoms\n- age\n- id\n                    ANSWER:\n\n                    Let’s think step by step:\n                    1. Identify the key features in the INPUT.\n                    2. Try to predict values type like: int, date, string.\n                    3. Compare against each option to see which matches best.\n                    4. Return final answer in one word after ANSWER:\n                    ": {
+        "response": "medical_boolean",
+        "context": [
+            "y",
+            "n"
+        ],
+        "ground_truth": "medical_boolean",
+        "correct": true,
+        "original_model_answer": "medical_boolean",
+        "original_label": "medical_boolean",
+        "file+idx": "33"
+    },
+    "\n                    INSTRUCTION: Choose exactly ONE label from the OPTIONS list that best describes the INPUT. Note that INPUT should be relative to the OPTIONS that you have.\n\n                    INPUT: [monaco, georgia, finland, cuba, colombia]\n                    OPTIONS: - outcome\n- case_status\n- gender\n- date\n- occupation\n- location\n- medical_boolean\n- contact_setting\n- symptoms\n- age\n- id\n                    ANSWER:\n\n                    Let’s think step by step:\n                    1. Identify the key features in the INPUT.\n                    2. Try to predict values type like: int, date, string.\n                    3. Compare against each option to see which matches best.\n                    4. Return final answer in one word after ANSWER:\n                    ": {
+        "response": "case_status",
+        "context": [
+            "monaco",
+            "georgia",
+            "finland",
+            "cuba",
+            "colombia"
+        ],
+        "ground_truth": "location",
+        "correct": false,
+        "original_model_answer": "Let's break it down:\n\n1. Key features in the INPUT are country names (monaco, georgia, finland, cuba, colombia).\n2. The values appear to be strings, as they represent names of countries.\n3. Comparing against each option:\n\t* - outcome: doesn't match, as there's no indication of outcomes or results.\n\t* - case_status: doesn't match, as there's no status information provided.\n\t* - gender: doesn't match, as the INPUT contains country names, not individual characteristics like gender.\n\t* - date: doesn't match, as the values don't appear to be dates.\n\t* - occupation: doesn't match, as there's no information about jobs or occupations.\n\t* - location: matches! The INPUT contains a list of countries, which are locations.\n\t* - medical_boolean: doesn't match, as the values aren't binary (true/false) medical indicators.\n\t* - contact_setting: doesn't match, as there's no indication of communication settings.\n\t* - symptoms: doesn't match, as there's no information about health symptoms.\n\t* - age: doesn't match, as the values don't appear to be numerical ages.\n\t* - id: doesn't match, as there's no unique identifier provided.\n4. The final answer is:\nLOCATION",
+        "original_label": "location",
+        "file+idx": "34"
+    },
+    "\n                    INSTRUCTION: Choose exactly ONE label from the OPTIONS list that best describes the INPUT. Note that INPUT should be relative to the OPTIONS that you have.\n\n                    INPUT: [notvacc, doseunk, 2dose]\n                    OPTIONS: - outcome\n- case_status\n- gender\n- date\n- occupation\n- location\n- medical_boolean\n- contact_setting\n- symptoms\n- age\n- id\n                    ANSWER:\n\n                    Let’s think step by step:\n                    1. Identify the key features in the INPUT.\n                    2. Try to predict values type like: int, date, string.\n                    3. Compare against each option to see which matches best.\n                    4. Return final answer in one word after ANSWER:\n                    ": {
+        "response": "medical_boolean",
+        "context": [
+            "notvacc",
+            "doseunk",
+            "2dose"
+        ],
+        "ground_truth": "medical_boolean",
+        "correct": true,
+        "original_model_answer": "medical",
+        "original_label": "medical_boolean",
+        "file+idx": "35"
+    },
+    "\n                    INSTRUCTION: Choose exactly ONE label from the OPTIONS list that best describes the INPUT. Note that INPUT should be relative to the OPTIONS that you have.\n\n                    INPUT: [male, female]\n                    OPTIONS: - outcome\n- case_status\n- gender\n- date\n- occupation\n- location\n- medical_boolean\n- contact_setting\n- symptoms\n- age\n- id\n                    ANSWER:\n\n                    Let’s think step by step:\n                    1. Identify the key features in the INPUT.\n                    2. Try to predict values type like: int, date, string.\n                    3. Compare against each option to see which matches best.\n                    4. Return final answer in one word after ANSWER:\n                    ": {
+        "response": "gender",
+        "context": [
+            "male",
+            "female"
+        ],
+        "ground_truth": "gender",
+        "correct": true,
+        "original_model_answer": "gender",
+        "original_label": "gender",
+        "file+idx": "36"
+    },
+    "\n                    INSTRUCTION: Choose exactly ONE label from the OPTIONS list that best describes the INPUT. Note that INPUT should be relative to the OPTIONS that you have.\n\n                    INPUT: [f, m]\n                    OPTIONS: - outcome\n- case_status\n- gender\n- date\n- occupation\n- location\n- medical_boolean\n- contact_setting\n- symptoms\n- age\n- id\n                    ANSWER:\n\n                    Let’s think step by step:\n                    1. Identify the key features in the INPUT.\n                    2. Try to predict values type like: int, date, string.\n                    3. Compare against each option to see which matches best.\n                    4. Return final answer in one word after ANSWER:\n                    ": {
+        "response": "case_status",
+        "context": [
+            "f",
+            "m"
+        ],
+        "ground_truth": "gender",
+        "correct": false,
+        "original_model_answer": "Let's go through the steps:\n\n1. The key feature in the INPUT is a list of two elements, [f, m].\n2. The values appear to be strings: \"f\" and \"m\".\n3. Comparing against each option:\n\t* outcome: doesn't match\n\t* case_status: doesn't match\n\t* gender: matches (commonly represented as 'f' for female and 'm' for male)\n\t* date: doesn't match (no date format is visible)\n\t* occupation: doesn't match\n\t* location: doesn't match\n\t* medical_boolean: doesn't match\n\t* contact_setting: doesn't match\n\t* symptoms: doesn't match\n\t* age: doesn't match (assuming a numeric value, not strings)\n\t* id: doesn't match\n4. The final answer is:\n\ngender",
+        "original_label": "gender",
+        "file+idx": "37"
+    },
+    "\n                    INSTRUCTION: Choose exactly ONE label from the OPTIONS list that best describes the INPUT. Note that INPUT should be relative to the OPTIONS that you have.\n\n                    INPUT: [oui, non, inconnu]\n                    OPTIONS: - outcome\n- case_status\n- gender\n- date\n- occupation\n- location\n- medical_boolean\n- contact_setting\n- symptoms\n- age\n- id\n                    ANSWER:\n\n                    Let’s think step by step:\n                    1. Identify the key features in the INPUT.\n                    2. Try to predict values type like: int, date, string.\n                    3. Compare against each option to see which matches best.\n                    4. Return final answer in one word after ANSWER:\n                    ": {
+        "response": "medical_boolean",
+        "context": [
+            "oui",
+            "non",
+            "inconnu"
+        ],
+        "ground_truth": "medical_boolean",
+        "correct": true,
+        "original_model_answer": "medical_boolean",
+        "original_label": "medical_boolean",
+        "file+idx": "38"
+    },
+    "\n                    INSTRUCTION: Choose exactly ONE label from the OPTIONS list that best describes the INPUT. Note that INPUT should be relative to the OPTIONS that you have.\n\n                    INPUT: [2020-07-11, 2020-07-25, 2020-07-26, 2020-07-27, 2020-07-17]\n                    OPTIONS: - outcome\n- case_status\n- gender\n- date\n- occupation\n- location\n- medical_boolean\n- contact_setting\n- symptoms\n- age\n- id\n                    ANSWER:\n\n                    Let’s think step by step:\n                    1. Identify the key features in the INPUT.\n                    2. Try to predict values type like: int, date, string.\n                    3. Compare against each option to see which matches best.\n                    4. Return final answer in one word after ANSWER:\n                    ": {
+        "response": "date",
+        "context": [
+            "2020-07-11",
+            "2020-07-25",
+            "2020-07-26",
+            "2020-07-27",
+            "2020-07-17"
+        ],
+        "ground_truth": "date",
+        "correct": true,
+        "original_model_answer": "date",
+        "original_label": "date",
+        "file+idx": "39"
+    },
+    "\n                    INSTRUCTION: Choose exactly ONE label from the OPTIONS list that best describes the INPUT. Note that INPUT should be relative to the OPTIONS that you have.\n\n                    INPUT: [inc, non]\n                    OPTIONS: - outcome\n- case_status\n- gender\n- date\n- occupation\n- location\n- medical_boolean\n- contact_setting\n- symptoms\n- age\n- id\n                    ANSWER:\n\n                    Let’s think step by step:\n                    1. Identify the key features in the INPUT.\n                    2. Try to predict values type like: int, date, string.\n                    3. Compare against each option to see which matches best.\n                    4. Return final answer in one word after ANSWER:\n                    ": {
+        "response": "case_status",
+        "context": [
+            "inc",
+            "non"
+        ],
+        "ground_truth": "medical_boolean",
+        "correct": false,
+        "original_model_answer": "case_status",
+        "original_label": "medical_boolean",
+        "file+idx": "40"
+    },
+    "\n                    INSTRUCTION: Choose exactly ONE label from the OPTIONS list that best describes the INPUT. Note that INPUT should be relative to the OPTIONS that you have.\n\n                    INPUT: [no]\n                    OPTIONS: - outcome\n- case_status\n- gender\n- date\n- occupation\n- location\n- medical_boolean\n- contact_setting\n- symptoms\n- age\n- id\n                    ANSWER:\n\n                    Let’s think step by step:\n                    1. Identify the key features in the INPUT.\n                    2. Try to predict values type like: int, date, string.\n                    3. Compare against each option to see which matches best.\n                    4. Return final answer in one word after ANSWER:\n                    **": {
+        "response": "medical_boolean",
+        "context": [
+            "no"
+        ],
+        "ground_truth": "medical_boolean",
+        "correct": true,
+        "original_model_answer": "medical_boolean",
+        "original_label": "medical_boolean",
+        "file+idx": "41"
+    },
+    "\n                    INSTRUCTION: Choose exactly ONE label from the OPTIONS list that best describes the INPUT. Note that INPUT should be relative to the OPTIONS that you have.\n\n                    INPUT: [0.0, 1.0]\n                    OPTIONS: - outcome\n- case_status\n- gender\n- date\n- occupation\n- location\n- medical_boolean\n- contact_setting\n- symptoms\n- age\n- id\n                    ANSWER:\n\n                    Let’s think step by step:\n                    1. Identify the key features in the INPUT.\n                    2. Try to predict values type like: int, date, string.\n                    3. Compare against each option to see which matches best.\n                    4. Return final answer in one word after ANSWER:\n                    *": {
+        "response": "outcome",
+        "context": [
+            "0.0",
+            "1.0"
+        ],
+        "ground_truth": "medical_boolean",
+        "correct": false,
+        "original_model_answer": "outcome\n*",
+        "original_label": "medical_boolean",
+        "file+idx": "42"
+    },
+    "\n                    INSTRUCTION: Choose exactly ONE label from the OPTIONS list that best describes the INPUT. Note that INPUT should be relative to the OPTIONS that you have.\n\n                    INPUT: [2020-01-28, 2020-01-16, 2020-01-31, 2020-01-20, 2020-02-14]\n                    OPTIONS: - outcome\n- case_status\n- gender\n- date\n- occupation\n- location\n- medical_boolean\n- contact_setting\n- symptoms\n- age\n- id\n                    ANSWER:\n\n                    Let’s think step by step:\n                    1. Identify the key features in the INPUT.\n                    2. Try to predict values type like: int, date, string.\n                    3. Compare against each option to see which matches best.\n                    4. Return final answer in one word after ANSWER:\n                    ": {
+        "response": "case_status",
+        "context": [
+            "2020-01-28",
+            "2020-01-16",
+            "2020-01-31",
+            "2020-01-20",
+            "2020-02-14"
+        ],
+        "ground_truth": "date",
+        "correct": false,
+        "original_model_answer": "Let's analyze the input step by step:\n\n1. The key features of the input are a list of dates (2020-01-28, 2020-01-16, etc.) separated by commas.\n2. Predicting the value type: all values in the input appear to be in the format \"YYYY-MM-DD\", which is typically used for date representation.\n\nComparing against each option:\n\n* - outcome: no clear indication that these are outcomes\n* - case_status: similarly, no clear status information\n* - gender, occupation, location, medical_boolean, contact_setting, symptoms, age, id: none of these options match the format or content of the input\n* - date: this is the only option that matches the format and content of the input (i.e., dates)\n* - case_status: already ruled out in step 1\n\nConsidering all this, the best label for the input is:\n\ndate",
+        "original_label": "date",
+        "file+idx": "43"
+    },
+    "\n                    INSTRUCTION: Choose exactly ONE label from the OPTIONS list that best describes the INPUT. Note that INPUT should be relative to the OPTIONS that you have.\n\n                    INPUT: [2020-05-31]\n                    OPTIONS: - outcome\n- case_status\n- gender\n- date\n- occupation\n- location\n- medical_boolean\n- contact_setting\n- symptoms\n- age\n- id\n                    ANSWER:\n\n                    Let’s think step by step:\n                    1. Identify the key features in the INPUT.\n                    2. Try to predict values type like: int, date, string.\n                    3. Compare against each option to see which matches best.\n                    4. Return final answer in one word after ANSWER:\n                    ": {
+        "response": "date",
+        "context": [
+            "2020-05-31"
+        ],
+        "ground_truth": "date",
+        "correct": true,
+        "original_model_answer": "date",
+        "original_label": "date",
+        "file+idx": "44"
+    },
+    "\n                    INSTRUCTION: Choose exactly ONE label from the OPTIONS list that best describes the INPUT. Note that INPUT should be relative to the OPTIONS that you have.\n\n                    INPUT: [2020-05-31, 2020-06-02, 2020-06-30, 2020-06-06, 2020-06-29]\n                    OPTIONS: - outcome\n- case_status\n- gender\n- date\n- occupation\n- location\n- medical_boolean\n- contact_setting\n- symptoms\n- age\n- id\n                    ANSWER:\n\n                    Let’s think step by step:\n                    1. Identify the key features in the INPUT.\n                    2. Try to predict values type like: int, date, string.\n                    3. Compare against each option to see which matches best.\n                    4. Return final answer in one word after ANSWER:\n                    ": {
+        "response": "date",
+        "context": [
+            "2020-05-31",
+            "2020-06-02",
+            "2020-06-30",
+            "2020-06-06",
+            "2020-06-29"
+        ],
+        "ground_truth": "date",
+        "correct": true,
+        "original_model_answer": "date",
+        "original_label": "date",
+        "file+idx": "45"
+    },
+    "\n                    INSTRUCTION: Choose exactly ONE label from the OPTIONS list that best describes the INPUT. Note that INPUT should be relative to the OPTIONS that you have.\n\n                    INPUT: [inconnu, non, oui]\n                    OPTIONS: - outcome\n- case_status\n- gender\n- date\n- occupation\n- location\n- medical_boolean\n- contact_setting\n- symptoms\n- age\n- id\n                    ANSWER:\n\n                    Let’s think step by step:\n                    1. Identify the key features in the INPUT.\n                    2. Try to predict values type like: int, date, string.\n                    3. Compare against each option to see which matches best.\n                    4. Return final answer in one word after ANSWER:\n                    ": {
+        "response": "case_status",
+        "context": [
+            "inconnu",
+            "non",
+            "oui"
+        ],
+        "ground_truth": "medical_boolean",
+        "correct": false,
+        "original_model_answer": "Let's think step by step:\n\n1. The INPUT contains three words: \"inconnu\", \"non\", and \"oui\". These are all French words that can be translated to \"unknown\", \"no\", and \"yes\" respectively.\n2. Based on the translations, we can predict that these values are likely to be of type string or boolean (yes/no).\n3. Now let's compare against each option:\n\t* outcome: This could potentially match, as it sounds like a result or conclusion, which could be represented by yes/no values.\n\t* case_status: This also seems plausible, as it suggests a status related to a case, which could be unknown, no, or yes.\n\t* gender, occupation, location, and symptoms don't seem directly related to the input.\n\t* date: Unlikely, as the input doesn't contain any date-related information.\n\t* medical_boolean: This is a specific option that suggests a boolean value related to medical information. While plausible, it's not as clear a fit as case_status or outcome.\n\t* contact_setting and age are also unlikely matches.\n4. Based on this comparison, I would say the INPUT best fits the label \"case_status\".",
+        "original_label": "medical_boolean",
+        "file+idx": "46"
+    },
+    "\n                    INSTRUCTION: Choose exactly ONE label from the OPTIONS list that best describes the INPUT. Note that INPUT should be relative to the OPTIONS that you have.\n\n                    INPUT: [2022-04-25, 2022-04-17, 2022-03-16, 2022-05-08, 2022-05-24]\n                    OPTIONS: - outcome\n- case_status\n- gender\n- date\n- occupation\n- location\n- medical_boolean\n- contact_setting\n- symptoms\n- age\n- id\n                    ANSWER:\n\n                    Let’s think step by step:\n                    1. Identify the key features in the INPUT.\n                    2. Try to predict values type like: int, date, string.\n                    3. Compare against each option to see which matches best.\n                    4. Return final answer in one word after ANSWER:\n                    ": {
+        "response": "date",
+        "context": [
+            "2022-04-25",
+            "2022-04-17",
+            "2022-03-16",
+            "2022-05-08",
+            "2022-05-24"
+        ],
+        "ground_truth": "date",
+        "correct": true,
+        "original_model_answer": "date",
+        "original_label": "date",
+        "file+idx": "47"
+    },
+    "\n                    INSTRUCTION: Choose exactly ONE label from the OPTIONS list that best describes the INPUT. Note that INPUT should be relative to the OPTIONS that you have.\n\n                    INPUT: [2018-11-08, 2018-11-21, 2018-10-18, 2018-09-24, 2018-10-25]\n                    OPTIONS: - outcome\n- case_status\n- gender\n- date\n- occupation\n- location\n- medical_boolean\n- contact_setting\n- symptoms\n- age\n- id\n                    ANSWER:\n\n                    Let’s think step by step:\n                    1. Identify the key features in the INPUT.\n                    2. Try to predict values type like: int, date, string.\n                    3. Compare against each option to see which matches best.\n                    4. Return final answer in one word after ANSWER:\n                    ": {
+        "response": "date",
+        "context": [
+            "2018-11-08",
+            "2018-11-21",
+            "2018-10-18",
+            "2018-09-24",
+            "2018-10-25"
+        ],
+        "ground_truth": "date",
+        "correct": true,
+        "original_model_answer": "date",
+        "original_label": "date",
+        "file+idx": "48"
+    },
+    "\n                    INSTRUCTION: Choose exactly ONE label from the OPTIONS list that best describes the INPUT. Note that INPUT should be relative to the OPTIONS that you have.\n\n                    INPUT: [2021-12-07, 2021-09-14, 2022-02-27, 2022-01-04, 2022-02-11]\n                    OPTIONS: - outcome\n- case_status\n- gender\n- date\n- occupation\n- location\n- medical_boolean\n- contact_setting\n- symptoms\n- age\n- id\n                    ANSWER:\n\n                    Let’s think step by step:\n                    1. Identify the key features in the INPUT.\n                    2. Try to predict values type like: int, date, string.\n                    3. Compare against each option to see which matches best.\n                    4. Return final answer in one word after ANSWER:\n                    ": {
+        "response": "date",
+        "context": [
+            "2021-12-07",
+            "2021-09-14",
+            "2022-02-27",
+            "2022-01-04",
+            "2022-02-11"
+        ],
+        "ground_truth": "date",
+        "correct": true,
+        "original_model_answer": "date",
+        "original_label": "date",
+        "file+idx": "49"
+    },
+    "\n                    INSTRUCTION: Choose exactly ONE label from the OPTIONS list that best describes the INPUT. Note that INPUT should be relative to the OPTIONS that you have.\n\n                    INPUT: [yes, no]\n                    OPTIONS: - outcome\n- case_status\n- gender\n- date\n- occupation\n- location\n- medical_boolean\n- contact_setting\n- symptoms\n- age\n- id\n                    ANSWER:\n\n                    Let’s think step by step:\n                    1. Identify the key features in the INPUT.\n                    2. Try to predict values type like: int, date, string.\n                    3. Compare against each option to see which matches best.\n                    4. Return final answer in one word after ANSWER:\n                    ***": {
+        "response": "medical_boolean",
+        "context": [
+            "yes",
+            "no"
+        ],
+        "ground_truth": "medical_boolean",
+        "correct": true,
+        "original_model_answer": "medical_boolean",
+        "original_label": "medical_boolean",
+        "file+idx": "50"
+    },
+    "\n                    INSTRUCTION: Choose exactly ONE label from the OPTIONS list that best describes the INPUT. Note that INPUT should be relative to the OPTIONS that you have.\n\n                    INPUT: [confirme, probable]\n                    OPTIONS: - outcome\n- case_status\n- gender\n- date\n- occupation\n- location\n- medical_boolean\n- contact_setting\n- symptoms\n- age\n- id\n                    ANSWER:\n\n                    Let’s think step by step:\n                    1. Identify the key features in the INPUT.\n                    2. Try to predict values type like: int, date, string.\n                    3. Compare against each option to see which matches best.\n                    4. Return final answer in one word after ANSWER:\n                    ": {
+        "response": "outcome",
+        "context": [
+            "confirme",
+            "probable"
+        ],
+        "ground_truth": "case_status",
+        "correct": false,
+        "original_model_answer": "outcome",
+        "original_label": "case_status",
+        "file+idx": "51"
+    },
+    "\n                    INSTRUCTION: Choose exactly ONE label from the OPTIONS list that best describes the INPUT. Note that INPUT should be relative to the OPTIONS that you have.\n\n                    INPUT: [58.0, 30.0, 37.0, 29.0, 38.0]\n                    OPTIONS: - outcome\n- case_status\n- gender\n- date\n- occupation\n- location\n- medical_boolean\n- contact_setting\n- symptoms\n- age\n- id\n                    ANSWER:\n\n                    Let’s think step by step:\n                    1. Identify the key features in the INPUT.\n                    2. Try to predict values type like: int, date, string.\n                    3. Compare against each option to see which matches best.\n                    4. Return final answer in one word after ANSWER:\n                    ": {
+        "response": "age",
+        "context": [
+            "58.0",
+            "30.0",
+            "37.0",
+            "29.0",
+            "38.0"
+        ],
+        "ground_truth": "age",
+        "correct": true,
+        "original_model_answer": "age",
+        "original_label": "age",
+        "file+idx": "52"
+    },
+    "\n                    INSTRUCTION: Choose exactly ONE label from the OPTIONS list that best describes the INPUT. Note that INPUT should be relative to the OPTIONS that you have.\n\n                    INPUT: [2020-06-20, 2020-07-04, 2020-06-11, 2020-06-29, 2020-06-06]\n                    OPTIONS: - outcome\n- case_status\n- gender\n- date\n- occupation\n- location\n- medical_boolean\n- contact_setting\n- symptoms\n- age\n- id\n                    ANSWER:\n\n                    Let’s think step by step:\n                    1. Identify the key features in the INPUT.\n                    2. Try to predict values type like: int, date, string.\n                    3. Compare against each option to see which matches best.\n                    4. Return final answer in one word after ANSWER:\n                    ": {
+        "response": "date",
+        "context": [
+            "2020-06-20",
+            "2020-07-04",
+            "2020-06-11",
+            "2020-06-29",
+            "2020-06-06"
+        ],
+        "ground_truth": "date",
+        "correct": true,
+        "original_model_answer": "date",
+        "original_label": "date",
+        "file+idx": "53"
+    },
+    "\n                    INSTRUCTION: Choose exactly ONE label from the OPTIONS list that best describes the INPUT. Note that INPUT should be relative to the OPTIONS that you have.\n\n                    INPUT: [e0t0q90drq00, eq5ct8d0r400, c31q0d000tre, 0q5c100rdt2e, ???]\n                    OPTIONS: - outcome\n- case_status\n- gender\n- date\n- occupation\n- location\n- medical_boolean\n- contact_setting\n- symptoms\n- age\n- id\n                    ANSWER:\n\n                    Let’s think step by step:\n                    1. Identify the key features in the INPUT.\n                    2. Try to predict values type like: int, date, string.\n                    3. Compare against each option to see which matches best.\n                    4. Return final answer in one word after ANSWER:\n                    ": {
+        "response": "id",
+        "context": [
+            "e0t0q90drq00",
+            "eq5ct8d0r400",
+            "c31q0d000tre",
+            "0q5c100rdt2e",
+            "???"
+        ],
+        "ground_truth": "id",
+        "correct": true,
+        "original_model_answer": "id",
+        "original_label": "id",
+        "file+idx": "54"
+    },
+    "\n                    INSTRUCTION: Choose exactly ONE label from the OPTIONS list that best describes the INPUT. Note that INPUT should be relative to the OPTIONS that you have.\n\n                    INPUT: [2022-05-25, 2022-06-01, 2022-05-31, 2022-05-27, 2022-05-26]\n                    OPTIONS: - outcome\n- case_status\n- gender\n- date\n- occupation\n- location\n- medical_boolean\n- contact_setting\n- symptoms\n- age\n- id\n                    ANSWER:\n\n                    Let’s think step by step:\n                    1. Identify the key features in the INPUT.\n                    2. Try to predict values type like: int, date, string.\n                    3. Compare against each option to see which matches best.\n                    4. Return final answer in one word after ANSWER:\n                    ": {
+        "response": "case_status",
+        "context": [
+            "2022-05-25",
+            "2022-06-01",
+            "2022-05-31",
+            "2022-05-27",
+            "2022-05-26"
+        ],
+        "ground_truth": "date",
+        "correct": false,
+        "original_model_answer": "Let's think step by step:\n\n1. The INPUT contains a list of dates.\n2. Predicting the values type: date (since they are in YYYY-MM-DD format).\n3. Comparing against each option to see which matches best:\n\t* - outcome, - case_status, - symptoms: These seem to be related to medical data, but there's no clear indication that these values correspond to any of the dates.\n\t* - gender, - occupation, - location: These are categorical variables and don't match the date format.\n\t* - medical_boolean: This suggests a binary value (true/false), which doesn't fit with the list of dates.\n\t* - contact_setting: This is also unlikely since it's not clear how this would relate to the dates.\n\t* - age, - id: These are numerical values and don't match the date format.\n4. The best matching option is:\n   **date**",
+        "original_label": "date",
+        "file+idx": "55"
+    },
+    "\n                    INSTRUCTION: Choose exactly ONE label from the OPTIONS list that best describes the INPUT. Note that INPUT should be relative to the OPTIONS that you have.\n\n                    INPUT: [boguila, mbaiki, kabo, boganda, berberati]\n                    OPTIONS: - outcome\n- case_status\n- gender\n- date\n- occupation\n- location\n- medical_boolean\n- contact_setting\n- symptoms\n- age\n- id\n                    ANSWER:\n\n                    Let’s think step by step:\n                    1. Identify the key features in the INPUT.\n                    2. Try to predict values type like: int, date, string.\n                    3. Compare against each option to see which matches best.\n                    4. Return final answer in one word after ANSWER:\n                    ": {
+        "response": "location",
+        "context": [
+            "boguila",
+            "mbaiki",
+            "kabo",
+            "boganda",
+            "berberati"
+        ],
+        "ground_truth": "location",
+        "correct": true,
+        "original_model_answer": "location",
+        "original_label": "location",
+        "file+idx": "56"
+    },
+    "\n                    INSTRUCTION: Choose exactly ONE label from the OPTIONS list that best describes the INPUT. Note that INPUT should be relative to the OPTIONS that you have.\n\n                    INPUT: [probable, confirme]\n                    OPTIONS: - outcome\n- case_status\n- gender\n- date\n- occupation\n- location\n- medical_boolean\n- contact_setting\n- symptoms\n- age\n- id\n                    ANSWER:\n\n                    Let’s think step by step:\n                    1. Identify the key features in the INPUT.\n                    2. Try to predict values type like: int, date, string.\n                    3. Compare against each option to see which matches best.\n                    4. Return final answer in one word after ANSWER:\n                    ": {
+        "response": "outcome",
+        "context": [
+            "probable",
+            "confirme"
+        ],
+        "ground_truth": "case_status",
+        "correct": false,
+        "original_model_answer": "outcome",
+        "original_label": "case_status",
+        "file+idx": "57"
+    },
+    "\n                    INSTRUCTION: Choose exactly ONE label from the OPTIONS list that best describes the INPUT. Note that INPUT should be relative to the OPTIONS that you have.\n\n                    INPUT: [yes, no]\n                    OPTIONS: - outcome\n- case_status\n- gender\n- date\n- occupation\n- location\n- medical_boolean\n- contact_setting\n- symptoms\n- age\n- id\n                    ANSWER:\n\n                    Let’s think step by step:\n                    1. Identify the key features in the INPUT.\n                    2. Try to predict values type like: int, date, string.\n                    3. Compare against each option to see which matches best.\n                    4. Return final answer in one word after ANSWER:\n                    ****": {
+        "response": "medical_boolean",
+        "context": [
+            "yes",
+            "no"
+        ],
+        "ground_truth": "medical_boolean",
+        "correct": true,
+        "original_model_answer": "medical_boolean",
+        "original_label": "medical_boolean",
+        "file+idx": "58"
+    },
+    "\n                    INSTRUCTION: Choose exactly ONE label from the OPTIONS list that best describes the INPUT. Note that INPUT should be relative to the OPTIONS that you have.\n\n                    INPUT: [2020-06-26, 2020-07-01, 2020-06-12, 2020-06-04, 2020-06-21]\n                    OPTIONS: - outcome\n- case_status\n- gender\n- date\n- occupation\n- location\n- medical_boolean\n- contact_setting\n- symptoms\n- age\n- id\n                    ANSWER:\n\n                    Let’s think step by step:\n                    1. Identify the key features in the INPUT.\n                    2. Try to predict values type like: int, date, string.\n                    3. Compare against each option to see which matches best.\n                    4. Return final answer in one word after ANSWER:\n                    ": {
+        "response": "date",
+        "context": [
+            "2020-06-26",
+            "2020-07-01",
+            "2020-06-12",
+            "2020-06-04",
+            "2020-06-21"
+        ],
+        "ground_truth": "date",
+        "correct": true,
+        "original_model_answer": "date",
+        "original_label": "date",
+        "file+idx": "59"
+    },
+    "\n                    INSTRUCTION: Choose exactly ONE label from the OPTIONS list that best describes the INPUT. Note that INPUT should be relative to the OPTIONS that you have.\n\n                    INPUT: [no]\n                    OPTIONS: - outcome\n- case_status\n- gender\n- date\n- occupation\n- location\n- medical_boolean\n- contact_setting\n- symptoms\n- age\n- id\n                    ANSWER:\n\n                    Let’s think step by step:\n                    1. Identify the key features in the INPUT.\n                    2. Try to predict values type like: int, date, string.\n                    3. Compare against each option to see which matches best.\n                    4. Return final answer in one word after ANSWER:\n                    ***": {
+        "response": "medical_boolean",
+        "context": [
+            "no"
+        ],
+        "ground_truth": "medical_boolean",
+        "correct": true,
+        "original_model_answer": "medical_boolean",
+        "original_label": "medical_boolean",
+        "file+idx": "60"
+    },
+    "\n                    INSTRUCTION: Choose exactly ONE label from the OPTIONS list that best describes the INPUT. Note that INPUT should be relative to the OPTIONS that you have.\n\n                    INPUT: [y, n]\n                    OPTIONS: - outcome\n- case_status\n- gender\n- date\n- occupation\n- location\n- medical_boolean\n- contact_setting\n- symptoms\n- age\n- id\n                    ANSWER:\n\n                    Let’s think step by step:\n                    1. Identify the key features in the INPUT.\n                    2. Try to predict values type like: int, date, string.\n                    3. Compare against each option to see which matches best.\n                    4. Return final answer in one word after ANSWER:\n                    *": {
+        "response": "outcome",
+        "context": [
+            "y",
+            "n"
+        ],
+        "ground_truth": "medical_boolean",
+        "correct": false,
+        "original_model_answer": "outcome",
+        "original_label": "medical_boolean",
+        "file+idx": "61"
+    },
+    "\n                    INSTRUCTION: Choose exactly ONE label from the OPTIONS list that best describes the INPUT. Note that INPUT should be relative to the OPTIONS that you have.\n\n                    INPUT: [bouca, damara, bossangoa, ndl, ippy]\n                    OPTIONS: - outcome\n- case_status\n- gender\n- date\n- occupation\n- location\n- medical_boolean\n- contact_setting\n- symptoms\n- age\n- id\n                    ANSWER:\n\n                    Let’s think step by step:\n                    1. Identify the key features in the INPUT.\n                    2. Try to predict values type like: int, date, string.\n                    3. Compare against each option to see which matches best.\n                    4. Return final answer in one word after ANSWER:\n                    ": {
+        "response": "location",
+        "context": [
+            "bouca",
+            "damara",
+            "bossangoa",
+            "ndl",
+            "ippy"
+        ],
+        "ground_truth": "location",
+        "correct": true,
+        "original_model_answer": "location",
+        "original_label": "location",
+        "file+idx": "62"
+    },
+    "\n                    INSTRUCTION: Choose exactly ONE label from the OPTIONS list that best describes the INPUT. Note that INPUT should be relative to the OPTIONS that you have.\n\n                    INPUT: [invalide, valide]\n                    OPTIONS: - outcome\n- case_status\n- gender\n- date\n- occupation\n- location\n- medical_boolean\n- contact_setting\n- symptoms\n- age\n- id\n                    ANSWER:\n\n                    Let’s think step by step:\n                    1. Identify the key features in the INPUT.\n                    2. Try to predict values type like: int, date, string.\n                    3. Compare against each option to see which matches best.\n                    4. Return final answer in one word after ANSWER:\n                    ": {
+        "response": "outcome",
+        "context": [
+            "invalide",
+            "valide"
+        ],
+        "ground_truth": "outcome",
+        "correct": true,
+        "original_model_answer": "outcome",
+        "original_label": "outcome",
+        "file+idx": "63"
+    },
+    "\n                    INSTRUCTION: Choose exactly ONE label from the OPTIONS list that best describes the INPUT. Note that INPUT should be relative to the OPTIONS that you have.\n\n                    INPUT: [2020-05-26, 2020-07-01]\n                    OPTIONS: - outcome\n- case_status\n- gender\n- date\n- occupation\n- location\n- medical_boolean\n- contact_setting\n- symptoms\n- age\n- id\n                    ANSWER:\n\n                    Let’s think step by step:\n                    1. Identify the key features in the INPUT.\n                    2. Try to predict values type like: int, date, string.\n                    3. Compare against each option to see which matches best.\n                    4. Return final answer in one word after ANSWER:\n                    ": {
+        "response": "date",
+        "context": [
+            "2020-05-26",
+            "2020-07-01"
+        ],
+        "ground_truth": "date",
+        "correct": true,
+        "original_model_answer": "date",
+        "original_label": "date",
+        "file+idx": "64"
+    },
+    "\n                    INSTRUCTION: Choose exactly ONE label from the OPTIONS list that best describes the INPUT. Note that INPUT should be relative to the OPTIONS that you have.\n\n                    INPUT: [benv-21955-ben-337, benv-22716-ben-965, benv-22146-ben-503, benv-21955-ben-340, benv-22146-ben-502]\n                    OPTIONS: - outcome\n- case_status\n- gender\n- date\n- occupation\n- location\n- medical_boolean\n- contact_setting\n- symptoms\n- age\n- id\n                    ANSWER:\n\n                    Let’s think step by step:\n                    1. Identify the key features in the INPUT.\n                    2. Try to predict values type like: int, date, string.\n                    3. Compare against each option to see which matches best.\n                    4. Return final answer in one word after ANSWER:\n                    ": {
+        "response": "case_status",
+        "context": [
+            "benv-21955-ben-337",
+            "benv-22716-ben-965",
+            "benv-22146-ben-503",
+            "benv-21955-ben-340",
+            "benv-22146-ben-502"
+        ],
+        "ground_truth": "id",
+        "correct": false,
+        "original_model_answer": "Let's go through the steps:\n\n1. The key features in the INPUT are a list of strings that appear to be IDs or codes, with a consistent format: \"benv-\" followed by a number and then another code (e.g., \"benv-21955-ben-337\").\n2. Based on this pattern, I predict that these values are likely identifiers or codes rather than dates, ages, genders, etc.\n3. Comparing against each option:\n\t* outcome: doesn't seem to match\n\t* case_status: might be related, but it's not clear from the IDs alone\n\t* gender: unlikely, as there's no indication of gender in these codes\n\t* date: possible, but the format doesn't look like a typical date\n\t* occupation: unlikely, as this would typically be a string or word, not an ID/code\n\t* location: might be related, but it's not clear from the IDs alone\n\t* medical_boolean: unlikely, as these codes don't seem to represent boolean values (true/false)\n\t* contact_setting: possible, but this is a vague term and not clearly represented in these codes\n\t* symptoms: unlikely, as these would typically be words or phrases, not IDs/codes\n\t* age: unlikely, as ages are usually numerical values\n\t* id: most likely, as these appear to be unique identifiers or codes\n4. Based on the above analysis, I return:\n\nid",
+        "original_label": "id",
+        "file+idx": "65"
+    },
+    "\n                    INSTRUCTION: Choose exactly ONE label from the OPTIONS list that best describes the INPUT. Note that INPUT should be relative to the OPTIONS that you have.\n\n                    INPUT: [m, f]\n                    OPTIONS: - outcome\n- case_status\n- gender\n- date\n- occupation\n- location\n- medical_boolean\n- contact_setting\n- symptoms\n- age\n- id\n                    ANSWER:\n\n                    Let’s think step by step:\n                    1. Identify the key features in the INPUT.\n                    2. Try to predict values type like: int, date, string.\n                    3. Compare against each option to see which matches best.\n                    4. Return final answer in one word after ANSWER:\n                    ": {
+        "response": "gender",
+        "context": [
+            "m",
+            "f"
+        ],
+        "ground_truth": "gender",
+        "correct": true,
+        "original_model_answer": "gender",
+        "original_label": "gender",
+        "file+idx": "66"
+    },
+    "\n                    INSTRUCTION: Choose exactly ONE label from the OPTIONS list that best describes the INPUT. Note that INPUT should be relative to the OPTIONS that you have.\n\n                    INPUT: [00_r400bp, 0_0p3r00b, 0p11_0br0, _2pr0000b, b8rp0000_]\n                    OPTIONS: - outcome\n- case_status\n- gender\n- date\n- occupation\n- location\n- medical_boolean\n- contact_setting\n- symptoms\n- age\n- id\n                    ANSWER:\n\n                    Let’s think step by step:\n                    1. Identify the key features in the INPUT.\n                    2. Try to predict values type like: int, date, string.\n                    3. Compare against each option to see which matches best.\n                    4. Return final answer in one word after ANSWER:\n                    ": {
+        "response": "id",
+        "context": [
+            "00_r400bp",
+            "0_0p3r00b",
+            "0p11_0br0",
+            "_2pr0000b",
+            "b8rp0000_"
+        ],
+        "ground_truth": "id",
+        "correct": true,
+        "original_model_answer": "id",
+        "original_label": "id",
+        "file+idx": "67"
+    },
+    "\n                    INSTRUCTION: Choose exactly ONE label from the OPTIONS list that best describes the INPUT. Note that INPUT should be relative to the OPTIONS that you have.\n\n                    INPUT: [g4lb0023, 0bl5g006, 0bg05l46, 48g500lb, 2l0b07g0]\n                    OPTIONS: - outcome\n- case_status\n- gender\n- date\n- occupation\n- location\n- medical_boolean\n- contact_setting\n- symptoms\n- age\n- id\n                    ANSWER:\n\n                    Let’s think step by step:\n                    1. Identify the key features in the INPUT.\n                    2. Try to predict values type like: int, date, string.\n                    3. Compare against each option to see which matches best.\n                    4. Return final answer in one word after ANSWER:\n                    ": {
+        "response": "id",
+        "context": [
+            "g4lb0023",
+            "0bl5g006",
+            "0bg05l46",
+            "48g500lb",
+            "2l0b07g0"
+        ],
+        "ground_truth": "id",
+        "correct": true,
+        "original_model_answer": "id",
+        "original_label": "id",
+        "file+idx": "68"
+    },
+    "\n                    INSTRUCTION: Choose exactly ONE label from the OPTIONS list that best describes the INPUT. Note that INPUT should be relative to the OPTIONS that you have.\n\n                    INPUT: [recycl, non actif]\n                    OPTIONS: - outcome\n- case_status\n- gender\n- date\n- occupation\n- location\n- medical_boolean\n- contact_setting\n- symptoms\n- age\n- id\n                    ANSWER:\n\n                    Let’s think step by step:\n                    1. Identify the key features in the INPUT.\n                    2. Try to predict values type like: int, date, string.\n                    3. Compare against each option to see which matches best.\n                    4. Return final answer in one word after ANSWER:\n                    ": {
+        "response": "outcome",
+        "context": [
+            "recycl",
+            "non actif"
+        ],
+        "ground_truth": "case_status",
+        "correct": false,
+        "original_model_answer": "outcome",
+        "original_label": "case_status",
+        "file+idx": "69"
+    },
+    "\n                    INSTRUCTION: Choose exactly ONE label from the OPTIONS list that best describes the INPUT. Note that INPUT should be relative to the OPTIONS that you have.\n\n                    INPUT: [non, oui, inc]\n                    OPTIONS: - outcome\n- case_status\n- gender\n- date\n- occupation\n- location\n- medical_boolean\n- contact_setting\n- symptoms\n- age\n- id\n                    ANSWER:\n\n                    Let’s think step by step:\n                    1. Identify the key features in the INPUT.\n                    2. Try to predict values type like: int, date, string.\n                    3. Compare against each option to see which matches best.\n                    4. Return final answer in one word after ANSWER:\n                    ": {
+        "response": "outcome",
+        "context": [
+            "non",
+            "oui",
+            "inc"
+        ],
+        "ground_truth": "medical_boolean",
+        "correct": false,
+        "original_model_answer": "outcome",
+        "original_label": "medical_boolean",
+        "file+idx": "70"
+    },
+    "\n                    INSTRUCTION: Choose exactly ONE label from the OPTIONS list that best describes the INPUT. Note that INPUT should be relative to the OPTIONS that you have.\n\n                    INPUT: [discharged alive, admitted]\n                    OPTIONS: - outcome\n- case_status\n- gender\n- date\n- occupation\n- location\n- medical_boolean\n- contact_setting\n- symptoms\n- age\n- id\n                    ANSWER:\n\n                    Let’s think step by step:\n                    1. Identify the key features in the INPUT.\n                    2. Try to predict values type like: int, date, string.\n                    3. Compare against each option to see which matches best.\n                    4. Return final answer in one word after ANSWER:\n                    ": {
+        "response": "outcome",
+        "context": [
+            "discharged alive",
+            "admitted"
+        ],
+        "ground_truth": "outcome",
+        "correct": true,
+        "original_model_answer": "outcome",
+        "original_label": "outcome",
+        "file+idx": "71"
+    },
+    "\n                    INSTRUCTION: Choose exactly ONE label from the OPTIONS list that best describes the INPUT. Note that INPUT should be relative to the OPTIONS that you have.\n\n                    INPUT: [3.0, 44.0, 50.0, 1.0, 47.0]\n                    OPTIONS: - outcome\n- case_status\n- gender\n- date\n- occupation\n- location\n- medical_boolean\n- contact_setting\n- symptoms\n- age\n- id\n                    ANSWER:\n\n                    Let’s think step by step:\n                    1. Identify the key features in the INPUT.\n                    2. Try to predict values type like: int, date, string.\n                    3. Compare against each option to see which matches best.\n                    4. Return final answer in one word after ANSWER:\n                    ": {
+        "response": "age",
+        "context": [
+            "3.0",
+            "44.0",
+            "50.0",
+            "1.0",
+            "47.0"
+        ],
+        "ground_truth": "age",
+        "correct": true,
+        "original_model_answer": "age",
+        "original_label": "age",
+        "file+idx": "72"
+    },
+    "\n                    INSTRUCTION: Choose exactly ONE label from the OPTIONS list that best describes the INPUT. Note that INPUT should be relative to the OPTIONS that you have.\n\n                    INPUT: [2020-06-16, 2020-07-12, 2020-07-06, 2020-06-18, 2020-07-08]\n                    OPTIONS: - outcome\n- case_status\n- gender\n- date\n- occupation\n- location\n- medical_boolean\n- contact_setting\n- symptoms\n- age\n- id\n                    ANSWER:\n\n                    Let’s think step by step:\n                    1. Identify the key features in the INPUT.\n                    2. Try to predict values type like: int, date, string.\n                    3. Compare against each option to see which matches best.\n                    4. Return final answer in one word after ANSWER:\n                    ": {
+        "response": "date",
+        "context": [
+            "2020-06-16",
+            "2020-07-12",
+            "2020-07-06",
+            "2020-06-18",
+            "2020-07-08"
+        ],
+        "ground_truth": "date",
+        "correct": true,
+        "original_model_answer": "ANSWER: date",
+        "original_label": "date",
+        "file+idx": "73"
+    },
+    "\n                    INSTRUCTION: Choose exactly ONE label from the OPTIONS list that best describes the INPUT. Note that INPUT should be relative to the OPTIONS that you have.\n\n                    INPUT: [no]\n                    OPTIONS: - outcome\n- case_status\n- gender\n- date\n- occupation\n- location\n- medical_boolean\n- contact_setting\n- symptoms\n- age\n- id\n                    ANSWER:\n\n                    Let’s think step by step:\n                    1. Identify the key features in the INPUT.\n                    2. Try to predict values type like: int, date, string.\n                    3. Compare against each option to see which matches best.\n                    4. Return final answer in one word after ANSWER:\n                    ****": {
+        "response": "medical_boolean",
+        "context": [
+            "no"
+        ],
+        "ground_truth": "medical_boolean",
+        "correct": true,
+        "original_model_answer": "medical_boolean",
+        "original_label": "medical_boolean",
+        "file+idx": "74"
+    },
+    "\n                    INSTRUCTION: Choose exactly ONE label from the OPTIONS list that best describes the INPUT. Note that INPUT should be relative to the OPTIONS that you have.\n\n                    INPUT: [2022-11-06, 2022-11-03, 2022-11-04, 2022-10-28, 2022-11-09]\n                    OPTIONS: - outcome\n- case_status\n- gender\n- date\n- occupation\n- location\n- medical_boolean\n- contact_setting\n- symptoms\n- age\n- id\n                    ANSWER:\n\n                    Let’s think step by step:\n                    1. Identify the key features in the INPUT.\n                    2. Try to predict values type like: int, date, string.\n                    3. Compare against each option to see which matches best.\n                    4. Return final answer in one word after ANSWER:\n                    ": {
+        "response": "date",
+        "context": [
+            "2022-11-06",
+            "2022-11-03",
+            "2022-11-04",
+            "2022-10-28",
+            "2022-11-09"
+        ],
+        "ground_truth": "date",
+        "correct": true,
+        "original_model_answer": "date",
+        "original_label": "date",
+        "file+idx": "75"
+    },
+    "\n                    INSTRUCTION: Choose exactly ONE label from the OPTIONS list that best describes the INPUT. Note that INPUT should be relative to the OPTIONS that you have.\n\n                    INPUT: [-brq6-7tm7ecd300o21, brq2et6-21do-0831cm0, qm0-2et1-30462bcr9od, d--3b23emo620c1tr0q4, 0r26b0-edt137om-cq2]\n                    OPTIONS: - outcome\n- case_status\n- gender\n- date\n- occupation\n- location\n- medical_boolean\n- contact_setting\n- symptoms\n- age\n- id\n                    ANSWER:\n\n                    Let’s think step by step:\n                    1. Identify the key features in the INPUT.\n                    2. Try to predict values type like: int, date, string.\n                    3. Compare against each option to see which matches best.\n                    4. Return final answer in one word after ANSWER:\n                    ": {
+        "response": "outcome",
+        "context": [
+            "-brq6-7tm7ecd300o21",
+            "brq2et6-21do-0831cm0",
+            "qm0-2et1-30462bcr9od",
+            "d--3b23emo620c1tr0q4",
+            "0r26b0-edt137om-cq2"
+        ],
+        "ground_truth": "id",
+        "correct": false,
+        "original_model_answer": "- outcome",
+        "original_label": "id",
+        "file+idx": "76"
+    },
+    "\n                    INSTRUCTION: Choose exactly ONE label from the OPTIONS list that best describes the INPUT. Note that INPUT should be relative to the OPTIONS that you have.\n\n                    INPUT: [yes, no]\n                    OPTIONS: - outcome\n- case_status\n- gender\n- date\n- occupation\n- location\n- medical_boolean\n- contact_setting\n- symptoms\n- age\n- id\n                    ANSWER:\n\n                    Let’s think step by step:\n                    1. Identify the key features in the INPUT.\n                    2. Try to predict values type like: int, date, string.\n                    3. Compare against each option to see which matches best.\n                    4. Return final answer in one word after ANSWER:\n                    *****": {
+        "response": "medical_boolean",
+        "context": [
+            "yes",
+            "no"
+        ],
+        "ground_truth": "medical_boolean",
+        "correct": true,
+        "original_model_answer": "medical_boolean",
+        "original_label": "medical_boolean",
+        "file+idx": "77"
+    },
+    "\n                    INSTRUCTION: Choose exactly ONE label from the OPTIONS list that best describes the INPUT. Note that INPUT should be relative to the OPTIONS that you have.\n\n                    INPUT: [no]\n                    OPTIONS: - outcome\n- case_status\n- gender\n- date\n- occupation\n- location\n- medical_boolean\n- contact_setting\n- symptoms\n- age\n- id\n                    ANSWER:\n\n                    Let’s think step by step:\n                    1. Identify the key features in the INPUT.\n                    2. Try to predict values type like: int, date, string.\n                    3. Compare against each option to see which matches best.\n                    4. Return final answer in one word after ANSWER:\n                    *****": {
+        "response": "medical_boolean",
+        "context": [
+            "no"
+        ],
+        "ground_truth": "medical_boolean",
+        "correct": true,
+        "original_model_answer": "medical_boolean",
+        "original_label": "medical_boolean",
+        "file+idx": "78"
+    },
+    "\n                    INSTRUCTION: Choose exactly ONE label from the OPTIONS list that best describes the INPUT. Note that INPUT should be relative to the OPTIONS that you have.\n\n                    INPUT: [outpatient, inpatient, discharged, transferred]\n                    OPTIONS: - outcome\n- case_status\n- gender\n- date\n- occupation\n- location\n- medical_boolean\n- contact_setting\n- symptoms\n- age\n- id\n                    ANSWER:\n\n                    Let’s think step by step:\n                    1. Identify the key features in the INPUT.\n                    2. Try to predict values type like: int, date, string.\n                    3. Compare against each option to see which matches best.\n                    4. Return final answer in one word after ANSWER:\n                    ": {
+        "response": "case_status",
+        "context": [
+            "outpatient",
+            "inpatient",
+            "discharged",
+            "transferred"
+        ],
+        "ground_truth": "medical_boolean",
+        "correct": false,
+        "original_model_answer": "case_status",
+        "original_label": "medical_boolean",
+        "file+idx": "79"
+    },
+    "\n                    INSTRUCTION: Choose exactly ONE label from the OPTIONS list that best describes the INPUT. Note that INPUT should be relative to the OPTIONS that you have.\n\n                    INPUT: [0.0, 1.0]\n                    OPTIONS: - outcome\n- case_status\n- gender\n- date\n- occupation\n- location\n- medical_boolean\n- contact_setting\n- symptoms\n- age\n- id\n                    ANSWER:\n\n                    Let’s think step by step:\n                    1. Identify the key features in the INPUT.\n                    2. Try to predict values type like: int, date, string.\n                    3. Compare against each option to see which matches best.\n                    4. Return final answer in one word after ANSWER:\n                    **": {
+        "response": "case_status",
+        "context": [
+            "0.0",
+            "1.0"
+        ],
+        "ground_truth": "medical_boolean",
+        "correct": false,
+        "original_model_answer": "Let's break down the problem step by step:\n\n1. Identify the key features in the INPUT: The input is a list with two numbers, `[0.0, 1.0]`.\n\n2. Predict value type: Both values appear to be floating-point numbers (i.e., decimal points).\n\n3. Compare against each option:\n   - outcome: This usually implies a categorical or binary result but does not directly match the numerical input.\n   - case_status: Similar to 'outcome', it suggests a state rather than numeric data.\n   - gender, occupation, location: These are categorical and don't fit with numeric values.\n   - date: The presence of decimal points does not indicate a date format.\n   - medical_boolean: Boolean implies true or false values, which doesn't match the input.\n   - contact_setting, symptoms: Both suggest categories rather than numerical data.\n   - age: This is the most promising option since it could involve numeric information, but typically, 'age' would be an integer value. However, without more context, we can consider it as a possible answer based on the given options.\n\n4. Based on the above analysis and considering that 'id' might not necessarily require unique identifiers other than being unique (which doesn't rule out numeric values like ages), 'age' seems to fit best among the provided options because one of its plausible interpretations is a number, even though it's typically integers in real-world applications.\n\nTherefore, the final answer after comparing against each option is:\n**age**\n\nHowever, considering typical expectations around age and how it might be represented (often as integers), another plausible interpretation could lean towards 'id' if we consider numeric identifiers, but given the options and the common understanding of what age represents in data analysis (a measurable quantity that fits a range), **age** seems more appropriate.",
+        "original_label": "medical_boolean",
+        "file+idx": "80"
+    },
+    "\n                    INSTRUCTION: Choose exactly ONE label from the OPTIONS list that best describes the INPUT. Note that INPUT should be relative to the OPTIONS that you have.\n\n                    INPUT: [berberati, bozoum, bouca, bambio, zmio]\n                    OPTIONS: - outcome\n- case_status\n- gender\n- date\n- occupation\n- location\n- medical_boolean\n- contact_setting\n- symptoms\n- age\n- id\n                    ANSWER:\n\n                    Let’s think step by step:\n                    1. Identify the key features in the INPUT.\n                    2. Try to predict values type like: int, date, string.\n                    3. Compare against each option to see which matches best.\n                    4. Return final answer in one word after ANSWER:\n                    ": {
+        "response": "location",
+        "context": [
+            "berberati",
+            "bozoum",
+            "bouca",
+            "bambio",
+            "zmio"
+        ],
+        "ground_truth": "location",
+        "correct": true,
+        "original_model_answer": "location",
+        "original_label": "location",
+        "file+idx": "81"
+    },
+    "\n                    INSTRUCTION: Choose exactly ONE label from the OPTIONS list that best describes the INPUT. Note that INPUT should be relative to the OPTIONS that you have.\n\n                    INPUT: [bouar, baoro, bozoum, bangui, bangassou]\n                    OPTIONS: - outcome\n- case_status\n- gender\n- date\n- occupation\n- location\n- medical_boolean\n- contact_setting\n- symptoms\n- age\n- id\n                    ANSWER:\n\n                    Let’s think step by step:\n                    1. Identify the key features in the INPUT.\n                    2. Try to predict values type like: int, date, string.\n                    3. Compare against each option to see which matches best.\n                    4. Return final answer in one word after ANSWER:\n                    ": {
+        "response": "location",
+        "context": [
+            "bouar",
+            "baoro",
+            "bozoum",
+            "bangui",
+            "bangassou"
+        ],
+        "ground_truth": "location",
+        "correct": true,
+        "original_model_answer": "location",
+        "original_label": "location",
+        "file+idx": "82"
+    },
+    "\n                    INSTRUCTION: Choose exactly ONE label from the OPTIONS list that best describes the INPUT. Note that INPUT should be relative to the OPTIONS that you have.\n\n                    INPUT: [2020-06-21, 2020-06-11, 2020-06-25, 2020-06-26, 2020-06-29]\n                    OPTIONS: - outcome\n- case_status\n- gender\n- date\n- occupation\n- location\n- medical_boolean\n- contact_setting\n- symptoms\n- age\n- id\n                    ANSWER:\n\n                    Let’s think step by step:\n                    1. Identify the key features in the INPUT.\n                    2. Try to predict values type like: int, date, string.\n                    3. Compare against each option to see which matches best.\n                    4. Return final answer in one word after ANSWER:\n                    ": {
+        "response": "date",
+        "context": [
+            "2020-06-21",
+            "2020-06-11",
+            "2020-06-25",
+            "2020-06-26",
+            "2020-06-29"
+        ],
+        "ground_truth": "date",
+        "correct": true,
+        "original_model_answer": "date",
+        "original_label": "date",
+        "file+idx": "83"
+    },
+    "\n                    INSTRUCTION: Choose exactly ONE label from the OPTIONS list that best describes the INPUT. Note that INPUT should be relative to the OPTIONS that you have.\n\n                    INPUT: [2020-02-01, 2020-02-13, 2020-02-15]\n                    OPTIONS: - outcome\n- case_status\n- gender\n- date\n- occupation\n- location\n- medical_boolean\n- contact_setting\n- symptoms\n- age\n- id\n                    ANSWER:\n\n                    Let’s think step by step:\n                    1. Identify the key features in the INPUT.\n                    2. Try to predict values type like: int, date, string.\n                    3. Compare against each option to see which matches best.\n                    4. Return final answer in one word after ANSWER:\n                    ": {
+        "response": "date",
+        "context": [
+            "2020-02-01",
+            "2020-02-13",
+            "2020-02-15"
+        ],
+        "ground_truth": "date",
+        "correct": true,
+        "original_model_answer": "date",
+        "original_label": "date",
+        "file+idx": "84"
+    },
+    "\n                    INSTRUCTION: Choose exactly ONE label from the OPTIONS list that best describes the INPUT. Note that INPUT should be relative to the OPTIONS that you have.\n\n                    INPUT: [oui, inc, non]\n                    OPTIONS: - outcome\n- case_status\n- gender\n- date\n- occupation\n- location\n- medical_boolean\n- contact_setting\n- symptoms\n- age\n- id\n                    ANSWER:\n\n                    Let’s think step by step:\n                    1. Identify the key features in the INPUT.\n                    2. Try to predict values type like: int, date, string.\n                    3. Compare against each option to see which matches best.\n                    4. Return final answer in one word after ANSWER:\n                    **": {
+        "response": "case_status",
+        "context": [
+            "oui",
+            "inc",
+            "non"
+        ],
+        "ground_truth": "medical_boolean",
+        "correct": false,
+        "original_model_answer": "**case_status**\n\nLet's break it down:\n\n1. The INPUT contains a list of strings: [oui, inc, non]\n2. These values appear to be labels or categories, rather than numerical values or dates.\n3. Upon comparison with the OPTIONS, \"case_status\" is the most relevant label, as it suggests a classification or status that matches the format and type of values in the INPUT.\n\nTherefore, the final answer is: case_status",
+        "original_label": "medical_boolean",
+        "file+idx": "85"
+    },
+    "\n                    INSTRUCTION: Choose exactly ONE label from the OPTIONS list that best describes the INPUT. Note that INPUT should be relative to the OPTIONS that you have.\n\n                    INPUT: [2022-09-19, 2022-11-02, 2022-09-22, 2022-09-27, 2022-08-13]\n                    OPTIONS: - outcome\n- case_status\n- gender\n- date\n- occupation\n- location\n- medical_boolean\n- contact_setting\n- symptoms\n- age\n- id\n                    ANSWER:\n\n                    Let’s think step by step:\n                    1. Identify the key features in the INPUT.\n                    2. Try to predict values type like: int, date, string.\n                    3. Compare against each option to see which matches best.\n                    4. Return final answer in one word after ANSWER:\n                    ": {
+        "response": "date",
+        "context": [
+            "2022-09-19",
+            "2022-11-02",
+            "2022-09-22",
+            "2022-09-27",
+            "2022-08-13"
+        ],
+        "ground_truth": "date",
+        "correct": true,
+        "original_model_answer": "DATE",
+        "original_label": "date",
+        "file+idx": "86"
+    },
+    "\n                    INSTRUCTION: Choose exactly ONE label from the OPTIONS list that best describes the INPUT. Note that INPUT should be relative to the OPTIONS that you have.\n\n                    INPUT: [1.0, 0.0]\n                    OPTIONS: - outcome\n- case_status\n- gender\n- date\n- occupation\n- location\n- medical_boolean\n- contact_setting\n- symptoms\n- age\n- id\n                    ANSWER:\n\n                    Let’s think step by step:\n                    1. Identify the key features in the INPUT.\n                    2. Try to predict values type like: int, date, string.\n                    3. Compare against each option to see which matches best.\n                    4. Return final answer in one word after ANSWER:\n                    ": {
+        "response": "outcome",
+        "context": [
+            "1.0",
+            "0.0"
+        ],
+        "ground_truth": "medical_boolean",
+        "correct": false,
+        "original_model_answer": "outcome",
+        "original_label": "medical_boolean",
+        "file+idx": "87"
+    },
+    "\n                    INSTRUCTION: Choose exactly ONE label from the OPTIONS list that best describes the INPUT. Note that INPUT should be relative to the OPTIONS that you have.\n\n                    INPUT: [2022-05-31, 2022-05-12, 2022-05-09, 2022-05-04]\n                    OPTIONS: - outcome\n- case_status\n- gender\n- date\n- occupation\n- location\n- medical_boolean\n- contact_setting\n- symptoms\n- age\n- id\n                    ANSWER:\n\n                    Let’s think step by step:\n                    1. Identify the key features in the INPUT.\n                    2. Try to predict values type like: int, date, string.\n                    3. Compare against each option to see which matches best.\n                    4. Return final answer in one word after ANSWER:\n                    ": {
+        "response": "date",
+        "context": [
+            "2022-05-31",
+            "2022-05-12",
+            "2022-05-09",
+            "2022-05-04"
+        ],
+        "ground_truth": "date",
+        "correct": true,
+        "original_model_answer": "date",
+        "original_label": "date",
+        "file+idx": "88"
+    },
+    "\n                    INSTRUCTION: Choose exactly ONE label from the OPTIONS list that best describes the INPUT. Note that INPUT should be relative to the OPTIONS that you have.\n\n                    INPUT: [1.0, 0.0]\n                    OPTIONS: - outcome\n- case_status\n- gender\n- date\n- occupation\n- location\n- medical_boolean\n- contact_setting\n- symptoms\n- age\n- id\n                    ANSWER:\n\n                    Let’s think step by step:\n                    1. Identify the key features in the INPUT.\n                    2. Try to predict values type like: int, date, string.\n                    3. Compare against each option to see which matches best.\n                    4. Return final answer in one word after ANSWER:\n                    *": {
+        "response": "id",
+        "context": [
+            "1.0",
+            "0.0"
+        ],
+        "ground_truth": "medical_boolean",
+        "correct": false,
+        "original_model_answer": "* id",
+        "original_label": "medical_boolean",
+        "file+idx": "89"
+    },
+    "\n                    INSTRUCTION: Choose exactly ONE label from the OPTIONS list that best describes the INPUT. Note that INPUT should be relative to the OPTIONS that you have.\n\n                    INPUT: [y, n]\n                    OPTIONS: - outcome\n- case_status\n- gender\n- date\n- occupation\n- location\n- medical_boolean\n- contact_setting\n- symptoms\n- age\n- id\n                    ANSWER:\n\n                    Let’s think step by step:\n                    1. Identify the key features in the INPUT.\n                    2. Try to predict values type like: int, date, string.\n                    3. Compare against each option to see which matches best.\n                    4. Return final answer in one word after ANSWER:\n                    **": {
+        "response": "outcome",
+        "context": [
+            "y",
+            "n"
+        ],
+        "ground_truth": "medical_boolean",
+        "correct": false,
+        "original_model_answer": "**outcome**\n\nThe input [y, n] suggests a binary or categorical value that indicates the outcome of something (e.g., yes/no, pass/fail). The options provided don't have an exact match, but \"outcome\" is the most suitable label as it implies a result or consequence.",
+        "original_label": "medical_boolean",
+        "file+idx": "90"
+    },
+    "\n                    INSTRUCTION: Choose exactly ONE label from the OPTIONS list that best describes the INPUT. Note that INPUT should be relative to the OPTIONS that you have.\n\n                    INPUT: [ouham, mambr-kad, haut-mbomou, ouham-pend, nana-grbizi]\n                    OPTIONS: - outcome\n- case_status\n- gender\n- date\n- occupation\n- location\n- medical_boolean\n- contact_setting\n- symptoms\n- age\n- id\n                    ANSWER:\n\n                    Let’s think step by step:\n                    1. Identify the key features in the INPUT.\n                    2. Try to predict values type like: int, date, string.\n                    3. Compare against each option to see which matches best.\n                    4. Return final answer in one word after ANSWER:\n                    ": {
+        "response": "location",
+        "context": [
+            "ouham",
+            "mambr-kad",
+            "haut-mbomou",
+            "ouham-pend",
+            "nana-grbizi"
+        ],
+        "ground_truth": "location",
+        "correct": true,
+        "original_model_answer": "- location",
+        "original_label": "location",
+        "file+idx": "91"
+    },
+    "\n                    INSTRUCTION: Choose exactly ONE label from the OPTIONS list that best describes the INPUT. Note that INPUT should be relative to the OPTIONS that you have.\n\n                    INPUT: [bimbo, yaloke, gamboula, amada-gaza]\n                    OPTIONS: - outcome\n- case_status\n- gender\n- date\n- occupation\n- location\n- medical_boolean\n- contact_setting\n- symptoms\n- age\n- id\n                    ANSWER:\n\n                    Let’s think step by step:\n                    1. Identify the key features in the INPUT.\n                    2. Try to predict values type like: int, date, string.\n                    3. Compare against each option to see which matches best.\n                    4. Return final answer in one word after ANSWER:\n                    ": {
+        "response": "location",
+        "context": [
+            "bimbo",
+            "yaloke",
+            "gamboula",
+            "amada-gaza"
+        ],
+        "ground_truth": "location",
+        "correct": true,
+        "original_model_answer": "location",
+        "original_label": "location",
+        "file+idx": "92"
+    },
+    "\n                    INSTRUCTION: Choose exactly ONE label from the OPTIONS list that best describes the INPUT. Note that INPUT should be relative to the OPTIONS that you have.\n\n                    INPUT: [n, y]\n                    OPTIONS: - outcome\n- case_status\n- gender\n- date\n- occupation\n- location\n- medical_boolean\n- contact_setting\n- symptoms\n- age\n- id\n                    ANSWER:\n\n                    Let’s think step by step:\n                    1. Identify the key features in the INPUT.\n                    2. Try to predict values type like: int, date, string.\n                    3. Compare against each option to see which matches best.\n                    4. Return final answer in one word after ANSWER:\n                    ": {
+        "response": "case_status",
+        "context": [
+            "n",
+            "y"
+        ],
+        "ground_truth": "medical_boolean",
+        "correct": false,
+        "original_model_answer": "Let's break down the input [n, y] step by step:\n\n1. The key features in the input are two values: n and y.\n2. Predicting the value type, I think 'n' could be an abbreviation for a number (e.g., age or some other numerical identifier) and 'y' typically stands for yes.\n\nComparing against each option to see which matches best:\n\n- outcome: This seems like a likely match since 'n' could represent a non-event or absence of something, and 'y' would indicate a positive result.\n- case_status: While possible, this doesn't immediately align with common abbreviations or clear indicators for 'n' and 'y'.\n- gender: Doesn't fit because 'n' isn't typically associated with gender classifications in the way that, say, M (male) or F (female) might be.\n- date: The values don't suggest a temporal element.\n- occupation: This is unlikely as there's no clear indication of a job title or description in 'n' and 'y'.\n- location: Similar to occupation, this doesn't seem fitting because 'n' and 'y' aren't geographic indicators.\n- medical_boolean: A likely match given the context that 'y' could represent yes (or true) in a boolean sense and 'n' for no (false).\n- contact_setting: This is not immediately clear from the values provided.\n- symptoms: While 'n' or 'y' could be used to indicate presence or absence of symptoms, this option seems slightly less fitting because it's broader than what these two letters directly suggest.\n- age: This is unlikely as ages are usually represented numerically rather than with 'n' and 'y'.\n- id: IDs can take many forms but typically don't involve just an 'n' and a 'y'.\n\nBased on the comparison, the best fit seems to be \"outcome\" or closely related to the idea of a medical outcome (\"medical_boolean\"), which aligns well with using 'y' for yes (positive outcome) and 'n' for no (negative outcome).",
+        "original_label": "medical_boolean",
+        "file+idx": "93"
+    },
+    "\n                    INSTRUCTION: Choose exactly ONE label from the OPTIONS list that best describes the INPUT. Note that INPUT should be relative to the OPTIONS that you have.\n\n                    INPUT: [oui, non, inc]\n                    OPTIONS: - outcome\n- case_status\n- gender\n- date\n- occupation\n- location\n- medical_boolean\n- contact_setting\n- symptoms\n- age\n- id\n                    ANSWER:\n\n                    Let’s think step by step:\n                    1. Identify the key features in the INPUT.\n                    2. Try to predict values type like: int, date, string.\n                    3. Compare against each option to see which matches best.\n                    4. Return final answer in one word after ANSWER:\n                    *": {
+        "response": "case_status",
+        "context": [
+            "oui",
+            "non",
+            "inc"
+        ],
+        "ground_truth": "medical_boolean",
+        "correct": false,
+        "original_model_answer": "* case_status",
+        "original_label": "medical_boolean",
+        "file+idx": "94"
+    },
+    "\n                    INSTRUCTION: Choose exactly ONE label from the OPTIONS list that best describes the INPUT. Note that INPUT should be relative to the OPTIONS that you have.\n\n                    INPUT: [2020-08-07, 2020-07-28, 2020-06-07, 2020-07-10, 2020-06-04]\n                    OPTIONS: - outcome\n- case_status\n- gender\n- date\n- occupation\n- location\n- medical_boolean\n- contact_setting\n- symptoms\n- age\n- id\n                    ANSWER:\n\n                    Let’s think step by step:\n                    1. Identify the key features in the INPUT.\n                    2. Try to predict values type like: int, date, string.\n                    3. Compare against each option to see which matches best.\n                    4. Return final answer in one word after ANSWER:\n                    ": {
+        "response": "date",
+        "context": [
+            "2020-08-07",
+            "2020-07-28",
+            "2020-06-07",
+            "2020-07-10",
+            "2020-06-04"
+        ],
+        "ground_truth": "date",
+        "correct": true,
+        "original_model_answer": "date",
+        "original_label": "date",
+        "file+idx": "95"
+    },
+    "\n                    INSTRUCTION: Choose exactly ONE label from the OPTIONS list that best describes the INPUT. Note that INPUT should be relative to the OPTIONS that you have.\n\n                    INPUT: [f, m]\n                    OPTIONS: - outcome\n- case_status\n- gender\n- date\n- occupation\n- location\n- medical_boolean\n- contact_setting\n- symptoms\n- age\n- id\n                    ANSWER:\n\n                    Let’s think step by step:\n                    1. Identify the key features in the INPUT.\n                    2. Try to predict values type like: int, date, string.\n                    3. Compare against each option to see which matches best.\n                    4. Return final answer in one word after ANSWER:\n                    *": {
+        "response": "gender",
+        "context": [
+            "f",
+            "m"
+        ],
+        "ground_truth": "gender",
+        "correct": true,
+        "original_model_answer": "gender",
+        "original_label": "gender",
+        "file+idx": "96"
+    },
+    "\n                    INSTRUCTION: Choose exactly ONE label from the OPTIONS list that best describes the INPUT. Note that INPUT should be relative to the OPTIONS that you have.\n\n                    INPUT: [non cas, confirm, encours]\n                    OPTIONS: - outcome\n- case_status\n- gender\n- date\n- occupation\n- location\n- medical_boolean\n- contact_setting\n- symptoms\n- age\n- id\n                    ANSWER:\n\n                    Let’s think step by step:\n                    1. Identify the key features in the INPUT.\n                    2. Try to predict values type like: int, date, string.\n                    3. Compare against each option to see which matches best.\n                    4. Return final answer in one word after ANSWER:\n                    ": {
+        "response": "case_status",
+        "context": [
+            "non cas",
+            "confirm",
+            "encours"
+        ],
+        "ground_truth": "case_status",
+        "correct": true,
+        "original_model_answer": "case_status",
+        "original_label": "case_status",
+        "file+idx": "97"
+    },
+    "\n                    INSTRUCTION: Choose exactly ONE label from the OPTIONS list that best describes the INPUT. Note that INPUT should be relative to the OPTIONS that you have.\n\n                    INPUT: [0c63, 0c03, 5c06, 55c0, c131]\n                    OPTIONS: - outcome\n- case_status\n- gender\n- date\n- occupation\n- location\n- medical_boolean\n- contact_setting\n- symptoms\n- age\n- id\n                    ANSWER:\n\n                    Let’s think step by step:\n                    1. Identify the key features in the INPUT.\n                    2. Try to predict values type like: int, date, string.\n                    3. Compare against each option to see which matches best.\n                    4. Return final answer in one word after ANSWER:\n                    ": {
+        "response": "id",
+        "context": [
+            "0c63",
+            "0c03",
+            "5c06",
+            "55c0",
+            "c131"
+        ],
+        "ground_truth": "id",
+        "correct": true,
+        "original_model_answer": "id",
+        "original_label": "id",
+        "file+idx": "98"
+    },
+    "\n                    INSTRUCTION: Choose exactly ONE label from the OPTIONS list that best describes the INPUT. Note that INPUT should be relative to the OPTIONS that you have.\n\n                    INPUT: [inconnu, oui, non]\n                    OPTIONS: - outcome\n- case_status\n- gender\n- date\n- occupation\n- location\n- medical_boolean\n- contact_setting\n- symptoms\n- age\n- id\n                    ANSWER:\n\n                    Let’s think step by step:\n                    1. Identify the key features in the INPUT.\n                    2. Try to predict values type like: int, date, string.\n                    3. Compare against each option to see which matches best.\n                    4. Return final answer in one word after ANSWER:\n                    ": {
+        "response": "case_status",
+        "context": [
+            "inconnu",
+            "oui",
+            "non"
+        ],
+        "ground_truth": "medical_boolean",
+        "correct": false,
+        "original_model_answer": "Let's break it down step by step:\n\n1. Key features in the INPUT are three possible answers: \"inconnu\", \"oui\", and \"non\".\n2. Predicting the value type, these appear to be strings (specifically, French words).\n3. Comparing against each option:\n\t* outcome: This could potentially match if we're considering a medical context where \"inconnu\" might mean \"unknown\".\n\t* case_status: Unlikely, as \"oui\" and \"non\" don't fit typical case status categories.\n\t* gender: Doesn't seem to match.\n\t* date: Doesn't match.\n\t* occupation: Doesn't match.\n\t* location: Doesn't match.\n\t* medical_boolean: This seems promising, as the values resemble a boolean answer.\n\t* contact_setting: Unlikely.\n\t* symptoms: Doesn't match.\n\t* age: Doesn't match.\n\t* id: Doesn't match.\n\nConsidering these options, **medical_boolean** appears to be the best fit.",
+        "original_label": "medical_boolean",
+        "file+idx": "99"
+    },
+    "\n                    INSTRUCTION: Choose exactly ONE label from the OPTIONS list that best describes the INPUT. Note that INPUT should be relative to the OPTIONS that you have.\n\n                    INPUT: [2020-06-12, 2020-06-04, 2020-06-03, 2020-06-21, 2020-06-28]\n                    OPTIONS: - outcome\n- case_status\n- gender\n- date\n- occupation\n- location\n- medical_boolean\n- contact_setting\n- symptoms\n- age\n- id\n                    ANSWER:\n\n                    Let’s think step by step:\n                    1. Identify the key features in the INPUT.\n                    2. Try to predict values type like: int, date, string.\n                    3. Compare against each option to see which matches best.\n                    4. Return final answer in one word after ANSWER:\n                    ": {
+        "response": "date",
+        "context": [
+            "2020-06-12",
+            "2020-06-04",
+            "2020-06-03",
+            "2020-06-21",
+            "2020-06-28"
+        ],
+        "ground_truth": "date",
+        "correct": true,
+        "original_model_answer": "date",
+        "original_label": "date",
+        "file+idx": "100"
+    },
+    "\n                    INSTRUCTION: Choose exactly ONE label from the OPTIONS list that best describes the INPUT. Note that INPUT should be relative to the OPTIONS that you have.\n\n                    INPUT: [yes, no]\n                    OPTIONS: - outcome\n- case_status\n- gender\n- date\n- occupation\n- location\n- medical_boolean\n- contact_setting\n- symptoms\n- age\n- id\n                    ANSWER:\n\n                    Let’s think step by step:\n                    1. Identify the key features in the INPUT.\n                    2. Try to predict values type like: int, date, string.\n                    3. Compare against each option to see which matches best.\n                    4. Return final answer in one word after ANSWER:\n                    ******": {
+        "response": "medical_boolean",
+        "context": [
+            "yes",
+            "no"
+        ],
+        "ground_truth": "medical_boolean",
+        "correct": true,
+        "original_model_answer": "medical_boolean",
+        "original_label": "medical_boolean",
+        "file+idx": "101"
+    },
+    "\n                    INSTRUCTION: Choose exactly ONE label from the OPTIONS list that best describes the INPUT. Note that INPUT should be relative to the OPTIONS that you have.\n\n                    INPUT: [348284431, 38745949, 584160574, 435305068, 148483542]\n                    OPTIONS: - outcome\n- case_status\n- gender\n- date\n- occupation\n- location\n- medical_boolean\n- contact_setting\n- symptoms\n- age\n- id\n                    ANSWER:\n\n                    Let’s think step by step:\n                    1. Identify the key features in the INPUT.\n                    2. Try to predict values type like: int, date, string.\n                    3. Compare against each option to see which matches best.\n                    4. Return final answer in one word after ANSWER:\n                    ": {
+        "response": "id",
+        "context": [
+            "348284431",
+            "38745949",
+            "584160574",
+            "435305068",
+            "148483542"
+        ],
+        "ground_truth": "id",
+        "correct": true,
+        "original_model_answer": "id",
+        "original_label": "id",
+        "file+idx": "102"
+    },
+    "\n                    INSTRUCTION: Choose exactly ONE label from the OPTIONS list that best describes the INPUT. Note that INPUT should be relative to the OPTIONS that you have.\n\n                    INPUT: [2020-06-06, 2020-06-20, 2020-06-05, 2020-07-14, 2020-06-08]\n                    OPTIONS: - outcome\n- case_status\n- gender\n- date\n- occupation\n- location\n- medical_boolean\n- contact_setting\n- symptoms\n- age\n- id\n                    ANSWER:\n\n                    Let’s think step by step:\n                    1. Identify the key features in the INPUT.\n                    2. Try to predict values type like: int, date, string.\n                    3. Compare against each option to see which matches best.\n                    4. Return final answer in one word after ANSWER:\n                    ": {
+        "response": "date",
+        "context": [
+            "2020-06-06",
+            "2020-06-20",
+            "2020-06-05",
+            "2020-07-14",
+            "2020-06-08"
+        ],
+        "ground_truth": "date",
+        "correct": true,
+        "original_model_answer": "date",
+        "original_label": "date",
+        "file+idx": "103"
+    },
+    "\n                    INSTRUCTION: Choose exactly ONE label from the OPTIONS list that best describes the INPUT. Note that INPUT should be relative to the OPTIONS that you have.\n\n                    INPUT: [3ev20b5-n4, an215m, t7b73u, 9bn8e8-v1, btu855]\n                    OPTIONS: - outcome\n- case_status\n- gender\n- date\n- occupation\n- location\n- medical_boolean\n- contact_setting\n- symptoms\n- age\n- id\n                    ANSWER:\n\n                    Let’s think step by step:\n                    1. Identify the key features in the INPUT.\n                    2. Try to predict values type like: int, date, string.\n                    3. Compare against each option to see which matches best.\n                    4. Return final answer in one word after ANSWER:\n                    ": {
+        "response": "id",
+        "context": [
+            "3ev20b5-n4",
+            "an215m",
+            "t7b73u",
+            "9bn8e8-v1",
+            "btu855"
+        ],
+        "ground_truth": "id",
+        "correct": true,
+        "original_model_answer": "id",
+        "original_label": "id",
+        "file+idx": "104"
+    },
+    "\n                    INSTRUCTION: Choose exactly ONE label from the OPTIONS list that best describes the INPUT. Note that INPUT should be relative to the OPTIONS that you have.\n\n                    INPUT: [yes, n]\n                    OPTIONS: - outcome\n- case_status\n- gender\n- date\n- occupation\n- location\n- medical_boolean\n- contact_setting\n- symptoms\n- age\n- id\n                    ANSWER:\n\n                    Let’s think step by step:\n                    1. Identify the key features in the INPUT.\n                    2. Try to predict values type like: int, date, string.\n                    3. Compare against each option to see which matches best.\n                    4. Return final answer in one word after ANSWER:\n                    ": {
+        "response": "medical_boolean",
+        "context": [
+            "yes",
+            "n"
+        ],
+        "ground_truth": "medical_boolean",
+        "correct": true,
+        "original_model_answer": "medical_boolean",
+        "original_label": "medical_boolean",
+        "file+idx": "105"
+    },
+    "\n                    INSTRUCTION: Choose exactly ONE label from the OPTIONS list that best describes the INPUT. Note that INPUT should be relative to the OPTIONS that you have.\n\n                    INPUT: [2020-06-22, 2020-06-20]\n                    OPTIONS: - outcome\n- case_status\n- gender\n- date\n- occupation\n- location\n- medical_boolean\n- contact_setting\n- symptoms\n- age\n- id\n                    ANSWER:\n\n                    Let’s think step by step:\n                    1. Identify the key features in the INPUT.\n                    2. Try to predict values type like: int, date, string.\n                    3. Compare against each option to see which matches best.\n                    4. Return final answer in one word after ANSWER:\n                    ": {
+        "response": "date",
+        "context": [
+            "2020-06-22",
+            "2020-06-20"
+        ],
+        "ground_truth": "date",
+        "correct": true,
+        "original_model_answer": "date",
+        "original_label": "date",
+        "file+idx": "106"
+    },
+    "\n                    INSTRUCTION: Choose exactly ONE label from the OPTIONS list that best describes the INPUT. Note that INPUT should be relative to the OPTIONS that you have.\n\n                    INPUT: [15, 22, 71, 31, 40]\n                    OPTIONS: - outcome\n- case_status\n- gender\n- date\n- occupation\n- location\n- medical_boolean\n- contact_setting\n- symptoms\n- age\n- id\n                    ANSWER:\n\n                    Let’s think step by step:\n                    1. Identify the key features in the INPUT.\n                    2. Try to predict values type like: int, date, string.\n                    3. Compare against each option to see which matches best.\n                    4. Return final answer in one word after ANSWER:\n                    ": {
+        "response": "age",
+        "context": [
+            "15",
+            "22",
+            "71",
+            "31",
+            "40"
+        ],
+        "ground_truth": "age",
+        "correct": true,
+        "original_model_answer": "age",
+        "original_label": "age",
+        "file+idx": "107"
+    },
+    "\n                    INSTRUCTION: Choose exactly ONE label from the OPTIONS list that best describes the INPUT. Note that INPUT should be relative to the OPTIONS that you have.\n\n                    INPUT: [2020-01-08, 2020-01-14, 2020-02-09, 2020-01-29, 2020-02-11]\n                    OPTIONS: - outcome\n- case_status\n- gender\n- date\n- occupation\n- location\n- medical_boolean\n- contact_setting\n- symptoms\n- age\n- id\n                    ANSWER:\n\n                    Let’s think step by step:\n                    1. Identify the key features in the INPUT.\n                    2. Try to predict values type like: int, date, string.\n                    3. Compare against each option to see which matches best.\n                    4. Return final answer in one word after ANSWER:\n                    ": {
+        "response": "date",
+        "context": [
+            "2020-01-08",
+            "2020-01-14",
+            "2020-02-09",
+            "2020-01-29",
+            "2020-02-11"
+        ],
+        "ground_truth": "date",
+        "correct": true,
+        "original_model_answer": "DATE\n(No other option seems to fit well with the format of the input data.)",
+        "original_label": "date",
+        "file+idx": "108"
+    }
+}

@@ -1,0 +1,2437 @@
+[
+  {
+    "instruction": "Select the category which best matches the input.",
+    "input": "['oui', 'inc', 'non']\nstd: 0, average: 3, mode: 3.00, median: 3, max: 3.00, min: 3.00]\nCATEGORY:\n",
+    "output": "medical_boolean\n"
+  },
+  {
+    "instruction": "Select the category which best matches the input.",
+    "input": "['no', 'yes']\nstd: 0.71, average: 2.50, mode: 2.00, median: 2.50, max: 3.00, min: 2.00]\nCATEGORY:\n",
+    "output": "medical_boolean\n"
+  },
+  {
+    "instruction": "Select the category which best matches the input.",
+    "input": "['non', 'inc', 'oui']\nstd: 0, average: 3, mode: 3.00, median: 3, max: 3.00, min: 3.00]\nCATEGORY:\n",
+    "output": "medical_boolean\n"
+  },
+  {
+    "instruction": "Select the category which best matches the input.",
+    "input": "['non', 'inc']\nstd: 0, average: 3, mode: 3.00, median: 3, max: 3.00, min: 3.00]\nCATEGORY:\n",
+    "output": "medical_boolean\n"
+  },
+  {
+    "instruction": "Select the category which best matches the input.",
+    "input": "['2022-09-22', '2022-09-28', '2022-09-19', '2022-10-14', '2022-08-28']\nstd: 0, average: 10, mode: 10.00, median: 10, max: 10.00, min: 10.00]\nCATEGORY:\n",
+    "output": "date\n"
+  },
+  {
+    "instruction": "Select the category which best matches the input.",
+    "input": "['n', 'y']\nstd: 0, average: 1, mode: 1.00, median: 1, max: 1.00, min: 1.00]\nCATEGORY:\n",
+    "output": "medical_boolean\n"
+  },
+  {
+    "instruction": "Select the category which best matches the input.",
+    "input": "['k983at', '12utb8', '3t02bu2', 'g1319mimc--', 's9-pm255']\nstd: 2.07, average: 7.60, mode: 6.00, median: 7, max: 11.00, min: 6.00]\nCATEGORY:\n",
+    "output": "id\n"
+  },
+  {
+    "instruction": "Select the category which best matches the input.",
+    "input": "['32ne-bv26', '3anm06', 'tb458u2', '748ut5b', 'ko903m']\nstd: 1.22, average: 7, mode: 6.00, median: 7, max: 9.00, min: 6.00]\nCATEGORY:\n",
+    "output": "id\n"
+  },
+  {
+    "instruction": "Select the category which best matches the input.",
+    "input": "['2020-06-20', '2020-06-24', '2020-06-14']\nstd: 0, average: 10, mode: 10.00, median: 10, max: 10.00, min: 10.00]\nCATEGORY:\n",
+    "output": "date\n"
+  },
+  {
+    "instruction": "Select the category which best matches the input.",
+    "input": "['inc', 'non']\nstd: 0, average: 3, mode: 3.00, median: 3, max: 3.00, min: 3.00]\nCATEGORY:\n",
+    "output": "medical_boolean\n"
+  },
+  {
+    "instruction": "Select the category which best matches the input.",
+    "input": "['2022-04-27', '2022-05-01', '2022-04-13', '2022-04-24', '2022-05-09']\nstd: 0, average: 10, mode: 10.00, median: 10, max: 10.00, min: 10.00]\nCATEGORY:\n",
+    "output": "date\n"
+  },
+  {
+    "instruction": "Select the category which best matches the input.",
+    "input": "['jaundice', 'vomit', 'weak', 'fever', 'painabdo']\nstd: 1.87, average: 6, mode: 5.00, median: 5, max: 8.00, min: 4.00]\nCATEGORY:\n",
+    "output": "symptoms\n"
+  },
+  {
+    "instruction": "Select the category which best matches the input.",
+    "input": "['non', 'inc', 'oui']\nstd: 0, average: 3, mode: 3.00, median: 3, max: 3.00, min: 3.00]\nCATEGORY:\n",
+    "output": "medical_boolean\n"
+  },
+  {
+    "instruction": "Select the category which best matches the input.",
+    "input": "['japan', 'chile', 'united kingdom', 'serbia', 'peru']\nstd: 4.09, average: 6.80, mode: 5.00, median: 5, max: 14.00, min: 4.00]\nCATEGORY:\n",
+    "output": "location\n"
+  },
+  {
+    "instruction": "Select the category which best matches the input.",
+    "input": "['2022-05-19', '2022-05-16', '2022-05-26', '2022-05-23', '2022-05-27']\nstd: 0, average: 10, mode: 10.00, median: 10, max: 10.00, min: 10.00]\nCATEGORY:\n",
+    "output": "date\n"
+  },
+  {
+    "instruction": "Select the category which best matches the input.",
+    "input": "['non', 'oui', 'inc']\nstd: 0, average: 3, mode: 3.00, median: 3, max: 3.00, min: 3.00]\nCATEGORY:\n",
+    "output": "medical_boolean\n"
+  },
+  {
+    "instruction": "Select the category which best matches the input.",
+    "input": "['suspected case', 'clinical notification', 'discarded case', 'laboratory notification', 'confirmed case']\nstd: 4.44, average: 17.20, mode: 14.00, median: 14, max: 23.00, min: 14.00]\nCATEGORY:\n",
+    "output": "case_status\n"
+  },
+  {
+    "instruction": "Select the category which best matches the input.",
+    "input": "['2020-07-04', '2020-06-26', '2020-06-19', '2020-06-06', '2020-06-30']\nstd: 0, average: 10, mode: 10.00, median: 10, max: 10.00, min: 10.00]\nCATEGORY:\n",
+    "output": "date\n"
+  },
+  {
+    "instruction": "Select the category which best matches the input.",
+    "input": "['t19b58u', 'b0tu08', '-17n1evb', '-2bven69', '2bu2t1']\nstd: 1, average: 7, mode: 6.00, median: 7, max: 8.00, min: 6.00]\nCATEGORY:\n",
+    "output": "id\n"
+  },
+  {
+    "instruction": "Select the category which best matches the input.",
+    "input": "['1.0', '0.0']\nstd: 0.71, average: 0.50, mode: 0, median: 0.50, max: 1, min: 0]\nCATEGORY:\n",
+    "output": "medical_boolean\n"
+  },
+  {
+    "instruction": "Select the category which best matches the input.",
+    "input": "['dead', 'alive']\nstd: 0.71, average: 4.50, mode: 4.00, median: 4.50, max: 5.00, min: 4.00]\nCATEGORY:\n",
+    "output": "outcome\n"
+  },
+  {
+    "instruction": "Select the category which best matches the input.",
+    "input": "['non', 'inc', 'oui']\nstd: 0, average: 3, mode: 3.00, median: 3, max: 3.00, min: 3.00]\nCATEGORY:\n",
+    "output": "medical_boolean\n"
+  },
+  {
+    "instruction": "Select the category which best matches the input.",
+    "input": "['non', 'oui', 'inc']\nstd: 0, average: 3, mode: 3.00, median: 3, max: 3.00, min: 3.00]\nCATEGORY:\n",
+    "output": "medical_boolean\n"
+  },
+  {
+    "instruction": "Select the category which best matches the input.",
+    "input": "['asthma', 'no']\nstd: 2.83, average: 4, mode: 2.00, median: 4, max: 6.00, min: 2.00]\nCATEGORY:\n",
+    "output": "medical_boolean\n"
+  },
+  {
+    "instruction": "Select the category which best matches the input.",
+    "input": "['m', 'f']\nstd: 0, average: 1, mode: 1.00, median: 1, max: 1.00, min: 1.00]\nCATEGORY:\n",
+    "output": "gender\n"
+  },
+  {
+    "instruction": "Select the category which best matches the input.",
+    "input": "['non cas', 'confirm']\nstd: 0, average: 7, mode: 7.00, median: 7, max: 7.00, min: 7.00]\nCATEGORY:\n",
+    "output": "case_status\n"
+  },
+  {
+    "instruction": "Select the category which best matches the input.",
+    "input": "['bouar', 'baoro', 'bozoum', 'bangui', 'bangassou']\nstd: 1.64, average: 6.20, mode: 5.00, median: 6, max: 9.00, min: 5.00]\nCATEGORY:\n",
+    "output": "location\n"
+  },
+  {
+    "instruction": "Select the category which best matches the input.",
+    "input": "['y', 'n']\nstd: 0, average: 1, mode: 1.00, median: 1, max: 1.00, min: 1.00]\nCATEGORY:\n",
+    "output": "medical_boolean\n"
+  },
+  {
+    "instruction": "Select the category which best matches the input.",
+    "input": "['58.0', '30.0', '37.0', '29.0', '38.0']\nstd: 11.67, average: 38.40, mode: 29, median: 37, max: 58, min: 29]\nCATEGORY:\n",
+    "output": "age\n"
+  },
+  {
+    "instruction": "Select the category which best matches the input.",
+    "input": "['2020-01-26', '2020-01-27', '2020-01-22', '2020-02-01', '2020-01-20']\nstd: 0, average: 10, mode: 10.00, median: 10, max: 10.00, min: 10.00]\nCATEGORY:\n",
+    "output": "date\n"
+  },
+  {
+    "instruction": "Select the category which best matches the input.",
+    "input": "['2020-08-12', '2020-06-26', '2020-08-16', '2020-06-16', '2020-08-10']\nstd: 0, average: 10, mode: 10.00, median: 10, max: 10.00, min: 10.00]\nCATEGORY:\n",
+    "output": "date\n"
+  },
+  {
+    "instruction": "Select the category which best matches the input.",
+    "input": "['2022-04-11']\nstd: nan, average: 10, mode: 10.00, median: 10, max: 10.00, min: 10.00]\nCATEGORY:\n",
+    "output": "date\n"
+  },
+  {
+    "instruction": "Select the category which best matches the input.",
+    "input": "['2020-09-23', '2020-06-06', '2020-06-24', '2020-08-22', '2020-07-28']\nstd: 0, average: 10, mode: 10.00, median: 10, max: 10.00, min: 10.00]\nCATEGORY:\n",
+    "output": "date\n"
+  },
+  {
+    "instruction": "Select the category which best matches the input.",
+    "input": "['2020-06-07', '2020-09-01', '2020-03-05', '2020-09-14', '2020-06-09']\nstd: 0, average: 10, mode: 10.00, median: 10, max: 10.00, min: 10.00]\nCATEGORY:\n",
+    "output": "date\n"
+  },
+  {
+    "instruction": "Select the category which best matches the input.",
+    "input": "['no', 'yes']\nstd: 0.71, average: 2.50, mode: 2.00, median: 2.50, max: 3.00, min: 2.00]\nCATEGORY:\n",
+    "output": "medical_boolean\n"
+  },
+  {
+    "instruction": "Select the category which best matches the input.",
+    "input": "['monaco', 'georgia', 'finland', 'cuba', 'colombia']\nstd: 1.52, average: 6.40, mode: 7.00, median: 7, max: 8.00, min: 4.00]\nCATEGORY:\n",
+    "output": "location\n"
+  },
+  {
+    "instruction": "Select the category which best matches the input.",
+    "input": "['2020-02-28', '2020-03-02', '2020-02-24', '2020-02-20', '2020-02-27']\nstd: 0, average: 10, mode: 10.00, median: 10, max: 10.00, min: 10.00]\nCATEGORY:\n",
+    "output": "date\n"
+  },
+  {
+    "instruction": "Select the category which best matches the input.",
+    "input": "['yes', 'no']\nstd: 0.71, average: 2.50, mode: 2.00, median: 2.50, max: 3.00, min: 2.00]\nCATEGORY:\n",
+    "output": "medical_boolean\n"
+  },
+  {
+    "instruction": "Select the category which best matches the input.",
+    "input": "['non', 'oui', 'inc']\nstd: 0, average: 3, mode: 3.00, median: 3, max: 3.00, min: 3.00]\nCATEGORY:\n",
+    "output": "medical_boolean\n"
+  },
+  {
+    "instruction": "Select the category which best matches the input.",
+    "input": "['mnagre', 'moto', 'planteur/eleveur', 'inconnu', 'vendeuse de manioc']\nstd: 6.34, average: 10.20, mode: 4.00, median: 7, max: 18.00, min: 4.00]\nCATEGORY:\n",
+    "output": "occupation\n"
+  },
+  {
+    "instruction": "Select the category which best matches the input.",
+    "input": "['2022-04-11', '2021-04-14', '2022-02-28', '2022-04-03', '2022-03-29']\nstd: 0, average: 10, mode: 10.00, median: 10, max: 10.00, min: 10.00]\nCATEGORY:\n",
+    "output": "date\n"
+  },
+  {
+    "instruction": "Select the category which best matches the input.",
+    "input": "['chef religieux', 'transporteur', 'enfant', 'pharmaciens', 'chef terrier']\nstd: 3, average: 11, mode: 12.00, median: 12, max: 14.00, min: 6.00]\nCATEGORY:\n",
+    "output": "occupation\n"
+  },
+  {
+    "instruction": "Select the category which best matches the input.",
+    "input": "['co-hospitalisation', 'patient<>soignant', 'travail', 'voisins', 'amis']\nstd: 6.43, average: 10.60, mode: 7.00, median: 7, max: 18.00, min: 4.00]\nCATEGORY:\n",
+    "output": "contact_setting\n"
+  },
+  {
+    "instruction": "Select the category which best matches the input.",
+    "input": "['2020-06-04']\nstd: nan, average: 10, mode: 10.00, median: 10, max: 10.00, min: 10.00]\nCATEGORY:\n",
+    "output": "date\n"
+  },
+  {
+    "instruction": "Select the category which best matches the input.",
+    "input": "['2022-04-30', '2022-04-28', '2022-04-24', '2022-04-09', '2022-05-03']\nstd: 0, average: 10, mode: 10.00, median: 10, max: 10.00, min: 10.00]\nCATEGORY:\n",
+    "output": "date\n"
+  },
+  {
+    "instruction": "Select the category which best matches the input.",
+    "input": "['2020-05-31']\nstd: nan, average: 10, mode: 10.00, median: 10, max: 10.00, min: 10.00]\nCATEGORY:\n",
+    "output": "date\n"
+  },
+  {
+    "instruction": "Select the category which best matches the input.",
+    "input": "['f', 'm']\nstd: 0, average: 1, mode: 1.00, median: 1, max: 1.00, min: 1.00]\nCATEGORY:\n",
+    "output": "gender\n"
+  },
+  {
+    "instruction": "Select the category which best matches the input.",
+    "input": "['dqc2e2910r0', '4d3qr6c040e', '9qde2011r0c', '4c013q0d2er', 'c2q0e1rd300']\nstd: 0, average: 11, mode: 11.00, median: 11, max: 11.00, min: 11.00]\nCATEGORY:\n",
+    "output": "id\n"
+  },
+  {
+    "instruction": "Select the category which best matches the input.",
+    "input": "['cuba', 'chile', 'venezuela', 'ecuador', 'jamaica']\nstd: 1.95, average: 6.40, mode: 7.00, median: 7, max: 9.00, min: 4.00]\nCATEGORY:\n",
+    "output": "location\n"
+  },
+  {
+    "instruction": "Select the category which best matches the input.",
+    "input": "['argentina', 'austria', 'australia', 'bangladesh']\nstd: 1.26, average: 8.75, mode: 9.00, median: 9, max: 10.00, min: 7.00]\nCATEGORY:\n",
+    "output": "location\n"
+  },
+  {
+    "instruction": "Select the category which best matches the input.",
+    "input": "['411', '00an03', '17', '953', '352']\nstd: 1.52, average: 3.40, mode: 3.00, median: 3, max: 6.00, min: 2.00]\nCATEGORY:\n",
+    "output": "id\n"
+  },
+  {
+    "instruction": "Select the category which best matches the input.",
+    "input": "['autre', 'enfant', 'inconnu', 'planteur/eleveur', 'taxi moto']\nstd: 4.39, average: 8.60, mode: 5.00, median: 7, max: 16.00, min: 5.00]\nCATEGORY:\n",
+    "output": "occupation\n"
+  },
+  {
+    "instruction": "Select the category which best matches the input.",
+    "input": "['nola']\nstd: nan, average: 4, mode: 4.00, median: 4, max: 4.00, min: 4.00]\nCATEGORY:\n",
+    "output": "location\n"
+  },
+  {
+    "instruction": "Select the category which best matches the input.",
+    "input": "['oui', 'non', 'inc']\nstd: 0, average: 3, mode: 3.00, median: 3, max: 3.00, min: 3.00]\nCATEGORY:\n",
+    "output": "medical_boolean\n"
+  },
+  {
+    "instruction": "Select the category which best matches the input.",
+    "input": "['zimbabwe', 'democratic republic of the congo', 'angola', 'sierra leone', 'mauritius']\nstd: 10.62, average: 13.40, mode: 6.00, median: 9, max: 32.00, min: 6.00]\nCATEGORY:\n",
+    "output": "location\n"
+  },
+  {
+    "instruction": "Select the category which best matches the input.",
+    "input": "['2022-10-31', '2022-09-29', '2022-10-21', '2022-10-01', '2022-10-20']\nstd: 0, average: 10, mode: 10.00, median: 10, max: 10.00, min: 10.00]\nCATEGORY:\n",
+    "output": "date\n"
+  },
+  {
+    "instruction": "Select the category which best matches the input.",
+    "input": "['no']\nstd: nan, average: 2, mode: 2.00, median: 2, max: 2.00, min: 2.00]\nCATEGORY:\n",
+    "output": "medical_boolean\n"
+  },
+  {
+    "instruction": "Select the category which best matches the input.",
+    "input": "['etudiant', 'fonctionnaire', 'enfant', 'mcanicien', 'colier/lve']\nstd: 2.59, average: 9.20, mode: 6.00, median: 9, max: 13.00, min: 6.00]\nCATEGORY:\n",
+    "output": "occupation\n"
+  },
+  {
+    "instruction": "Select the category which best matches the input.",
+    "input": "['no', 'yes']\nstd: 0.71, average: 2.50, mode: 2.00, median: 2.50, max: 3.00, min: 2.00]\nCATEGORY:\n",
+    "output": "medical_boolean\n"
+  },
+  {
+    "instruction": "Select the category which best matches the input.",
+    "input": "['2020-08-09', '2020-08-05', '2020-07-20', '2020-07-16', '2020-08-03']\nstd: 0, average: 10, mode: 10.00, median: 10, max: 10.00, min: 10.00]\nCATEGORY:\n",
+    "output": "date\n"
+  },
+  {
+    "instruction": "Select the category which best matches the input.",
+    "input": "['oui', 'non']\nstd: 0, average: 3, mode: 3.00, median: 3, max: 3.00, min: 3.00]\nCATEGORY:\n",
+    "output": "medical_boolean\n"
+  },
+  {
+    "instruction": "Select the category which best matches the input.",
+    "input": "['london', 'scotland', 'northern ireland', 'east midlands', 'north west']\nstd: 3.97, average: 10.60, mode: 6.00, median: 10, max: 16.00, min: 6.00]\nCATEGORY:\n",
+    "output": "location\n"
+  },
+  {
+    "instruction": "Select the category which best matches the input.",
+    "input": "['2020-06-01']\nstd: nan, average: 10, mode: 10.00, median: 10, max: 10.00, min: 10.00]\nCATEGORY:\n",
+    "output": "date\n"
+  },
+  {
+    "instruction": "Select the category which best matches the input.",
+    "input": "['28/05/2020', '20/09/2020', '01/07/2020', '16/09/2020', '21/05/2020']\nstd: 0, average: 10, mode: 10.00, median: 10, max: 10.00, min: 10.00]\nCATEGORY:\n",
+    "output": "date\n"
+  },
+  {
+    "instruction": "Select the category which best matches the input.",
+    "input": "['oui', 'inc', 'non']\nstd: 0, average: 3, mode: 3.00, median: 3, max: 3.00, min: 3.00]\nCATEGORY:\n",
+    "output": "medical_boolean\n"
+  },
+  {
+    "instruction": "Select the category which best matches the input.",
+    "input": "['inc', 'non', 'oui']\nstd: 0, average: 3, mode: 3.00, median: 3, max: 3.00, min: 3.00]\nCATEGORY:\n",
+    "output": "medical_boolean\n"
+  },
+  {
+    "instruction": "Select the category which best matches the input.",
+    "input": "['20dv3e5', 'e2vd246', '31ev00d', '8d7ev12', '20e9dv5']\nstd: 0, average: 7, mode: 7.00, median: 7, max: 7.00, min: 7.00]\nCATEGORY:\n",
+    "output": "id\n"
+  },
+  {
+    "instruction": "Select the category which best matches the input.",
+    "input": "['2020-06-28', '2020-06-19', '2020-06-30', '2020-06-02', '2020-06-10']\nstd: 0, average: 10, mode: 10.00, median: 10, max: 10.00, min: 10.00]\nCATEGORY:\n",
+    "output": "date\n"
+  },
+  {
+    "instruction": "Select the category which best matches the input.",
+    "input": "['2020-06-23', '2020-05-15', '2020-07-09', '2020-07-08', '2020-07-06']\nstd: 0, average: 10, mode: 10.00, median: 10, max: 10.00, min: 10.00]\nCATEGORY:\n",
+    "output": "date\n"
+  },
+  {
+    "instruction": "Select the category which best matches the input.",
+    "input": "['3.0', '44.0', '50.0', '1.0', '47.0']\nstd: 24.75, average: 29, mode: 1, median: 44, max: 50, min: 1]\nCATEGORY:\n",
+    "output": "age\n"
+  },
+  {
+    "instruction": "Select the category which best matches the input.",
+    "input": "['0.0']\nstd: nan, average: 0, mode: 0, median: 0, max: 0, min: 0]\nCATEGORY:\n",
+    "output": "medical_boolean\n"
+  },
+  {
+    "instruction": "Select the category which best matches the input.",
+    "input": "['16.0', '50.0', '39.0', '32.0', '7.0']\nstd: 17.34, average: 28.80, mode: 7, median: 32, max: 50, min: 7]\nCATEGORY:\n",
+    "output": "age\n"
+  },
+  {
+    "instruction": "Select the category which best matches the input.",
+    "input": "['oui', 'non']\nstd: 0, average: 3, mode: 3.00, median: 3, max: 3.00, min: 3.00]\nCATEGORY:\n",
+    "output": "medical_boolean\n"
+  },
+  {
+    "instruction": "Select the category which best matches the input.",
+    "input": "['945334418', '587344454', '428147438', '43603805', '420463958']\nstd: 325810480.53, average: 484978814.60, mode: 43603805, median: 428147438, max: 945334418, min: 43603805]\nCATEGORY:\n",
+    "output": "id\n"
+  },
+  {
+    "instruction": "Select the category which best matches the input.",
+    "input": "['fille', 'voisin', 'niece', 'mre', 'famille']\nstd: 1.48, average: 5.20, mode: 5.00, median: 5, max: 7.00, min: 3.00]\nCATEGORY:\n",
+    "output": "medical_boolean\n"
+  },
+  {
+    "instruction": "Select the category which best matches the input.",
+    "input": "['no', 'yes']\nstd: 0.71, average: 2.50, mode: 2.00, median: 2.50, max: 3.00, min: 2.00]\nCATEGORY:\n",
+    "output": "medical_boolean\n"
+  },
+  {
+    "instruction": "Select the category which best matches the input.",
+    "input": "['bangui', 'nola', 'nana-grbizi', 'baboua', 'kabo']\nstd: 2.86, average: 6.20, mode: 4.00, median: 6, max: 11.00, min: 4.00]\nCATEGORY:\n",
+    "output": "location\n"
+  },
+  {
+    "instruction": "Select the category which best matches the input.",
+    "input": "['bangui', 'yaloke', 'amada-gaza', 'basse-kotto', 'nana-mambr']\nstd: 2.41, average: 8.60, mode: 6.00, median: 10, max: 11.00, min: 6.00]\nCATEGORY:\n",
+    "output": "location\n"
+  },
+  {
+    "instruction": "Select the category which best matches the input.",
+    "input": "['no']\nstd: nan, average: 2, mode: 2.00, median: 2, max: 2.00, min: 2.00]\nCATEGORY:\n",
+    "output": "medical_boolean\n"
+  },
+  {
+    "instruction": "Select the category which best matches the input.",
+    "input": "['39', '67', '37', '40', '5']\nstd: 22.00, average: 37.60, mode: 5, median: 39, max: 67, min: 5]\nCATEGORY:\n",
+    "output": "age\n"
+  },
+  {
+    "instruction": "Select the category which best matches the input.",
+    "input": "['2020-06-01']\nstd: nan, average: 10, mode: 10.00, median: 10, max: 10.00, min: 10.00]\nCATEGORY:\n",
+    "output": "date\n"
+  },
+  {
+    "instruction": "Select the category which best matches the input.",
+    "input": "['no', 'yes']\nstd: 0.71, average: 2.50, mode: 2.00, median: 2.50, max: 3.00, min: 2.00]\nCATEGORY:\n",
+    "output": "medical_boolean\n"
+  },
+  {
+    "instruction": "Select the category which best matches the input.",
+    "input": "['non', 'oui']\nstd: 0, average: 3, mode: 3.00, median: 3, max: 3.00, min: 3.00]\nCATEGORY:\n",
+    "output": "medical_boolean\n"
+  },
+  {
+    "instruction": "Select the category which best matches the input.",
+    "input": "['2022-09-17', '2022-10-30', '2022-10-27', '2022-08-17', '2022-09-04']\nstd: 0, average: 10, mode: 10.00, median: 10, max: 10.00, min: 10.00]\nCATEGORY:\n",
+    "output": "date\n"
+  },
+  {
+    "instruction": "Select the category which best matches the input.",
+    "input": "['inconnu', 'oui', 'non']\nstd: 2.31, average: 4.33, mode: 3.00, median: 3, max: 7.00, min: 3.00]\nCATEGORY:\n",
+    "output": "medical_boolean\n"
+  },
+  {
+    "instruction": "Select the category which best matches the input.",
+    "input": "['m', 'f']\nstd: 0, average: 1, mode: 1.00, median: 1, max: 1.00, min: 1.00]\nCATEGORY:\n",
+    "output": "gender\n"
+  },
+  {
+    "instruction": "Select the category which best matches the input.",
+    "input": "['oui', 'non', 'inc']\nstd: 0, average: 3, mode: 3.00, median: 3, max: 3.00, min: 3.00]\nCATEGORY:\n",
+    "output": "medical_boolean\n"
+  },
+  {
+    "instruction": "Select the category which best matches the input.",
+    "input": "['2020-01-08', '2020-01-14', '2020-02-09', '2020-01-29', '2020-02-11']\nstd: 0, average: 10, mode: 10.00, median: 10, max: 10.00, min: 10.00]\nCATEGORY:\n",
+    "output": "date\n"
+  },
+  {
+    "instruction": "Select the category which best matches the input.",
+    "input": "['n820e-v5b1', '21v69nb5-e', '-e4b652nv2', '32n-2ve5b4', 'eb232-v5n5']\nstd: 0, average: 10, mode: 10.00, median: 10, max: 10.00, min: 10.00]\nCATEGORY:\n",
+    "output": "id\n"
+  },
+  {
+    "instruction": "Select the category which best matches the input.",
+    "input": "['recovered', 'not recovered', 'other', 'death']\nstd: 3.83, average: 8, mode: 5.00, median: 7, max: 13.00, min: 5.00]\nCATEGORY:\n",
+    "output": "outcome\n"
+  },
+  {
+    "instruction": "Select the category which best matches the input.",
+    "input": "['oui', 'inc', 'non']\nstd: 0, average: 3, mode: 3.00, median: 3, max: 3.00, min: 3.00]\nCATEGORY:\n",
+    "output": "medical_boolean\n"
+  },
+  {
+    "instruction": "Select the category which best matches the input.",
+    "input": "['m', 'f']\nstd: 0, average: 1, mode: 1.00, median: 1, max: 1.00, min: 1.00]\nCATEGORY:\n",
+    "output": "gender\n"
+  },
+  {
+    "instruction": "Select the category which best matches the input.",
+    "input": "['1.0', '0.0']\nstd: 0.71, average: 0.50, mode: 0, median: 0.50, max: 1, min: 0]\nCATEGORY:\n",
+    "output": "medical_boolean\n"
+  },
+  {
+    "instruction": "Select the category which best matches the input.",
+    "input": "['ndl health center', 'ndl community hospital']\nstd: 3.54, average: 19.50, mode: 17.00, median: 19.50, max: 22.00, min: 17.00]\nCATEGORY:\n",
+    "output": "contact_setting\n"
+  },
+  {
+    "instruction": "Select the category which best matches the input.",
+    "input": "['berberati', 'bozoum', 'bouca', 'bambio', 'zmio']\nstd: 1.87, average: 6, mode: 6.00, median: 6, max: 9.00, min: 4.00]\nCATEGORY:\n",
+    "output": "location\n"
+  },
+  {
+    "instruction": "Select the category which best matches the input.",
+    "input": "['2020-07-11', '2020-07-10', '2020-07-07', '2020-07-13', '2020-04-10']\nstd: 0, average: 10, mode: 10.00, median: 10, max: 10.00, min: 10.00]\nCATEGORY:\n",
+    "output": "date\n"
+  },
+  {
+    "instruction": "Select the category which best matches the input.",
+    "input": "['y', 'n']\nstd: 0, average: 1, mode: 1.00, median: 1, max: 1.00, min: 1.00]\nCATEGORY:\n",
+    "output": "medical_boolean\n"
+  },
+  {
+    "instruction": "Select the category which best matches the input.",
+    "input": "['ouham', 'mambr-kad', 'haut-mbomou', 'ouham-pend', 'nana-grbizi']\nstd: 2.49, average: 9.20, mode: 11.00, median: 10, max: 11.00, min: 5.00]\nCATEGORY:\n",
+    "output": "location\n"
+  },
+  {
+    "instruction": "Select the category which best matches the input.",
+    "input": "['d00t0cr8qe00', 'd0q10r2et04c', 'r97dq0t006ec', 'ced0q0000r1t', 'ecr0t02081qd']\nstd: 0, average: 12, mode: 12.00, median: 12, max: 12.00, min: 12.00]\nCATEGORY:\n",
+    "output": "id\n"
+  },
+  {
+    "instruction": "Select the category which best matches the input.",
+    "input": "['oui', 'non', 'inc']\nstd: 0, average: 3, mode: 3.00, median: 3, max: 3.00, min: 3.00]\nCATEGORY:\n",
+    "output": "medical_boolean\n"
+  },
+  {
+    "instruction": "Select the category which best matches the input.",
+    "input": "['2022-04-08', '2022-04-09', '2022-05-18', '2022-03-21', '2022-01-02']\nstd: 0, average: 10, mode: 10.00, median: 10, max: 10.00, min: 10.00]\nCATEGORY:\n",
+    "output": "date\n"
+  },
+  {
+    "instruction": "Select the category which best matches the input.",
+    "input": "['oui', 'inc', 'non']\nstd: 0, average: 3, mode: 3.00, median: 3, max: 3.00, min: 3.00]\nCATEGORY:\n",
+    "output": "medical_boolean\n"
+  },
+  {
+    "instruction": "Select the category which best matches the input.",
+    "input": "['soignant', 'pre-mere', 'ecolier', 'visiteur', 'malade']\nstd: 0.89, average: 7.40, mode: 8.00, median: 8, max: 8.00, min: 6.00]\nCATEGORY:\n",
+    "output": "contact_setting\n"
+  },
+  {
+    "instruction": "Select the category which best matches the input.",
+    "input": "['oui', 'non']\nstd: 0, average: 3, mode: 3.00, median: 3, max: 3.00, min: 3.00]\nCATEGORY:\n",
+    "output": "medical_boolean\n"
+  },
+  {
+    "instruction": "Select the category which best matches the input.",
+    "input": "['bgd', 'arg', 'aut', 'aus']\nstd: 0, average: 3, mode: 3.00, median: 3, max: 3.00, min: 3.00]\nCATEGORY:\n",
+    "output": "location\n"
+  },
+  {
+    "instruction": "Select the category which best matches the input.",
+    "input": "['2020-06-29', '2020-06-12', '2020-07-29', '2020-08-02', '2020-06-05']\nstd: 0, average: 10, mode: 10.00, median: 10, max: 10.00, min: 10.00]\nCATEGORY:\n",
+    "output": "date\n"
+  },
+  {
+    "instruction": "Select the category which best matches the input.",
+    "input": "['m', 'f']\nstd: 0, average: 1, mode: 1.00, median: 1, max: 1.00, min: 1.00]\nCATEGORY:\n",
+    "output": "gender\n"
+  },
+  {
+    "instruction": "Select the category which best matches the input.",
+    "input": "['yes', 'no']\nstd: 0.71, average: 2.50, mode: 2.00, median: 2.50, max: 3.00, min: 2.00]\nCATEGORY:\n",
+    "output": "medical_boolean\n"
+  },
+  {
+    "instruction": "Select the category which best matches the input.",
+    "input": "['1.0', '0.0']\nstd: 0.71, average: 0.50, mode: 0, median: 0.50, max: 1, min: 0]\nCATEGORY:\n",
+    "output": "medical_boolean\n"
+  },
+  {
+    "instruction": "Select the category which best matches the input.",
+    "input": "['nv', 'non', 'oui']\nstd: 0.58, average: 2.67, mode: 3.00, median: 3, max: 3.00, min: 2.00]\nCATEGORY:\n",
+    "output": "medical_boolean\n"
+  },
+  {
+    "instruction": "Select the category which best matches the input.",
+    "input": "['nana-grbizi', 'mobaye']\nstd: 3.54, average: 8.50, mode: 6.00, median: 8.50, max: 11.00, min: 6.00]\nCATEGORY:\n",
+    "output": "location\n"
+  },
+  {
+    "instruction": "Select the category which best matches the input.",
+    "input": "['2020-06-16']\nstd: nan, average: 10, mode: 10.00, median: 10, max: 10.00, min: 10.00]\nCATEGORY:\n",
+    "output": "date\n"
+  },
+  {
+    "instruction": "Select the category which best matches the input.",
+    "input": "['not pregnant']\nstd: nan, average: 12, mode: 12.00, median: 12, max: 12.00, min: 12.00]\nCATEGORY:\n",
+    "output": "medical_boolean\n"
+  },
+  {
+    "instruction": "Select the category which best matches the input.",
+    "input": "['no', 'yes']\nstd: 0.71, average: 2.50, mode: 2.00, median: 2.50, max: 3.00, min: 2.00]\nCATEGORY:\n",
+    "output": "medical_boolean\n"
+  },
+  {
+    "instruction": "Select the category which best matches the input.",
+    "input": "['october 2020', 'june 2020', 'november 2020', 'september 2020', 'december 2020']\nstd: 1.92, average: 12.20, mode: 13.00, median: 13, max: 14.00, min: 9.00]\nCATEGORY:\n",
+    "output": "date\n"
+  },
+  {
+    "instruction": "Select the category which best matches the input.",
+    "input": "['confirmed']\nstd: nan, average: 9, mode: 9.00, median: 9, max: 9.00, min: 9.00]\nCATEGORY:\n",
+    "output": "case_status\n"
+  },
+  {
+    "instruction": "Select the category which best matches the input.",
+    "input": "['0320gtw1', '51b08mk0', '01024wtg', '6100k5mb', 'g0w5t017']\nstd: 0, average: 8, mode: 8.00, median: 8, max: 8.00, min: 8.00]\nCATEGORY:\n",
+    "output": "id\n"
+  },
+  {
+    "instruction": "Select the category which best matches the input.",
+    "input": "['non', 'oui']\nstd: 0, average: 3, mode: 3.00, median: 3, max: 3.00, min: 3.00]\nCATEGORY:\n",
+    "output": "medical_boolean\n"
+  },
+  {
+    "instruction": "Select the category which best matches the input.",
+    "input": "['non', 'oui']\nstd: 0, average: 3, mode: 3.00, median: 3, max: 3.00, min: 3.00]\nCATEGORY:\n",
+    "output": "medical_boolean\n"
+  },
+  {
+    "instruction": "Select the category which best matches the input.",
+    "input": "['no', 'yes']\nstd: 0.71, average: 2.50, mode: 2.00, median: 2.50, max: 3.00, min: 2.00]\nCATEGORY:\n",
+    "output": "medical_boolean\n"
+  },
+  {
+    "instruction": "Select the category which best matches the input.",
+    "input": "['1.0', '0.0']\nstd: 0.71, average: 0.50, mode: 0, median: 0.50, max: 1, min: 0]\nCATEGORY:\n",
+    "output": "medical_boolean\n"
+  },
+  {
+    "instruction": "Select the category which best matches the input.",
+    "input": "['en attente', 'non actif']\nstd: 0.71, average: 9.50, mode: 9.00, median: 9.50, max: 10.00, min: 9.00]\nCATEGORY:\n",
+    "output": "case_status\n"
+  },
+  {
+    "instruction": "Select the category which best matches the input.",
+    "input": "['no', 'yes']\nstd: 0.71, average: 2.50, mode: 2.00, median: 2.50, max: 3.00, min: 2.00]\nCATEGORY:\n",
+    "output": "medical_boolean\n"
+  },
+  {
+    "instruction": "Select the category which best matches the input.",
+    "input": "['non', 'inc', 'oui']\nstd: 0, average: 3, mode: 3.00, median: 3, max: 3.00, min: 3.00]\nCATEGORY:\n",
+    "output": "medical_boolean\n"
+  },
+  {
+    "instruction": "Select the category which best matches the input.",
+    "input": "['oui', 'non']\nstd: 0, average: 3, mode: 3.00, median: 3, max: 3.00, min: 3.00]\nCATEGORY:\n",
+    "output": "medical_boolean\n"
+  },
+  {
+    "instruction": "Select the category which best matches the input.",
+    "input": "['2025-02-23', '2025-03-02', '2025-02-02', '2024-10-06', '2024-12-29']\nstd: 0, average: 10, mode: 10.00, median: 10, max: 10.00, min: 10.00]\nCATEGORY:\n",
+    "output": "date\n"
+  },
+  {
+    "instruction": "Select the category which best matches the input.",
+    "input": "['yes', 'n']\nstd: 1.41, average: 2, mode: 1.00, median: 2, max: 3.00, min: 1.00]\nCATEGORY:\n",
+    "output": "medical_boolean\n"
+  },
+  {
+    "instruction": "Select the category which best matches the input.",
+    "input": "['1.0', '0.0']\nstd: 0.71, average: 0.50, mode: 0, median: 0.50, max: 1, min: 0]\nCATEGORY:\n",
+    "output": "medical_boolean\n"
+  },
+  {
+    "instruction": "Select the category which best matches the input.",
+    "input": "['2019-03-19', '2019-08-29', '2019-02-04', '2019-04-13', '2019-07-01']\nstd: 0, average: 10, mode: 10.00, median: 10, max: 10.00, min: 10.00]\nCATEGORY:\n",
+    "output": "date\n"
+  },
+  {
+    "instruction": "Select the category which best matches the input.",
+    "input": "['not recovered', 'death', 'recovered', 'other']\nstd: 3.83, average: 8, mode: 5.00, median: 7, max: 13.00, min: 5.00]\nCATEGORY:\n",
+    "output": "outcome\n"
+  },
+  {
+    "instruction": "Select the category which best matches the input.",
+    "input": "['oui', 'non', 'inconnu']\nstd: 2.31, average: 4.33, mode: 3.00, median: 3, max: 7.00, min: 3.00]\nCATEGORY:\n",
+    "output": "medical_boolean\n"
+  },
+  {
+    "instruction": "Select the category which best matches the input.",
+    "input": "['no']\nstd: nan, average: 2, mode: 2.00, median: 2, max: 2.00, min: 2.00]\nCATEGORY:\n",
+    "output": "medical_boolean\n"
+  },
+  {
+    "instruction": "Select the category which best matches the input.",
+    "input": "['2020-06-17', '2020-05-28', '2020-06-18', '2020-06-30', '2020-06-07']\nstd: 0, average: 10, mode: 10.00, median: 10, max: 10.00, min: 10.00]\nCATEGORY:\n",
+    "output": "date\n"
+  },
+  {
+    "instruction": "Select the category which best matches the input.",
+    "input": "['alive', 'deceased']\nstd: 2.12, average: 6.50, mode: 5.00, median: 6.50, max: 8.00, min: 5.00]\nCATEGORY:\n",
+    "output": "outcome\n"
+  },
+  {
+    "instruction": "Select the category which best matches the input.",
+    "input": "['probable death', 'confirmed death', 'discharged', 'escapee']\nstd: 3.70, average: 11.50, mode: 7.00, median: 12, max: 15.00, min: 7.00]\nCATEGORY:\n",
+    "output": "outcome\n"
+  },
+  {
+    "instruction": "Select the category which best matches the input.",
+    "input": "['e13vd60', 'e03d6v6', 'v29e02d', '02dev13', 'vd4409e']\nstd: 0, average: 7, mode: 7.00, median: 7, max: 7.00, min: 7.00]\nCATEGORY:\n",
+    "output": "id\n"
+  },
+  {
+    "instruction": "Select the category which best matches the input.",
+    "input": "['non', 'inc', 'oui']\nstd: 0, average: 3, mode: 3.00, median: 3, max: 3.00, min: 3.00]\nCATEGORY:\n",
+    "output": "medical_boolean\n"
+  },
+  {
+    "instruction": "Select the category which best matches the input.",
+    "input": "['inc', 'oui', 'non']\nstd: 0, average: 3, mode: 3.00, median: 3, max: 3.00, min: 3.00]\nCATEGORY:\n",
+    "output": "medical_boolean\n"
+  },
+  {
+    "instruction": "Select the category which best matches the input.",
+    "input": "['2022-05-19', '2022-05-09', '2022-05-17', '2022-05-16', '2022-05-23']\nstd: 0, average: 10, mode: 10.00, median: 10, max: 10.00, min: 10.00]\nCATEGORY:\n",
+    "output": "date\n"
+  },
+  {
+    "instruction": "Select the category which best matches the input.",
+    "input": "['1', 'yes', '0']\nstd: 1.15, average: 1.67, mode: 1.00, median: 1, max: 3.00, min: 1.00]\nCATEGORY:\n",
+    "output": "medical_boolean\n"
+  },
+  {
+    "instruction": "Select the category which best matches the input.",
+    "input": "['no', 'yes']\nstd: 0.71, average: 2.50, mode: 2.00, median: 2.50, max: 3.00, min: 2.00]\nCATEGORY:\n",
+    "output": "contact_setting\n"
+  },
+  {
+    "instruction": "Select the category which best matches the input.",
+    "input": "['no', 'yes']\nstd: 0.71, average: 2.50, mode: 2.00, median: 2.50, max: 3.00, min: 2.00]\nCATEGORY:\n",
+    "output": "medical_boolean\n"
+  },
+  {
+    "instruction": "Select the category which best matches the input.",
+    "input": "['bria', 'basse-kotto', 'nana-grbizi']\nstd: 4.04, average: 8.67, mode: 11.00, median: 11, max: 11.00, min: 4.00]\nCATEGORY:\n",
+    "output": "location\n"
+  },
+  {
+    "instruction": "Select the category which best matches the input.",
+    "input": "['non', 'inc']\nstd: 0, average: 3, mode: 3.00, median: 3, max: 3.00, min: 3.00]\nCATEGORY:\n",
+    "output": "medical_boolean\n"
+  },
+  {
+    "instruction": "Select the category which best matches the input.",
+    "input": "['fever']\nstd: nan, average: 5, mode: 5.00, median: 5, max: 5.00, min: 5.00]\nCATEGORY:\n",
+    "output": "symptoms\n"
+  },
+  {
+    "instruction": "Select the category which best matches the input.",
+    "input": "['non', 'oui']\nstd: 0, average: 3, mode: 3.00, median: 3, max: 3.00, min: 3.00]\nCATEGORY:\n",
+    "output": "medical_boolean\n"
+  },
+  {
+    "instruction": "Select the category which best matches the input.",
+    "input": "['stool vomiting', 'nose vomiting', 'nose blood in urine', 'nose', 'stool']\nstd: 6.36, average: 11, mode: 4.00, median: 13, max: 19.00, min: 4.00]\nCATEGORY:\n",
+    "output": "symptoms\n"
+  },
+  {
+    "instruction": "Select the category which best matches the input.",
+    "input": "['5.0', '36.0', '21.0', '17.0', '12.0']\nstd: 11.61, average: 18.20, mode: 5, median: 17, max: 36, min: 5]\nCATEGORY:\n",
+    "output": "age\n"
+  },
+  {
+    "instruction": "Select the category which best matches the input.",
+    "input": "['non', 'oui']\nstd: 0, average: 3, mode: 3.00, median: 3, max: 3.00, min: 3.00]\nCATEGORY:\n",
+    "output": "medical_boolean\n"
+  },
+  {
+    "instruction": "Select the category which best matches the input.",
+    "input": "['inc', 'non', 'oui']\nstd: 0, average: 3, mode: 3.00, median: 3, max: 3.00, min: 3.00]\nCATEGORY:\n",
+    "output": "medical_boolean\n"
+  },
+  {
+    "instruction": "Select the category which best matches the input.",
+    "input": "['2020-05-26', '2020-07-01']\nstd: 0, average: 10, mode: 10.00, median: 10, max: 10.00, min: 10.00]\nCATEGORY:\n",
+    "output": "date\n"
+  },
+  {
+    "instruction": "Select the category which best matches the input.",
+    "input": "['inc', 'oui', 'non']\nstd: 0, average: 3, mode: 3.00, median: 3, max: 3.00, min: 3.00]\nCATEGORY:\n",
+    "output": "medical_boolean\n"
+  },
+  {
+    "instruction": "Select the category which best matches the input.",
+    "input": "['0.0', '1.0']\nstd: 0.71, average: 0.50, mode: 0, median: 0.50, max: 1, min: 0]\nCATEGORY:\n",
+    "output": "medical_boolean\n"
+  },
+  {
+    "instruction": "Select the category which best matches the input.",
+    "input": "['bik094', 'mbk228', 'bik074', 'bik001', 'mbk461']\nstd: 0, average: 6, mode: 6.00, median: 6, max: 6.00, min: 6.00]\nCATEGORY:\n",
+    "output": "id\n"
+  },
+  {
+    "instruction": "Select the category which best matches the input.",
+    "input": "['2020-06-11', '2020-07-28', '2020-07-22', '2020-07-08', '2020-07-04']\nstd: 0, average: 10, mode: 10.00, median: 10, max: 10.00, min: 10.00]\nCATEGORY:\n",
+    "output": "date\n"
+  },
+  {
+    "instruction": "Select the category which best matches the input.",
+    "input": "['afghanistan', 'andorra', 'albania', 'algeria']\nstd: 2, average: 8, mode: 7.00, median: 7, max: 11.00, min: 7.00]\nCATEGORY:\n",
+    "output": "location\n"
+  },
+  {
+    "instruction": "Select the category which best matches the input.",
+    "input": "['2020-06-17', '2020-06-22', '2020-06-25', '2020-05-28', '2020-05-19']\nstd: 0, average: 10, mode: 10.00, median: 10, max: 10.00, min: 10.00]\nCATEGORY:\n",
+    "output": "date\n"
+  },
+  {
+    "instruction": "Select the category which best matches the input.",
+    "input": "['dcd', 'vivant']\nstd: 2.12, average: 4.50, mode: 3.00, median: 4.50, max: 6.00, min: 3.00]\nCATEGORY:\n",
+    "output": "outcome\n"
+  },
+  {
+    "instruction": "Select the category which best matches the input.",
+    "input": "['y', 'n']\nstd: 0, average: 1, mode: 1.00, median: 1, max: 1.00, min: 1.00]\nCATEGORY:\n",
+    "output": "medical_boolean\n"
+  },
+  {
+    "instruction": "Select the category which best matches the input.",
+    "input": "['inc', 'non']\nstd: 0, average: 3, mode: 3.00, median: 3, max: 3.00, min: 3.00]\nCATEGORY:\n",
+    "output": "medical_boolean\n"
+  },
+  {
+    "instruction": "Select the category which best matches the input.",
+    "input": "['0.0', '1.0']\nstd: 0.71, average: 0.50, mode: 0, median: 0.50, max: 1, min: 0]\nCATEGORY:\n",
+    "output": "medical_boolean\n"
+  },
+  {
+    "instruction": "Select the category which best matches the input.",
+    "input": "['2020-06-10', '2020-08-24', '2020-08-10', '2020-08-18', '2020-08-26']\nstd: 0, average: 10, mode: 10.00, median: 10, max: 10.00, min: 10.00]\nCATEGORY:\n",
+    "output": "date\n"
+  },
+  {
+    "instruction": "Select the category which best matches the input.",
+    "input": "['dead']\nstd: nan, average: 4, mode: 4.00, median: 4, max: 4.00, min: 4.00]\nCATEGORY:\n",
+    "output": "outcome\n"
+  },
+  {
+    "instruction": "Select the category which best matches the input.",
+    "input": "['oui', 'non', 'inc']\nstd: 0, average: 3, mode: 3.00, median: 3, max: 3.00, min: 3.00]\nCATEGORY:\n",
+    "output": "medical_boolean\n"
+  },
+  {
+    "instruction": "Select the category which best matches the input.",
+    "input": "['carnot', 'bossembl', 'bangui', 'nola', 'gamboula']\nstd: 1.67, average: 6.40, mode: 6.00, median: 6, max: 8.00, min: 4.00]\nCATEGORY:\n",
+    "output": "location\n"
+  },
+  {
+    "instruction": "Select the category which best matches the input.",
+    "input": "['oui', 'inc', 'non']\nstd: 0, average: 3, mode: 3.00, median: 3, max: 3.00, min: 3.00]\nCATEGORY:\n",
+    "output": "medical_boolean\n"
+  },
+  {
+    "instruction": "Select the category which best matches the input.",
+    "input": "['confirm']\nstd: nan, average: 7, mode: 7.00, median: 7, max: 7.00, min: 7.00]\nCATEGORY:\n",
+    "output": "case_status\n"
+  },
+  {
+    "instruction": "Select the category which best matches the input.",
+    "input": "['0trqd00e04c0', 'cr1d', 'rcd2', 't00q70ed2rc2', 'r6cd1']\nstd: 4.22, average: 7.40, mode: 4.00, median: 5, max: 12.00, min: 4.00]\nCATEGORY:\n",
+    "output": "id\n"
+  },
+  {
+    "instruction": "Select the category which best matches the input.",
+    "input": "['2022-05-12', '2022-02-17', '2022-04-29', '2022-04-04', '2022-05-04']\nstd: 0, average: 10, mode: 10.00, median: 10, max: 10.00, min: 10.00]\nCATEGORY:\n",
+    "output": "date\n"
+  },
+  {
+    "instruction": "Select the category which best matches the input.",
+    "input": "['invalide', 'valide']\nstd: 1.41, average: 7, mode: 6.00, median: 7, max: 8.00, min: 6.00]\nCATEGORY:\n",
+    "output": "outcome\n"
+  },
+  {
+    "instruction": "Select the category which best matches the input.",
+    "input": "['2020-06-01']\nstd: nan, average: 10, mode: 10.00, median: 10, max: 10.00, min: 10.00]\nCATEGORY:\n",
+    "output": "date\n"
+  },
+  {
+    "instruction": "Select the category which best matches the input.",
+    "input": "['2020-06-03']\nstd: nan, average: 10, mode: 10.00, median: 10, max: 10.00, min: 10.00]\nCATEGORY:\n",
+    "output": "date\n"
+  },
+  {
+    "instruction": "Select the category which best matches the input.",
+    "input": "['1.0', '0.0']\nstd: 0.71, average: 0.50, mode: 0, median: 0.50, max: 1, min: 0]\nCATEGORY:\n",
+    "output": "medical_boolean\n"
+  },
+  {
+    "instruction": "Select the category which best matches the input.",
+    "input": "['y', 'n']\nstd: 0, average: 1, mode: 1.00, median: 1, max: 1.00, min: 1.00]\nCATEGORY:\n",
+    "output": "medical_boolean\n"
+  },
+  {
+    "instruction": "Select the category which best matches the input.",
+    "input": "['no', 'yes']\nstd: 0.71, average: 2.50, mode: 2.00, median: 2.50, max: 3.00, min: 2.00]\nCATEGORY:\n",
+    "output": "medical_boolean\n"
+  },
+  {
+    "instruction": "Select the category which best matches the input.",
+    "input": "['2020-06-24', '2020-06-02', '2020-07-03', '2020-06-17', '2020-07-09']\nstd: 0, average: 10, mode: 10.00, median: 10, max: 10.00, min: 10.00]\nCATEGORY:\n",
+    "output": "date\n"
+  },
+  {
+    "instruction": "Select the category which best matches the input.",
+    "input": "['inc', 'non']\nstd: 0, average: 3, mode: 3.00, median: 3, max: 3.00, min: 3.00]\nCATEGORY:\n",
+    "output": "medical_boolean\n"
+  },
+  {
+    "instruction": "Select the category which best matches the input.",
+    "input": "['inconnu', 'non', 'oui']\nstd: 2.31, average: 4.33, mode: 3.00, median: 3, max: 7.00, min: 3.00]\nCATEGORY:\n",
+    "output": "medical_boolean\n"
+  },
+  {
+    "instruction": "Select the category which best matches the input.",
+    "input": "['armenia', 'south africa', 'san marino', 'new zealand', 'germany']\nstd: 2.30, average: 9.40, mode: 7.00, median: 10, max: 12.00, min: 7.00]\nCATEGORY:\n",
+    "output": "location\n"
+  },
+  {
+    "instruction": "Select the category which best matches the input.",
+    "input": "['1.0', '0.0']\nstd: 0.71, average: 0.50, mode: 0, median: 0.50, max: 1, min: 0]\nCATEGORY:\n",
+    "output": "medical_boolean\n"
+  },
+  {
+    "instruction": "Select the category which best matches the input.",
+    "input": "['no']\nstd: nan, average: 2, mode: 2.00, median: 2, max: 2.00, min: 2.00]\nCATEGORY:\n",
+    "output": "medical_boolean\n"
+  },
+  {
+    "instruction": "Select the category which best matches the input.",
+    "input": "['2021-12-07', '2021-08-30', '2021-09-14', '2022-01-04', '2022-01-30']\nstd: 0, average: 10, mode: 10.00, median: 10, max: 10.00, min: 10.00]\nCATEGORY:\n",
+    "output": "date\n"
+  },
+  {
+    "instruction": "Select the category which best matches the input.",
+    "input": "['2020-06-16', '2020-07-12', '2020-07-06', '2020-06-18', '2020-07-08']\nstd: 0, average: 10, mode: 10.00, median: 10, max: 10.00, min: 10.00]\nCATEGORY:\n",
+    "output": "date\n"
+  },
+  {
+    "instruction": "Select the category which best matches the input.",
+    "input": "['bouca', 'gamboula', 'paoua', 'mobaye', 'damara']\nstd: 1.22, average: 6, mode: 5.00, median: 6, max: 8.00, min: 5.00]\nCATEGORY:\n",
+    "output": "location\n"
+  },
+  {
+    "instruction": "Select the category which best matches the input.",
+    "input": "['non', 'oui']\nstd: 0, average: 3, mode: 3.00, median: 3, max: 3.00, min: 3.00]\nCATEGORY:\n",
+    "output": "medical_boolean\n"
+  },
+  {
+    "instruction": "Select the category which best matches the input.",
+    "input": "['inc', 'non']\nstd: 0, average: 3, mode: 3.00, median: 3, max: 3.00, min: 3.00]\nCATEGORY:\n",
+    "output": "medical_boolean\n"
+  },
+  {
+    "instruction": "Select the category which best matches the input.",
+    "input": "['male', 'female']\nstd: 1.41, average: 5, mode: 4.00, median: 5, max: 6.00, min: 4.00]\nCATEGORY:\n",
+    "output": "gender\n"
+  },
+  {
+    "instruction": "Select the category which best matches the input.",
+    "input": "['m', 'f']\nstd: 0, average: 1, mode: 1.00, median: 1, max: 1.00, min: 1.00]\nCATEGORY:\n",
+    "output": "gender\n"
+  },
+  {
+    "instruction": "Select the category which best matches the input.",
+    "input": "['oui', 'non']\nstd: 0, average: 3, mode: 3.00, median: 3, max: 3.00, min: 3.00]\nCATEGORY:\n",
+    "output": "medical_boolean\n"
+  },
+  {
+    "instruction": "Select the category which best matches the input.",
+    "input": "['2020-06-04', '2020-08-08']\nstd: 0, average: 10, mode: 10.00, median: 10, max: 10.00, min: 10.00]\nCATEGORY:\n",
+    "output": "date\n"
+  },
+  {
+    "instruction": "Select the category which best matches the input.",
+    "input": "['inc', 'non']\nstd: 0, average: 3, mode: 3.00, median: 3, max: 3.00, min: 3.00]\nCATEGORY:\n",
+    "output": "medical_boolean\n"
+  },
+  {
+    "instruction": "Select the category which best matches the input.",
+    "input": "['yes', '6/2/2022', '6/1/2022', '5/28/2022', '5/31/2022']\nstd: 2.51, average: 7.40, mode: 8.00, median: 8, max: 9.00, min: 3.00]\nCATEGORY:\n",
+    "output": "date\n"
+  },
+  {
+    "instruction": "Select the category which best matches the input.",
+    "input": "['confirm', 'probable']\nstd: 0.71, average: 7.50, mode: 7.00, median: 7.50, max: 8.00, min: 7.00]\nCATEGORY:\n",
+    "output": "case_status\n"
+  },
+  {
+    "instruction": "Select the category which best matches the input.",
+    "input": "['confirme']\nstd: nan, average: 8, mode: 8.00, median: 8, max: 8.00, min: 8.00]\nCATEGORY:\n",
+    "output": "case_status\n"
+  },
+  {
+    "instruction": "Select the category which best matches the input.",
+    "input": "['2024-01-28', '2024-03-28', '2024-01-31', '2024-02-06', '2024-03-01']\nstd: 0, average: 10, mode: 10.00, median: 10, max: 10.00, min: 10.00]\nCATEGORY:\n",
+    "output": "date\n"
+  },
+  {
+    "instruction": "Select the category which best matches the input.",
+    "input": "['3ev20b5-n4', 'an215m', 't7b73u', '9bn8e8-v1', 'btu855']\nstd: 1.95, average: 7.40, mode: 6.00, median: 6, max: 10.00, min: 6.00]\nCATEGORY:\n",
+    "output": "id\n"
+  },
+  {
+    "instruction": "Select the category which best matches the input.",
+    "input": "['non', 'oui']\nstd: 0, average: 3, mode: 3.00, median: 3, max: 3.00, min: 3.00]\nCATEGORY:\n",
+    "output": "medical_boolean\n"
+  },
+  {
+    "instruction": "Select the category which best matches the input.",
+    "input": "['36', '9', '60', '38', '10']\nstd: 21.44, average: 30.60, mode: 9, median: 36, max: 60, min: 9]\nCATEGORY:\n",
+    "output": "age\n"
+  },
+  {
+    "instruction": "Select the category which best matches the input.",
+    "input": "['inc.', 'oui', 'non']\nstd: 0.58, average: 3.33, mode: 3.00, median: 3, max: 4.00, min: 3.00]\nCATEGORY:\n",
+    "output": "medical_boolean\n"
+  },
+  {
+    "instruction": "Select the category which best matches the input.",
+    "input": "['2020-06-26', '2020-06-27', '2020-05-22', '2020-06-15', '2020-07-01']\nstd: 0, average: 10, mode: 10.00, median: 10, max: 10.00, min: 10.00]\nCATEGORY:\n",
+    "output": "date\n"
+  },
+  {
+    "instruction": "Select the category which best matches the input.",
+    "input": "['yes', 'no']\nstd: 0.71, average: 2.50, mode: 2.00, median: 2.50, max: 3.00, min: 2.00]\nCATEGORY:\n",
+    "output": "medical_boolean\n"
+  },
+  {
+    "instruction": "Select the category which best matches the input.",
+    "input": "['2022-05-21', '2022-01-30', '2022-05-18', '2022-02-26', '2022-03-28']\nstd: 0, average: 10, mode: 10.00, median: 10, max: 10.00, min: 10.00]\nCATEGORY:\n",
+    "output": "date\n"
+  },
+  {
+    "instruction": "Select the category which best matches the input.",
+    "input": "['non', 'oui']\nstd: 0, average: 3, mode: 3.00, median: 3, max: 3.00, min: 3.00]\nCATEGORY:\n",
+    "output": "medical_boolean\n"
+  },
+  {
+    "instruction": "Select the category which best matches the input.",
+    "input": "['2020-06-24', '2020-06-11', '2020-06-20', '2020-06-02', '2020-06-13']\nstd: 0, average: 10, mode: 10.00, median: 10, max: 10.00, min: 10.00]\nCATEGORY:\n",
+    "output": "date\n"
+  },
+  {
+    "instruction": "Select the category which best matches the input.",
+    "input": "['bimbo', 'yaloke', 'gamboula', 'amada-gaza']\nstd: 2.22, average: 7.25, mode: 5.00, median: 7, max: 10.00, min: 5.00]\nCATEGORY:\n",
+    "output": "location\n"
+  },
+  {
+    "instruction": "Select the category which best matches the input.",
+    "input": "['no']\nstd: nan, average: 2, mode: 2.00, median: 2, max: 2.00, min: 2.00]\nCATEGORY:\n",
+    "output": "medical_boolean\n"
+  },
+  {
+    "instruction": "Select the category which best matches the input.",
+    "input": "['2024-02-01', '2024-01-19', '2024-02-13', '2024-03-01', '2024-02-26']\nstd: 0, average: 10, mode: 10.00, median: 10, max: 10.00, min: 10.00]\nCATEGORY:\n",
+    "output": "date\n"
+  },
+  {
+    "instruction": "Select the category which best matches the input.",
+    "input": "['french polynesia', 'philippines']\nstd: 3.54, average: 13.50, mode: 11.00, median: 13.50, max: 16.00, min: 11.00]\nCATEGORY:\n",
+    "output": "location\n"
+  },
+  {
+    "instruction": "Select the category which best matches the input.",
+    "input": "['non', 'oui', 'inc']\nstd: 0, average: 3, mode: 3.00, median: 3, max: 3.00, min: 3.00]\nCATEGORY:\n",
+    "output": "medical_boolean\n"
+  },
+  {
+    "instruction": "Select the category which best matches the input.",
+    "input": "['oui', 'non']\nstd: 0, average: 3, mode: 3.00, median: 3, max: 3.00, min: 3.00]\nCATEGORY:\n",
+    "output": "medical_boolean\n"
+  },
+  {
+    "instruction": "Select the category which best matches the input.",
+    "input": "['yes', 'no']\nstd: 0.71, average: 2.50, mode: 2.00, median: 2.50, max: 3.00, min: 2.00]\nCATEGORY:\n",
+    "output": "medical_boolean\n"
+  },
+  {
+    "instruction": "Select the category which best matches the input.",
+    "input": "['probable', 'confirmed']\nstd: 0.71, average: 8.50, mode: 8.00, median: 8.50, max: 9.00, min: 8.00]\nCATEGORY:\n",
+    "output": "case_status\n"
+  },
+  {
+    "instruction": "Select the category which best matches the input.",
+    "input": "['yes', 'no']\nstd: 0.71, average: 2.50, mode: 2.00, median: 2.50, max: 3.00, min: 2.00]\nCATEGORY:\n",
+    "output": "medical_boolean\n"
+  },
+  {
+    "instruction": "Select the category which best matches the input.",
+    "input": "['2', '24', '32', '37', '53']\nstd: 18.72, average: 29.60, mode: 2, median: 32, max: 53, min: 2]\nCATEGORY:\n",
+    "output": "age\n"
+  },
+  {
+    "instruction": "Select the category which best matches the input.",
+    "input": "['25/01/2020', '20/01/2020', '43811', '28/01/2020']\nstd: 2.50, average: 8.75, mode: 10.00, median: 10, max: 10.00, min: 5.00]\nCATEGORY:\n",
+    "output": "date\n"
+  },
+  {
+    "instruction": "Select the category which best matches the input.",
+    "input": "['0.0', '1.0']\nstd: 0.71, average: 0.50, mode: 0, median: 0.50, max: 1, min: 0]\nCATEGORY:\n",
+    "output": "medical_boolean\n"
+  },
+  {
+    "instruction": "Select the category which best matches the input.",
+    "input": "['2022-05-18', '2022-03-26', '2022-03-05', '2020-10-21', '2022-05-01']\nstd: 0, average: 10, mode: 10.00, median: 10, max: 10.00, min: 10.00]\nCATEGORY:\n",
+    "output": "date\n"
+  },
+  {
+    "instruction": "Select the category which best matches the input.",
+    "input": "['yes', 'no']\nstd: 0.71, average: 2.50, mode: 2.00, median: 2.50, max: 3.00, min: 2.00]\nCATEGORY:\n",
+    "output": "medical_boolean\n"
+  },
+  {
+    "instruction": "Select the category which best matches the input.",
+    "input": "['mbomou', 'vakaga', 'bamingui-bangoran']\nstd: 6.35, average: 9.67, mode: 6.00, median: 6, max: 17.00, min: 6.00]\nCATEGORY:\n",
+    "output": "location\n"
+  },
+  {
+    "instruction": "Select the category which best matches the input.",
+    "input": "['3', '1', '4', '6', '13']\nstd: 4.62, average: 5.40, mode: 1, median: 4, max: 13, min: 1]\nCATEGORY:\n",
+    "output": "age\n"
+  },
+  {
+    "instruction": "Select the category which best matches the input.",
+    "input": "['2020-06-08', '2020-06-27', '2020-04-14', '2020-02-29', '2020-08-18']\nstd: 0, average: 10, mode: 10.00, median: 10, max: 10.00, min: 10.00]\nCATEGORY:\n",
+    "output": "date\n"
+  },
+  {
+    "instruction": "Select the category which best matches the input.",
+    "input": "['n', 'y']\nstd: 0, average: 1, mode: 1.00, median: 1, max: 1.00, min: 1.00]\nCATEGORY:\n",
+    "output": "medical_boolean\n"
+  },
+  {
+    "instruction": "Select the category which best matches the input.",
+    "input": "['2022-01-23', '2022-01-31', '2022-02-08', '2022-01-15', '2022-05-14']\nstd: 0, average: 10, mode: 10.00, median: 10, max: 10.00, min: 10.00]\nCATEGORY:\n",
+    "output": "date\n"
+  },
+  {
+    "instruction": "Select the category which best matches the input.",
+    "input": "['0.0', '1.0']\nstd: 0.71, average: 0.50, mode: 0, median: 0.50, max: 1, min: 0]\nCATEGORY:\n",
+    "output": "medical_boolean\n"
+  },
+  {
+    "instruction": "Select the category which best matches the input.",
+    "input": "['irr', 'darku_hepatome_sorethr_stopal', 'splenomegaly', 'itchy & swollen hands and feet_ geographic tongue', 'asthenia']\nstd: 18.83, average: 20.20, mode: 3.00, median: 12, max: 49.00, min: 3.00]\nCATEGORY:\n",
+    "output": "symptoms\n"
+  },
+  {
+    "instruction": "Select the category which best matches the input.",
+    "input": "['2019-08-15', '2018-11-21', '2019-03-04', '2019-06-21', '2018-12-06']\nstd: 0, average: 10, mode: 10.00, median: 10, max: 10.00, min: 10.00]\nCATEGORY:\n",
+    "output": "date\n"
+  },
+  {
+    "instruction": "Select the category which best matches the input.",
+    "input": "['f', 'm']\nstd: 0, average: 1, mode: 1.00, median: 1, max: 1.00, min: 1.00]\nCATEGORY:\n",
+    "output": "gender\n"
+  },
+  {
+    "instruction": "Select the category which best matches the input.",
+    "input": "['jamaica', 'sri lanka', 'colombia', 'algeria', 'malta']\nstd: 1.48, average: 7.20, mode: 7.00, median: 7, max: 9.00, min: 5.00]\nCATEGORY:\n",
+    "output": "location\n"
+  },
+  {
+    "instruction": "Select the category which best matches the input.",
+    "input": "['jamaica', 'united kingdom', 'kazakhstan', 'venezuela', 'malaysia']\nstd: 2.70, average: 9.60, mode: 7.00, median: 9, max: 14.00, min: 7.00]\nCATEGORY:\n",
+    "output": "location\n"
+  },
+  {
+    "instruction": "Select the category which best matches the input.",
+    "input": "['invalide', 'valide']\nstd: 1.41, average: 7, mode: 6.00, median: 7, max: 8.00, min: 6.00]\nCATEGORY:\n",
+    "output": "case_status\n"
+  },
+  {
+    "instruction": "Select the category which best matches the input.",
+    "input": "['2020-02-17', '2020-02-18', '2020-01-31', '2020-02-15', '2020-02-02']\nstd: 0, average: 10, mode: 10.00, median: 10, max: 10.00, min: 10.00]\nCATEGORY:\n",
+    "output": "date\n"
+  },
+  {
+    "instruction": "Select the category which best matches the input.",
+    "input": "['2020-06-04']\nstd: nan, average: 10, mode: 10.00, median: 10, max: 10.00, min: 10.00]\nCATEGORY:\n",
+    "output": "date\n"
+  },
+  {
+    "instruction": "Select the category which best matches the input.",
+    "input": "['oui', 'inconnu', 'non', 'n0n']\nstd: 2, average: 4, mode: 3.00, median: 3, max: 7.00, min: 3.00]\nCATEGORY:\n",
+    "output": "medical_boolean\n"
+  },
+  {
+    "instruction": "Select the category which best matches the input.",
+    "input": "['2020-08-24', '2020-08-26', '2020-06-10', '2020-08-06', '2020-08-10']\nstd: 0, average: 10, mode: 10.00, median: 10, max: 10.00, min: 10.00]\nCATEGORY:\n",
+    "output": "date\n"
+  },
+  {
+    "instruction": "Select the category which best matches the input.",
+    "input": "['confirm']\nstd: nan, average: 7, mode: 7.00, median: 7, max: 7.00, min: 7.00]\nCATEGORY:\n",
+    "output": "case_status\n"
+  },
+  {
+    "instruction": "Select the category which best matches the input.",
+    "input": "['2020-06-02', '2020-06-06', '2020-06-01']\nstd: 0, average: 10, mode: 10.00, median: 10, max: 10.00, min: 10.00]\nCATEGORY:\n",
+    "output": "date\n"
+  },
+  {
+    "instruction": "Select the category which best matches the input.",
+    "input": "['19', '55', '29', '35', '42']\nstd: 13.56, average: 36, mode: 19, median: 35, max: 55, min: 19]\nCATEGORY:\n",
+    "output": "age\n"
+  },
+  {
+    "instruction": "Select the category which best matches the input.",
+    "input": "['oui', 'non', 'preleve', 'encours']\nstd: 2.31, average: 5, mode: 3.00, median: 5, max: 7.00, min: 3.00]\nCATEGORY:\n",
+    "output": "medical_boolean\n"
+  },
+  {
+    "instruction": "Select the category which best matches the input.",
+    "input": "['yes', 'no']\nstd: 0.71, average: 2.50, mode: 2.00, median: 2.50, max: 3.00, min: 2.00]\nCATEGORY:\n",
+    "output": "medical_boolean\n"
+  },
+  {
+    "instruction": "Select the category which best matches the input.",
+    "input": "['oui', 'inconnu', 'non']\nstd: 2.31, average: 4.33, mode: 3.00, median: 3, max: 7.00, min: 3.00]\nCATEGORY:\n",
+    "output": "medical_boolean\n"
+  },
+  {
+    "instruction": "Select the category which best matches the input.",
+    "input": "['oui', 'non', 'nv']\nstd: 0.58, average: 2.67, mode: 3.00, median: 3, max: 3.00, min: 2.00]\nCATEGORY:\n",
+    "output": "medical_boolean\n"
+  },
+  {
+    "instruction": "Select the category which best matches the input.",
+    "input": "['2020-07-08', '2020-06-22', '2020-07-02', '2020-06-27', '2020-06-18']\nstd: 0, average: 10, mode: 10.00, median: 10, max: 10.00, min: 10.00]\nCATEGORY:\n",
+    "output": "date\n"
+  },
+  {
+    "instruction": "Select the category which best matches the input.",
+    "input": "['2020-06-30', '2020-06-19', '2020-05-20', '2020-06-10', '2020-06-23']\nstd: 0, average: 10, mode: 10.00, median: 10, max: 10.00, min: 10.00]\nCATEGORY:\n",
+    "output": "date\n"
+  },
+  {
+    "instruction": "Select the category which best matches the input.",
+    "input": "['actif']\nstd: nan, average: 5, mode: 5.00, median: 5, max: 5.00, min: 5.00]\nCATEGORY:\n",
+    "output": "case_status\n"
+  },
+  {
+    "instruction": "Select the category which best matches the input.",
+    "input": "['2022-05-27', '2022-03-28', '2022-02-17', '2022-03-14', '2022-05-05']\nstd: 0, average: 10, mode: 10.00, median: 10, max: 10.00, min: 10.00]\nCATEGORY:\n",
+    "output": "date\n"
+  },
+  {
+    "instruction": "Select the category which best matches the input.",
+    "input": "['yes', 'no']\nstd: 0.71, average: 2.50, mode: 2.00, median: 2.50, max: 3.00, min: 2.00]\nCATEGORY:\n",
+    "output": "medical_boolean\n"
+  },
+  {
+    "instruction": "Select the category which best matches the input.",
+    "input": "['n', 'y']\nstd: 0, average: 1, mode: 1.00, median: 1, max: 1.00, min: 1.00]\nCATEGORY:\n",
+    "output": "medical_boolean\n"
+  },
+  {
+    "instruction": "Select the category which best matches the input.",
+    "input": "['stool', 'resp']\nstd: 0.71, average: 4.50, mode: 4.00, median: 4.50, max: 5.00, min: 4.00]\nCATEGORY:\n",
+    "output": "symptoms\n"
+  },
+  {
+    "instruction": "Select the category which best matches the input.",
+    "input": "['confirm']\nstd: nan, average: 7, mode: 7.00, median: 7, max: 7.00, min: 7.00]\nCATEGORY:\n",
+    "output": "case_status\n"
+  },
+  {
+    "instruction": "Select the category which best matches the input.",
+    "input": "['2020-07-12', '2020-07-06', '2020-07-01', '2020-06-26', '2020-06-06']\nstd: 0, average: 10, mode: 10.00, median: 10, max: 10.00, min: 10.00]\nCATEGORY:\n",
+    "output": "date\n"
+  },
+  {
+    "instruction": "Select the category which best matches the input.",
+    "input": "['90', '45', '1', '80', '50']\nstd: 34.91, average: 53.20, mode: 1, median: 50, max: 90, min: 1]\nCATEGORY:\n",
+    "output": "age\n"
+  },
+  {
+    "instruction": "Select the category which best matches the input.",
+    "input": "['inc', 'non']\nstd: 0, average: 3, mode: 3.00, median: 3, max: 3.00, min: 3.00]\nCATEGORY:\n",
+    "output": "medical_boolean\n"
+  },
+  {
+    "instruction": "Select the category which best matches the input.",
+    "input": "['m', 'f']\nstd: 0, average: 1, mode: 1.00, median: 1, max: 1.00, min: 1.00]\nCATEGORY:\n",
+    "output": "gender\n"
+  },
+  {
+    "instruction": "Select the category which best matches the input.",
+    "input": "['oui', 'non']\nstd: 0, average: 3, mode: 3.00, median: 3, max: 3.00, min: 3.00]\nCATEGORY:\n",
+    "output": "medical_boolean\n"
+  },
+  {
+    "instruction": "Select the category which best matches the input.",
+    "input": "['348284431', '38745949', '584160574', '435305068', '148483542']\nstd: 219084712.63, average: 310995912.80, mode: 38745949, median: 348284431, max: 584160574, min: 38745949]\nCATEGORY:\n",
+    "output": "id\n"
+  },
+  {
+    "instruction": "Select the category which best matches the input.",
+    "input": "['profuse watery diarrhea', 'rice-water stools', 'severe dehydration', 'vomiting']\nstd: 6.24, average: 16.50, mode: 8.00, median: 17.50, max: 23.00, min: 8.00]\nCATEGORY:\n",
+    "output": "symptoms\n"
+  },
+  {
+    "instruction": "Select the category which best matches the input.",
+    "input": "['2020-06-12', '2020-03-21', '2020-06-24', '2020-03-29', '2020-08-03']\nstd: 0, average: 10, mode: 10.00, median: 10, max: 10.00, min: 10.00]\nCATEGORY:\n",
+    "output": "date\n"
+  },
+  {
+    "instruction": "Select the category which best matches the input.",
+    "input": "['inc', 'oui', 'non']\nstd: 0, average: 3, mode: 3.00, median: 3, max: 3.00, min: 3.00]\nCATEGORY:\n",
+    "output": "medical_boolean\n"
+  },
+  {
+    "instruction": "Select the category which best matches the input.",
+    "input": "['non cas', 'confirm', 'encours']\nstd: 0, average: 7, mode: 7.00, median: 7, max: 7.00, min: 7.00]\nCATEGORY:\n",
+    "output": "case_status\n"
+  },
+  {
+    "instruction": "Select the category which best matches the input.",
+    "input": "['yes', 'no']\nstd: 0.71, average: 2.50, mode: 2.00, median: 2.50, max: 3.00, min: 2.00]\nCATEGORY:\n",
+    "output": "contact_setting\n"
+  },
+  {
+    "instruction": "Select the category which best matches the input.",
+    "input": "['kaga-bangoro', 'bouar', 'bria', 'bambari', 'ouaka']\nstd: 3.21, average: 6.60, mode: 5.00, median: 5, max: 12.00, min: 4.00]\nCATEGORY:\n",
+    "output": "location\n"
+  },
+  {
+    "instruction": "Select the category which best matches the input.",
+    "input": "['oui', 'inc', 'non']\nstd: 0, average: 3, mode: 3.00, median: 3, max: 3.00, min: 3.00]\nCATEGORY:\n",
+    "output": "medical_boolean\n"
+  },
+  {
+    "instruction": "Select the category which best matches the input.",
+    "input": "['damara', 'baoro', 'bozoum', 'ouham', 'berberati']\nstd: 1.64, average: 6.20, mode: 5.00, median: 6, max: 9.00, min: 5.00]\nCATEGORY:\n",
+    "output": "location\n"
+  },
+  {
+    "instruction": "Select the category which best matches the input.",
+    "input": "['baoro', 'obo', 'boguila', 'berberati', 'gamboula']\nstd: 2.41, average: 6.40, mode: 3.00, median: 7, max: 9.00, min: 3.00]\nCATEGORY:\n",
+    "output": "location\n"
+  },
+  {
+    "instruction": "Select the category which best matches the input.",
+    "input": "['oui', 'non', 'inc']\nstd: 0, average: 3, mode: 3.00, median: 3, max: 3.00, min: 3.00]\nCATEGORY:\n",
+    "output": "medical_boolean\n"
+  },
+  {
+    "instruction": "Select the category which best matches the input.",
+    "input": "['dead']\nstd: nan, average: 4, mode: 4.00, median: 4, max: 4.00, min: 4.00]\nCATEGORY:\n",
+    "output": "outcome\n"
+  },
+  {
+    "instruction": "Select the category which best matches the input.",
+    "input": "['haut-mbomou', 'sangha-mbar', 'ouham-pend', 'mbomou', 'mambr-kad']\nstd: 2.07, average: 9.40, mode: 11.00, median: 10, max: 11.00, min: 6.00]\nCATEGORY:\n",
+    "output": "location\n"
+  },
+  {
+    "instruction": "Select the category which best matches the input.",
+    "input": "['yes', 'no']\nstd: 0.71, average: 2.50, mode: 2.00, median: 2.50, max: 3.00, min: 2.00]\nCATEGORY:\n",
+    "output": "contact_setting\n"
+  },
+  {
+    "instruction": "Select the category which best matches the input.",
+    "input": "['no', 'yes']\nstd: 0.71, average: 2.50, mode: 2.00, median: 2.50, max: 3.00, min: 2.00]\nCATEGORY:\n",
+    "output": "medical_boolean\n"
+  },
+  {
+    "instruction": "Select the category which best matches the input.",
+    "input": "['probable_val', 'probable']\nstd: 2.83, average: 10, mode: 8.00, median: 10, max: 12.00, min: 8.00]\nCATEGORY:\n",
+    "output": "case_status\n"
+  },
+  {
+    "instruction": "Select the category which best matches the input.",
+    "input": "['9d01e1v', '67edv32', 'e23d9v1', '21evd37', 'e1vd890']\nstd: 0, average: 7, mode: 7.00, median: 7, max: 7.00, min: 7.00]\nCATEGORY:\n",
+    "output": "id\n"
+  },
+  {
+    "instruction": "Select the category which best matches the input.",
+    "input": "['inc', 'non', 'oui']\nstd: 0, average: 3, mode: 3.00, median: 3, max: 3.00, min: 3.00]\nCATEGORY:\n",
+    "output": "medical_boolean\n"
+  },
+  {
+    "instruction": "Select the category which best matches the input.",
+    "input": "['non', 'oui', 'inc']\nstd: 0, average: 3, mode: 3.00, median: 3, max: 3.00, min: 3.00]\nCATEGORY:\n",
+    "output": "medical_boolean\n"
+  },
+  {
+    "instruction": "Select the category which best matches the input.",
+    "input": "['abdominal pain', 'abdominal pain_ urticaria', 'earache', 'diarr', 'fever']\nstd: 8.56, average: 11.20, mode: 5.00, median: 7, max: 25.00, min: 5.00]\nCATEGORY:\n",
+    "output": "symptoms\n"
+  },
+  {
+    "instruction": "Select the category which best matches the input.",
+    "input": "['vaccine', 'nv']\nstd: 3.54, average: 4.50, mode: 2.00, median: 4.50, max: 7.00, min: 2.00]\nCATEGORY:\n",
+    "output": "medical_boolean\n"
+  },
+  {
+    "instruction": "Select the category which best matches the input.",
+    "input": "['dcd', 'dc', 'hospitalis', 'guri']\nstd: 3.59, average: 4.75, mode: 2.00, median: 3.50, max: 10.00, min: 2.00]\nCATEGORY:\n",
+    "output": "outcome\n"
+  },
+  {
+    "instruction": "Select the category which best matches the input.",
+    "input": "['56.0', '25.0', '34.0', '20.0', '58.0']\nstd: 17.54, average: 38.60, mode: 20, median: 34, max: 58, min: 20]\nCATEGORY:\n",
+    "output": "age\n"
+  },
+  {
+    "instruction": "Select the category which best matches the input.",
+    "input": "['m', 'f']\nstd: 0, average: 1, mode: 1.00, median: 1, max: 1.00, min: 1.00]\nCATEGORY:\n",
+    "output": "gender\n"
+  },
+  {
+    "instruction": "Select the category which best matches the input.",
+    "input": "['no', 'yes']\nstd: 0.71, average: 2.50, mode: 2.00, median: 2.50, max: 3.00, min: 2.00]\nCATEGORY:\n",
+    "output": "medical_boolean\n"
+  },
+  {
+    "instruction": "Select the category which best matches the input.",
+    "input": "['not employed', 'other']\nstd: 4.95, average: 8.50, mode: 5.00, median: 8.50, max: 12.00, min: 5.00]\nCATEGORY:\n",
+    "output": "occupation\n"
+  },
+  {
+    "instruction": "Select the category which best matches the input.",
+    "input": "['65', '40', '11', '31', '45']\nstd: 19.74, average: 38.40, mode: 11, median: 40, max: 65, min: 11]\nCATEGORY:\n",
+    "output": "age\n"
+  },
+  {
+    "instruction": "Select the category which best matches the input.",
+    "input": "['inc', 'non', 'oui']\nstd: 0, average: 3, mode: 3.00, median: 3, max: 3.00, min: 3.00]\nCATEGORY:\n",
+    "output": "medical_boolean\n"
+  },
+  {
+    "instruction": "Select the category which best matches the input.",
+    "input": "['inc', 'non', 'oui']\nstd: 0, average: 3, mode: 3.00, median: 3, max: 3.00, min: 3.00]\nCATEGORY:\n",
+    "output": "medical_boolean\n"
+  },
+  {
+    "instruction": "Select the category which best matches the input.",
+    "input": "['2020-07-19', '2020-07-29', '2020-06-24', '2020-07-13', '2020-08-13']\nstd: 0, average: 10, mode: 10.00, median: 10, max: 10.00, min: 10.00]\nCATEGORY:\n",
+    "output": "date\n"
+  },
+  {
+    "instruction": "Select the category which best matches the input.",
+    "input": "['inc', 'non', 'oui']\nstd: 0, average: 3, mode: 3.00, median: 3, max: 3.00, min: 3.00]\nCATEGORY:\n",
+    "output": "medical_boolean\n"
+  },
+  {
+    "instruction": "Select the category which best matches the input.",
+    "input": "['2022-01-17', '2022-05-23', '2022-01-31', '2022-04-10', '2022-07-18']\nstd: 0, average: 10, mode: 10.00, median: 10, max: 10.00, min: 10.00]\nCATEGORY:\n",
+    "output": "date\n"
+  },
+  {
+    "instruction": "Select the category which best matches the input.",
+    "input": "['48.0', '39.0', '8.0', '61.0', '24.0']\nstd: 20.65, average: 36, mode: 8, median: 39, max: 61, min: 8]\nCATEGORY:\n",
+    "output": "age\n"
+  },
+  {
+    "instruction": "Select the category which best matches the input.",
+    "input": "['no', 'yes']\nstd: 0.71, average: 2.50, mode: 2.00, median: 2.50, max: 3.00, min: 2.00]\nCATEGORY:\n",
+    "output": "medical_boolean\n"
+  },
+  {
+    "instruction": "Select the category which best matches the input.",
+    "input": "['bozoum', 'gamboula', 'baboua', 'bossangoa', 'batangafo']\nstd: 1.52, average: 7.60, mode: 6.00, median: 8, max: 9.00, min: 6.00]\nCATEGORY:\n",
+    "output": "contact_setting\n"
+  },
+  {
+    "instruction": "Select the category which best matches the input.",
+    "input": "['confirm']\nstd: nan, average: 7, mode: 7.00, median: 7, max: 7.00, min: 7.00]\nCATEGORY:\n",
+    "output": "case_status\n"
+  },
+  {
+    "instruction": "Select the category which best matches the input.",
+    "input": "['f', 'm']\nstd: 0, average: 1, mode: 1.00, median: 1, max: 1.00, min: 1.00]\nCATEGORY:\n",
+    "output": "gender\n"
+  },
+  {
+    "instruction": "Select the category which best matches the input.",
+    "input": "['n']\nstd: nan, average: 1, mode: 1.00, median: 1, max: 1.00, min: 1.00]\nCATEGORY:\n",
+    "output": "outcome\n"
+  },
+  {
+    "instruction": "Select the category which best matches the input.",
+    "input": "['diarr', 'fever', 'rash', 'resp', 'sorethr']\nstd: 1.22, average: 5, mode: 4.00, median: 5, max: 7.00, min: 4.00]\nCATEGORY:\n",
+    "output": "symptoms\n"
+  },
+  {
+    "instruction": "Select the category which best matches the input.",
+    "input": "['paoua', 'damara', 'zmio', 'bangui', 'ouham-pend']\nstd: 2.28, average: 6.20, mode: 6.00, median: 6, max: 10.00, min: 4.00]\nCATEGORY:\n",
+    "output": "location\n"
+  },
+  {
+    "instruction": "Select the category which best matches the input.",
+    "input": "['n.v', 'vaccin']\nstd: 2.12, average: 4.50, mode: 3.00, median: 4.50, max: 6.00, min: 3.00]\nCATEGORY:\n",
+    "output": "medical_boolean\n"
+  },
+  {
+    "instruction": "Select the category which best matches the input.",
+    "input": "['basse-kotto', 'bangassou', 'bimbo', 'grimari', 'bambio']\nstd: 2.41, average: 7.60, mode: 5.00, median: 7, max: 11.00, min: 5.00]\nCATEGORY:\n",
+    "output": "location\n"
+  },
+  {
+    "instruction": "Select the category which best matches the input.",
+    "input": "['tajikistan', 'bosnia & herzegovina', 'north macedonia', 'united states', 'thailand']\nstd: 4.66, average: 13.20, mode: 8.00, median: 13, max: 20.00, min: 8.00]\nCATEGORY:\n",
+    "output": "location\n"
+  },
+  {
+    "instruction": "Select the category which best matches the input.",
+    "input": "['2020-07-03', '2020-06-30', '2020-06-19', '2020-07-10', '2020-06-21']\nstd: 0, average: 10, mode: 10.00, median: 10, max: 10.00, min: 10.00]\nCATEGORY:\n",
+    "output": "date\n"
+  },
+  {
+    "instruction": "Select the category which best matches the input.",
+    "input": "['female', 'male']\nstd: 1.41, average: 5, mode: 4.00, median: 5, max: 6.00, min: 4.00]\nCATEGORY:\n",
+    "output": "gender\n"
+  },
+  {
+    "instruction": "Select the category which best matches the input.",
+    "input": "['non', 'oui', 'inc']\nstd: 0, average: 3, mode: 3.00, median: 3, max: 3.00, min: 3.00]\nCATEGORY:\n",
+    "output": "medical_boolean\n"
+  },
+  {
+    "instruction": "Select the category which best matches the input.",
+    "input": "['m', 'f']\nstd: 0, average: 1, mode: 1.00, median: 1, max: 1.00, min: 1.00]\nCATEGORY:\n",
+    "output": "gender\n"
+  },
+  {
+    "instruction": "Select the category which best matches the input.",
+    "input": "['oui', 'inc', 'non']\nstd: 0, average: 3, mode: 3.00, median: 3, max: 3.00, min: 3.00]\nCATEGORY:\n",
+    "output": "medical_boolean\n"
+  },
+  {
+    "instruction": "Select the category which best matches the input.",
+    "input": "['no', 'yes']\nstd: 0.71, average: 2.50, mode: 2.00, median: 2.50, max: 3.00, min: 2.00]\nCATEGORY:\n",
+    "output": "contact_setting\n"
+  },
+  {
+    "instruction": "Select the category which best matches the input.",
+    "input": "['inc', 'non', 'oui']\nstd: 0, average: 3, mode: 3.00, median: 3, max: 3.00, min: 3.00]\nCATEGORY:\n",
+    "output": "medical_boolean\n"
+  },
+  {
+    "instruction": "Select the category which best matches the input.",
+    "input": "['2020-01-28', '2020-01-16', '2020-01-31', '2020-01-20', '2020-02-14']\nstd: 0, average: 10, mode: 10.00, median: 10, max: 10.00, min: 10.00]\nCATEGORY:\n",
+    "output": "date\n"
+  },
+  {
+    "instruction": "Select the category which best matches the input.",
+    "input": "['2020-06-15', '2020-06-26', '2020-06-13', '2020-06-09', '2020-07-18']\nstd: 0, average: 10, mode: 10.00, median: 10, max: 10.00, min: 10.00]\nCATEGORY:\n",
+    "output": "date\n"
+  },
+  {
+    "instruction": "Select the category which best matches the input.",
+    "input": "['v17ed80', '0v6d1e4', '0v245de', '61d6ve0', '1057dve']\nstd: 0, average: 7, mode: 7.00, median: 7, max: 7.00, min: 7.00]\nCATEGORY:\n",
+    "output": "id\n"
+  },
+  {
+    "instruction": "Select the category which best matches the input.",
+    "input": "['sales representative', 'transporter', 'hcw_ambulance nurse', 'hcw_ambulance transporter', 'teacher']\nstd: 7.27, average: 16.40, mode: 7.00, median: 19, max: 25.00, min: 7.00]\nCATEGORY:\n",
+    "output": "occupation\n"
+  },
+  {
+    "instruction": "Select the category which best matches the input.",
+    "input": "['44', '64', '70', '31', '2s']\nstd: 0, average: 2, mode: 2.00, median: 2, max: 2.00, min: 2.00]\nCATEGORY:\n",
+    "output": "age\n"
+  },
+  {
+    "instruction": "Select the category which best matches the input.",
+    "input": "['m', 'f']\nstd: 0, average: 1, mode: 1.00, median: 1, max: 1.00, min: 1.00]\nCATEGORY:\n",
+    "output": "gender\n"
+  },
+  {
+    "instruction": "Select the category which best matches the input.",
+    "input": "['2020-08-19', '2020-06-15', '2020-09-11', '2020-09-06', '2020-06-13']\nstd: 0, average: 10, mode: 10.00, median: 10, max: 10.00, min: 10.00]\nCATEGORY:\n",
+    "output": "date\n"
+  },
+  {
+    "instruction": "Select the category which best matches the input.",
+    "input": "['inc', 'non', 'oui']\nstd: 0, average: 3, mode: 3.00, median: 3, max: 3.00, min: 3.00]\nCATEGORY:\n",
+    "output": "medical_boolean\n"
+  },
+  {
+    "instruction": "Select the category which best matches the input.",
+    "input": "['oicha']\nstd: nan, average: 5, mode: 5.00, median: 5, max: 5.00, min: 5.00]\nCATEGORY:\n",
+    "output": "location\n"
+  },
+  {
+    "instruction": "Select the category which best matches the input.",
+    "input": "['boguila', 'mbaiki', 'kabo', 'boganda', 'berberati']\nstd: 1.82, average: 6.60, mode: 7.00, median: 7, max: 9.00, min: 4.00]\nCATEGORY:\n",
+    "output": "location\n"
+  },
+  {
+    "instruction": "Select the category which best matches the input.",
+    "input": "['oui', 'non', 'inc']\nstd: 0, average: 3, mode: 3.00, median: 3, max: 3.00, min: 3.00]\nCATEGORY:\n",
+    "output": "medical_boolean\n"
+  },
+  {
+    "instruction": "Select the category which best matches the input.",
+    "input": "['1tq0ecrd0', 'q01rc0e02d3', 'd2r0c01qe92', 'qc1e04rd320', 'rq03d440ce6']\nstd: 0.89, average: 10.60, mode: 11.00, median: 11, max: 11.00, min: 9.00]\nCATEGORY:\n",
+    "output": "id\n"
+  },
+  {
+    "instruction": "Select the category which best matches the input.",
+    "input": "['2020-02-01', '2020-02-13', '2020-02-15']\nstd: 0, average: 10, mode: 10.00, median: 10, max: 10.00, min: 10.00]\nCATEGORY:\n",
+    "output": "date\n"
+  },
+  {
+    "instruction": "Select the category which best matches the input.",
+    "input": "['yes']\nstd: nan, average: 3, mode: 3.00, median: 3, max: 3.00, min: 3.00]\nCATEGORY:\n",
+    "output": "medical_boolean\n"
+  },
+  {
+    "instruction": "Select the category which best matches the input.",
+    "input": "['no', 'yes']\nstd: 0.71, average: 2.50, mode: 2.00, median: 2.50, max: 3.00, min: 2.00]\nCATEGORY:\n",
+    "output": "medical_boolean\n"
+  },
+  {
+    "instruction": "Select the category which best matches the input.",
+    "input": "['vakaga', 'bangui', 'sangha-mbar', 'haut-mbomou', 'ouham']\nstd: 2.95, average: 7.80, mode: 6.00, median: 6, max: 11.00, min: 5.00]\nCATEGORY:\n",
+    "output": "location\n"
+  },
+  {
+    "instruction": "Select the category which best matches the input.",
+    "input": "['2020-06-01']\nstd: nan, average: 10, mode: 10.00, median: 10, max: 10.00, min: 10.00]\nCATEGORY:\n",
+    "output": "date\n"
+  },
+  {
+    "instruction": "Select the category which best matches the input.",
+    "input": "['3t4u4b5', '97t73ub', '525btu7', 'b9t703u', 's_a91003m8']\nstd: 1.34, average: 7.60, mode: 7.00, median: 7, max: 10.00, min: 7.00]\nCATEGORY:\n",
+    "output": "id\n"
+  },
+  {
+    "instruction": "Select the category which best matches the input.",
+    "input": "['240131_46655002', '240114_4624378', '240416_47873702', '240214_46941092', '240114_46244481']\nstd: 9669113003190.28, average: 19697766467731, mode: 2401144624378, median: 24013146655002, max: 24041647873702, min: 2401144624378]\nCATEGORY:\n",
+    "output": "id\n"
+  },
+  {
+    "instruction": "Select the category which best matches the input.",
+    "input": "['non', 'oui', 'inc']\nstd: 0, average: 3, mode: 3.00, median: 3, max: 3.00, min: 3.00]\nCATEGORY:\n",
+    "output": "medical_boolean\n"
+  },
+  {
+    "instruction": "Select the category which best matches the input.",
+    "input": "['oui', 'non', 'n0n', 'inconnu']\nstd: 2, average: 4, mode: 3.00, median: 3, max: 7.00, min: 3.00]\nCATEGORY:\n",
+    "output": "medical_boolean\n"
+  },
+  {
+    "instruction": "Select the category which best matches the input.",
+    "input": "['2020-08-06', '2020-06-20', '2020-06-26', '2020-06-14', '2020-06-15']\nstd: 0, average: 10, mode: 10.00, median: 10, max: 10.00, min: 10.00]\nCATEGORY:\n",
+    "output": "date\n"
+  },
+  {
+    "instruction": "Select the category which best matches the input.",
+    "input": "['non', 'non vaccin', 'vaccine', 'vaccin']\nstd: 2.89, average: 6.50, mode: 3.00, median: 6.50, max: 10.00, min: 3.00]\nCATEGORY:\n",
+    "output": "medical_boolean\n"
+  },
+  {
+    "instruction": "Select the category which best matches the input.",
+    "input": "['2019-12-12']\nstd: nan, average: 10, mode: 10.00, median: 10, max: 10.00, min: 10.00]\nCATEGORY:\n",
+    "output": "date\n"
+  },
+  {
+    "instruction": "Select the category which best matches the input.",
+    "input": "['no']\nstd: nan, average: 2, mode: 2.00, median: 2, max: 2.00, min: 2.00]\nCATEGORY:\n",
+    "output": "medical_boolean\n"
+  },
+  {
+    "instruction": "Select the category which best matches the input.",
+    "input": "['non', 'oui', 'inc']\nstd: 0, average: 3, mode: 3.00, median: 3, max: 3.00, min: 3.00]\nCATEGORY:\n",
+    "output": "medical_boolean\n"
+  },
+  {
+    "instruction": "Select the category which best matches the input.",
+    "input": "['oui', 'non']\nstd: 0, average: 3, mode: 3.00, median: 3, max: 3.00, min: 3.00]\nCATEGORY:\n",
+    "output": "medical_boolean\n"
+  },
+  {
+    "instruction": "Select the category which best matches the input.",
+    "input": "['2020-07-28', '2020-07-16', '2020-08-03', '2020-05-20', '2020-08-05']\nstd: 0, average: 10, mode: 10.00, median: 10, max: 10.00, min: 10.00]\nCATEGORY:\n",
+    "output": "date\n"
+  },
+  {
+    "instruction": "Select the category which best matches the input.",
+    "input": "['inc', 'non']\nstd: 0, average: 3, mode: 3.00, median: 3, max: 3.00, min: 3.00]\nCATEGORY:\n",
+    "output": "medical_boolean\n"
+  },
+  {
+    "instruction": "Select the category which best matches the input.",
+    "input": "['2018-11-08', '2018-11-21', '2018-10-18', '2018-09-24', '2018-10-25']\nstd: 0, average: 10, mode: 10.00, median: 10, max: 10.00, min: 10.00]\nCATEGORY:\n",
+    "output": "date\n"
+  },
+  {
+    "instruction": "Select the category which best matches the input.",
+    "input": "['9164tbu', '45ut7b', '12ub77t', 't680ub', '16u4tb']\nstd: 0.55, average: 6.40, mode: 6.00, median: 6, max: 7.00, min: 6.00]\nCATEGORY:\n",
+    "output": "id\n"
+  },
+  {
+    "instruction": "Select the category which best matches the input.",
+    "input": "['prob', 'disc']\nstd: 0, average: 4, mode: 4.00, median: 4, max: 4.00, min: 4.00]\nCATEGORY:\n",
+    "output": "case_status\n"
+  },
+  {
+    "instruction": "Select the category which best matches the input.",
+    "input": "['45', '4', '60', '65', '22']\nstd: 25.82, average: 39.20, mode: 4, median: 45, max: 65, min: 4]\nCATEGORY:\n",
+    "output": "age\n"
+  },
+  {
+    "instruction": "Select the category which best matches the input.",
+    "input": "['e_4800uq0', '046_q0u0e', 'ue_009q06', 'u_018q0e0', 'qe4_0060u']\nstd: 0, average: 9, mode: 9.00, median: 9, max: 9.00, min: 9.00]\nCATEGORY:\n",
+    "output": "id\n"
+  },
+  {
+    "instruction": "Select the category which best matches the input.",
+    "input": "['no', 'yes']\nstd: 0.71, average: 2.50, mode: 2.00, median: 2.50, max: 3.00, min: 2.00]\nCATEGORY:\n",
+    "output": "medical_boolean\n"
+  },
+  {
+    "instruction": "Select the category which best matches the input.",
+    "input": "['n.e', 'vaccine', 'inconnu', 'non vaccine']\nstd: 3.27, average: 7, mode: 7.00, median: 7, max: 11.00, min: 3.00]\nCATEGORY:\n",
+    "output": "medical_boolean\n"
+  },
+  {
+    "instruction": "Select the category which best matches the input.",
+    "input": "['q00cd0etr100', 'qe00c3td0r90', 'd5tr00604eqc', 'dtrq3e3100c0', 'edq2c5r0010t']\nstd: 0, average: 12, mode: 12.00, median: 12, max: 12.00, min: 12.00]\nCATEGORY:\n",
+    "output": "id\n"
+  },
+  {
+    "instruction": "Select the category which best matches the input.",
+    "input": "['d0-q3c4120erd830-gi', 'qr0ed-3d0cg-1i86', 'd0d-3c-0052eqg74i1r', 'd51g3cd0q-0ri0-2e5', '0g44-e-03drq1i26cd2']\nstd: 1.30, average: 18.20, mode: 19.00, median: 19, max: 19.00, min: 16.00]\nCATEGORY:\n",
+    "output": "id\n"
+  },
+  {
+    "instruction": "Select the category which best matches the input.",
+    "input": "['2021-12-07', '2021-09-14', '2022-02-27', '2022-01-04', '2022-02-11']\nstd: 0, average: 10, mode: 10.00, median: 10, max: 10.00, min: 10.00]\nCATEGORY:\n",
+    "output": "date\n"
+  },
+  {
+    "instruction": "Select the category which best matches the input.",
+    "input": "['16-4k0t0a', '10ak-1t7', '550tk-3a', '3-0at86k', '499k-0ta']\nstd: 0.45, average: 8.20, mode: 8.00, median: 8, max: 9.00, min: 8.00]\nCATEGORY:\n",
+    "output": "id\n"
+  },
+  {
+    "instruction": "Select the category which best matches the input.",
+    "input": "['18.0', '9.0', '19.0', '6.0', '70.0']\nstd: 26.10, average: 24.40, mode: 6, median: 18, max: 70, min: 6]\nCATEGORY:\n",
+    "output": "age\n"
+  },
+  {
+    "instruction": "Select the category which best matches the input.",
+    "input": "['nola', 'berberati', 'bambio', 'bangassou', 'batangafo']\nstd: 2.30, average: 7.40, mode: 9.00, median: 9, max: 9.00, min: 4.00]\nCATEGORY:\n",
+    "output": "location\n"
+  },
+  {
+    "instruction": "Select the category which best matches the input.",
+    "input": "['oui', 'non', 'inc']\nstd: 0, average: 3, mode: 3.00, median: 3, max: 3.00, min: 3.00]\nCATEGORY:\n",
+    "output": "medical_boolean\n"
+  },
+  {
+    "instruction": "Select the category which best matches the input.",
+    "input": "['2019-08-18', '2019-06-09', '2019-08-11', '2018-12-15', '2019-06-13']\nstd: 0, average: 10, mode: 10.00, median: 10, max: 10.00, min: 10.00]\nCATEGORY:\n",
+    "output": "date\n"
+  },
+  {
+    "instruction": "Select the category which best matches the input.",
+    "input": "['27', '3', '75', '7.8', '68']\nstd: 33.58, average: 36.16, mode: 3, median: 27, max: 75, min: 3]\nCATEGORY:\n",
+    "output": "age\n"
+  },
+  {
+    "instruction": "Select the category which best matches the input.",
+    "input": "['non', 'oui', 'inc']\nstd: 0, average: 3, mode: 3.00, median: 3, max: 3.00, min: 3.00]\nCATEGORY:\n",
+    "output": "medical_boolean\n"
+  },
+  {
+    "instruction": "Select the category which best matches the input.",
+    "input": "['china', 'united arab emirates', 'spain', 'netherlands', 'tajikistan']\nstd: 6.14, average: 10.20, mode: 5.00, median: 10, max: 20.00, min: 5.00]\nCATEGORY:\n",
+    "output": "location\n"
+  },
+  {
+    "instruction": "Select the category which best matches the input.",
+    "input": "['m', 'f', 'a']\nstd: 0, average: 1, mode: 1.00, median: 1, max: 1.00, min: 1.00]\nCATEGORY:\n",
+    "output": "gender\n"
+  },
+  {
+    "instruction": "Select the category which best matches the input.",
+    "input": "['no']\nstd: nan, average: 2, mode: 2.00, median: 2, max: 2.00, min: 2.00]\nCATEGORY:\n",
+    "output": "medical_boolean\n"
+  },
+  {
+    "instruction": "Select the category which best matches the input.",
+    "input": "['sangha-mbar', 'vakaga']\nstd: 3.54, average: 8.50, mode: 6.00, median: 8.50, max: 11.00, min: 6.00]\nCATEGORY:\n",
+    "output": "location\n"
+  },
+  {
+    "instruction": "Select the category which best matches the input.",
+    "input": "['lolanga_mampoko', 'wangata', 'bomongo']\nstd: 4.62, average: 9.67, mode: 7.00, median: 7, max: 15.00, min: 7.00]\nCATEGORY:\n",
+    "output": "location\n"
+  },
+  {
+    "instruction": "Select the category which best matches the input.",
+    "input": "['haute-kotto', 'kmo', 'haut-mbomou', 'basse-kotto', 'ouham-pend']\nstd: 3.49, average: 9.20, mode: 11.00, median: 11, max: 11.00, min: 3.00]\nCATEGORY:\n",
+    "output": "location\n"
+  },
+  {
+    "instruction": "Select the category which best matches the input.",
+    "input": "['m', 'f']\nstd: 0, average: 1, mode: 1.00, median: 1, max: 1.00, min: 1.00]\nCATEGORY:\n",
+    "output": "gender\n"
+  },
+  {
+    "instruction": "Select the category which best matches the input.",
+    "input": "['2022-09-19', '2022-11-02', '2022-09-22', '2022-09-27', '2022-08-13']\nstd: 0, average: 10, mode: 10.00, median: 10, max: 10.00, min: 10.00]\nCATEGORY:\n",
+    "output": "date\n"
+  },
+  {
+    "instruction": "Select the category which best matches the input.",
+    "input": "['2024-03-09', '2024-01-26', '2024-01-11', '2024-01-21', '2024-06-10']\nstd: 0, average: 10, mode: 10.00, median: 10, max: 10.00, min: 10.00]\nCATEGORY:\n",
+    "output": "date\n"
+  },
+  {
+    "instruction": "Select the category which best matches the input.",
+    "input": "['y', 'n']\nstd: 0, average: 1, mode: 1.00, median: 1, max: 1.00, min: 1.00]\nCATEGORY:\n",
+    "output": "medical_boolean\n"
+  },
+  {
+    "instruction": "Select the category which best matches the input.",
+    "input": "['4694466', '4863561', '4849178', '4734363', '4826173']\nstd: 74801.43, average: 4793548.20, mode: 4694466, median: 4826173, max: 4863561, min: 4694466]\nCATEGORY:\n",
+    "output": "id\n"
+  },
+  {
+    "instruction": "Select the category which best matches the input.",
+    "input": "['famille', 'fille', 'pre', 'niece', 'voisin']\nstd: 1.48, average: 5.20, mode: 5.00, median: 5, max: 7.00, min: 3.00]\nCATEGORY:\n",
+    "output": "contact_setting\n"
+  },
+  {
+    "instruction": "Select the category which best matches the input.",
+    "input": "['t40q0ed400cr', 'e0q00600crtd', 'r0dt0c9q05e2', '4r0cqe9dt009', '0d61er400qtc']\nstd: 0, average: 12, mode: 12.00, median: 12, max: 12.00, min: 12.00]\nCATEGORY:\n",
+    "output": "id\n"
+  },
+  {
+    "instruction": "Select the category which best matches the input.",
+    "input": "['2020-06-13', '2020-06-23', '2020-06-04', '2020-06-19', '2020-06-22']\nstd: 0, average: 10, mode: 10.00, median: 10, max: 10.00, min: 10.00]\nCATEGORY:\n",
+    "output": "date\n"
+  },
+  {
+    "instruction": "Select the category which best matches the input.",
+    "input": "['communautaire', 'nosocomial', 'funrailles']\nstd: 1.73, average: 11, mode: 10.00, median: 10, max: 13.00, min: 10.00]\nCATEGORY:\n",
+    "output": "contact_setting\n"
+  },
+  {
+    "instruction": "Select the category which best matches the input.",
+    "input": "['2020-05-21', '2020-07-13', '2020-06-20', '2020-06-18', '2020-06-30']\nstd: 0, average: 10, mode: 10.00, median: 10, max: 10.00, min: 10.00]\nCATEGORY:\n",
+    "output": "date\n"
+  },
+  {
+    "instruction": "Select the category which best matches the input.",
+    "input": "['0.0', '1.0']\nstd: 0.71, average: 0.50, mode: 0, median: 0.50, max: 1, min: 0]\nCATEGORY:\n",
+    "output": "medical_boolean\n"
+  },
+  {
+    "instruction": "Select the category which best matches the input.",
+    "input": "['menagere']\nstd: nan, average: 8, mode: 8.00, median: 8, max: 8.00, min: 8.00]\nCATEGORY:\n",
+    "output": "occupation\n"
+  },
+  {
+    "instruction": "Select the category which best matches the input.",
+    "input": "['2020-07-09', '2020-09-07', '2020-09-02', '2020-09-08', '2020-08-10']\nstd: 0, average: 10, mode: 10.00, median: 10, max: 10.00, min: 10.00]\nCATEGORY:\n",
+    "output": "date\n"
+  },
+  {
+    "instruction": "Select the category which best matches the input.",
+    "input": "['confirm', 'probable']\nstd: 0.71, average: 7.50, mode: 7.00, median: 7.50, max: 8.00, min: 7.00]\nCATEGORY:\n",
+    "output": "case_status\n"
+  },
+  {
+    "instruction": "Select the category which best matches the input.",
+    "input": "['vivant', 'dcd']\nstd: 2.12, average: 4.50, mode: 3.00, median: 4.50, max: 6.00, min: 3.00]\nCATEGORY:\n",
+    "output": "outcome\n"
+  },
+  {
+    "instruction": "Select the category which best matches the input.",
+    "input": "['2020-07-29', '2020-06-20', '2020-06-10', '2020-06-28', '2020-06-19']\nstd: 0, average: 10, mode: 10.00, median: 10, max: 10.00, min: 10.00]\nCATEGORY:\n",
+    "output": "date\n"
+  },
+  {
+    "instruction": "Select the category which best matches the input.",
+    "input": "['0.0', '1.0']\nstd: 0.71, average: 0.50, mode: 0, median: 0.50, max: 1, min: 0]\nCATEGORY:\n",
+    "output": "medical_boolean\n"
+  },
+  {
+    "instruction": "Select the category which best matches the input.",
+    "input": "['2022-05-25', '2022-06-01', '2022-05-31', '2022-05-27', '2022-05-26']\nstd: 0, average: 10, mode: 10.00, median: 10, max: 10.00, min: 10.00]\nCATEGORY:\n",
+    "output": "date\n"
+  },
+  {
+    "instruction": "Select the category which best matches the input.",
+    "input": "['notvacc', 'doseunk', '2dose']\nstd: 1.15, average: 6.33, mode: 7.00, median: 7, max: 7.00, min: 5.00]\nCATEGORY:\n",
+    "output": "medical_boolean\n"
+  },
+  {
+    "instruction": "Select the category which best matches the input.",
+    "input": "['1.0', '0.0']\nstd: 0.71, average: 0.50, mode: 0, median: 0.50, max: 1, min: 0]\nCATEGORY:\n",
+    "output": "medical_boolean\n"
+  },
+  {
+    "instruction": "Select the category which best matches the input.",
+    "input": "['2020-08-27', '2020-11-07', '2020-07-26', '2020-03-16', '2020-05-17']\nstd: 0, average: 10, mode: 10.00, median: 10, max: 10.00, min: 10.00]\nCATEGORY:\n",
+    "output": "date\n"
+  },
+  {
+    "instruction": "Select the category which best matches the input.",
+    "input": "['bouca', 'paoua', 'bria', 'amada-gaza', 'baboua']\nstd: 2.35, average: 6, mode: 5.00, median: 5, max: 10.00, min: 4.00]\nCATEGORY:\n",
+    "output": "location\n"
+  },
+  {
+    "instruction": "Select the category which best matches the input.",
+    "input": "['ouaka', 'vakaga', 'lobaye', 'sangha-mbar', 'mambr-kad']\nstd: 2.51, average: 7.40, mode: 6.00, median: 6, max: 11.00, min: 5.00]\nCATEGORY:\n",
+    "output": "location\n"
+  },
+  {
+    "instruction": "Select the category which best matches the input.",
+    "input": "['1.0', '0.0']\nstd: 0.71, average: 0.50, mode: 0, median: 0.50, max: 1, min: 0]\nCATEGORY:\n",
+    "output": "medical_boolean\n"
+  },
+  {
+    "instruction": "Select the category which best matches the input.",
+    "input": "['non', 'oui']\nstd: 0, average: 3, mode: 3.00, median: 3, max: 3.00, min: 3.00]\nCATEGORY:\n",
+    "output": "medical_boolean\n"
+  },
+  {
+    "instruction": "Select the category which best matches the input.",
+    "input": "['2020-08-11', '2020-06-18', '2020-06-29', '2020-07-16', '2020-06-26']\nstd: 0, average: 10, mode: 10.00, median: 10, max: 10.00, min: 10.00]\nCATEGORY:\n",
+    "output": "date\n"
+  },
+  {
+    "instruction": "Select the category which best matches the input.",
+    "input": "['belgium', 'south korea', 'luxembourg', 'colombia', 'moldova']\nstd: 1.82, average: 8.60, mode: 7.00, median: 8, max: 11.00, min: 7.00]\nCATEGORY:\n",
+    "output": "location\n"
+  },
+  {
+    "instruction": "Select the category which best matches the input.",
+    "input": "['2020-07-02', '2020-07-04', '2020-07-08', '2020-06-23', '2020-07-17']\nstd: 0, average: 10, mode: 10.00, median: 10, max: 10.00, min: 10.00]\nCATEGORY:\n",
+    "output": "date\n"
+  },
+  {
+    "instruction": "Select the category which best matches the input.",
+    "input": "['alive', 'stilltreatment', 'diednovhep']\nstd: 4.51, average: 9.67, mode: 5.00, median: 10, max: 14.00, min: 5.00]\nCATEGORY:\n",
+    "output": "outcome\n"
+  },
+  {
+    "instruction": "Select the category which best matches the input.",
+    "input": "['confirm']\nstd: nan, average: 7, mode: 7.00, median: 7, max: 7.00, min: 7.00]\nCATEGORY:\n",
+    "output": "case_status\n"
+  },
+  {
+    "instruction": "Select the category which best matches the input.",
+    "input": "['0c101de5rtq2', 'e15r0t0cq52d', 'rc18e0t03q2d', '03qrted050c0', '02re0qt1c4d1']\nstd: 0, average: 12, mode: 12.00, median: 12, max: 12.00, min: 12.00]\nCATEGORY:\n",
+    "output": "id\n"
+  },
+  {
+    "instruction": "Select the category which best matches the input.",
+    "input": "['oui', 'non', 'inc']\nstd: 0, average: 3, mode: 3.00, median: 3, max: 3.00, min: 3.00]\nCATEGORY:\n",
+    "output": "medical_boolean\n"
+  },
+  {
+    "instruction": "Select the category which best matches the input.",
+    "input": "['yes', 'no']\nstd: 0.71, average: 2.50, mode: 2.00, median: 2.50, max: 3.00, min: 2.00]\nCATEGORY:\n",
+    "output": "medical_boolean\n"
+  },
+  {
+    "instruction": "Select the category which best matches the input.",
+    "input": "['no']\nstd: nan, average: 2, mode: 2.00, median: 2, max: 2.00, min: 2.00]\nCATEGORY:\n",
+    "output": "medical_boolean\n"
+  },
+  {
+    "instruction": "Select the category which best matches the input.",
+    "input": "['2024-10-13', '2025-03-02', '2025-02-09', '2022-10-23', '2022-06-26']\nstd: 0, average: 10, mode: 10.00, median: 10, max: 10.00, min: 10.00]\nCATEGORY:\n",
+    "output": "date\n"
+  },
+  {
+    "instruction": "Select the category which best matches the input.",
+    "input": "['2020-07-12', '2020-06-28', '2020-06-21', '2020-06-04', '2020-06-03']\nstd: 0, average: 10, mode: 10.00, median: 10, max: 10.00, min: 10.00]\nCATEGORY:\n",
+    "output": "date\n"
+  },
+  {
+    "instruction": "Select the category which best matches the input.",
+    "input": "['pensioner', 'scholar', 'grant administrator']\nstd: 6.43, average: 11.67, mode: 7.00, median: 9, max: 19.00, min: 7.00]\nCATEGORY:\n",
+    "output": "occupation\n"
+  },
+  {
+    "instruction": "Select the category which best matches the input.",
+    "input": "['inc', 'oui', 'non']\nstd: 0, average: 3, mode: 3.00, median: 3, max: 3.00, min: 3.00]\nCATEGORY:\n",
+    "output": "medical_boolean\n"
+  },
+  {
+    "instruction": "Select the category which best matches the input.",
+    "input": "['doseunk', '2dose', 'notvacc']\nstd: 1.15, average: 6.33, mode: 7.00, median: 7, max: 7.00, min: 5.00]\nCATEGORY:\n",
+    "output": "medical_boolean\n"
+  },
+  {
+    "instruction": "Select the category which best matches the input.",
+    "input": "['no']\nstd: nan, average: 2, mode: 2.00, median: 2, max: 2.00, min: 2.00]\nCATEGORY:\n",
+    "output": "medical_boolean\n"
+  },
+  {
+    "instruction": "Select the category which best matches the input.",
+    "input": "['no', 'yes']\nstd: 0.71, average: 2.50, mode: 2.00, median: 2.50, max: 3.00, min: 2.00]\nCATEGORY:\n",
+    "output": "medical_boolean\n"
+  },
+  {
+    "instruction": "Select the category which best matches the input.",
+    "input": "['recovered']\nstd: nan, average: 9, mode: 9.00, median: 9, max: 9.00, min: 9.00]\nCATEGORY:\n",
+    "output": "outcome\n"
+  },
+  {
+    "instruction": "Select the category which best matches the input.",
+    "input": "['no']\nstd: nan, average: 2, mode: 2.00, median: 2, max: 2.00, min: 2.00]\nCATEGORY:\n",
+    "output": "medical_boolean\n"
+  },
+  {
+    "instruction": "Select the category which best matches the input.",
+    "input": "['14', '89', '110', '9', '69']\nstd: 45.06, average: 58.20, mode: 9, median: 69, max: 110, min: 9]\nCATEGORY:\n",
+    "output": "age\n"
+  },
+  {
+    "instruction": "Select the category which best matches the input.",
+    "input": "['utb4706', 't03b0u', 't090u1b9', '4e69b1n2v_', '533bu5t']\nstd: 1.52, average: 7.60, mode: 7.00, median: 7, max: 10.00, min: 6.00]\nCATEGORY:\n",
+    "output": "id\n"
+  },
+  {
+    "instruction": "Select the category which best matches the input.",
+    "input": "['oui', 'inc', 'non']\nstd: 0, average: 3, mode: 3.00, median: 3, max: 3.00, min: 3.00]\nCATEGORY:\n",
+    "output": "medical_boolean\n"
+  },
+  {
+    "instruction": "Select the category which best matches the input.",
+    "input": "['non', 'inc']\nstd: 0, average: 3, mode: 3.00, median: 3, max: 3.00, min: 3.00]\nCATEGORY:\n",
+    "output": "medical_boolean\n"
+  },
+  {
+    "instruction": "Select the category which best matches the input.",
+    "input": "['positif', 'ngatif']\nstd: 0.71, average: 6.50, mode: 6.00, median: 6.50, max: 7.00, min: 6.00]\nCATEGORY:\n",
+    "output": "case_status\n"
+  },
+  {
+    "instruction": "Select the category which best matches the input.",
+    "input": "['kaga-bandoro', 'bossangoa', 'baoro', 'ndl', 'birao']\nstd: 3.63, average: 6.80, mode: 5.00, median: 5, max: 12.00, min: 3.00]\nCATEGORY:\n",
+    "output": "location\n"
+  },
+  {
+    "instruction": "Select the category which best matches the input.",
+    "input": "['02052s_2', '62200_s2', '242_s002', '00222s_3', '_s000223']\nstd: 0, average: 8, mode: 8.00, median: 8, max: 8.00, min: 8.00]\nCATEGORY:\n",
+    "output": "id\n"
+  },
+  {
+    "instruction": "Select the category which best matches the input.",
+    "input": "['male', 'female', 'f']\nstd: 2.52, average: 3.67, mode: 1.00, median: 4, max: 6.00, min: 1.00]\nCATEGORY:\n",
+    "output": "gender\n"
+  },
+  {
+    "instruction": "Select the category which best matches the input.",
+    "input": "['male', 'female']\nstd: 1.41, average: 5, mode: 4.00, median: 5, max: 6.00, min: 4.00]\nCATEGORY:\n",
+    "output": "gender\n"
+  },
+  {
+    "instruction": "Select the category which best matches the input.",
+    "input": "['18/02/2020', '07/02/2020', '22/01/2020', '29/02/2020', '07/03/2020']\nstd: 0, average: 10, mode: 10.00, median: 10, max: 10.00, min: 10.00]\nCATEGORY:\n",
+    "output": "date\n"
+  },
+  {
+    "instruction": "Select the category which best matches the input.",
+    "input": "['probable', 'confirme']\nstd: 0, average: 8, mode: 8.00, median: 8, max: 8.00, min: 8.00]\nCATEGORY:\n",
+    "output": "case_status\n"
+  },
+  {
+    "instruction": "Select the category which best matches the input.",
+    "input": "['2020-06-12', '2020-07-27', '2020-07-07', '2020-07-09', '2020-08-04']\nstd: 0, average: 10, mode: 10.00, median: 10, max: 10.00, min: 10.00]\nCATEGORY:\n",
+    "output": "date\n"
+  },
+  {
+    "instruction": "Select the category which best matches the input.",
+    "input": "['0r46-b4k000310', 'r020-bk4004610', '970b09000-r0k0', '-8b2420300k00r', '0k09r100b002-7']\nstd: 0, average: 14, mode: 14.00, median: 14, max: 14.00, min: 14.00]\nCATEGORY:\n",
+    "output": "id\n"
+  },
+  {
+    "instruction": "Select the category which best matches the input.",
+    "input": "['ouaka', 'lobaye']\nstd: 0.71, average: 5.50, mode: 5.00, median: 5.50, max: 6.00, min: 5.00]\nCATEGORY:\n",
+    "output": "location\n"
+  },
+  {
+    "instruction": "Select the category which best matches the input.",
+    "input": "['89t1r7d9qk010bcme06--', '410030er-0qkbdct2-6r', '4cd-01-t1m8eq0k8rb0100', 'kd1cqm45060b212r2--8t', 'rb0580-610979ct-dqmke']\nstd: 0.71, average: 21, mode: 21.00, median: 21, max: 22.00, min: 20.00]\nCATEGORY:\n",
+    "output": "id\n"
+  },
+  {
+    "instruction": "Select the category which best matches the input.",
+    "input": "['commercant', 'berceuse', 'mineur', 'menagere', 'electricien']\nstd: 1.95, average: 8.60, mode: 8.00, median: 8, max: 11.00, min: 6.00]\nCATEGORY:\n",
+    "output": "occupation\n"
+  },
+  {
+    "instruction": "Select the category which best matches the input.",
+    "input": "['inc', 'oui', 'non']\nstd: 0, average: 3, mode: 3.00, median: 3, max: 3.00, min: 3.00]\nCATEGORY:\n",
+    "output": "medical_boolean\n"
+  },
+  {
+    "instruction": "Select the category which best matches the input.",
+    "input": "['0.0', '1.0']\nstd: 0.71, average: 0.50, mode: 0, median: 0.50, max: 1, min: 0]\nCATEGORY:\n",
+    "output": "medical_boolean\n"
+  },
+  {
+    "instruction": "Select the category which best matches the input.",
+    "input": "['690kb5r0', '3r064bk0', 'rb50k040', '3k0003rb', '6kr690b0']\nstd: 0, average: 8, mode: 8.00, median: 8, max: 8.00, min: 8.00]\nCATEGORY:\n",
+    "output": "id\n"
+  },
+  {
+    "instruction": "Select the category which best matches the input.",
+    "input": "['inc', 'non', 'oui']\nstd: 0, average: 3, mode: 3.00, median: 3, max: 3.00, min: 3.00]\nCATEGORY:\n",
+    "output": "medical_boolean\n"
+  },
+  {
+    "instruction": "Select the category which best matches the input.",
+    "input": "['1.0', '0.0']\nstd: 0.71, average: 0.50, mode: 0, median: 0.50, max: 1, min: 0]\nCATEGORY:\n",
+    "output": "medical_boolean\n"
+  },
+  {
+    "instruction": "Select the category which best matches the input.",
+    "input": "['bouca', 'bangassou', 'bambari', 'kaga-bandoro', 'ndl']\nstd: 3.49, average: 7.20, mode: 3.00, median: 7, max: 12.00, min: 3.00]\nCATEGORY:\n",
+    "output": "location\n"
+  },
+  {
+    "instruction": "Select the category which best matches the input.",
+    "input": "['dcd', 'vivant']\nstd: 2.12, average: 4.50, mode: 3.00, median: 4.50, max: 6.00, min: 3.00]\nCATEGORY:\n",
+    "output": "outcome\n"
+  },
+  {
+    "instruction": "Select the category which best matches the input.",
+    "input": "['yes', 'no']\nstd: 0.71, average: 2.50, mode: 2.00, median: 2.50, max: 3.00, min: 2.00]\nCATEGORY:\n",
+    "output": "medical_boolean\n"
+  },
+  {
+    "instruction": "Select the category which best matches the input.",
+    "input": "['not recovered', 'recovered', 'death']\nstd: 4, average: 9, mode: 5.00, median: 9, max: 13.00, min: 5.00]\nCATEGORY:\n",
+    "output": "outcome\n"
+  },
+  {
+    "instruction": "Select the category which best matches the input.",
+    "input": "['2020-06-29', '2020-06-27', '2020-07-10', '2020-06-05', '2020-02-23']\nstd: 0, average: 10, mode: 10.00, median: 10, max: 10.00, min: 10.00]\nCATEGORY:\n",
+    "output": "date\n"
+  },
+  {
+    "instruction": "Select the category which best matches the input.",
+    "input": "['11/08/2020', '01/08/2020', '24/06/2020', '23/08/2020', '17/08/2020']\nstd: 0, average: 10, mode: 10.00, median: 10, max: 10.00, min: 10.00]\nCATEGORY:\n",
+    "output": "date\n"
+  },
+  {
+    "instruction": "Select the category which best matches the input.",
+    "input": "['no', 'yes']\nstd: 0.71, average: 2.50, mode: 2.00, median: 2.50, max: 3.00, min: 2.00]\nCATEGORY:\n",
+    "output": "medical_boolean\n"
+  },
+  {
+    "instruction": "Select the category which best matches the input.",
+    "input": "['0c63', '0c03', '5c06', '55c0', 'c131']\nstd: 0, average: 4, mode: 4.00, median: 4, max: 4.00, min: 4.00]\nCATEGORY:\n",
+    "output": "id\n"
+  },
+  {
+    "instruction": "Select the category which best matches the input.",
+    "input": "['non', 'inc', 'oui']\nstd: 0, average: 3, mode: 3.00, median: 3, max: 3.00, min: 3.00]\nCATEGORY:\n",
+    "output": "medical_boolean\n"
+  },
+  {
+    "instruction": "Select the category which best matches the input.",
+    "input": "['2020-09-08', '2020-07-06', '2020-09-23']\nstd: 0, average: 10, mode: 10.00, median: 10, max: 10.00, min: 10.00]\nCATEGORY:\n",
+    "output": "date\n"
+  },
+  {
+    "instruction": "Select the category which best matches the input.",
+    "input": "['2020-02-20', '2020-02-14', '2020-02-13', '2020-02-01', '2020-02-26']\nstd: 0, average: 10, mode: 10.00, median: 10, max: 10.00, min: 10.00]\nCATEGORY:\n",
+    "output": "date\n"
+  },
+  {
+    "instruction": "Select the category which best matches the input.",
+    "input": "['disc', 'prob']\nstd: 0, average: 4, mode: 4.00, median: 4, max: 4.00, min: 4.00]\nCATEGORY:\n",
+    "output": "outcome\n"
+  },
+  {
+    "instruction": "Select the category which best matches the input.",
+    "input": "['2020-06-07', '2020-06-30', '2020-06-17', '2020-07-05', '2020-06-24']\nstd: 0, average: 10, mode: 10.00, median: 10, max: 10.00, min: 10.00]\nCATEGORY:\n",
+    "output": "date\n"
+  },
+  {
+    "instruction": "Select the category which best matches the input.",
+    "input": "['43999.0', '44020.0', '44006.0', '44011.0', '44015.0']\nstd: 8.11, average: 44010.20, mode: 43999, median: 44011, max: 44020, min: 43999]\nCATEGORY:\n",
+    "output": "date\n"
+  },
+  {
+    "instruction": "Select the category which best matches the input.",
+    "input": "['oui', 'non']\nstd: 0, average: 3, mode: 3.00, median: 3, max: 3.00, min: 3.00]\nCATEGORY:\n",
+    "output": "medical_boolean\n"
+  },
+  {
+    "instruction": "Select the category which best matches the input.",
+    "input": "['zmio', 'bouar', 'kabo', 'bimbo', 'bozoum']\nstd: 0.84, average: 4.80, mode: 4.00, median: 5, max: 6.00, min: 4.00]\nCATEGORY:\n",
+    "output": "location\n"
+  },
+  {
+    "instruction": "Select the category which best matches the input.",
+    "input": "['confirm']\nstd: nan, average: 7, mode: 7.00, median: 7, max: 7.00, min: 7.00]\nCATEGORY:\n",
+    "output": "case_status\n"
+  },
+  {
+    "instruction": "Select the category which best matches the input.",
+    "input": "['famille', 'funerailles', 'communaute', 'nosocomial']\nstd: 1.73, average: 9.50, mode: 10.00, median: 10, max: 11.00, min: 7.00]\nCATEGORY:\n",
+    "output": "contact_setting\n"
+  },
+  {
+    "instruction": "Select the category which best matches the input.",
+    "input": "['0.0', '1.0', '2.0']\nstd: 1, average: 1, mode: 0, median: 1, max: 2, min: 0]\nCATEGORY:\n",
+    "output": "medical_boolean\n"
+  },
+  {
+    "instruction": "Select the category which best matches the input.",
+    "input": "['00_r400bp', '0_0p3r00b', '0p11_0br0', '_2pr0000b', 'b8rp0000_']\nstd: 0, average: 9, mode: 9.00, median: 9, max: 9.00, min: 9.00]\nCATEGORY:\n",
+    "output": "id\n"
+  },
+  {
+    "instruction": "Select the category which best matches the input.",
+    "input": "['portugal', 'slovakia', 'brazil', 'cyprus', 'switzerland']\nstd: 2.05, average: 7.80, mode: 6.00, median: 8, max: 11.00, min: 6.00]\nCATEGORY:\n",
+    "output": "location\n"
+  },
+  {
+    "instruction": "Select the category which best matches the input.",
+    "input": "['0.0', '1.0']\nstd: 0.71, average: 0.50, mode: 0, median: 0.50, max: 1, min: 0]\nCATEGORY:\n",
+    "output": "medical_boolean\n"
+  },
+  {
+    "instruction": "Select the category which best matches the input.",
+    "input": "['oui', 'non', 'inconnu']\nstd: 2.31, average: 4.33, mode: 3.00, median: 3, max: 7.00, min: 3.00]\nCATEGORY:\n",
+    "output": "medical_boolean\n"
+  },
+  {
+    "instruction": "Select the category which best matches the input.",
+    "input": "['no']\nstd: nan, average: 2, mode: 2.00, median: 2, max: 2.00, min: 2.00]\nCATEGORY:\n",
+    "output": "medical_boolean\n"
+  },
+  {
+    "instruction": "Select the category which best matches the input.",
+    "input": "['19/07/2020', '02/08/2020', '05/08/2020', '17/06/2020', '14/07/2020']\nstd: 0, average: 10, mode: 10.00, median: 10, max: 10.00, min: 10.00]\nCATEGORY:\n",
+    "output": "date\n"
+  },
+  {
+    "instruction": "Select the category which best matches the input.",
+    "input": "['2020-06-12', '2020-06-04', '2020-06-03', '2020-06-21', '2020-06-28']\nstd: 0, average: 10, mode: 10.00, median: 10, max: 10.00, min: 10.00]\nCATEGORY:\n",
+    "output": "date\n"
+  },
+  {
+    "instruction": "Select the category which best matches the input.",
+    "input": "['female', 'male']\nstd: 1.41, average: 5, mode: 4.00, median: 5, max: 6.00, min: 4.00]\nCATEGORY:\n",
+    "output": "gender\n"
+  },
+  {
+    "instruction": "Select the category which best matches the input.",
+    "input": "['2020-08-20', '2020-06-23', '2020-06-27', '2020-05-22', '2020-08-01']\nstd: 0, average: 10, mode: 10.00, median: 10, max: 10.00, min: 10.00]\nCATEGORY:\n",
+    "output": "date\n"
+  },
+  {
+    "instruction": "Select the category which best matches the input.",
+    "input": "['2020-06-06']\nstd: nan, average: 10, mode: 10.00, median: 10, max: 10.00, min: 10.00]\nCATEGORY:\n",
+    "output": "date\n"
+  },
+  {
+    "instruction": "Select the category which best matches the input.",
+    "input": "['jaundice', 'painabdo', 'weak', 'fever', 'rash']\nstd: 2.05, average: 5.80, mode: 4.00, median: 5, max: 8.00, min: 4.00]\nCATEGORY:\n",
+    "output": "symptoms\n"
+  },
+  {
+    "instruction": "Select the category which best matches the input.",
+    "input": "['secretary at church', 'restaurant worker', 'electrician', 'church pastor', 'banker']\nstd: 5.12, average: 13.20, mode: 6.00, median: 13, max: 19.00, min: 6.00]\nCATEGORY:\n",
+    "output": "occupation\n"
+  },
+  {
+    "instruction": "Select the category which best matches the input.",
+    "input": "['m', 'b', 'f']\nstd: 0, average: 1, mode: 1.00, median: 1, max: 1.00, min: 1.00]\nCATEGORY:\n",
+    "output": "gender\n"
+  },
+  {
+    "instruction": "Select the category which best matches the input.",
+    "input": "['bolomba', 'bomongo', 'irebu', 'lotumbe', 'lukolela']\nstd: 1.10, average: 6.80, mode: 7.00, median: 7, max: 8.00, min: 5.00]\nCATEGORY:\n",
+    "output": "location\n"
+  },
+  {
+    "instruction": "Select the category which best matches the input.",
+    "input": "['poland', 'french polynesia', 'finland', 'argentina', 'switzerland']\nstd: 3.96, average: 9.80, mode: 6.00, median: 9, max: 16.00, min: 6.00]\nCATEGORY:\n",
+    "output": "location\n"
+  },
+  {
+    "instruction": "Select the category which best matches the input.",
+    "input": "['oui', 'inc', 'non']\nstd: 0, average: 3, mode: 3.00, median: 3, max: 3.00, min: 3.00]\nCATEGORY:\n",
+    "output": "medical_boolean\n"
+  },
+  {
+    "instruction": "Select the category which best matches the input.",
+    "input": "['non', 'inc', 'oui']\nstd: 0, average: 3, mode: 3.00, median: 3, max: 3.00, min: 3.00]\nCATEGORY:\n",
+    "output": "medical_boolean\n"
+  },
+  {
+    "instruction": "Select the category which best matches the input.",
+    "input": "['non cas', 'confirm']\nstd: 0, average: 7, mode: 7.00, median: 7, max: 7.00, min: 7.00]\nCATEGORY:\n",
+    "output": "case_status\n"
+  },
+  {
+    "instruction": "Select the category which best matches the input.",
+    "input": "['oui', 'inc', 'non']\nstd: 0, average: 3, mode: 3.00, median: 3, max: 3.00, min: 3.00]\nCATEGORY:\n",
+    "output": "medical_boolean\n"
+  },
+  {
+    "instruction": "Select the category which best matches the input.",
+    "input": "['n', 'y']\nstd: 0, average: 1, mode: 1.00, median: 1, max: 1.00, min: 1.00]\nCATEGORY:\n",
+    "output": "medical_boolean\n"
+  },
+  {
+    "instruction": "Select the category which best matches the input.",
+    "input": "['oui', 'non', 'inc']\nstd: 0, average: 3, mode: 3.00, median: 3, max: 3.00, min: 3.00]\nCATEGORY:\n",
+    "output": "medical_boolean\n"
+  },
+  {
+    "instruction": "Select the category which best matches the input.",
+    "input": "['10ev78d', '6de7v80', 'e16v2d4', 'v62d0e0', 'd62v6e2']\nstd: 0, average: 7, mode: 7.00, median: 7, max: 7.00, min: 7.00]\nCATEGORY:\n",
+    "output": "id\n"
+  },
+  {
+    "instruction": "Select the category which best matches the input.",
+    "input": "['2022-04-25', '2022-04-17', '2022-03-16', '2022-05-08', '2022-05-24']\nstd: 0, average: 10, mode: 10.00, median: 10, max: 10.00, min: 10.00]\nCATEGORY:\n",
+    "output": "date\n"
+  },
+  {
+    "instruction": "Select the category which best matches the input.",
+    "input": "['0.0']\nstd: nan, average: 0, mode: 0, median: 0, max: 0, min: 0]\nCATEGORY:\n",
+    "output": "medical_boolean\n"
+  },
+  {
+    "instruction": "Select the category which best matches the input.",
+    "input": "['58.0', '70.0', '54.0', '4.0', '41.0']\nstd: 25.35, average: 45.40, mode: 4, median: 54, max: 70, min: 4]\nCATEGORY:\n",
+    "output": "age\n"
+  },
+  {
+    "instruction": "Select the category which best matches the input.",
+    "input": "['2021-11-01', '2020-10-21', '2022-01-11', '2022-02-15', '2021-07-01']\nstd: 0, average: 10, mode: 10.00, median: 10, max: 10.00, min: 10.00]\nCATEGORY:\n",
+    "output": "date\n"
+  },
+  {
+    "instruction": "Select the category which best matches the input.",
+    "input": "['non', 'oui', 'inc']\nstd: 0, average: 3, mode: 3.00, median: 3, max: 3.00, min: 3.00]\nCATEGORY:\n",
+    "output": "medical_boolean\n"
+  },
+  {
+    "instruction": "Select the category which best matches the input.",
+    "input": "['yes', 'no']\nstd: 0.71, average: 2.50, mode: 2.00, median: 2.50, max: 3.00, min: 2.00]\nCATEGORY:\n",
+    "output": "medical_boolean\n"
+  },
+  {
+    "instruction": "Select the category which best matches the input.",
+    "input": "['non', 'oui']\nstd: 0, average: 3, mode: 3.00, median: 3, max: 3.00, min: 3.00]\nCATEGORY:\n",
+    "output": "medical_boolean\n"
+  },
+  {
+    "instruction": "Select the category which best matches the input.",
+    "input": "['kansas', 'massachusetts', 'missouri', 'new york', 'florida']\nstd: 2.70, average: 8.40, mode: 8.00, median: 8, max: 13.00, min: 6.00]\nCATEGORY:\n",
+    "output": "location\n"
+  },
+  {
+    "instruction": "Select the category which best matches the input.",
+    "input": "['recycl', 'non actif']\nstd: 2.12, average: 7.50, mode: 6.00, median: 7.50, max: 9.00, min: 6.00]\nCATEGORY:\n",
+    "output": "case_status\n"
+  },
+  {
+    "instruction": "Select the category which best matches the input.",
+    "input": "['inc', 'non']\nstd: 0, average: 3, mode: 3.00, median: 3, max: 3.00, min: 3.00]\nCATEGORY:\n",
+    "output": "medical_boolean\n"
+  },
+  {
+    "instruction": "Select the category which best matches the input.",
+    "input": "['yes', 'no']\nstd: 0.71, average: 2.50, mode: 2.00, median: 2.50, max: 3.00, min: 2.00]\nCATEGORY:\n",
+    "output": "medical_boolean\n"
+  },
+  {
+    "instruction": "Select the category which best matches the input.",
+    "input": "['oui', 'non', 'inc']\nstd: 0, average: 3, mode: 3.00, median: 3, max: 3.00, min: 3.00]\nCATEGORY:\n",
+    "output": "medical_boolean\n"
+  },
+  {
+    "instruction": "Select the category which best matches the input.",
+    "input": "['discharged alive', 'admitted']\nstd: 5.66, average: 12, mode: 8.00, median: 12, max: 16.00, min: 8.00]\nCATEGORY:\n",
+    "output": "outcome\n"
+  },
+  {
+    "instruction": "Select the category which best matches the input.",
+    "input": "['2020-06-06', '2020-06-20', '2020-06-05', '2020-07-14', '2020-06-08']\nstd: 0, average: 10, mode: 10.00, median: 10, max: 10.00, min: 10.00]\nCATEGORY:\n",
+    "output": "date\n"
+  },
+  {
+    "instruction": "Select the category which best matches the input.",
+    "input": "['2020-07-30', '2020-07-06', '2020-09-08', '2020-07-18', '2020-08-09']\nstd: 0, average: 10, mode: 10.00, median: 10, max: 10.00, min: 10.00]\nCATEGORY:\n",
+    "output": "date\n"
+  },
+  {
+    "instruction": "Select the category which best matches the input.",
+    "input": "['outpatient', 'inpatient', 'discharged', 'transferred']\nstd: 0.82, average: 10, mode: 10.00, median: 10, max: 11.00, min: 9.00]\nCATEGORY:\n",
+    "output": "medical_boolean\n"
+  },
+  {
+    "instruction": "Select the category which best matches the input.",
+    "input": "['2020-06-20', '2020-07-04', '2020-06-11', '2020-06-29', '2020-06-06']\nstd: 0, average: 10, mode: 10.00, median: 10, max: 10.00, min: 10.00]\nCATEGORY:\n",
+    "output": "date\n"
+  },
+  {
+    "instruction": "Select the category which best matches the input.",
+    "input": "['0', 'blood in urine', '1']\nstd: 7.51, average: 5.33, mode: 1.00, median: 1, max: 14.00, min: 1.00]\nCATEGORY:\n",
+    "output": "medical_boolean\n"
+  },
+  {
+    "instruction": "Select the category which best matches the input.",
+    "input": "['gueri', 'decede']\nstd: 0.71, average: 5.50, mode: 5.00, median: 5.50, max: 6.00, min: 5.00]\nCATEGORY:\n",
+    "output": "outcome\n"
+  },
+  {
+    "instruction": "Select the category which best matches the input.",
+    "input": "['e0t0q90drq00', 'eq5ct8d0r400', 'c31q0d000tre', '0q5c100rdt2e', '???']\nstd: 4.02, average: 10.20, mode: 12.00, median: 12, max: 12.00, min: 3.00]\nCATEGORY:\n",
+    "output": "id\n"
+  },
+  {
+    "instruction": "Select the category which best matches the input.",
+    "input": "['2020-06-21', '2020-06-11', '2020-06-25', '2020-06-26', '2020-06-29']\nstd: 0, average: 10, mode: 10.00, median: 10, max: 10.00, min: 10.00]\nCATEGORY:\n",
+    "output": "date\n"
+  },
+  {
+    "instruction": "Select the category which best matches the input.",
+    "input": "[\"pointe d'entre\", 'structure sanitaire', 'rercherche active', 'reco', 'communaut']\nstd: 6.11, average: 12.60, mode: 4.00, median: 14, max: 19.00, min: 4.00]\nCATEGORY:\n",
+    "output": "contact_setting\n"
+  },
+  {
+    "instruction": "Select the category which best matches the input.",
+    "input": "['rcd41', 'c80000dt0qer', '00d0r0q20cet', '000rt00cd1eq', 'cdr19']\nstd: 3.83, average: 9.20, mode: 12.00, median: 12, max: 12.00, min: 5.00]\nCATEGORY:\n",
+    "output": "id\n"
+  },
+  {
+    "instruction": "Select the category which best matches the input.",
+    "input": "['33.0', '49.0', '35.0', '31.0', '43.0']\nstd: 7.56, average: 38.20, mode: 31, median: 35, max: 49, min: 31]\nCATEGORY:\n",
+    "output": "age\n"
+  },
+  {
+    "instruction": "Select the category which best matches the input.",
+    "input": "['yes', 'no']\nstd: 0.71, average: 2.50, mode: 2.00, median: 2.50, max: 3.00, min: 2.00]\nCATEGORY:\n",
+    "output": "medical_boolean\n"
+  },
+  {
+    "instruction": "Select the category which best matches the input.",
+    "input": "['2019-06-29', '2018-10-21', '2018-10-25', '2019-09-09', '2019-04-21']\nstd: 0, average: 10, mode: 10.00, median: 10, max: 10.00, min: 10.00]\nCATEGORY:\n",
+    "output": "date\n"
+  }
+]

@@ -1,0 +1,53 @@
+Remainder of file ignored
+WARNING: Logging before flag parsing goes to stderr.
+W0813 18:23:03.307864 139689220957440 module_wrapper.py:139] From approachOne.py:48: The name tf.random.set_random_seed is deprecated. Please use tf.compat.v1.random.set_random_seed instead.
+
+W0813 18:23:03.674444 139689220957440 deprecation.py:506] From /home/omadbek/.conda/envs/sherlock/lib/python3.7/site-packages/tensorflow_core/python/ops/init_ops.py:97: calling Zeros.__init__ (from tensorflow.python.ops.init_ops) with dtype is deprecated and will be removed in a future version.
+Instructions for updating:
+Call initializer instance with the dtype argument instead of passing it to the constructor
+W0813 18:23:03.674719 139689220957440 deprecation.py:506] From /home/omadbek/.conda/envs/sherlock/lib/python3.7/site-packages/tensorflow_core/python/ops/init_ops.py:97: calling Ones.__init__ (from tensorflow.python.ops.init_ops) with dtype is deprecated and will be removed in a future version.
+Instructions for updating:
+Call initializer instance with the dtype argument instead of passing it to the constructor
+W0813 18:23:03.676318 139689220957440 deprecation.py:506] From /home/omadbek/.conda/envs/sherlock/lib/python3.7/site-packages/tensorflow_core/python/ops/init_ops.py:97: calling VarianceScaling.__init__ (from tensorflow.python.ops.init_ops) with dtype is deprecated and will be removed in a future version.
+Instructions for updating:
+Call initializer instance with the dtype argument instead of passing it to the constructor
+W0813 18:23:03.681566 139689220957440 deprecation.py:506] From /home/omadbek/.conda/envs/sherlock/lib/python3.7/site-packages/tensorflow_core/python/ops/init_ops.py:97: calling GlorotUniform.__init__ (from tensorflow.python.ops.init_ops) with dtype is deprecated and will be removed in a future version.
+Instructions for updating:
+Call initializer instance with the dtype argument instead of passing it to the constructor
+W0813 18:23:03.684354 139689220957440 deprecation.py:506] From /home/omadbek/.conda/envs/sherlock/lib/python3.7/site-packages/tensorflow_core/python/ops/resource_variable_ops.py:1630: calling BaseResourceVariable.__init__ (from tensorflow.python.ops.resource_variable_ops) with constraint is deprecated and will be removed in a future version.
+Instructions for updating:
+If using Keras pass *_constraint arguments to layers.
+2025-08-13 18:23:04.020421: I tensorflow/core/platform/cpu_feature_guard.cc:142] Your CPU supports instructions that this TensorFlow binary was not compiled to use: AVX2 FMA
+2025-08-13 18:23:04.029026: I tensorflow/core/platform/profile_utils/cpu_utils.cc:94] CPU Frequency: 2799955000 Hz
+2025-08-13 18:23:04.034256: I tensorflow/compiler/xla/service/service.cc:168] XLA service 0x33cc8000 initialized for platform Host (this does not guarantee that XLA will be used). Devices:
+2025-08-13 18:23:04.034291: I tensorflow/compiler/xla/service/service.cc:176]   StreamExecutor device (0): Host, Default Version
+[Fold 1/5] macroF1=0.565 | wF1=0.814 | acc=0.839 | fit 1.62s | infer 0.09s
+[Fold 2/5] macroF1=0.576 | wF1=0.773 | acc=0.805 | fit 2.06s | infer 0.13s
+[Fold 3/5] macroF1=0.580 | wF1=0.827 | acc=0.851 | fit 2.88s | infer 0.15s
+[Fold 4/5] macroF1=0.480 | wF1=0.781 | acc=0.802 | fit 2.56s | infer 0.19s
+[Fold 5/5] macroF1=0.614 | wF1=0.842 | acc=0.860 | fit 2.98s | infer 0.23s
+
+[Sherlock Fine-tune | 5-fold CV on 80%]
+macro-F1    : 0.563 ± 0.050
+weighted-F1 : 0.807 ± 0.030
+accuracy    : 0.831 ± 0.027
+fit_time(s) : 2.421 ± 0.575 | infer_time(s): 0.158 ± 0.053
+Fine-tuning (full 80%) completed in 2.29s
+[Sherlock | Holdout 20% test] Inference: 0.28s for 109 rows
+                 precision    recall  f1-score   support
+
+            age      0.750     0.750     0.750         4
+    case_status      0.308     0.800     0.444         5
+contact_setting      0.000     0.000     0.000         2
+           date      0.960     0.960     0.960        25
+         gender      0.000     0.000     0.000         4
+             id      1.000     1.000     1.000         9
+       location      0.917     0.917     0.917        12
+medical_boolean      0.950     0.950     0.950        40
+     occupation      0.000     0.000     0.000         2
+        outcome      0.000     0.000     0.000         4
+       symptoms      0.500     1.000     0.667         2
+
+       accuracy                          0.835       109
+      macro avg      0.489     0.580     0.517       109
+   weighted avg      0.803     0.835     0.812       109

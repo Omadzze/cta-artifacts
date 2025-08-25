@@ -1,0 +1,1469 @@
+{
+    "\n                        INSTRUCTION: Choose exactly ONE label from the OPTIONS list that best describes the INPUT. Note that INPUT should be relative to the OPTIONS that you have\n\n                        This is just examples how it could look like:\n                        INPUT: [\"Moderna\", \"AstraZeneca\", \"Novavax\"]\n                        OPTIONS: [\"id\", \"age\", \"date\", \"vaccine_names\"]\n                        ANSWER: vaccine_names\n\n                        INPUT: [\"Tuberculosis\", \"Malaria\", \"Ebola\"]\n                        OPTIONS: [\"location\", \"disease\", \"symptoms\", \"occupation\"]\n                        ANSWER: disease\n\n                        Now it's your turn:\n                        INPUT: [no]\n                        OPTIONS: - symptoms\n- gender\n- location\n- medical_boolean\n- outcome\n- age\n- id\n- date\n- case_status\n- occupation\n- contact_setting\n                        ANSWER:\n                        ": {
+        "response": "medical_boolean",
+        "context": [
+            "no"
+        ],
+        "ground_truth": "medical_boolean",
+        "correct": true,
+        "original_model_answer": "medical_boolean",
+        "original_label": "medical_boolean",
+        "file+idx": "0"
+    },
+    "\n                        INSTRUCTION: Choose exactly ONE label from the OPTIONS list that best describes the INPUT. Note that INPUT should be relative to the OPTIONS that you have\n\n                        This is just examples how it could look like:\n                        INPUT: [\"Moderna\", \"AstraZeneca\", \"Novavax\"]\n                        OPTIONS: [\"id\", \"age\", \"date\", \"vaccine_names\"]\n                        ANSWER: vaccine_names\n\n                        INPUT: [\"Tuberculosis\", \"Malaria\", \"Ebola\"]\n                        OPTIONS: [\"location\", \"disease\", \"symptoms\", \"occupation\"]\n                        ANSWER: disease\n\n                        Now it's your turn:\n                        INPUT: [october 2020, june 2020, november 2020, september 2020, december 2020]\n                        OPTIONS: - symptoms\n- gender\n- location\n- medical_boolean\n- outcome\n- age\n- id\n- date\n- case_status\n- occupation\n- contact_setting\n                        ANSWER:\n                        ": {
+        "response": "date",
+        "context": [
+            "october 2020",
+            "june 2020",
+            "november 2020",
+            "september 2020",
+            "december 2020"
+        ],
+        "ground_truth": "date",
+        "correct": true,
+        "original_model_answer": "date",
+        "original_label": "date",
+        "file+idx": "1"
+    },
+    "\n                        INSTRUCTION: Choose exactly ONE label from the OPTIONS list that best describes the INPUT. Note that INPUT should be relative to the OPTIONS that you have\n\n                        This is just examples how it could look like:\n                        INPUT: [\"Moderna\", \"AstraZeneca\", \"Novavax\"]\n                        OPTIONS: [\"id\", \"age\", \"date\", \"vaccine_names\"]\n                        ANSWER: vaccine_names\n\n                        INPUT: [\"Tuberculosis\", \"Malaria\", \"Ebola\"]\n                        OPTIONS: [\"location\", \"disease\", \"symptoms\", \"occupation\"]\n                        ANSWER: disease\n\n                        Now it's your turn:\n                        INPUT: [famille, funerailles,  funerailles, communaute, nosocomial]\n                        OPTIONS: - symptoms\n- gender\n- location\n- medical_boolean\n- outcome\n- age\n- id\n- date\n- case_status\n- occupation\n- contact_setting\n                        ANSWER:\n                        ": {
+        "response": "contact_setting",
+        "context": [
+            "famille",
+            "funerailles",
+            " funerailles",
+            "communaute",
+            "nosocomial"
+        ],
+        "ground_truth": "contact_setting",
+        "correct": true,
+        "original_model_answer": "contact_setting",
+        "original_label": "contact_setting",
+        "file+idx": "2"
+    },
+    "\n                        INSTRUCTION: Choose exactly ONE label from the OPTIONS list that best describes the INPUT. Note that INPUT should be relative to the OPTIONS that you have\n\n                        This is just examples how it could look like:\n                        INPUT: [\"Moderna\", \"AstraZeneca\", \"Novavax\"]\n                        OPTIONS: [\"id\", \"age\", \"date\", \"vaccine_names\"]\n                        ANSWER: vaccine_names\n\n                        INPUT: [\"Tuberculosis\", \"Malaria\", \"Ebola\"]\n                        OPTIONS: [\"location\", \"disease\", \"symptoms\", \"occupation\"]\n                        ANSWER: disease\n\n                        Now it's your turn:\n                        INPUT: [non, oui]\n                        OPTIONS: - symptoms\n- gender\n- location\n- medical_boolean\n- outcome\n- age\n- id\n- date\n- case_status\n- occupation\n- contact_setting\n                        ANSWER:\n                        ": {
+        "response": "medical_boolean",
+        "context": [
+            "non",
+            "oui"
+        ],
+        "ground_truth": "medical_boolean",
+        "correct": true,
+        "original_model_answer": "medical_boolean",
+        "original_label": "medical_boolean",
+        "file+idx": "3"
+    },
+    "\n                        INSTRUCTION: Choose exactly ONE label from the OPTIONS list that best describes the INPUT. Note that INPUT should be relative to the OPTIONS that you have\n\n                        This is just examples how it could look like:\n                        INPUT: [\"Moderna\", \"AstraZeneca\", \"Novavax\"]\n                        OPTIONS: [\"id\", \"age\", \"date\", \"vaccine_names\"]\n                        ANSWER: vaccine_names\n\n                        INPUT: [\"Tuberculosis\", \"Malaria\", \"Ebola\"]\n                        OPTIONS: [\"location\", \"disease\", \"symptoms\", \"occupation\"]\n                        ANSWER: disease\n\n                        Now it's your turn:\n                        INPUT: [jaundice, painabdo, weak, fever, rash]\n                        OPTIONS: - symptoms\n- gender\n- location\n- medical_boolean\n- outcome\n- age\n- id\n- date\n- case_status\n- occupation\n- contact_setting\n                        ANSWER:\n                        ": {
+        "response": "symptoms",
+        "context": [
+            "jaundice",
+            "painabdo",
+            "weak",
+            "fever",
+            "rash"
+        ],
+        "ground_truth": "symptoms",
+        "correct": true,
+        "original_model_answer": "symptoms",
+        "original_label": "symptoms",
+        "file+idx": "4"
+    },
+    "\n                        INSTRUCTION: Choose exactly ONE label from the OPTIONS list that best describes the INPUT. Note that INPUT should be relative to the OPTIONS that you have\n\n                        This is just examples how it could look like:\n                        INPUT: [\"Moderna\", \"AstraZeneca\", \"Novavax\"]\n                        OPTIONS: [\"id\", \"age\", \"date\", \"vaccine_names\"]\n                        ANSWER: vaccine_names\n\n                        INPUT: [\"Tuberculosis\", \"Malaria\", \"Ebola\"]\n                        OPTIONS: [\"location\", \"disease\", \"symptoms\", \"occupation\"]\n                        ANSWER: disease\n\n                        Now it's your turn:\n                        INPUT: [yes, no]\n                        OPTIONS: - symptoms\n- gender\n- location\n- medical_boolean\n- outcome\n- age\n- id\n- date\n- case_status\n- occupation\n- contact_setting\n                        ANSWER:\n                        ": {
+        "response": "medical_boolean",
+        "context": [
+            "yes",
+            "no"
+        ],
+        "ground_truth": "medical_boolean",
+        "correct": true,
+        "original_model_answer": "medical_boolean",
+        "original_label": "medical_boolean",
+        "file+idx": "5"
+    },
+    "\n                        INSTRUCTION: Choose exactly ONE label from the OPTIONS list that best describes the INPUT. Note that INPUT should be relative to the OPTIONS that you have\n\n                        This is just examples how it could look like:\n                        INPUT: [\"Moderna\", \"AstraZeneca\", \"Novavax\"]\n                        OPTIONS: [\"id\", \"age\", \"date\", \"vaccine_names\"]\n                        ANSWER: vaccine_names\n\n                        INPUT: [\"Tuberculosis\", \"Malaria\", \"Ebola\"]\n                        OPTIONS: [\"location\", \"disease\", \"symptoms\", \"occupation\"]\n                        ANSWER: disease\n\n                        Now it's your turn:\n                        INPUT: [oui, inc, non]\n                        OPTIONS: - symptoms\n- gender\n- location\n- medical_boolean\n- outcome\n- age\n- id\n- date\n- case_status\n- occupation\n- contact_setting\n                        ANSWER:\n                        ": {
+        "response": "medical_boolean",
+        "context": [
+            "oui",
+            "inc",
+            "non"
+        ],
+        "ground_truth": "medical_boolean",
+        "correct": true,
+        "original_model_answer": "medical_boolean",
+        "original_label": "medical_boolean",
+        "file+idx": "6"
+    },
+    "\n                        INSTRUCTION: Choose exactly ONE label from the OPTIONS list that best describes the INPUT. Note that INPUT should be relative to the OPTIONS that you have\n\n                        This is just examples how it could look like:\n                        INPUT: [\"Moderna\", \"AstraZeneca\", \"Novavax\"]\n                        OPTIONS: [\"id\", \"age\", \"date\", \"vaccine_names\"]\n                        ANSWER: vaccine_names\n\n                        INPUT: [\"Tuberculosis\", \"Malaria\", \"Ebola\"]\n                        OPTIONS: [\"location\", \"disease\", \"symptoms\", \"occupation\"]\n                        ANSWER: disease\n\n                        Now it's your turn:\n                        INPUT: [yes, no]\n                        OPTIONS: - symptoms\n- gender\n- location\n- medical_boolean\n- outcome\n- age\n- id\n- date\n- case_status\n- occupation\n- contact_setting\n                        ANSWER:\n                        *": {
+        "response": "medical_boolean",
+        "context": [
+            "yes",
+            "no"
+        ],
+        "ground_truth": "medical_boolean",
+        "correct": true,
+        "original_model_answer": "medical_boolean",
+        "original_label": "medical_boolean",
+        "file+idx": "7"
+    },
+    "\n                        INSTRUCTION: Choose exactly ONE label from the OPTIONS list that best describes the INPUT. Note that INPUT should be relative to the OPTIONS that you have\n\n                        This is just examples how it could look like:\n                        INPUT: [\"Moderna\", \"AstraZeneca\", \"Novavax\"]\n                        OPTIONS: [\"id\", \"age\", \"date\", \"vaccine_names\"]\n                        ANSWER: vaccine_names\n\n                        INPUT: [\"Tuberculosis\", \"Malaria\", \"Ebola\"]\n                        OPTIONS: [\"location\", \"disease\", \"symptoms\", \"occupation\"]\n                        ANSWER: disease\n\n                        Now it's your turn:\n                        INPUT: [2020-09-23, 2020-06-06, 2020-06-24, 2020-08-22, 2020-07-28]\n                        OPTIONS: - symptoms\n- gender\n- location\n- medical_boolean\n- outcome\n- age\n- id\n- date\n- case_status\n- occupation\n- contact_setting\n                        ANSWER:\n                        ": {
+        "response": "date",
+        "context": [
+            "2020-09-23",
+            "2020-06-06",
+            "2020-06-24",
+            "2020-08-22",
+            "2020-07-28"
+        ],
+        "ground_truth": "date",
+        "correct": true,
+        "original_model_answer": "date",
+        "original_label": "date",
+        "file+idx": "8"
+    },
+    "\n                        INSTRUCTION: Choose exactly ONE label from the OPTIONS list that best describes the INPUT. Note that INPUT should be relative to the OPTIONS that you have\n\n                        This is just examples how it could look like:\n                        INPUT: [\"Moderna\", \"AstraZeneca\", \"Novavax\"]\n                        OPTIONS: [\"id\", \"age\", \"date\", \"vaccine_names\"]\n                        ANSWER: vaccine_names\n\n                        INPUT: [\"Tuberculosis\", \"Malaria\", \"Ebola\"]\n                        OPTIONS: [\"location\", \"disease\", \"symptoms\", \"occupation\"]\n                        ANSWER: disease\n\n                        Now it's your turn:\n                        INPUT: [cholera, nil]\n                        OPTIONS: - symptoms\n- gender\n- location\n- medical_boolean\n- outcome\n- age\n- id\n- date\n- case_status\n- occupation\n- contact_setting\n                        ANSWER:\n                        ": {
+        "response": "medical_boolean",
+        "context": [
+            "cholera",
+            "nil"
+        ],
+        "ground_truth": "medical_boolean",
+        "correct": true,
+        "original_model_answer": "medical_boolean",
+        "original_label": "medical_boolean",
+        "file+idx": "9"
+    },
+    "\n                        INSTRUCTION: Choose exactly ONE label from the OPTIONS list that best describes the INPUT. Note that INPUT should be relative to the OPTIONS that you have\n\n                        This is just examples how it could look like:\n                        INPUT: [\"Moderna\", \"AstraZeneca\", \"Novavax\"]\n                        OPTIONS: [\"id\", \"age\", \"date\", \"vaccine_names\"]\n                        ANSWER: vaccine_names\n\n                        INPUT: [\"Tuberculosis\", \"Malaria\", \"Ebola\"]\n                        OPTIONS: [\"location\", \"disease\", \"symptoms\", \"occupation\"]\n                        ANSWER: disease\n\n                        Now it's your turn:\n                        INPUT: [inc, non, oui]\n                        OPTIONS: - symptoms\n- gender\n- location\n- medical_boolean\n- outcome\n- age\n- id\n- date\n- case_status\n- occupation\n- contact_setting\n                        ANSWER:\n                        ": {
+        "response": "medical_boolean",
+        "context": [
+            "inc",
+            "non",
+            "oui"
+        ],
+        "ground_truth": "medical_boolean",
+        "correct": true,
+        "original_model_answer": "medical_boolean",
+        "original_label": "medical_boolean",
+        "file+idx": "10"
+    },
+    "\n                        INSTRUCTION: Choose exactly ONE label from the OPTIONS list that best describes the INPUT. Note that INPUT should be relative to the OPTIONS that you have\n\n                        This is just examples how it could look like:\n                        INPUT: [\"Moderna\", \"AstraZeneca\", \"Novavax\"]\n                        OPTIONS: [\"id\", \"age\", \"date\", \"vaccine_names\"]\n                        ANSWER: vaccine_names\n\n                        INPUT: [\"Tuberculosis\", \"Malaria\", \"Ebola\"]\n                        OPTIONS: [\"location\", \"disease\", \"symptoms\", \"occupation\"]\n                        ANSWER: disease\n\n                        Now it's your turn:\n                        INPUT: [0.0, 1.0, 2.0]\n                        OPTIONS: - symptoms\n- gender\n- location\n- medical_boolean\n- outcome\n- age\n- id\n- date\n- case_status\n- occupation\n- contact_setting\n                        ANSWER:\n                        ": {
+        "response": "outcome",
+        "context": [
+            "0.0",
+            "1.0",
+            "2.0"
+        ],
+        "ground_truth": "medical_boolean",
+        "correct": false,
+        "original_model_answer": "outcome",
+        "original_label": "medical_boolean",
+        "file+idx": "11"
+    },
+    "\n                        INSTRUCTION: Choose exactly ONE label from the OPTIONS list that best describes the INPUT. Note that INPUT should be relative to the OPTIONS that you have\n\n                        This is just examples how it could look like:\n                        INPUT: [\"Moderna\", \"AstraZeneca\", \"Novavax\"]\n                        OPTIONS: [\"id\", \"age\", \"date\", \"vaccine_names\"]\n                        ANSWER: vaccine_names\n\n                        INPUT: [\"Tuberculosis\", \"Malaria\", \"Ebola\"]\n                        OPTIONS: [\"location\", \"disease\", \"symptoms\", \"occupation\"]\n                        ANSWER: disease\n\n                        Now it's your turn:\n                        INPUT: [89t1r7d9qk010bcme06--, 410030er-0qkbdct2-6r, 4cd-01-t1m8eq0k8rb0100, kd1cqm45060b212r2--8t, rb0580-610979ct-dqmke]\n                        OPTIONS: - symptoms\n- gender\n- location\n- medical_boolean\n- outcome\n- age\n- id\n- date\n- case_status\n- occupation\n- contact_setting\n                        ANSWER:\n                        ": {
+        "response": "id",
+        "context": [
+            "89t1r7d9qk010bcme06--",
+            "410030er-0qkbdct2-6r",
+            "4cd-01-t1m8eq0k8rb0100",
+            "kd1cqm45060b212r2--8t",
+            "rb0580-610979ct-dqmke"
+        ],
+        "ground_truth": "id",
+        "correct": true,
+        "original_model_answer": "id",
+        "original_label": "id",
+        "file+idx": "12"
+    },
+    "\n                        INSTRUCTION: Choose exactly ONE label from the OPTIONS list that best describes the INPUT. Note that INPUT should be relative to the OPTIONS that you have\n\n                        This is just examples how it could look like:\n                        INPUT: [\"Moderna\", \"AstraZeneca\", \"Novavax\"]\n                        OPTIONS: [\"id\", \"age\", \"date\", \"vaccine_names\"]\n                        ANSWER: vaccine_names\n\n                        INPUT: [\"Tuberculosis\", \"Malaria\", \"Ebola\"]\n                        OPTIONS: [\"location\", \"disease\", \"symptoms\", \"occupation\"]\n                        ANSWER: disease\n\n                        Now it's your turn:\n                        INPUT: [oui, inc, non]\n                        OPTIONS: - symptoms\n- gender\n- location\n- medical_boolean\n- outcome\n- age\n- id\n- date\n- case_status\n- occupation\n- contact_setting\n                        ANSWER:\n                        *": {
+        "response": "medical_boolean",
+        "context": [
+            "oui",
+            "inc",
+            "non"
+        ],
+        "ground_truth": "medical_boolean",
+        "correct": true,
+        "original_model_answer": "medical_boolean",
+        "original_label": "medical_boolean",
+        "file+idx": "13"
+    },
+    "\n                        INSTRUCTION: Choose exactly ONE label from the OPTIONS list that best describes the INPUT. Note that INPUT should be relative to the OPTIONS that you have\n\n                        This is just examples how it could look like:\n                        INPUT: [\"Moderna\", \"AstraZeneca\", \"Novavax\"]\n                        OPTIONS: [\"id\", \"age\", \"date\", \"vaccine_names\"]\n                        ANSWER: vaccine_names\n\n                        INPUT: [\"Tuberculosis\", \"Malaria\", \"Ebola\"]\n                        OPTIONS: [\"location\", \"disease\", \"symptoms\", \"occupation\"]\n                        ANSWER: disease\n\n                        Now it's your turn:\n                        INPUT: [no]\n                        OPTIONS: - symptoms\n- gender\n- location\n- medical_boolean\n- outcome\n- age\n- id\n- date\n- case_status\n- occupation\n- contact_setting\n                        ANSWER:\n                        *": {
+        "response": "medical_boolean",
+        "context": [
+            "no"
+        ],
+        "ground_truth": "medical_boolean",
+        "correct": true,
+        "original_model_answer": "medical_boolean",
+        "original_label": "medical_boolean",
+        "file+idx": "14"
+    },
+    "\n                        INSTRUCTION: Choose exactly ONE label from the OPTIONS list that best describes the INPUT. Note that INPUT should be relative to the OPTIONS that you have\n\n                        This is just examples how it could look like:\n                        INPUT: [\"Moderna\", \"AstraZeneca\", \"Novavax\"]\n                        OPTIONS: [\"id\", \"age\", \"date\", \"vaccine_names\"]\n                        ANSWER: vaccine_names\n\n                        INPUT: [\"Tuberculosis\", \"Malaria\", \"Ebola\"]\n                        OPTIONS: [\"location\", \"disease\", \"symptoms\", \"occupation\"]\n                        ANSWER: disease\n\n                        Now it's your turn:\n                        INPUT: [n]\n                        OPTIONS: - symptoms\n- gender\n- location\n- medical_boolean\n- outcome\n- age\n- id\n- date\n- case_status\n- occupation\n- contact_setting\n                        ANSWER:\n                        ": {
+        "response": "gender",
+        "context": [
+            "n"
+        ],
+        "ground_truth": "outcome",
+        "correct": false,
+        "original_model_answer": "gender",
+        "original_label": "outcome",
+        "file+idx": "15"
+    },
+    "\n                        INSTRUCTION: Choose exactly ONE label from the OPTIONS list that best describes the INPUT. Note that INPUT should be relative to the OPTIONS that you have\n\n                        This is just examples how it could look like:\n                        INPUT: [\"Moderna\", \"AstraZeneca\", \"Novavax\"]\n                        OPTIONS: [\"id\", \"age\", \"date\", \"vaccine_names\"]\n                        ANSWER: vaccine_names\n\n                        INPUT: [\"Tuberculosis\", \"Malaria\", \"Ebola\"]\n                        OPTIONS: [\"location\", \"disease\", \"symptoms\", \"occupation\"]\n                        ANSWER: disease\n\n                        Now it's your turn:\n                        INPUT: [bozoum, gamboula, baboua, bossangoa, batangafo]\n                        OPTIONS: - symptoms\n- gender\n- location\n- medical_boolean\n- outcome\n- age\n- id\n- date\n- case_status\n- occupation\n- contact_setting\n                        ANSWER:\n                        ": {
+        "response": "location",
+        "context": [
+            "bozoum",
+            "gamboula",
+            "baboua",
+            "bossangoa",
+            "batangafo"
+        ],
+        "ground_truth": "contact_setting",
+        "correct": false,
+        "original_model_answer": "location",
+        "original_label": "contact_setting",
+        "file+idx": "16"
+    },
+    "\n                        INSTRUCTION: Choose exactly ONE label from the OPTIONS list that best describes the INPUT. Note that INPUT should be relative to the OPTIONS that you have\n\n                        This is just examples how it could look like:\n                        INPUT: [\"Moderna\", \"AstraZeneca\", \"Novavax\"]\n                        OPTIONS: [\"id\", \"age\", \"date\", \"vaccine_names\"]\n                        ANSWER: vaccine_names\n\n                        INPUT: [\"Tuberculosis\", \"Malaria\", \"Ebola\"]\n                        OPTIONS: [\"location\", \"disease\", \"symptoms\", \"occupation\"]\n                        ANSWER: disease\n\n                        Now it's your turn:\n                        INPUT: [jamaica, united kingdom, kazakhstan, venezuela, malaysia]\n                        OPTIONS: - symptoms\n- gender\n- location\n- medical_boolean\n- outcome\n- age\n- id\n- date\n- case_status\n- occupation\n- contact_setting\n                        ANSWER:\n                        ": {
+        "response": "location",
+        "context": [
+            "jamaica",
+            "united kingdom",
+            "kazakhstan",
+            "venezuela",
+            "malaysia"
+        ],
+        "ground_truth": "location",
+        "correct": true,
+        "original_model_answer": "location",
+        "original_label": "location",
+        "file+idx": "17"
+    },
+    "\n                        INSTRUCTION: Choose exactly ONE label from the OPTIONS list that best describes the INPUT. Note that INPUT should be relative to the OPTIONS that you have\n\n                        This is just examples how it could look like:\n                        INPUT: [\"Moderna\", \"AstraZeneca\", \"Novavax\"]\n                        OPTIONS: [\"id\", \"age\", \"date\", \"vaccine_names\"]\n                        ANSWER: vaccine_names\n\n                        INPUT: [\"Tuberculosis\", \"Malaria\", \"Ebola\"]\n                        OPTIONS: [\"location\", \"disease\", \"symptoms\", \"occupation\"]\n                        ANSWER: disease\n\n                        Now it's your turn:\n                        INPUT: [yes, no]\n                        OPTIONS: - symptoms\n- gender\n- location\n- medical_boolean\n- outcome\n- age\n- id\n- date\n- case_status\n- occupation\n- contact_setting\n                        ANSWER:\n                        **": {
+        "response": "medical_boolean",
+        "context": [
+            "yes",
+            "no"
+        ],
+        "ground_truth": "medical_boolean",
+        "correct": true,
+        "original_model_answer": "medical_boolean",
+        "original_label": "medical_boolean",
+        "file+idx": "18"
+    },
+    "\n                        INSTRUCTION: Choose exactly ONE label from the OPTIONS list that best describes the INPUT. Note that INPUT should be relative to the OPTIONS that you have\n\n                        This is just examples how it could look like:\n                        INPUT: [\"Moderna\", \"AstraZeneca\", \"Novavax\"]\n                        OPTIONS: [\"id\", \"age\", \"date\", \"vaccine_names\"]\n                        ANSWER: vaccine_names\n\n                        INPUT: [\"Tuberculosis\", \"Malaria\", \"Ebola\"]\n                        OPTIONS: [\"location\", \"disease\", \"symptoms\", \"occupation\"]\n                        ANSWER: disease\n\n                        Now it's your turn:\n                        INPUT: [secretary at church, restaurant worker, electrician, church pastor, banker]\n                        OPTIONS: - symptoms\n- gender\n- location\n- medical_boolean\n- outcome\n- age\n- id\n- date\n- case_status\n- occupation\n- contact_setting\n                        ANSWER:\n                        ": {
+        "response": "occupation",
+        "context": [
+            "secretary at church",
+            "restaurant worker",
+            "electrician",
+            "church pastor",
+            "banker"
+        ],
+        "ground_truth": "occupation",
+        "correct": true,
+        "original_model_answer": "occupation",
+        "original_label": "occupation",
+        "file+idx": "19"
+    },
+    "\n                        INSTRUCTION: Choose exactly ONE label from the OPTIONS list that best describes the INPUT. Note that INPUT should be relative to the OPTIONS that you have\n\n                        This is just examples how it could look like:\n                        INPUT: [\"Moderna\", \"AstraZeneca\", \"Novavax\"]\n                        OPTIONS: [\"id\", \"age\", \"date\", \"vaccine_names\"]\n                        ANSWER: vaccine_names\n\n                        INPUT: [\"Tuberculosis\", \"Malaria\", \"Ebola\"]\n                        OPTIONS: [\"location\", \"disease\", \"symptoms\", \"occupation\"]\n                        ANSWER: disease\n\n                        Now it's your turn:\n                        INPUT: [33.0, 49.0, 35.0, 31.0, 43.0]\n                        OPTIONS: - symptoms\n- gender\n- location\n- medical_boolean\n- outcome\n- age\n- id\n- date\n- case_status\n- occupation\n- contact_setting\n                        ANSWER:\n                        ": {
+        "response": "age",
+        "context": [
+            "33.0",
+            "49.0",
+            "35.0",
+            "31.0",
+            "43.0"
+        ],
+        "ground_truth": "age",
+        "correct": true,
+        "original_model_answer": "age",
+        "original_label": "age",
+        "file+idx": "20"
+    },
+    "\n                        INSTRUCTION: Choose exactly ONE label from the OPTIONS list that best describes the INPUT. Note that INPUT should be relative to the OPTIONS that you have\n\n                        This is just examples how it could look like:\n                        INPUT: [\"Moderna\", \"AstraZeneca\", \"Novavax\"]\n                        OPTIONS: [\"id\", \"age\", \"date\", \"vaccine_names\"]\n                        ANSWER: vaccine_names\n\n                        INPUT: [\"Tuberculosis\", \"Malaria\", \"Ebola\"]\n                        OPTIONS: [\"location\", \"disease\", \"symptoms\", \"occupation\"]\n                        ANSWER: disease\n\n                        Now it's your turn:\n                        INPUT: [dcd, vivant]\n                        OPTIONS: - symptoms\n- gender\n- location\n- medical_boolean\n- outcome\n- age\n- id\n- date\n- case_status\n- occupation\n- contact_setting\n                        ANSWER:\n                        ": {
+        "response": "medical_boolean",
+        "context": [
+            "dcd",
+            "vivant"
+        ],
+        "ground_truth": "outcome",
+        "correct": false,
+        "original_model_answer": "medical_boolean",
+        "original_label": "outcome",
+        "file+idx": "21"
+    },
+    "\n                        INSTRUCTION: Choose exactly ONE label from the OPTIONS list that best describes the INPUT. Note that INPUT should be relative to the OPTIONS that you have\n\n                        This is just examples how it could look like:\n                        INPUT: [\"Moderna\", \"AstraZeneca\", \"Novavax\"]\n                        OPTIONS: [\"id\", \"age\", \"date\", \"vaccine_names\"]\n                        ANSWER: vaccine_names\n\n                        INPUT: [\"Tuberculosis\", \"Malaria\", \"Ebola\"]\n                        OPTIONS: [\"location\", \"disease\", \"symptoms\", \"occupation\"]\n                        ANSWER: disease\n\n                        Now it's your turn:\n                        INPUT: [0.0, 1.0]\n                        OPTIONS: - symptoms\n- gender\n- location\n- medical_boolean\n- outcome\n- age\n- id\n- date\n- case_status\n- occupation\n- contact_setting\n                        ANSWER:\n                        ": {
+        "response": "date",
+        "context": [
+            "0.0",
+            "1.0"
+        ],
+        "ground_truth": "medical_boolean",
+        "correct": false,
+        "original_model_answer": "date",
+        "original_label": "medical_boolean",
+        "file+idx": "22"
+    },
+    "\n                        INSTRUCTION: Choose exactly ONE label from the OPTIONS list that best describes the INPUT. Note that INPUT should be relative to the OPTIONS that you have\n\n                        This is just examples how it could look like:\n                        INPUT: [\"Moderna\", \"AstraZeneca\", \"Novavax\"]\n                        OPTIONS: [\"id\", \"age\", \"date\", \"vaccine_names\"]\n                        ANSWER: vaccine_names\n\n                        INPUT: [\"Tuberculosis\", \"Malaria\", \"Ebola\"]\n                        OPTIONS: [\"location\", \"disease\", \"symptoms\", \"occupation\"]\n                        ANSWER: disease\n\n                        Now it's your turn:\n                        INPUT: [chasseur, cultivateur, infirmier, commercant, reco]\n                        OPTIONS: - symptoms\n- gender\n- location\n- medical_boolean\n- outcome\n- age\n- id\n- date\n- case_status\n- occupation\n- contact_setting\n                        ANSWER:\n                        ": {
+        "response": "occupation",
+        "context": [
+            "chasseur",
+            "cultivateur",
+            "infirmier",
+            "commercant",
+            "reco"
+        ],
+        "ground_truth": "occupation",
+        "correct": true,
+        "original_model_answer": "occupation",
+        "original_label": "occupation",
+        "file+idx": "23"
+    },
+    "\n                        INSTRUCTION: Choose exactly ONE label from the OPTIONS list that best describes the INPUT. Note that INPUT should be relative to the OPTIONS that you have\n\n                        This is just examples how it could look like:\n                        INPUT: [\"Moderna\", \"AstraZeneca\", \"Novavax\"]\n                        OPTIONS: [\"id\", \"age\", \"date\", \"vaccine_names\"]\n                        ANSWER: vaccine_names\n\n                        INPUT: [\"Tuberculosis\", \"Malaria\", \"Ebola\"]\n                        OPTIONS: [\"location\", \"disease\", \"symptoms\", \"occupation\"]\n                        ANSWER: disease\n\n                        Now it's your turn:\n                        INPUT: [belgium, south korea, luxembourg, colombia, moldova]\n                        OPTIONS: - symptoms\n- gender\n- location\n- medical_boolean\n- outcome\n- age\n- id\n- date\n- case_status\n- occupation\n- contact_setting\n                        ANSWER:\n                        ": {
+        "response": "location",
+        "context": [
+            "belgium",
+            "south korea",
+            "luxembourg",
+            "colombia",
+            "moldova"
+        ],
+        "ground_truth": "location",
+        "correct": true,
+        "original_model_answer": "location",
+        "original_label": "location",
+        "file+idx": "24"
+    },
+    "\n                        INSTRUCTION: Choose exactly ONE label from the OPTIONS list that best describes the INPUT. Note that INPUT should be relative to the OPTIONS that you have\n\n                        This is just examples how it could look like:\n                        INPUT: [\"Moderna\", \"AstraZeneca\", \"Novavax\"]\n                        OPTIONS: [\"id\", \"age\", \"date\", \"vaccine_names\"]\n                        ANSWER: vaccine_names\n\n                        INPUT: [\"Tuberculosis\", \"Malaria\", \"Ebola\"]\n                        OPTIONS: [\"location\", \"disease\", \"symptoms\", \"occupation\"]\n                        ANSWER: disease\n\n                        Now it's your turn:\n                        INPUT: [hepatitis b, high blood pressure,  hypercholesterol,  mia, copd]\n                        OPTIONS: - symptoms\n- gender\n- location\n- medical_boolean\n- outcome\n- age\n- id\n- date\n- case_status\n- occupation\n- contact_setting\n                        ANSWER:\n                        ": {
+        "response": "symptoms",
+        "context": [
+            "hepatitis b",
+            "high blood pressure",
+            " hypercholesterol",
+            " mia",
+            "copd"
+        ],
+        "ground_truth": "symptoms",
+        "correct": true,
+        "original_model_answer": "symptoms",
+        "original_label": "symptoms",
+        "file+idx": "25"
+    },
+    "\n                        INSTRUCTION: Choose exactly ONE label from the OPTIONS list that best describes the INPUT. Note that INPUT should be relative to the OPTIONS that you have\n\n                        This is just examples how it could look like:\n                        INPUT: [\"Moderna\", \"AstraZeneca\", \"Novavax\"]\n                        OPTIONS: [\"id\", \"age\", \"date\", \"vaccine_names\"]\n                        ANSWER: vaccine_names\n\n                        INPUT: [\"Tuberculosis\", \"Malaria\", \"Ebola\"]\n                        OPTIONS: [\"location\", \"disease\", \"symptoms\", \"occupation\"]\n                        ANSWER: disease\n\n                        Now it's your turn:\n                        INPUT: [sangha-mbar, vakaga]\n                        OPTIONS: - symptoms\n- gender\n- location\n- medical_boolean\n- outcome\n- age\n- id\n- date\n- case_status\n- occupation\n- contact_setting\n                        ANSWER:\n                        ": {
+        "response": "location",
+        "context": [
+            "sangha-mbar",
+            "vakaga"
+        ],
+        "ground_truth": "location",
+        "correct": true,
+        "original_model_answer": "location",
+        "original_label": "location",
+        "file+idx": "26"
+    },
+    "\n                        INSTRUCTION: Choose exactly ONE label from the OPTIONS list that best describes the INPUT. Note that INPUT should be relative to the OPTIONS that you have\n\n                        This is just examples how it could look like:\n                        INPUT: [\"Moderna\", \"AstraZeneca\", \"Novavax\"]\n                        OPTIONS: [\"id\", \"age\", \"date\", \"vaccine_names\"]\n                        ANSWER: vaccine_names\n\n                        INPUT: [\"Tuberculosis\", \"Malaria\", \"Ebola\"]\n                        OPTIONS: [\"location\", \"disease\", \"symptoms\", \"occupation\"]\n                        ANSWER: disease\n\n                        Now it's your turn:\n                        INPUT: [positif, ngatif]\n                        OPTIONS: - symptoms\n- gender\n- location\n- medical_boolean\n- outcome\n- age\n- id\n- date\n- case_status\n- occupation\n- contact_setting\n                        ANSWER:\n                        ": {
+        "response": "medical_boolean",
+        "context": [
+            "positif",
+            "ngatif"
+        ],
+        "ground_truth": "case_status",
+        "correct": false,
+        "original_model_answer": "medical_boolean",
+        "original_label": "case_status",
+        "file+idx": "27"
+    },
+    "\n                        INSTRUCTION: Choose exactly ONE label from the OPTIONS list that best describes the INPUT. Note that INPUT should be relative to the OPTIONS that you have\n\n                        This is just examples how it could look like:\n                        INPUT: [\"Moderna\", \"AstraZeneca\", \"Novavax\"]\n                        OPTIONS: [\"id\", \"age\", \"date\", \"vaccine_names\"]\n                        ANSWER: vaccine_names\n\n                        INPUT: [\"Tuberculosis\", \"Malaria\", \"Ebola\"]\n                        OPTIONS: [\"location\", \"disease\", \"symptoms\", \"occupation\"]\n                        ANSWER: disease\n\n                        Now it's your turn:\n                        INPUT: [no, yes]\n                        OPTIONS: - symptoms\n- gender\n- location\n- medical_boolean\n- outcome\n- age\n- id\n- date\n- case_status\n- occupation\n- contact_setting\n                        ANSWER:\n                        ": {
+        "response": "medical_boolean",
+        "context": [
+            "no",
+            "yes"
+        ],
+        "ground_truth": "medical_boolean",
+        "correct": true,
+        "original_model_answer": "medical_boolean",
+        "original_label": "medical_boolean",
+        "file+idx": "28"
+    },
+    "\n                        INSTRUCTION: Choose exactly ONE label from the OPTIONS list that best describes the INPUT. Note that INPUT should be relative to the OPTIONS that you have\n\n                        This is just examples how it could look like:\n                        INPUT: [\"Moderna\", \"AstraZeneca\", \"Novavax\"]\n                        OPTIONS: [\"id\", \"age\", \"date\", \"vaccine_names\"]\n                        ANSWER: vaccine_names\n\n                        INPUT: [\"Tuberculosis\", \"Malaria\", \"Ebola\"]\n                        OPTIONS: [\"location\", \"disease\", \"symptoms\", \"occupation\"]\n                        ANSWER: disease\n\n                        Now it's your turn:\n                        INPUT: [oui, non, inc]\n                        OPTIONS: - symptoms\n- gender\n- location\n- medical_boolean\n- outcome\n- age\n- id\n- date\n- case_status\n- occupation\n- contact_setting\n                        ANSWER:\n                        ": {
+        "response": "gender",
+        "context": [
+            "oui",
+            "non",
+            "inc"
+        ],
+        "ground_truth": "medical_boolean",
+        "correct": false,
+        "original_model_answer": "gender",
+        "original_label": "medical_boolean",
+        "file+idx": "29"
+    },
+    "\n                        INSTRUCTION: Choose exactly ONE label from the OPTIONS list that best describes the INPUT. Note that INPUT should be relative to the OPTIONS that you have\n\n                        This is just examples how it could look like:\n                        INPUT: [\"Moderna\", \"AstraZeneca\", \"Novavax\"]\n                        OPTIONS: [\"id\", \"age\", \"date\", \"vaccine_names\"]\n                        ANSWER: vaccine_names\n\n                        INPUT: [\"Tuberculosis\", \"Malaria\", \"Ebola\"]\n                        OPTIONS: [\"location\", \"disease\", \"symptoms\", \"occupation\"]\n                        ANSWER: disease\n\n                        Now it's your turn:\n                        INPUT: [kansas, massachusetts, missouri, new york, florida]\n                        OPTIONS: - symptoms\n- gender\n- location\n- medical_boolean\n- outcome\n- age\n- id\n- date\n- case_status\n- occupation\n- contact_setting\n                        ANSWER:\n                        ": {
+        "response": "location",
+        "context": [
+            "kansas",
+            "massachusetts",
+            "missouri",
+            "new york",
+            "florida"
+        ],
+        "ground_truth": "location",
+        "correct": true,
+        "original_model_answer": "location",
+        "original_label": "location",
+        "file+idx": "30"
+    },
+    "\n                        INSTRUCTION: Choose exactly ONE label from the OPTIONS list that best describes the INPUT. Note that INPUT should be relative to the OPTIONS that you have\n\n                        This is just examples how it could look like:\n                        INPUT: [\"Moderna\", \"AstraZeneca\", \"Novavax\"]\n                        OPTIONS: [\"id\", \"age\", \"date\", \"vaccine_names\"]\n                        ANSWER: vaccine_names\n\n                        INPUT: [\"Tuberculosis\", \"Malaria\", \"Ebola\"]\n                        OPTIONS: [\"location\", \"disease\", \"symptoms\", \"occupation\"]\n                        ANSWER: disease\n\n                        Now it's your turn:\n                        INPUT: [2021-11-01, 2020-10-21, 2022-01-11, 2022-02-15, 2021-07-01]\n                        OPTIONS: - symptoms\n- gender\n- location\n- medical_boolean\n- outcome\n- age\n- id\n- date\n- case_status\n- occupation\n- contact_setting\n                        ANSWER:\n                        ": {
+        "response": "date",
+        "context": [
+            "2021-11-01",
+            "2020-10-21",
+            "2022-01-11",
+            "2022-02-15",
+            "2021-07-01"
+        ],
+        "ground_truth": "date",
+        "correct": true,
+        "original_model_answer": "date",
+        "original_label": "date",
+        "file+idx": "31"
+    },
+    "\n                        INSTRUCTION: Choose exactly ONE label from the OPTIONS list that best describes the INPUT. Note that INPUT should be relative to the OPTIONS that you have\n\n                        This is just examples how it could look like:\n                        INPUT: [\"Moderna\", \"AstraZeneca\", \"Novavax\"]\n                        OPTIONS: [\"id\", \"age\", \"date\", \"vaccine_names\"]\n                        ANSWER: vaccine_names\n\n                        INPUT: [\"Tuberculosis\", \"Malaria\", \"Ebola\"]\n                        OPTIONS: [\"location\", \"disease\", \"symptoms\", \"occupation\"]\n                        ANSWER: disease\n\n                        Now it's your turn:\n                        INPUT: [poland, french polynesia, finland, argentina, switzerland]\n                        OPTIONS: - symptoms\n- gender\n- location\n- medical_boolean\n- outcome\n- age\n- id\n- date\n- case_status\n- occupation\n- contact_setting\n                        ANSWER:\n                        ": {
+        "response": "location",
+        "context": [
+            "poland",
+            "french polynesia",
+            "finland",
+            "argentina",
+            "switzerland"
+        ],
+        "ground_truth": "location",
+        "correct": true,
+        "original_model_answer": "location",
+        "original_label": "location",
+        "file+idx": "32"
+    },
+    "\n                        INSTRUCTION: Choose exactly ONE label from the OPTIONS list that best describes the INPUT. Note that INPUT should be relative to the OPTIONS that you have\n\n                        This is just examples how it could look like:\n                        INPUT: [\"Moderna\", \"AstraZeneca\", \"Novavax\"]\n                        OPTIONS: [\"id\", \"age\", \"date\", \"vaccine_names\"]\n                        ANSWER: vaccine_names\n\n                        INPUT: [\"Tuberculosis\", \"Malaria\", \"Ebola\"]\n                        OPTIONS: [\"location\", \"disease\", \"symptoms\", \"occupation\"]\n                        ANSWER: disease\n\n                        Now it's your turn:\n                        INPUT: [y, n]\n                        OPTIONS: - symptoms\n- gender\n- location\n- medical_boolean\n- outcome\n- age\n- id\n- date\n- case_status\n- occupation\n- contact_setting\n                        ANSWER:\n                        ": {
+        "response": "gender",
+        "context": [
+            "y",
+            "n"
+        ],
+        "ground_truth": "medical_boolean",
+        "correct": false,
+        "original_model_answer": "gender",
+        "original_label": "medical_boolean",
+        "file+idx": "33"
+    },
+    "\n                        INSTRUCTION: Choose exactly ONE label from the OPTIONS list that best describes the INPUT. Note that INPUT should be relative to the OPTIONS that you have\n\n                        This is just examples how it could look like:\n                        INPUT: [\"Moderna\", \"AstraZeneca\", \"Novavax\"]\n                        OPTIONS: [\"id\", \"age\", \"date\", \"vaccine_names\"]\n                        ANSWER: vaccine_names\n\n                        INPUT: [\"Tuberculosis\", \"Malaria\", \"Ebola\"]\n                        OPTIONS: [\"location\", \"disease\", \"symptoms\", \"occupation\"]\n                        ANSWER: disease\n\n                        Now it's your turn:\n                        INPUT: [monaco, georgia, finland, cuba, colombia]\n                        OPTIONS: - symptoms\n- gender\n- location\n- medical_boolean\n- outcome\n- age\n- id\n- date\n- case_status\n- occupation\n- contact_setting\n                        ANSWER:\n                        ": {
+        "response": "location",
+        "context": [
+            "monaco",
+            "georgia",
+            "finland",
+            "cuba",
+            "colombia"
+        ],
+        "ground_truth": "location",
+        "correct": true,
+        "original_model_answer": "location",
+        "original_label": "location",
+        "file+idx": "34"
+    },
+    "\n                        INSTRUCTION: Choose exactly ONE label from the OPTIONS list that best describes the INPUT. Note that INPUT should be relative to the OPTIONS that you have\n\n                        This is just examples how it could look like:\n                        INPUT: [\"Moderna\", \"AstraZeneca\", \"Novavax\"]\n                        OPTIONS: [\"id\", \"age\", \"date\", \"vaccine_names\"]\n                        ANSWER: vaccine_names\n\n                        INPUT: [\"Tuberculosis\", \"Malaria\", \"Ebola\"]\n                        OPTIONS: [\"location\", \"disease\", \"symptoms\", \"occupation\"]\n                        ANSWER: disease\n\n                        Now it's your turn:\n                        INPUT: [notvacc, doseunk, 2dose]\n                        OPTIONS: - symptoms\n- gender\n- location\n- medical_boolean\n- outcome\n- age\n- id\n- date\n- case_status\n- occupation\n- contact_setting\n                        ANSWER:\n                        ": {
+        "response": "medical_boolean",
+        "context": [
+            "notvacc",
+            "doseunk",
+            "2dose"
+        ],
+        "ground_truth": "medical_boolean",
+        "correct": true,
+        "original_model_answer": "medical_boolean",
+        "original_label": "medical_boolean",
+        "file+idx": "35"
+    },
+    "\n                        INSTRUCTION: Choose exactly ONE label from the OPTIONS list that best describes the INPUT. Note that INPUT should be relative to the OPTIONS that you have\n\n                        This is just examples how it could look like:\n                        INPUT: [\"Moderna\", \"AstraZeneca\", \"Novavax\"]\n                        OPTIONS: [\"id\", \"age\", \"date\", \"vaccine_names\"]\n                        ANSWER: vaccine_names\n\n                        INPUT: [\"Tuberculosis\", \"Malaria\", \"Ebola\"]\n                        OPTIONS: [\"location\", \"disease\", \"symptoms\", \"occupation\"]\n                        ANSWER: disease\n\n                        Now it's your turn:\n                        INPUT: [male, female]\n                        OPTIONS: - symptoms\n- gender\n- location\n- medical_boolean\n- outcome\n- age\n- id\n- date\n- case_status\n- occupation\n- contact_setting\n                        ANSWER:\n                        ": {
+        "response": "gender",
+        "context": [
+            "male",
+            "female"
+        ],
+        "ground_truth": "gender",
+        "correct": true,
+        "original_model_answer": "gender",
+        "original_label": "gender",
+        "file+idx": "36"
+    },
+    "\n                        INSTRUCTION: Choose exactly ONE label from the OPTIONS list that best describes the INPUT. Note that INPUT should be relative to the OPTIONS that you have\n\n                        This is just examples how it could look like:\n                        INPUT: [\"Moderna\", \"AstraZeneca\", \"Novavax\"]\n                        OPTIONS: [\"id\", \"age\", \"date\", \"vaccine_names\"]\n                        ANSWER: vaccine_names\n\n                        INPUT: [\"Tuberculosis\", \"Malaria\", \"Ebola\"]\n                        OPTIONS: [\"location\", \"disease\", \"symptoms\", \"occupation\"]\n                        ANSWER: disease\n\n                        Now it's your turn:\n                        INPUT: [f, m]\n                        OPTIONS: - symptoms\n- gender\n- location\n- medical_boolean\n- outcome\n- age\n- id\n- date\n- case_status\n- occupation\n- contact_setting\n                        ANSWER:\n                        ": {
+        "response": "gender",
+        "context": [
+            "f",
+            "m"
+        ],
+        "ground_truth": "gender",
+        "correct": true,
+        "original_model_answer": "gender",
+        "original_label": "gender",
+        "file+idx": "37"
+    },
+    "\n                        INSTRUCTION: Choose exactly ONE label from the OPTIONS list that best describes the INPUT. Note that INPUT should be relative to the OPTIONS that you have\n\n                        This is just examples how it could look like:\n                        INPUT: [\"Moderna\", \"AstraZeneca\", \"Novavax\"]\n                        OPTIONS: [\"id\", \"age\", \"date\", \"vaccine_names\"]\n                        ANSWER: vaccine_names\n\n                        INPUT: [\"Tuberculosis\", \"Malaria\", \"Ebola\"]\n                        OPTIONS: [\"location\", \"disease\", \"symptoms\", \"occupation\"]\n                        ANSWER: disease\n\n                        Now it's your turn:\n                        INPUT: [oui, non, inconnu]\n                        OPTIONS: - symptoms\n- gender\n- location\n- medical_boolean\n- outcome\n- age\n- id\n- date\n- case_status\n- occupation\n- contact_setting\n                        ANSWER:\n                        ": {
+        "response": "medical_boolean",
+        "context": [
+            "oui",
+            "non",
+            "inconnu"
+        ],
+        "ground_truth": "medical_boolean",
+        "correct": true,
+        "original_model_answer": "medical_boolean",
+        "original_label": "medical_boolean",
+        "file+idx": "38"
+    },
+    "\n                        INSTRUCTION: Choose exactly ONE label from the OPTIONS list that best describes the INPUT. Note that INPUT should be relative to the OPTIONS that you have\n\n                        This is just examples how it could look like:\n                        INPUT: [\"Moderna\", \"AstraZeneca\", \"Novavax\"]\n                        OPTIONS: [\"id\", \"age\", \"date\", \"vaccine_names\"]\n                        ANSWER: vaccine_names\n\n                        INPUT: [\"Tuberculosis\", \"Malaria\", \"Ebola\"]\n                        OPTIONS: [\"location\", \"disease\", \"symptoms\", \"occupation\"]\n                        ANSWER: disease\n\n                        Now it's your turn:\n                        INPUT: [2020-07-11, 2020-07-25, 2020-07-26, 2020-07-27, 2020-07-17]\n                        OPTIONS: - symptoms\n- gender\n- location\n- medical_boolean\n- outcome\n- age\n- id\n- date\n- case_status\n- occupation\n- contact_setting\n                        ANSWER:\n                        ": {
+        "response": "date",
+        "context": [
+            "2020-07-11",
+            "2020-07-25",
+            "2020-07-26",
+            "2020-07-27",
+            "2020-07-17"
+        ],
+        "ground_truth": "date",
+        "correct": true,
+        "original_model_answer": "date",
+        "original_label": "date",
+        "file+idx": "39"
+    },
+    "\n                        INSTRUCTION: Choose exactly ONE label from the OPTIONS list that best describes the INPUT. Note that INPUT should be relative to the OPTIONS that you have\n\n                        This is just examples how it could look like:\n                        INPUT: [\"Moderna\", \"AstraZeneca\", \"Novavax\"]\n                        OPTIONS: [\"id\", \"age\", \"date\", \"vaccine_names\"]\n                        ANSWER: vaccine_names\n\n                        INPUT: [\"Tuberculosis\", \"Malaria\", \"Ebola\"]\n                        OPTIONS: [\"location\", \"disease\", \"symptoms\", \"occupation\"]\n                        ANSWER: disease\n\n                        Now it's your turn:\n                        INPUT: [inc, non]\n                        OPTIONS: - symptoms\n- gender\n- location\n- medical_boolean\n- outcome\n- age\n- id\n- date\n- case_status\n- occupation\n- contact_setting\n                        ANSWER:\n                        ": {
+        "response": "medical_boolean",
+        "context": [
+            "inc",
+            "non"
+        ],
+        "ground_truth": "medical_boolean",
+        "correct": true,
+        "original_model_answer": "medical_boolean",
+        "original_label": "medical_boolean",
+        "file+idx": "40"
+    },
+    "\n                        INSTRUCTION: Choose exactly ONE label from the OPTIONS list that best describes the INPUT. Note that INPUT should be relative to the OPTIONS that you have\n\n                        This is just examples how it could look like:\n                        INPUT: [\"Moderna\", \"AstraZeneca\", \"Novavax\"]\n                        OPTIONS: [\"id\", \"age\", \"date\", \"vaccine_names\"]\n                        ANSWER: vaccine_names\n\n                        INPUT: [\"Tuberculosis\", \"Malaria\", \"Ebola\"]\n                        OPTIONS: [\"location\", \"disease\", \"symptoms\", \"occupation\"]\n                        ANSWER: disease\n\n                        Now it's your turn:\n                        INPUT: [no]\n                        OPTIONS: - symptoms\n- gender\n- location\n- medical_boolean\n- outcome\n- age\n- id\n- date\n- case_status\n- occupation\n- contact_setting\n                        ANSWER:\n                        **": {
+        "response": "medical_boolean",
+        "context": [
+            "no"
+        ],
+        "ground_truth": "medical_boolean",
+        "correct": true,
+        "original_model_answer": "medical_boolean",
+        "original_label": "medical_boolean",
+        "file+idx": "41"
+    },
+    "\n                        INSTRUCTION: Choose exactly ONE label from the OPTIONS list that best describes the INPUT. Note that INPUT should be relative to the OPTIONS that you have\n\n                        This is just examples how it could look like:\n                        INPUT: [\"Moderna\", \"AstraZeneca\", \"Novavax\"]\n                        OPTIONS: [\"id\", \"age\", \"date\", \"vaccine_names\"]\n                        ANSWER: vaccine_names\n\n                        INPUT: [\"Tuberculosis\", \"Malaria\", \"Ebola\"]\n                        OPTIONS: [\"location\", \"disease\", \"symptoms\", \"occupation\"]\n                        ANSWER: disease\n\n                        Now it's your turn:\n                        INPUT: [0.0, 1.0]\n                        OPTIONS: - symptoms\n- gender\n- location\n- medical_boolean\n- outcome\n- age\n- id\n- date\n- case_status\n- occupation\n- contact_setting\n                        ANSWER:\n                        *": {
+        "response": "date",
+        "context": [
+            "0.0",
+            "1.0"
+        ],
+        "ground_truth": "medical_boolean",
+        "correct": false,
+        "original_model_answer": "date",
+        "original_label": "medical_boolean",
+        "file+idx": "42"
+    },
+    "\n                        INSTRUCTION: Choose exactly ONE label from the OPTIONS list that best describes the INPUT. Note that INPUT should be relative to the OPTIONS that you have\n\n                        This is just examples how it could look like:\n                        INPUT: [\"Moderna\", \"AstraZeneca\", \"Novavax\"]\n                        OPTIONS: [\"id\", \"age\", \"date\", \"vaccine_names\"]\n                        ANSWER: vaccine_names\n\n                        INPUT: [\"Tuberculosis\", \"Malaria\", \"Ebola\"]\n                        OPTIONS: [\"location\", \"disease\", \"symptoms\", \"occupation\"]\n                        ANSWER: disease\n\n                        Now it's your turn:\n                        INPUT: [2020-01-28, 2020-01-16, 2020-01-31, 2020-01-20, 2020-02-14]\n                        OPTIONS: - symptoms\n- gender\n- location\n- medical_boolean\n- outcome\n- age\n- id\n- date\n- case_status\n- occupation\n- contact_setting\n                        ANSWER:\n                        ": {
+        "response": "date",
+        "context": [
+            "2020-01-28",
+            "2020-01-16",
+            "2020-01-31",
+            "2020-01-20",
+            "2020-02-14"
+        ],
+        "ground_truth": "date",
+        "correct": true,
+        "original_model_answer": "date",
+        "original_label": "date",
+        "file+idx": "43"
+    },
+    "\n                        INSTRUCTION: Choose exactly ONE label from the OPTIONS list that best describes the INPUT. Note that INPUT should be relative to the OPTIONS that you have\n\n                        This is just examples how it could look like:\n                        INPUT: [\"Moderna\", \"AstraZeneca\", \"Novavax\"]\n                        OPTIONS: [\"id\", \"age\", \"date\", \"vaccine_names\"]\n                        ANSWER: vaccine_names\n\n                        INPUT: [\"Tuberculosis\", \"Malaria\", \"Ebola\"]\n                        OPTIONS: [\"location\", \"disease\", \"symptoms\", \"occupation\"]\n                        ANSWER: disease\n\n                        Now it's your turn:\n                        INPUT: [2020-05-31]\n                        OPTIONS: - symptoms\n- gender\n- location\n- medical_boolean\n- outcome\n- age\n- id\n- date\n- case_status\n- occupation\n- contact_setting\n                        ANSWER:\n                        ": {
+        "response": "date",
+        "context": [
+            "2020-05-31"
+        ],
+        "ground_truth": "date",
+        "correct": true,
+        "original_model_answer": "date",
+        "original_label": "date",
+        "file+idx": "44"
+    },
+    "\n                        INSTRUCTION: Choose exactly ONE label from the OPTIONS list that best describes the INPUT. Note that INPUT should be relative to the OPTIONS that you have\n\n                        This is just examples how it could look like:\n                        INPUT: [\"Moderna\", \"AstraZeneca\", \"Novavax\"]\n                        OPTIONS: [\"id\", \"age\", \"date\", \"vaccine_names\"]\n                        ANSWER: vaccine_names\n\n                        INPUT: [\"Tuberculosis\", \"Malaria\", \"Ebola\"]\n                        OPTIONS: [\"location\", \"disease\", \"symptoms\", \"occupation\"]\n                        ANSWER: disease\n\n                        Now it's your turn:\n                        INPUT: [2020-05-31, 2020-06-02, 2020-06-30, 2020-06-06, 2020-06-29]\n                        OPTIONS: - symptoms\n- gender\n- location\n- medical_boolean\n- outcome\n- age\n- id\n- date\n- case_status\n- occupation\n- contact_setting\n                        ANSWER:\n                        ": {
+        "response": "date",
+        "context": [
+            "2020-05-31",
+            "2020-06-02",
+            "2020-06-30",
+            "2020-06-06",
+            "2020-06-29"
+        ],
+        "ground_truth": "date",
+        "correct": true,
+        "original_model_answer": "date",
+        "original_label": "date",
+        "file+idx": "45"
+    },
+    "\n                        INSTRUCTION: Choose exactly ONE label from the OPTIONS list that best describes the INPUT. Note that INPUT should be relative to the OPTIONS that you have\n\n                        This is just examples how it could look like:\n                        INPUT: [\"Moderna\", \"AstraZeneca\", \"Novavax\"]\n                        OPTIONS: [\"id\", \"age\", \"date\", \"vaccine_names\"]\n                        ANSWER: vaccine_names\n\n                        INPUT: [\"Tuberculosis\", \"Malaria\", \"Ebola\"]\n                        OPTIONS: [\"location\", \"disease\", \"symptoms\", \"occupation\"]\n                        ANSWER: disease\n\n                        Now it's your turn:\n                        INPUT: [inconnu, non, oui]\n                        OPTIONS: - symptoms\n- gender\n- location\n- medical_boolean\n- outcome\n- age\n- id\n- date\n- case_status\n- occupation\n- contact_setting\n                        ANSWER:\n                        ": {
+        "response": "medical_boolean",
+        "context": [
+            "inconnu",
+            "non",
+            "oui"
+        ],
+        "ground_truth": "medical_boolean",
+        "correct": true,
+        "original_model_answer": "medical_boolean",
+        "original_label": "medical_boolean",
+        "file+idx": "46"
+    },
+    "\n                        INSTRUCTION: Choose exactly ONE label from the OPTIONS list that best describes the INPUT. Note that INPUT should be relative to the OPTIONS that you have\n\n                        This is just examples how it could look like:\n                        INPUT: [\"Moderna\", \"AstraZeneca\", \"Novavax\"]\n                        OPTIONS: [\"id\", \"age\", \"date\", \"vaccine_names\"]\n                        ANSWER: vaccine_names\n\n                        INPUT: [\"Tuberculosis\", \"Malaria\", \"Ebola\"]\n                        OPTIONS: [\"location\", \"disease\", \"symptoms\", \"occupation\"]\n                        ANSWER: disease\n\n                        Now it's your turn:\n                        INPUT: [2022-04-25, 2022-04-17, 2022-03-16, 2022-05-08, 2022-05-24]\n                        OPTIONS: - symptoms\n- gender\n- location\n- medical_boolean\n- outcome\n- age\n- id\n- date\n- case_status\n- occupation\n- contact_setting\n                        ANSWER:\n                        ": {
+        "response": "date",
+        "context": [
+            "2022-04-25",
+            "2022-04-17",
+            "2022-03-16",
+            "2022-05-08",
+            "2022-05-24"
+        ],
+        "ground_truth": "date",
+        "correct": true,
+        "original_model_answer": "date",
+        "original_label": "date",
+        "file+idx": "47"
+    },
+    "\n                        INSTRUCTION: Choose exactly ONE label from the OPTIONS list that best describes the INPUT. Note that INPUT should be relative to the OPTIONS that you have\n\n                        This is just examples how it could look like:\n                        INPUT: [\"Moderna\", \"AstraZeneca\", \"Novavax\"]\n                        OPTIONS: [\"id\", \"age\", \"date\", \"vaccine_names\"]\n                        ANSWER: vaccine_names\n\n                        INPUT: [\"Tuberculosis\", \"Malaria\", \"Ebola\"]\n                        OPTIONS: [\"location\", \"disease\", \"symptoms\", \"occupation\"]\n                        ANSWER: disease\n\n                        Now it's your turn:\n                        INPUT: [2018-11-08, 2018-11-21, 2018-10-18, 2018-09-24, 2018-10-25]\n                        OPTIONS: - symptoms\n- gender\n- location\n- medical_boolean\n- outcome\n- age\n- id\n- date\n- case_status\n- occupation\n- contact_setting\n                        ANSWER:\n                        ": {
+        "response": "date",
+        "context": [
+            "2018-11-08",
+            "2018-11-21",
+            "2018-10-18",
+            "2018-09-24",
+            "2018-10-25"
+        ],
+        "ground_truth": "date",
+        "correct": true,
+        "original_model_answer": "date",
+        "original_label": "date",
+        "file+idx": "48"
+    },
+    "\n                        INSTRUCTION: Choose exactly ONE label from the OPTIONS list that best describes the INPUT. Note that INPUT should be relative to the OPTIONS that you have\n\n                        This is just examples how it could look like:\n                        INPUT: [\"Moderna\", \"AstraZeneca\", \"Novavax\"]\n                        OPTIONS: [\"id\", \"age\", \"date\", \"vaccine_names\"]\n                        ANSWER: vaccine_names\n\n                        INPUT: [\"Tuberculosis\", \"Malaria\", \"Ebola\"]\n                        OPTIONS: [\"location\", \"disease\", \"symptoms\", \"occupation\"]\n                        ANSWER: disease\n\n                        Now it's your turn:\n                        INPUT: [2021-12-07, 2021-09-14, 2022-02-27, 2022-01-04, 2022-02-11]\n                        OPTIONS: - symptoms\n- gender\n- location\n- medical_boolean\n- outcome\n- age\n- id\n- date\n- case_status\n- occupation\n- contact_setting\n                        ANSWER:\n                        ": {
+        "response": "date",
+        "context": [
+            "2021-12-07",
+            "2021-09-14",
+            "2022-02-27",
+            "2022-01-04",
+            "2022-02-11"
+        ],
+        "ground_truth": "date",
+        "correct": true,
+        "original_model_answer": "date",
+        "original_label": "date",
+        "file+idx": "49"
+    },
+    "\n                        INSTRUCTION: Choose exactly ONE label from the OPTIONS list that best describes the INPUT. Note that INPUT should be relative to the OPTIONS that you have\n\n                        This is just examples how it could look like:\n                        INPUT: [\"Moderna\", \"AstraZeneca\", \"Novavax\"]\n                        OPTIONS: [\"id\", \"age\", \"date\", \"vaccine_names\"]\n                        ANSWER: vaccine_names\n\n                        INPUT: [\"Tuberculosis\", \"Malaria\", \"Ebola\"]\n                        OPTIONS: [\"location\", \"disease\", \"symptoms\", \"occupation\"]\n                        ANSWER: disease\n\n                        Now it's your turn:\n                        INPUT: [yes, no]\n                        OPTIONS: - symptoms\n- gender\n- location\n- medical_boolean\n- outcome\n- age\n- id\n- date\n- case_status\n- occupation\n- contact_setting\n                        ANSWER:\n                        ***": {
+        "response": "medical_boolean",
+        "context": [
+            "yes",
+            "no"
+        ],
+        "ground_truth": "medical_boolean",
+        "correct": true,
+        "original_model_answer": "medical_boolean",
+        "original_label": "medical_boolean",
+        "file+idx": "50"
+    },
+    "\n                        INSTRUCTION: Choose exactly ONE label from the OPTIONS list that best describes the INPUT. Note that INPUT should be relative to the OPTIONS that you have\n\n                        This is just examples how it could look like:\n                        INPUT: [\"Moderna\", \"AstraZeneca\", \"Novavax\"]\n                        OPTIONS: [\"id\", \"age\", \"date\", \"vaccine_names\"]\n                        ANSWER: vaccine_names\n\n                        INPUT: [\"Tuberculosis\", \"Malaria\", \"Ebola\"]\n                        OPTIONS: [\"location\", \"disease\", \"symptoms\", \"occupation\"]\n                        ANSWER: disease\n\n                        Now it's your turn:\n                        INPUT: [confirme, probable]\n                        OPTIONS: - symptoms\n- gender\n- location\n- medical_boolean\n- outcome\n- age\n- id\n- date\n- case_status\n- occupation\n- contact_setting\n                        ANSWER:\n                        ": {
+        "response": "case_status",
+        "context": [
+            "confirme",
+            "probable"
+        ],
+        "ground_truth": "case_status",
+        "correct": true,
+        "original_model_answer": "case_status",
+        "original_label": "case_status",
+        "file+idx": "51"
+    },
+    "\n                        INSTRUCTION: Choose exactly ONE label from the OPTIONS list that best describes the INPUT. Note that INPUT should be relative to the OPTIONS that you have\n\n                        This is just examples how it could look like:\n                        INPUT: [\"Moderna\", \"AstraZeneca\", \"Novavax\"]\n                        OPTIONS: [\"id\", \"age\", \"date\", \"vaccine_names\"]\n                        ANSWER: vaccine_names\n\n                        INPUT: [\"Tuberculosis\", \"Malaria\", \"Ebola\"]\n                        OPTIONS: [\"location\", \"disease\", \"symptoms\", \"occupation\"]\n                        ANSWER: disease\n\n                        Now it's your turn:\n                        INPUT: [58.0, 30.0, 37.0, 29.0, 38.0]\n                        OPTIONS: - symptoms\n- gender\n- location\n- medical_boolean\n- outcome\n- age\n- id\n- date\n- case_status\n- occupation\n- contact_setting\n                        ANSWER:\n                        ": {
+        "response": "age",
+        "context": [
+            "58.0",
+            "30.0",
+            "37.0",
+            "29.0",
+            "38.0"
+        ],
+        "ground_truth": "age",
+        "correct": true,
+        "original_model_answer": "age",
+        "original_label": "age",
+        "file+idx": "52"
+    },
+    "\n                        INSTRUCTION: Choose exactly ONE label from the OPTIONS list that best describes the INPUT. Note that INPUT should be relative to the OPTIONS that you have\n\n                        This is just examples how it could look like:\n                        INPUT: [\"Moderna\", \"AstraZeneca\", \"Novavax\"]\n                        OPTIONS: [\"id\", \"age\", \"date\", \"vaccine_names\"]\n                        ANSWER: vaccine_names\n\n                        INPUT: [\"Tuberculosis\", \"Malaria\", \"Ebola\"]\n                        OPTIONS: [\"location\", \"disease\", \"symptoms\", \"occupation\"]\n                        ANSWER: disease\n\n                        Now it's your turn:\n                        INPUT: [2020-06-20, 2020-07-04, 2020-06-11, 2020-06-29, 2020-06-06]\n                        OPTIONS: - symptoms\n- gender\n- location\n- medical_boolean\n- outcome\n- age\n- id\n- date\n- case_status\n- occupation\n- contact_setting\n                        ANSWER:\n                        ": {
+        "response": "date",
+        "context": [
+            "2020-06-20",
+            "2020-07-04",
+            "2020-06-11",
+            "2020-06-29",
+            "2020-06-06"
+        ],
+        "ground_truth": "date",
+        "correct": true,
+        "original_model_answer": "date",
+        "original_label": "date",
+        "file+idx": "53"
+    },
+    "\n                        INSTRUCTION: Choose exactly ONE label from the OPTIONS list that best describes the INPUT. Note that INPUT should be relative to the OPTIONS that you have\n\n                        This is just examples how it could look like:\n                        INPUT: [\"Moderna\", \"AstraZeneca\", \"Novavax\"]\n                        OPTIONS: [\"id\", \"age\", \"date\", \"vaccine_names\"]\n                        ANSWER: vaccine_names\n\n                        INPUT: [\"Tuberculosis\", \"Malaria\", \"Ebola\"]\n                        OPTIONS: [\"location\", \"disease\", \"symptoms\", \"occupation\"]\n                        ANSWER: disease\n\n                        Now it's your turn:\n                        INPUT: [e0t0q90drq00, eq5ct8d0r400, c31q0d000tre, 0q5c100rdt2e, ???]\n                        OPTIONS: - symptoms\n- gender\n- location\n- medical_boolean\n- outcome\n- age\n- id\n- date\n- case_status\n- occupation\n- contact_setting\n                        ANSWER:\n                        ": {
+        "response": "id",
+        "context": [
+            "e0t0q90drq00",
+            "eq5ct8d0r400",
+            "c31q0d000tre",
+            "0q5c100rdt2e",
+            "???"
+        ],
+        "ground_truth": "id",
+        "correct": true,
+        "original_model_answer": "id",
+        "original_label": "id",
+        "file+idx": "54"
+    },
+    "\n                        INSTRUCTION: Choose exactly ONE label from the OPTIONS list that best describes the INPUT. Note that INPUT should be relative to the OPTIONS that you have\n\n                        This is just examples how it could look like:\n                        INPUT: [\"Moderna\", \"AstraZeneca\", \"Novavax\"]\n                        OPTIONS: [\"id\", \"age\", \"date\", \"vaccine_names\"]\n                        ANSWER: vaccine_names\n\n                        INPUT: [\"Tuberculosis\", \"Malaria\", \"Ebola\"]\n                        OPTIONS: [\"location\", \"disease\", \"symptoms\", \"occupation\"]\n                        ANSWER: disease\n\n                        Now it's your turn:\n                        INPUT: [2022-05-25, 2022-06-01, 2022-05-31, 2022-05-27, 2022-05-26]\n                        OPTIONS: - symptoms\n- gender\n- location\n- medical_boolean\n- outcome\n- age\n- id\n- date\n- case_status\n- occupation\n- contact_setting\n                        ANSWER:\n                        ": {
+        "response": "date",
+        "context": [
+            "2022-05-25",
+            "2022-06-01",
+            "2022-05-31",
+            "2022-05-27",
+            "2022-05-26"
+        ],
+        "ground_truth": "date",
+        "correct": true,
+        "original_model_answer": "date",
+        "original_label": "date",
+        "file+idx": "55"
+    },
+    "\n                        INSTRUCTION: Choose exactly ONE label from the OPTIONS list that best describes the INPUT. Note that INPUT should be relative to the OPTIONS that you have\n\n                        This is just examples how it could look like:\n                        INPUT: [\"Moderna\", \"AstraZeneca\", \"Novavax\"]\n                        OPTIONS: [\"id\", \"age\", \"date\", \"vaccine_names\"]\n                        ANSWER: vaccine_names\n\n                        INPUT: [\"Tuberculosis\", \"Malaria\", \"Ebola\"]\n                        OPTIONS: [\"location\", \"disease\", \"symptoms\", \"occupation\"]\n                        ANSWER: disease\n\n                        Now it's your turn:\n                        INPUT: [boguila, mbaiki, kabo, boganda, berberati]\n                        OPTIONS: - symptoms\n- gender\n- location\n- medical_boolean\n- outcome\n- age\n- id\n- date\n- case_status\n- occupation\n- contact_setting\n                        ANSWER:\n                        ": {
+        "response": "location",
+        "context": [
+            "boguila",
+            "mbaiki",
+            "kabo",
+            "boganda",
+            "berberati"
+        ],
+        "ground_truth": "location",
+        "correct": true,
+        "original_model_answer": "location",
+        "original_label": "location",
+        "file+idx": "56"
+    },
+    "\n                        INSTRUCTION: Choose exactly ONE label from the OPTIONS list that best describes the INPUT. Note that INPUT should be relative to the OPTIONS that you have\n\n                        This is just examples how it could look like:\n                        INPUT: [\"Moderna\", \"AstraZeneca\", \"Novavax\"]\n                        OPTIONS: [\"id\", \"age\", \"date\", \"vaccine_names\"]\n                        ANSWER: vaccine_names\n\n                        INPUT: [\"Tuberculosis\", \"Malaria\", \"Ebola\"]\n                        OPTIONS: [\"location\", \"disease\", \"symptoms\", \"occupation\"]\n                        ANSWER: disease\n\n                        Now it's your turn:\n                        INPUT: [probable, confirme]\n                        OPTIONS: - symptoms\n- gender\n- location\n- medical_boolean\n- outcome\n- age\n- id\n- date\n- case_status\n- occupation\n- contact_setting\n                        ANSWER:\n                        ": {
+        "response": "medical_boolean",
+        "context": [
+            "probable",
+            "confirme"
+        ],
+        "ground_truth": "case_status",
+        "correct": false,
+        "original_model_answer": "medical_boolean",
+        "original_label": "case_status",
+        "file+idx": "57"
+    },
+    "\n                        INSTRUCTION: Choose exactly ONE label from the OPTIONS list that best describes the INPUT. Note that INPUT should be relative to the OPTIONS that you have\n\n                        This is just examples how it could look like:\n                        INPUT: [\"Moderna\", \"AstraZeneca\", \"Novavax\"]\n                        OPTIONS: [\"id\", \"age\", \"date\", \"vaccine_names\"]\n                        ANSWER: vaccine_names\n\n                        INPUT: [\"Tuberculosis\", \"Malaria\", \"Ebola\"]\n                        OPTIONS: [\"location\", \"disease\", \"symptoms\", \"occupation\"]\n                        ANSWER: disease\n\n                        Now it's your turn:\n                        INPUT: [yes, no]\n                        OPTIONS: - symptoms\n- gender\n- location\n- medical_boolean\n- outcome\n- age\n- id\n- date\n- case_status\n- occupation\n- contact_setting\n                        ANSWER:\n                        ****": {
+        "response": "medical_boolean",
+        "context": [
+            "yes",
+            "no"
+        ],
+        "ground_truth": "medical_boolean",
+        "correct": true,
+        "original_model_answer": "medical_boolean",
+        "original_label": "medical_boolean",
+        "file+idx": "58"
+    },
+    "\n                        INSTRUCTION: Choose exactly ONE label from the OPTIONS list that best describes the INPUT. Note that INPUT should be relative to the OPTIONS that you have\n\n                        This is just examples how it could look like:\n                        INPUT: [\"Moderna\", \"AstraZeneca\", \"Novavax\"]\n                        OPTIONS: [\"id\", \"age\", \"date\", \"vaccine_names\"]\n                        ANSWER: vaccine_names\n\n                        INPUT: [\"Tuberculosis\", \"Malaria\", \"Ebola\"]\n                        OPTIONS: [\"location\", \"disease\", \"symptoms\", \"occupation\"]\n                        ANSWER: disease\n\n                        Now it's your turn:\n                        INPUT: [2020-06-26, 2020-07-01, 2020-06-12, 2020-06-04, 2020-06-21]\n                        OPTIONS: - symptoms\n- gender\n- location\n- medical_boolean\n- outcome\n- age\n- id\n- date\n- case_status\n- occupation\n- contact_setting\n                        ANSWER:\n                        ": {
+        "response": "date",
+        "context": [
+            "2020-06-26",
+            "2020-07-01",
+            "2020-06-12",
+            "2020-06-04",
+            "2020-06-21"
+        ],
+        "ground_truth": "date",
+        "correct": true,
+        "original_model_answer": "date",
+        "original_label": "date",
+        "file+idx": "59"
+    },
+    "\n                        INSTRUCTION: Choose exactly ONE label from the OPTIONS list that best describes the INPUT. Note that INPUT should be relative to the OPTIONS that you have\n\n                        This is just examples how it could look like:\n                        INPUT: [\"Moderna\", \"AstraZeneca\", \"Novavax\"]\n                        OPTIONS: [\"id\", \"age\", \"date\", \"vaccine_names\"]\n                        ANSWER: vaccine_names\n\n                        INPUT: [\"Tuberculosis\", \"Malaria\", \"Ebola\"]\n                        OPTIONS: [\"location\", \"disease\", \"symptoms\", \"occupation\"]\n                        ANSWER: disease\n\n                        Now it's your turn:\n                        INPUT: [no]\n                        OPTIONS: - symptoms\n- gender\n- location\n- medical_boolean\n- outcome\n- age\n- id\n- date\n- case_status\n- occupation\n- contact_setting\n                        ANSWER:\n                        ***": {
+        "response": "medical_boolean",
+        "context": [
+            "no"
+        ],
+        "ground_truth": "medical_boolean",
+        "correct": true,
+        "original_model_answer": "medical_boolean",
+        "original_label": "medical_boolean",
+        "file+idx": "60"
+    },
+    "\n                        INSTRUCTION: Choose exactly ONE label from the OPTIONS list that best describes the INPUT. Note that INPUT should be relative to the OPTIONS that you have\n\n                        This is just examples how it could look like:\n                        INPUT: [\"Moderna\", \"AstraZeneca\", \"Novavax\"]\n                        OPTIONS: [\"id\", \"age\", \"date\", \"vaccine_names\"]\n                        ANSWER: vaccine_names\n\n                        INPUT: [\"Tuberculosis\", \"Malaria\", \"Ebola\"]\n                        OPTIONS: [\"location\", \"disease\", \"symptoms\", \"occupation\"]\n                        ANSWER: disease\n\n                        Now it's your turn:\n                        INPUT: [y, n]\n                        OPTIONS: - symptoms\n- gender\n- location\n- medical_boolean\n- outcome\n- age\n- id\n- date\n- case_status\n- occupation\n- contact_setting\n                        ANSWER:\n                        *": {
+        "response": "gender",
+        "context": [
+            "y",
+            "n"
+        ],
+        "ground_truth": "medical_boolean",
+        "correct": false,
+        "original_model_answer": "gender",
+        "original_label": "medical_boolean",
+        "file+idx": "61"
+    },
+    "\n                        INSTRUCTION: Choose exactly ONE label from the OPTIONS list that best describes the INPUT. Note that INPUT should be relative to the OPTIONS that you have\n\n                        This is just examples how it could look like:\n                        INPUT: [\"Moderna\", \"AstraZeneca\", \"Novavax\"]\n                        OPTIONS: [\"id\", \"age\", \"date\", \"vaccine_names\"]\n                        ANSWER: vaccine_names\n\n                        INPUT: [\"Tuberculosis\", \"Malaria\", \"Ebola\"]\n                        OPTIONS: [\"location\", \"disease\", \"symptoms\", \"occupation\"]\n                        ANSWER: disease\n\n                        Now it's your turn:\n                        INPUT: [bouca, damara, bossangoa, ndl, ippy]\n                        OPTIONS: - symptoms\n- gender\n- location\n- medical_boolean\n- outcome\n- age\n- id\n- date\n- case_status\n- occupation\n- contact_setting\n                        ANSWER:\n                        ": {
+        "response": "location",
+        "context": [
+            "bouca",
+            "damara",
+            "bossangoa",
+            "ndl",
+            "ippy"
+        ],
+        "ground_truth": "location",
+        "correct": true,
+        "original_model_answer": "location",
+        "original_label": "location",
+        "file+idx": "62"
+    },
+    "\n                        INSTRUCTION: Choose exactly ONE label from the OPTIONS list that best describes the INPUT. Note that INPUT should be relative to the OPTIONS that you have\n\n                        This is just examples how it could look like:\n                        INPUT: [\"Moderna\", \"AstraZeneca\", \"Novavax\"]\n                        OPTIONS: [\"id\", \"age\", \"date\", \"vaccine_names\"]\n                        ANSWER: vaccine_names\n\n                        INPUT: [\"Tuberculosis\", \"Malaria\", \"Ebola\"]\n                        OPTIONS: [\"location\", \"disease\", \"symptoms\", \"occupation\"]\n                        ANSWER: disease\n\n                        Now it's your turn:\n                        INPUT: [invalide, valide]\n                        OPTIONS: - symptoms\n- gender\n- location\n- medical_boolean\n- outcome\n- age\n- id\n- date\n- case_status\n- occupation\n- contact_setting\n                        ANSWER:\n                        ": {
+        "response": "medical_boolean",
+        "context": [
+            "invalide",
+            "valide"
+        ],
+        "ground_truth": "outcome",
+        "correct": false,
+        "original_model_answer": "medical_boolean",
+        "original_label": "outcome",
+        "file+idx": "63"
+    },
+    "\n                        INSTRUCTION: Choose exactly ONE label from the OPTIONS list that best describes the INPUT. Note that INPUT should be relative to the OPTIONS that you have\n\n                        This is just examples how it could look like:\n                        INPUT: [\"Moderna\", \"AstraZeneca\", \"Novavax\"]\n                        OPTIONS: [\"id\", \"age\", \"date\", \"vaccine_names\"]\n                        ANSWER: vaccine_names\n\n                        INPUT: [\"Tuberculosis\", \"Malaria\", \"Ebola\"]\n                        OPTIONS: [\"location\", \"disease\", \"symptoms\", \"occupation\"]\n                        ANSWER: disease\n\n                        Now it's your turn:\n                        INPUT: [2020-05-26, 2020-07-01]\n                        OPTIONS: - symptoms\n- gender\n- location\n- medical_boolean\n- outcome\n- age\n- id\n- date\n- case_status\n- occupation\n- contact_setting\n                        ANSWER:\n                        ": {
+        "response": "date",
+        "context": [
+            "2020-05-26",
+            "2020-07-01"
+        ],
+        "ground_truth": "date",
+        "correct": true,
+        "original_model_answer": "date",
+        "original_label": "date",
+        "file+idx": "64"
+    },
+    "\n                        INSTRUCTION: Choose exactly ONE label from the OPTIONS list that best describes the INPUT. Note that INPUT should be relative to the OPTIONS that you have\n\n                        This is just examples how it could look like:\n                        INPUT: [\"Moderna\", \"AstraZeneca\", \"Novavax\"]\n                        OPTIONS: [\"id\", \"age\", \"date\", \"vaccine_names\"]\n                        ANSWER: vaccine_names\n\n                        INPUT: [\"Tuberculosis\", \"Malaria\", \"Ebola\"]\n                        OPTIONS: [\"location\", \"disease\", \"symptoms\", \"occupation\"]\n                        ANSWER: disease\n\n                        Now it's your turn:\n                        INPUT: [benv-21955-ben-337, benv-22716-ben-965, benv-22146-ben-503, benv-21955-ben-340, benv-22146-ben-502]\n                        OPTIONS: - symptoms\n- gender\n- location\n- medical_boolean\n- outcome\n- age\n- id\n- date\n- case_status\n- occupation\n- contact_setting\n                        ANSWER:\n                        ": {
+        "response": "id",
+        "context": [
+            "benv-21955-ben-337",
+            "benv-22716-ben-965",
+            "benv-22146-ben-503",
+            "benv-21955-ben-340",
+            "benv-22146-ben-502"
+        ],
+        "ground_truth": "id",
+        "correct": true,
+        "original_model_answer": "id",
+        "original_label": "id",
+        "file+idx": "65"
+    },
+    "\n                        INSTRUCTION: Choose exactly ONE label from the OPTIONS list that best describes the INPUT. Note that INPUT should be relative to the OPTIONS that you have\n\n                        This is just examples how it could look like:\n                        INPUT: [\"Moderna\", \"AstraZeneca\", \"Novavax\"]\n                        OPTIONS: [\"id\", \"age\", \"date\", \"vaccine_names\"]\n                        ANSWER: vaccine_names\n\n                        INPUT: [\"Tuberculosis\", \"Malaria\", \"Ebola\"]\n                        OPTIONS: [\"location\", \"disease\", \"symptoms\", \"occupation\"]\n                        ANSWER: disease\n\n                        Now it's your turn:\n                        INPUT: [m, f]\n                        OPTIONS: - symptoms\n- gender\n- location\n- medical_boolean\n- outcome\n- age\n- id\n- date\n- case_status\n- occupation\n- contact_setting\n                        ANSWER:\n                        ": {
+        "response": "gender",
+        "context": [
+            "m",
+            "f"
+        ],
+        "ground_truth": "gender",
+        "correct": true,
+        "original_model_answer": "gender",
+        "original_label": "gender",
+        "file+idx": "66"
+    },
+    "\n                        INSTRUCTION: Choose exactly ONE label from the OPTIONS list that best describes the INPUT. Note that INPUT should be relative to the OPTIONS that you have\n\n                        This is just examples how it could look like:\n                        INPUT: [\"Moderna\", \"AstraZeneca\", \"Novavax\"]\n                        OPTIONS: [\"id\", \"age\", \"date\", \"vaccine_names\"]\n                        ANSWER: vaccine_names\n\n                        INPUT: [\"Tuberculosis\", \"Malaria\", \"Ebola\"]\n                        OPTIONS: [\"location\", \"disease\", \"symptoms\", \"occupation\"]\n                        ANSWER: disease\n\n                        Now it's your turn:\n                        INPUT: [00_r400bp, 0_0p3r00b, 0p11_0br0, _2pr0000b, b8rp0000_]\n                        OPTIONS: - symptoms\n- gender\n- location\n- medical_boolean\n- outcome\n- age\n- id\n- date\n- case_status\n- occupation\n- contact_setting\n                        ANSWER:\n                        ": {
+        "response": "id",
+        "context": [
+            "00_r400bp",
+            "0_0p3r00b",
+            "0p11_0br0",
+            "_2pr0000b",
+            "b8rp0000_"
+        ],
+        "ground_truth": "id",
+        "correct": true,
+        "original_model_answer": "id",
+        "original_label": "id",
+        "file+idx": "67"
+    },
+    "\n                        INSTRUCTION: Choose exactly ONE label from the OPTIONS list that best describes the INPUT. Note that INPUT should be relative to the OPTIONS that you have\n\n                        This is just examples how it could look like:\n                        INPUT: [\"Moderna\", \"AstraZeneca\", \"Novavax\"]\n                        OPTIONS: [\"id\", \"age\", \"date\", \"vaccine_names\"]\n                        ANSWER: vaccine_names\n\n                        INPUT: [\"Tuberculosis\", \"Malaria\", \"Ebola\"]\n                        OPTIONS: [\"location\", \"disease\", \"symptoms\", \"occupation\"]\n                        ANSWER: disease\n\n                        Now it's your turn:\n                        INPUT: [g4lb0023, 0bl5g006, 0bg05l46, 48g500lb, 2l0b07g0]\n                        OPTIONS: - symptoms\n- gender\n- location\n- medical_boolean\n- outcome\n- age\n- id\n- date\n- case_status\n- occupation\n- contact_setting\n                        ANSWER:\n                        ": {
+        "response": "id",
+        "context": [
+            "g4lb0023",
+            "0bl5g006",
+            "0bg05l46",
+            "48g500lb",
+            "2l0b07g0"
+        ],
+        "ground_truth": "id",
+        "correct": true,
+        "original_model_answer": "id",
+        "original_label": "id",
+        "file+idx": "68"
+    },
+    "\n                        INSTRUCTION: Choose exactly ONE label from the OPTIONS list that best describes the INPUT. Note that INPUT should be relative to the OPTIONS that you have\n\n                        This is just examples how it could look like:\n                        INPUT: [\"Moderna\", \"AstraZeneca\", \"Novavax\"]\n                        OPTIONS: [\"id\", \"age\", \"date\", \"vaccine_names\"]\n                        ANSWER: vaccine_names\n\n                        INPUT: [\"Tuberculosis\", \"Malaria\", \"Ebola\"]\n                        OPTIONS: [\"location\", \"disease\", \"symptoms\", \"occupation\"]\n                        ANSWER: disease\n\n                        Now it's your turn:\n                        INPUT: [recycl, non actif]\n                        OPTIONS: - symptoms\n- gender\n- location\n- medical_boolean\n- outcome\n- age\n- id\n- date\n- case_status\n- occupation\n- contact_setting\n                        ANSWER:\n                        ": {
+        "response": "symptoms",
+        "context": [
+            "recycl",
+            "non actif"
+        ],
+        "ground_truth": "case_status",
+        "correct": false,
+        "original_model_answer": "symptoms",
+        "original_label": "case_status",
+        "file+idx": "69"
+    },
+    "\n                        INSTRUCTION: Choose exactly ONE label from the OPTIONS list that best describes the INPUT. Note that INPUT should be relative to the OPTIONS that you have\n\n                        This is just examples how it could look like:\n                        INPUT: [\"Moderna\", \"AstraZeneca\", \"Novavax\"]\n                        OPTIONS: [\"id\", \"age\", \"date\", \"vaccine_names\"]\n                        ANSWER: vaccine_names\n\n                        INPUT: [\"Tuberculosis\", \"Malaria\", \"Ebola\"]\n                        OPTIONS: [\"location\", \"disease\", \"symptoms\", \"occupation\"]\n                        ANSWER: disease\n\n                        Now it's your turn:\n                        INPUT: [non, oui, inc]\n                        OPTIONS: - symptoms\n- gender\n- location\n- medical_boolean\n- outcome\n- age\n- id\n- date\n- case_status\n- occupation\n- contact_setting\n                        ANSWER:\n                        ": {
+        "response": "medical_boolean",
+        "context": [
+            "non",
+            "oui",
+            "inc"
+        ],
+        "ground_truth": "medical_boolean",
+        "correct": true,
+        "original_model_answer": "medical_boolean",
+        "original_label": "medical_boolean",
+        "file+idx": "70"
+    },
+    "\n                        INSTRUCTION: Choose exactly ONE label from the OPTIONS list that best describes the INPUT. Note that INPUT should be relative to the OPTIONS that you have\n\n                        This is just examples how it could look like:\n                        INPUT: [\"Moderna\", \"AstraZeneca\", \"Novavax\"]\n                        OPTIONS: [\"id\", \"age\", \"date\", \"vaccine_names\"]\n                        ANSWER: vaccine_names\n\n                        INPUT: [\"Tuberculosis\", \"Malaria\", \"Ebola\"]\n                        OPTIONS: [\"location\", \"disease\", \"symptoms\", \"occupation\"]\n                        ANSWER: disease\n\n                        Now it's your turn:\n                        INPUT: [discharged alive, admitted]\n                        OPTIONS: - symptoms\n- gender\n- location\n- medical_boolean\n- outcome\n- age\n- id\n- date\n- case_status\n- occupation\n- contact_setting\n                        ANSWER:\n                        ": {
+        "response": "outcome",
+        "context": [
+            "discharged alive",
+            "admitted"
+        ],
+        "ground_truth": "outcome",
+        "correct": true,
+        "original_model_answer": "outcome",
+        "original_label": "outcome",
+        "file+idx": "71"
+    },
+    "\n                        INSTRUCTION: Choose exactly ONE label from the OPTIONS list that best describes the INPUT. Note that INPUT should be relative to the OPTIONS that you have\n\n                        This is just examples how it could look like:\n                        INPUT: [\"Moderna\", \"AstraZeneca\", \"Novavax\"]\n                        OPTIONS: [\"id\", \"age\", \"date\", \"vaccine_names\"]\n                        ANSWER: vaccine_names\n\n                        INPUT: [\"Tuberculosis\", \"Malaria\", \"Ebola\"]\n                        OPTIONS: [\"location\", \"disease\", \"symptoms\", \"occupation\"]\n                        ANSWER: disease\n\n                        Now it's your turn:\n                        INPUT: [3.0, 44.0, 50.0, 1.0, 47.0]\n                        OPTIONS: - symptoms\n- gender\n- location\n- medical_boolean\n- outcome\n- age\n- id\n- date\n- case_status\n- occupation\n- contact_setting\n                        ANSWER:\n                        ": {
+        "response": "date",
+        "context": [
+            "3.0",
+            "44.0",
+            "50.0",
+            "1.0",
+            "47.0"
+        ],
+        "ground_truth": "age",
+        "correct": false,
+        "original_model_answer": "date",
+        "original_label": "age",
+        "file+idx": "72"
+    },
+    "\n                        INSTRUCTION: Choose exactly ONE label from the OPTIONS list that best describes the INPUT. Note that INPUT should be relative to the OPTIONS that you have\n\n                        This is just examples how it could look like:\n                        INPUT: [\"Moderna\", \"AstraZeneca\", \"Novavax\"]\n                        OPTIONS: [\"id\", \"age\", \"date\", \"vaccine_names\"]\n                        ANSWER: vaccine_names\n\n                        INPUT: [\"Tuberculosis\", \"Malaria\", \"Ebola\"]\n                        OPTIONS: [\"location\", \"disease\", \"symptoms\", \"occupation\"]\n                        ANSWER: disease\n\n                        Now it's your turn:\n                        INPUT: [2020-06-16, 2020-07-12, 2020-07-06, 2020-06-18, 2020-07-08]\n                        OPTIONS: - symptoms\n- gender\n- location\n- medical_boolean\n- outcome\n- age\n- id\n- date\n- case_status\n- occupation\n- contact_setting\n                        ANSWER:\n                        ": {
+        "response": "date",
+        "context": [
+            "2020-06-16",
+            "2020-07-12",
+            "2020-07-06",
+            "2020-06-18",
+            "2020-07-08"
+        ],
+        "ground_truth": "date",
+        "correct": true,
+        "original_model_answer": "date",
+        "original_label": "date",
+        "file+idx": "73"
+    },
+    "\n                        INSTRUCTION: Choose exactly ONE label from the OPTIONS list that best describes the INPUT. Note that INPUT should be relative to the OPTIONS that you have\n\n                        This is just examples how it could look like:\n                        INPUT: [\"Moderna\", \"AstraZeneca\", \"Novavax\"]\n                        OPTIONS: [\"id\", \"age\", \"date\", \"vaccine_names\"]\n                        ANSWER: vaccine_names\n\n                        INPUT: [\"Tuberculosis\", \"Malaria\", \"Ebola\"]\n                        OPTIONS: [\"location\", \"disease\", \"symptoms\", \"occupation\"]\n                        ANSWER: disease\n\n                        Now it's your turn:\n                        INPUT: [no]\n                        OPTIONS: - symptoms\n- gender\n- location\n- medical_boolean\n- outcome\n- age\n- id\n- date\n- case_status\n- occupation\n- contact_setting\n                        ANSWER:\n                        ****": {
+        "response": "medical_boolean",
+        "context": [
+            "no"
+        ],
+        "ground_truth": "medical_boolean",
+        "correct": true,
+        "original_model_answer": "medical_boolean",
+        "original_label": "medical_boolean",
+        "file+idx": "74"
+    },
+    "\n                        INSTRUCTION: Choose exactly ONE label from the OPTIONS list that best describes the INPUT. Note that INPUT should be relative to the OPTIONS that you have\n\n                        This is just examples how it could look like:\n                        INPUT: [\"Moderna\", \"AstraZeneca\", \"Novavax\"]\n                        OPTIONS: [\"id\", \"age\", \"date\", \"vaccine_names\"]\n                        ANSWER: vaccine_names\n\n                        INPUT: [\"Tuberculosis\", \"Malaria\", \"Ebola\"]\n                        OPTIONS: [\"location\", \"disease\", \"symptoms\", \"occupation\"]\n                        ANSWER: disease\n\n                        Now it's your turn:\n                        INPUT: [2022-11-06, 2022-11-03, 2022-11-04, 2022-10-28, 2022-11-09]\n                        OPTIONS: - symptoms\n- gender\n- location\n- medical_boolean\n- outcome\n- age\n- id\n- date\n- case_status\n- occupation\n- contact_setting\n                        ANSWER:\n                        ": {
+        "response": "date",
+        "context": [
+            "2022-11-06",
+            "2022-11-03",
+            "2022-11-04",
+            "2022-10-28",
+            "2022-11-09"
+        ],
+        "ground_truth": "date",
+        "correct": true,
+        "original_model_answer": "date",
+        "original_label": "date",
+        "file+idx": "75"
+    },
+    "\n                        INSTRUCTION: Choose exactly ONE label from the OPTIONS list that best describes the INPUT. Note that INPUT should be relative to the OPTIONS that you have\n\n                        This is just examples how it could look like:\n                        INPUT: [\"Moderna\", \"AstraZeneca\", \"Novavax\"]\n                        OPTIONS: [\"id\", \"age\", \"date\", \"vaccine_names\"]\n                        ANSWER: vaccine_names\n\n                        INPUT: [\"Tuberculosis\", \"Malaria\", \"Ebola\"]\n                        OPTIONS: [\"location\", \"disease\", \"symptoms\", \"occupation\"]\n                        ANSWER: disease\n\n                        Now it's your turn:\n                        INPUT: [-brq6-7tm7ecd300o21, brq2et6-21do-0831cm0, qm0-2et1-30462bcr9od, d--3b23emo620c1tr0q4, 0r26b0-edt137om-cq2]\n                        OPTIONS: - symptoms\n- gender\n- location\n- medical_boolean\n- outcome\n- age\n- id\n- date\n- case_status\n- occupation\n- contact_setting\n                        ANSWER:\n                        ": {
+        "response": "id",
+        "context": [
+            "-brq6-7tm7ecd300o21",
+            "brq2et6-21do-0831cm0",
+            "qm0-2et1-30462bcr9od",
+            "d--3b23emo620c1tr0q4",
+            "0r26b0-edt137om-cq2"
+        ],
+        "ground_truth": "id",
+        "correct": true,
+        "original_model_answer": "id",
+        "original_label": "id",
+        "file+idx": "76"
+    },
+    "\n                        INSTRUCTION: Choose exactly ONE label from the OPTIONS list that best describes the INPUT. Note that INPUT should be relative to the OPTIONS that you have\n\n                        This is just examples how it could look like:\n                        INPUT: [\"Moderna\", \"AstraZeneca\", \"Novavax\"]\n                        OPTIONS: [\"id\", \"age\", \"date\", \"vaccine_names\"]\n                        ANSWER: vaccine_names\n\n                        INPUT: [\"Tuberculosis\", \"Malaria\", \"Ebola\"]\n                        OPTIONS: [\"location\", \"disease\", \"symptoms\", \"occupation\"]\n                        ANSWER: disease\n\n                        Now it's your turn:\n                        INPUT: [yes, no]\n                        OPTIONS: - symptoms\n- gender\n- location\n- medical_boolean\n- outcome\n- age\n- id\n- date\n- case_status\n- occupation\n- contact_setting\n                        ANSWER:\n                        *****": {
+        "response": "medical_boolean",
+        "context": [
+            "yes",
+            "no"
+        ],
+        "ground_truth": "medical_boolean",
+        "correct": true,
+        "original_model_answer": "medical_boolean",
+        "original_label": "medical_boolean",
+        "file+idx": "77"
+    },
+    "\n                        INSTRUCTION: Choose exactly ONE label from the OPTIONS list that best describes the INPUT. Note that INPUT should be relative to the OPTIONS that you have\n\n                        This is just examples how it could look like:\n                        INPUT: [\"Moderna\", \"AstraZeneca\", \"Novavax\"]\n                        OPTIONS: [\"id\", \"age\", \"date\", \"vaccine_names\"]\n                        ANSWER: vaccine_names\n\n                        INPUT: [\"Tuberculosis\", \"Malaria\", \"Ebola\"]\n                        OPTIONS: [\"location\", \"disease\", \"symptoms\", \"occupation\"]\n                        ANSWER: disease\n\n                        Now it's your turn:\n                        INPUT: [no]\n                        OPTIONS: - symptoms\n- gender\n- location\n- medical_boolean\n- outcome\n- age\n- id\n- date\n- case_status\n- occupation\n- contact_setting\n                        ANSWER:\n                        *****": {
+        "response": "medical_boolean",
+        "context": [
+            "no"
+        ],
+        "ground_truth": "medical_boolean",
+        "correct": true,
+        "original_model_answer": "medical_boolean",
+        "original_label": "medical_boolean",
+        "file+idx": "78"
+    },
+    "\n                        INSTRUCTION: Choose exactly ONE label from the OPTIONS list that best describes the INPUT. Note that INPUT should be relative to the OPTIONS that you have\n\n                        This is just examples how it could look like:\n                        INPUT: [\"Moderna\", \"AstraZeneca\", \"Novavax\"]\n                        OPTIONS: [\"id\", \"age\", \"date\", \"vaccine_names\"]\n                        ANSWER: vaccine_names\n\n                        INPUT: [\"Tuberculosis\", \"Malaria\", \"Ebola\"]\n                        OPTIONS: [\"location\", \"disease\", \"symptoms\", \"occupation\"]\n                        ANSWER: disease\n\n                        Now it's your turn:\n                        INPUT: [outpatient, inpatient, discharged, transferred]\n                        OPTIONS: - symptoms\n- gender\n- location\n- medical_boolean\n- outcome\n- age\n- id\n- date\n- case_status\n- occupation\n- contact_setting\n                        ANSWER:\n                        ": {
+        "response": "case_status",
+        "context": [
+            "outpatient",
+            "inpatient",
+            "discharged",
+            "transferred"
+        ],
+        "ground_truth": "medical_boolean",
+        "correct": false,
+        "original_model_answer": "case_status",
+        "original_label": "medical_boolean",
+        "file+idx": "79"
+    },
+    "\n                        INSTRUCTION: Choose exactly ONE label from the OPTIONS list that best describes the INPUT. Note that INPUT should be relative to the OPTIONS that you have\n\n                        This is just examples how it could look like:\n                        INPUT: [\"Moderna\", \"AstraZeneca\", \"Novavax\"]\n                        OPTIONS: [\"id\", \"age\", \"date\", \"vaccine_names\"]\n                        ANSWER: vaccine_names\n\n                        INPUT: [\"Tuberculosis\", \"Malaria\", \"Ebola\"]\n                        OPTIONS: [\"location\", \"disease\", \"symptoms\", \"occupation\"]\n                        ANSWER: disease\n\n                        Now it's your turn:\n                        INPUT: [0.0, 1.0]\n                        OPTIONS: - symptoms\n- gender\n- location\n- medical_boolean\n- outcome\n- age\n- id\n- date\n- case_status\n- occupation\n- contact_setting\n                        ANSWER:\n                        **": {
+        "response": "date",
+        "context": [
+            "0.0",
+            "1.0"
+        ],
+        "ground_truth": "medical_boolean",
+        "correct": false,
+        "original_model_answer": "date",
+        "original_label": "medical_boolean",
+        "file+idx": "80"
+    },
+    "\n                        INSTRUCTION: Choose exactly ONE label from the OPTIONS list that best describes the INPUT. Note that INPUT should be relative to the OPTIONS that you have\n\n                        This is just examples how it could look like:\n                        INPUT: [\"Moderna\", \"AstraZeneca\", \"Novavax\"]\n                        OPTIONS: [\"id\", \"age\", \"date\", \"vaccine_names\"]\n                        ANSWER: vaccine_names\n\n                        INPUT: [\"Tuberculosis\", \"Malaria\", \"Ebola\"]\n                        OPTIONS: [\"location\", \"disease\", \"symptoms\", \"occupation\"]\n                        ANSWER: disease\n\n                        Now it's your turn:\n                        INPUT: [berberati, bozoum, bouca, bambio, zmio]\n                        OPTIONS: - symptoms\n- gender\n- location\n- medical_boolean\n- outcome\n- age\n- id\n- date\n- case_status\n- occupation\n- contact_setting\n                        ANSWER:\n                        ": {
+        "response": "contact_setting",
+        "context": [
+            "berberati",
+            "bozoum",
+            "bouca",
+            "bambio",
+            "zmio"
+        ],
+        "ground_truth": "location",
+        "correct": false,
+        "original_model_answer": "contact_setting",
+        "original_label": "location",
+        "file+idx": "81"
+    },
+    "\n                        INSTRUCTION: Choose exactly ONE label from the OPTIONS list that best describes the INPUT. Note that INPUT should be relative to the OPTIONS that you have\n\n                        This is just examples how it could look like:\n                        INPUT: [\"Moderna\", \"AstraZeneca\", \"Novavax\"]\n                        OPTIONS: [\"id\", \"age\", \"date\", \"vaccine_names\"]\n                        ANSWER: vaccine_names\n\n                        INPUT: [\"Tuberculosis\", \"Malaria\", \"Ebola\"]\n                        OPTIONS: [\"location\", \"disease\", \"symptoms\", \"occupation\"]\n                        ANSWER: disease\n\n                        Now it's your turn:\n                        INPUT: [bouar, baoro, bozoum, bangui, bangassou]\n                        OPTIONS: - symptoms\n- gender\n- location\n- medical_boolean\n- outcome\n- age\n- id\n- date\n- case_status\n- occupation\n- contact_setting\n                        ANSWER:\n                        ": {
+        "response": "location",
+        "context": [
+            "bouar",
+            "baoro",
+            "bozoum",
+            "bangui",
+            "bangassou"
+        ],
+        "ground_truth": "location",
+        "correct": true,
+        "original_model_answer": "location",
+        "original_label": "location",
+        "file+idx": "82"
+    },
+    "\n                        INSTRUCTION: Choose exactly ONE label from the OPTIONS list that best describes the INPUT. Note that INPUT should be relative to the OPTIONS that you have\n\n                        This is just examples how it could look like:\n                        INPUT: [\"Moderna\", \"AstraZeneca\", \"Novavax\"]\n                        OPTIONS: [\"id\", \"age\", \"date\", \"vaccine_names\"]\n                        ANSWER: vaccine_names\n\n                        INPUT: [\"Tuberculosis\", \"Malaria\", \"Ebola\"]\n                        OPTIONS: [\"location\", \"disease\", \"symptoms\", \"occupation\"]\n                        ANSWER: disease\n\n                        Now it's your turn:\n                        INPUT: [2020-06-21, 2020-06-11, 2020-06-25, 2020-06-26, 2020-06-29]\n                        OPTIONS: - symptoms\n- gender\n- location\n- medical_boolean\n- outcome\n- age\n- id\n- date\n- case_status\n- occupation\n- contact_setting\n                        ANSWER:\n                        ": {
+        "response": "date",
+        "context": [
+            "2020-06-21",
+            "2020-06-11",
+            "2020-06-25",
+            "2020-06-26",
+            "2020-06-29"
+        ],
+        "ground_truth": "date",
+        "correct": true,
+        "original_model_answer": "date",
+        "original_label": "date",
+        "file+idx": "83"
+    },
+    "\n                        INSTRUCTION: Choose exactly ONE label from the OPTIONS list that best describes the INPUT. Note that INPUT should be relative to the OPTIONS that you have\n\n                        This is just examples how it could look like:\n                        INPUT: [\"Moderna\", \"AstraZeneca\", \"Novavax\"]\n                        OPTIONS: [\"id\", \"age\", \"date\", \"vaccine_names\"]\n                        ANSWER: vaccine_names\n\n                        INPUT: [\"Tuberculosis\", \"Malaria\", \"Ebola\"]\n                        OPTIONS: [\"location\", \"disease\", \"symptoms\", \"occupation\"]\n                        ANSWER: disease\n\n                        Now it's your turn:\n                        INPUT: [2020-02-01, 2020-02-13, 2020-02-15]\n                        OPTIONS: - symptoms\n- gender\n- location\n- medical_boolean\n- outcome\n- age\n- id\n- date\n- case_status\n- occupation\n- contact_setting\n                        ANSWER:\n                        ": {
+        "response": "date",
+        "context": [
+            "2020-02-01",
+            "2020-02-13",
+            "2020-02-15"
+        ],
+        "ground_truth": "date",
+        "correct": true,
+        "original_model_answer": "date",
+        "original_label": "date",
+        "file+idx": "84"
+    },
+    "\n                        INSTRUCTION: Choose exactly ONE label from the OPTIONS list that best describes the INPUT. Note that INPUT should be relative to the OPTIONS that you have\n\n                        This is just examples how it could look like:\n                        INPUT: [\"Moderna\", \"AstraZeneca\", \"Novavax\"]\n                        OPTIONS: [\"id\", \"age\", \"date\", \"vaccine_names\"]\n                        ANSWER: vaccine_names\n\n                        INPUT: [\"Tuberculosis\", \"Malaria\", \"Ebola\"]\n                        OPTIONS: [\"location\", \"disease\", \"symptoms\", \"occupation\"]\n                        ANSWER: disease\n\n                        Now it's your turn:\n                        INPUT: [oui, inc, non]\n                        OPTIONS: - symptoms\n- gender\n- location\n- medical_boolean\n- outcome\n- age\n- id\n- date\n- case_status\n- occupation\n- contact_setting\n                        ANSWER:\n                        **": {
+        "response": "medical_boolean",
+        "context": [
+            "oui",
+            "inc",
+            "non"
+        ],
+        "ground_truth": "medical_boolean",
+        "correct": true,
+        "original_model_answer": "medical_boolean",
+        "original_label": "medical_boolean",
+        "file+idx": "85"
+    },
+    "\n                        INSTRUCTION: Choose exactly ONE label from the OPTIONS list that best describes the INPUT. Note that INPUT should be relative to the OPTIONS that you have\n\n                        This is just examples how it could look like:\n                        INPUT: [\"Moderna\", \"AstraZeneca\", \"Novavax\"]\n                        OPTIONS: [\"id\", \"age\", \"date\", \"vaccine_names\"]\n                        ANSWER: vaccine_names\n\n                        INPUT: [\"Tuberculosis\", \"Malaria\", \"Ebola\"]\n                        OPTIONS: [\"location\", \"disease\", \"symptoms\", \"occupation\"]\n                        ANSWER: disease\n\n                        Now it's your turn:\n                        INPUT: [2022-09-19, 2022-11-02, 2022-09-22, 2022-09-27, 2022-08-13]\n                        OPTIONS: - symptoms\n- gender\n- location\n- medical_boolean\n- outcome\n- age\n- id\n- date\n- case_status\n- occupation\n- contact_setting\n                        ANSWER:\n                        ": {
+        "response": "date",
+        "context": [
+            "2022-09-19",
+            "2022-11-02",
+            "2022-09-22",
+            "2022-09-27",
+            "2022-08-13"
+        ],
+        "ground_truth": "date",
+        "correct": true,
+        "original_model_answer": "date",
+        "original_label": "date",
+        "file+idx": "86"
+    },
+    "\n                        INSTRUCTION: Choose exactly ONE label from the OPTIONS list that best describes the INPUT. Note that INPUT should be relative to the OPTIONS that you have\n\n                        This is just examples how it could look like:\n                        INPUT: [\"Moderna\", \"AstraZeneca\", \"Novavax\"]\n                        OPTIONS: [\"id\", \"age\", \"date\", \"vaccine_names\"]\n                        ANSWER: vaccine_names\n\n                        INPUT: [\"Tuberculosis\", \"Malaria\", \"Ebola\"]\n                        OPTIONS: [\"location\", \"disease\", \"symptoms\", \"occupation\"]\n                        ANSWER: disease\n\n                        Now it's your turn:\n                        INPUT: [1.0, 0.0]\n                        OPTIONS: - symptoms\n- gender\n- location\n- medical_boolean\n- outcome\n- age\n- id\n- date\n- case_status\n- occupation\n- contact_setting\n                        ANSWER:\n                        ": {
+        "response": "outcome",
+        "context": [
+            "1.0",
+            "0.0"
+        ],
+        "ground_truth": "medical_boolean",
+        "correct": false,
+        "original_model_answer": "outcome",
+        "original_label": "medical_boolean",
+        "file+idx": "87"
+    },
+    "\n                        INSTRUCTION: Choose exactly ONE label from the OPTIONS list that best describes the INPUT. Note that INPUT should be relative to the OPTIONS that you have\n\n                        This is just examples how it could look like:\n                        INPUT: [\"Moderna\", \"AstraZeneca\", \"Novavax\"]\n                        OPTIONS: [\"id\", \"age\", \"date\", \"vaccine_names\"]\n                        ANSWER: vaccine_names\n\n                        INPUT: [\"Tuberculosis\", \"Malaria\", \"Ebola\"]\n                        OPTIONS: [\"location\", \"disease\", \"symptoms\", \"occupation\"]\n                        ANSWER: disease\n\n                        Now it's your turn:\n                        INPUT: [2022-05-31, 2022-05-12, 2022-05-09, 2022-05-04]\n                        OPTIONS: - symptoms\n- gender\n- location\n- medical_boolean\n- outcome\n- age\n- id\n- date\n- case_status\n- occupation\n- contact_setting\n                        ANSWER:\n                        ": {
+        "response": "date",
+        "context": [
+            "2022-05-31",
+            "2022-05-12",
+            "2022-05-09",
+            "2022-05-04"
+        ],
+        "ground_truth": "date",
+        "correct": true,
+        "original_model_answer": "date",
+        "original_label": "date",
+        "file+idx": "88"
+    },
+    "\n                        INSTRUCTION: Choose exactly ONE label from the OPTIONS list that best describes the INPUT. Note that INPUT should be relative to the OPTIONS that you have\n\n                        This is just examples how it could look like:\n                        INPUT: [\"Moderna\", \"AstraZeneca\", \"Novavax\"]\n                        OPTIONS: [\"id\", \"age\", \"date\", \"vaccine_names\"]\n                        ANSWER: vaccine_names\n\n                        INPUT: [\"Tuberculosis\", \"Malaria\", \"Ebola\"]\n                        OPTIONS: [\"location\", \"disease\", \"symptoms\", \"occupation\"]\n                        ANSWER: disease\n\n                        Now it's your turn:\n                        INPUT: [1.0, 0.0]\n                        OPTIONS: - symptoms\n- gender\n- location\n- medical_boolean\n- outcome\n- age\n- id\n- date\n- case_status\n- occupation\n- contact_setting\n                        ANSWER:\n                        *": {
+        "response": "outcome",
+        "context": [
+            "1.0",
+            "0.0"
+        ],
+        "ground_truth": "medical_boolean",
+        "correct": false,
+        "original_model_answer": "outcome",
+        "original_label": "medical_boolean",
+        "file+idx": "89"
+    },
+    "\n                        INSTRUCTION: Choose exactly ONE label from the OPTIONS list that best describes the INPUT. Note that INPUT should be relative to the OPTIONS that you have\n\n                        This is just examples how it could look like:\n                        INPUT: [\"Moderna\", \"AstraZeneca\", \"Novavax\"]\n                        OPTIONS: [\"id\", \"age\", \"date\", \"vaccine_names\"]\n                        ANSWER: vaccine_names\n\n                        INPUT: [\"Tuberculosis\", \"Malaria\", \"Ebola\"]\n                        OPTIONS: [\"location\", \"disease\", \"symptoms\", \"occupation\"]\n                        ANSWER: disease\n\n                        Now it's your turn:\n                        INPUT: [y, n]\n                        OPTIONS: - symptoms\n- gender\n- location\n- medical_boolean\n- outcome\n- age\n- id\n- date\n- case_status\n- occupation\n- contact_setting\n                        ANSWER:\n                        **": {
+        "response": "gender",
+        "context": [
+            "y",
+            "n"
+        ],
+        "ground_truth": "medical_boolean",
+        "correct": false,
+        "original_model_answer": "gender",
+        "original_label": "medical_boolean",
+        "file+idx": "90"
+    },
+    "\n                        INSTRUCTION: Choose exactly ONE label from the OPTIONS list that best describes the INPUT. Note that INPUT should be relative to the OPTIONS that you have\n\n                        This is just examples how it could look like:\n                        INPUT: [\"Moderna\", \"AstraZeneca\", \"Novavax\"]\n                        OPTIONS: [\"id\", \"age\", \"date\", \"vaccine_names\"]\n                        ANSWER: vaccine_names\n\n                        INPUT: [\"Tuberculosis\", \"Malaria\", \"Ebola\"]\n                        OPTIONS: [\"location\", \"disease\", \"symptoms\", \"occupation\"]\n                        ANSWER: disease\n\n                        Now it's your turn:\n                        INPUT: [ouham, mambr-kad, haut-mbomou, ouham-pend, nana-grbizi]\n                        OPTIONS: - symptoms\n- gender\n- location\n- medical_boolean\n- outcome\n- age\n- id\n- date\n- case_status\n- occupation\n- contact_setting\n                        ANSWER:\n                        ": {
+        "response": "location",
+        "context": [
+            "ouham",
+            "mambr-kad",
+            "haut-mbomou",
+            "ouham-pend",
+            "nana-grbizi"
+        ],
+        "ground_truth": "location",
+        "correct": true,
+        "original_model_answer": "location",
+        "original_label": "location",
+        "file+idx": "91"
+    },
+    "\n                        INSTRUCTION: Choose exactly ONE label from the OPTIONS list that best describes the INPUT. Note that INPUT should be relative to the OPTIONS that you have\n\n                        This is just examples how it could look like:\n                        INPUT: [\"Moderna\", \"AstraZeneca\", \"Novavax\"]\n                        OPTIONS: [\"id\", \"age\", \"date\", \"vaccine_names\"]\n                        ANSWER: vaccine_names\n\n                        INPUT: [\"Tuberculosis\", \"Malaria\", \"Ebola\"]\n                        OPTIONS: [\"location\", \"disease\", \"symptoms\", \"occupation\"]\n                        ANSWER: disease\n\n                        Now it's your turn:\n                        INPUT: [bimbo, yaloke, gamboula, amada-gaza]\n                        OPTIONS: - symptoms\n- gender\n- location\n- medical_boolean\n- outcome\n- age\n- id\n- date\n- case_status\n- occupation\n- contact_setting\n                        ANSWER:\n                        ": {
+        "response": "location",
+        "context": [
+            "bimbo",
+            "yaloke",
+            "gamboula",
+            "amada-gaza"
+        ],
+        "ground_truth": "location",
+        "correct": true,
+        "original_model_answer": "location",
+        "original_label": "location",
+        "file+idx": "92"
+    },
+    "\n                        INSTRUCTION: Choose exactly ONE label from the OPTIONS list that best describes the INPUT. Note that INPUT should be relative to the OPTIONS that you have\n\n                        This is just examples how it could look like:\n                        INPUT: [\"Moderna\", \"AstraZeneca\", \"Novavax\"]\n                        OPTIONS: [\"id\", \"age\", \"date\", \"vaccine_names\"]\n                        ANSWER: vaccine_names\n\n                        INPUT: [\"Tuberculosis\", \"Malaria\", \"Ebola\"]\n                        OPTIONS: [\"location\", \"disease\", \"symptoms\", \"occupation\"]\n                        ANSWER: disease\n\n                        Now it's your turn:\n                        INPUT: [n, y]\n                        OPTIONS: - symptoms\n- gender\n- location\n- medical_boolean\n- outcome\n- age\n- id\n- date\n- case_status\n- occupation\n- contact_setting\n                        ANSWER:\n                        ": {
+        "response": "gender",
+        "context": [
+            "n",
+            "y"
+        ],
+        "ground_truth": "medical_boolean",
+        "correct": false,
+        "original_model_answer": "gender",
+        "original_label": "medical_boolean",
+        "file+idx": "93"
+    },
+    "\n                        INSTRUCTION: Choose exactly ONE label from the OPTIONS list that best describes the INPUT. Note that INPUT should be relative to the OPTIONS that you have\n\n                        This is just examples how it could look like:\n                        INPUT: [\"Moderna\", \"AstraZeneca\", \"Novavax\"]\n                        OPTIONS: [\"id\", \"age\", \"date\", \"vaccine_names\"]\n                        ANSWER: vaccine_names\n\n                        INPUT: [\"Tuberculosis\", \"Malaria\", \"Ebola\"]\n                        OPTIONS: [\"location\", \"disease\", \"symptoms\", \"occupation\"]\n                        ANSWER: disease\n\n                        Now it's your turn:\n                        INPUT: [oui, non, inc]\n                        OPTIONS: - symptoms\n- gender\n- location\n- medical_boolean\n- outcome\n- age\n- id\n- date\n- case_status\n- occupation\n- contact_setting\n                        ANSWER:\n                        *": {
+        "response": "gender",
+        "context": [
+            "oui",
+            "non",
+            "inc"
+        ],
+        "ground_truth": "medical_boolean",
+        "correct": false,
+        "original_model_answer": "gender",
+        "original_label": "medical_boolean",
+        "file+idx": "94"
+    },
+    "\n                        INSTRUCTION: Choose exactly ONE label from the OPTIONS list that best describes the INPUT. Note that INPUT should be relative to the OPTIONS that you have\n\n                        This is just examples how it could look like:\n                        INPUT: [\"Moderna\", \"AstraZeneca\", \"Novavax\"]\n                        OPTIONS: [\"id\", \"age\", \"date\", \"vaccine_names\"]\n                        ANSWER: vaccine_names\n\n                        INPUT: [\"Tuberculosis\", \"Malaria\", \"Ebola\"]\n                        OPTIONS: [\"location\", \"disease\", \"symptoms\", \"occupation\"]\n                        ANSWER: disease\n\n                        Now it's your turn:\n                        INPUT: [2020-08-07, 2020-07-28, 2020-06-07, 2020-07-10, 2020-06-04]\n                        OPTIONS: - symptoms\n- gender\n- location\n- medical_boolean\n- outcome\n- age\n- id\n- date\n- case_status\n- occupation\n- contact_setting\n                        ANSWER:\n                        ": {
+        "response": "date",
+        "context": [
+            "2020-08-07",
+            "2020-07-28",
+            "2020-06-07",
+            "2020-07-10",
+            "2020-06-04"
+        ],
+        "ground_truth": "date",
+        "correct": true,
+        "original_model_answer": "date",
+        "original_label": "date",
+        "file+idx": "95"
+    },
+    "\n                        INSTRUCTION: Choose exactly ONE label from the OPTIONS list that best describes the INPUT. Note that INPUT should be relative to the OPTIONS that you have\n\n                        This is just examples how it could look like:\n                        INPUT: [\"Moderna\", \"AstraZeneca\", \"Novavax\"]\n                        OPTIONS: [\"id\", \"age\", \"date\", \"vaccine_names\"]\n                        ANSWER: vaccine_names\n\n                        INPUT: [\"Tuberculosis\", \"Malaria\", \"Ebola\"]\n                        OPTIONS: [\"location\", \"disease\", \"symptoms\", \"occupation\"]\n                        ANSWER: disease\n\n                        Now it's your turn:\n                        INPUT: [f, m]\n                        OPTIONS: - symptoms\n- gender\n- location\n- medical_boolean\n- outcome\n- age\n- id\n- date\n- case_status\n- occupation\n- contact_setting\n                        ANSWER:\n                        *": {
+        "response": "gender",
+        "context": [
+            "f",
+            "m"
+        ],
+        "ground_truth": "gender",
+        "correct": true,
+        "original_model_answer": "gender",
+        "original_label": "gender",
+        "file+idx": "96"
+    },
+    "\n                        INSTRUCTION: Choose exactly ONE label from the OPTIONS list that best describes the INPUT. Note that INPUT should be relative to the OPTIONS that you have\n\n                        This is just examples how it could look like:\n                        INPUT: [\"Moderna\", \"AstraZeneca\", \"Novavax\"]\n                        OPTIONS: [\"id\", \"age\", \"date\", \"vaccine_names\"]\n                        ANSWER: vaccine_names\n\n                        INPUT: [\"Tuberculosis\", \"Malaria\", \"Ebola\"]\n                        OPTIONS: [\"location\", \"disease\", \"symptoms\", \"occupation\"]\n                        ANSWER: disease\n\n                        Now it's your turn:\n                        INPUT: [non cas, confirm, encours]\n                        OPTIONS: - symptoms\n- gender\n- location\n- medical_boolean\n- outcome\n- age\n- id\n- date\n- case_status\n- occupation\n- contact_setting\n                        ANSWER:\n                        ": {
+        "response": "medical_boolean",
+        "context": [
+            "non cas",
+            "confirm",
+            "encours"
+        ],
+        "ground_truth": "case_status",
+        "correct": false,
+        "original_model_answer": "medical_boolean",
+        "original_label": "case_status",
+        "file+idx": "97"
+    },
+    "\n                        INSTRUCTION: Choose exactly ONE label from the OPTIONS list that best describes the INPUT. Note that INPUT should be relative to the OPTIONS that you have\n\n                        This is just examples how it could look like:\n                        INPUT: [\"Moderna\", \"AstraZeneca\", \"Novavax\"]\n                        OPTIONS: [\"id\", \"age\", \"date\", \"vaccine_names\"]\n                        ANSWER: vaccine_names\n\n                        INPUT: [\"Tuberculosis\", \"Malaria\", \"Ebola\"]\n                        OPTIONS: [\"location\", \"disease\", \"symptoms\", \"occupation\"]\n                        ANSWER: disease\n\n                        Now it's your turn:\n                        INPUT: [0c63, 0c03, 5c06, 55c0, c131]\n                        OPTIONS: - symptoms\n- gender\n- location\n- medical_boolean\n- outcome\n- age\n- id\n- date\n- case_status\n- occupation\n- contact_setting\n                        ANSWER:\n                        ": {
+        "response": "id",
+        "context": [
+            "0c63",
+            "0c03",
+            "5c06",
+            "55c0",
+            "c131"
+        ],
+        "ground_truth": "id",
+        "correct": true,
+        "original_model_answer": "id",
+        "original_label": "id",
+        "file+idx": "98"
+    },
+    "\n                        INSTRUCTION: Choose exactly ONE label from the OPTIONS list that best describes the INPUT. Note that INPUT should be relative to the OPTIONS that you have\n\n                        This is just examples how it could look like:\n                        INPUT: [\"Moderna\", \"AstraZeneca\", \"Novavax\"]\n                        OPTIONS: [\"id\", \"age\", \"date\", \"vaccine_names\"]\n                        ANSWER: vaccine_names\n\n                        INPUT: [\"Tuberculosis\", \"Malaria\", \"Ebola\"]\n                        OPTIONS: [\"location\", \"disease\", \"symptoms\", \"occupation\"]\n                        ANSWER: disease\n\n                        Now it's your turn:\n                        INPUT: [inconnu, oui, non]\n                        OPTIONS: - symptoms\n- gender\n- location\n- medical_boolean\n- outcome\n- age\n- id\n- date\n- case_status\n- occupation\n- contact_setting\n                        ANSWER:\n                        ": {
+        "response": "medical_boolean",
+        "context": [
+            "inconnu",
+            "oui",
+            "non"
+        ],
+        "ground_truth": "medical_boolean",
+        "correct": true,
+        "original_model_answer": "medical_boolean",
+        "original_label": "medical_boolean",
+        "file+idx": "99"
+    },
+    "\n                        INSTRUCTION: Choose exactly ONE label from the OPTIONS list that best describes the INPUT. Note that INPUT should be relative to the OPTIONS that you have\n\n                        This is just examples how it could look like:\n                        INPUT: [\"Moderna\", \"AstraZeneca\", \"Novavax\"]\n                        OPTIONS: [\"id\", \"age\", \"date\", \"vaccine_names\"]\n                        ANSWER: vaccine_names\n\n                        INPUT: [\"Tuberculosis\", \"Malaria\", \"Ebola\"]\n                        OPTIONS: [\"location\", \"disease\", \"symptoms\", \"occupation\"]\n                        ANSWER: disease\n\n                        Now it's your turn:\n                        INPUT: [2020-06-12, 2020-06-04, 2020-06-03, 2020-06-21, 2020-06-28]\n                        OPTIONS: - symptoms\n- gender\n- location\n- medical_boolean\n- outcome\n- age\n- id\n- date\n- case_status\n- occupation\n- contact_setting\n                        ANSWER:\n                        ": {
+        "response": "date",
+        "context": [
+            "2020-06-12",
+            "2020-06-04",
+            "2020-06-03",
+            "2020-06-21",
+            "2020-06-28"
+        ],
+        "ground_truth": "date",
+        "correct": true,
+        "original_model_answer": "date",
+        "original_label": "date",
+        "file+idx": "100"
+    },
+    "\n                        INSTRUCTION: Choose exactly ONE label from the OPTIONS list that best describes the INPUT. Note that INPUT should be relative to the OPTIONS that you have\n\n                        This is just examples how it could look like:\n                        INPUT: [\"Moderna\", \"AstraZeneca\", \"Novavax\"]\n                        OPTIONS: [\"id\", \"age\", \"date\", \"vaccine_names\"]\n                        ANSWER: vaccine_names\n\n                        INPUT: [\"Tuberculosis\", \"Malaria\", \"Ebola\"]\n                        OPTIONS: [\"location\", \"disease\", \"symptoms\", \"occupation\"]\n                        ANSWER: disease\n\n                        Now it's your turn:\n                        INPUT: [yes, no]\n                        OPTIONS: - symptoms\n- gender\n- location\n- medical_boolean\n- outcome\n- age\n- id\n- date\n- case_status\n- occupation\n- contact_setting\n                        ANSWER:\n                        ******": {
+        "response": "medical_boolean",
+        "context": [
+            "yes",
+            "no"
+        ],
+        "ground_truth": "medical_boolean",
+        "correct": true,
+        "original_model_answer": "medical_boolean",
+        "original_label": "medical_boolean",
+        "file+idx": "101"
+    },
+    "\n                        INSTRUCTION: Choose exactly ONE label from the OPTIONS list that best describes the INPUT. Note that INPUT should be relative to the OPTIONS that you have\n\n                        This is just examples how it could look like:\n                        INPUT: [\"Moderna\", \"AstraZeneca\", \"Novavax\"]\n                        OPTIONS: [\"id\", \"age\", \"date\", \"vaccine_names\"]\n                        ANSWER: vaccine_names\n\n                        INPUT: [\"Tuberculosis\", \"Malaria\", \"Ebola\"]\n                        OPTIONS: [\"location\", \"disease\", \"symptoms\", \"occupation\"]\n                        ANSWER: disease\n\n                        Now it's your turn:\n                        INPUT: [348284431, 38745949, 584160574, 435305068, 148483542]\n                        OPTIONS: - symptoms\n- gender\n- location\n- medical_boolean\n- outcome\n- age\n- id\n- date\n- case_status\n- occupation\n- contact_setting\n                        ANSWER:\n                        ": {
+        "response": "id",
+        "context": [
+            "348284431",
+            "38745949",
+            "584160574",
+            "435305068",
+            "148483542"
+        ],
+        "ground_truth": "id",
+        "correct": true,
+        "original_model_answer": "id",
+        "original_label": "id",
+        "file+idx": "102"
+    },
+    "\n                        INSTRUCTION: Choose exactly ONE label from the OPTIONS list that best describes the INPUT. Note that INPUT should be relative to the OPTIONS that you have\n\n                        This is just examples how it could look like:\n                        INPUT: [\"Moderna\", \"AstraZeneca\", \"Novavax\"]\n                        OPTIONS: [\"id\", \"age\", \"date\", \"vaccine_names\"]\n                        ANSWER: vaccine_names\n\n                        INPUT: [\"Tuberculosis\", \"Malaria\", \"Ebola\"]\n                        OPTIONS: [\"location\", \"disease\", \"symptoms\", \"occupation\"]\n                        ANSWER: disease\n\n                        Now it's your turn:\n                        INPUT: [2020-06-06, 2020-06-20, 2020-06-05, 2020-07-14, 2020-06-08]\n                        OPTIONS: - symptoms\n- gender\n- location\n- medical_boolean\n- outcome\n- age\n- id\n- date\n- case_status\n- occupation\n- contact_setting\n                        ANSWER:\n                        ": {
+        "response": "date",
+        "context": [
+            "2020-06-06",
+            "2020-06-20",
+            "2020-06-05",
+            "2020-07-14",
+            "2020-06-08"
+        ],
+        "ground_truth": "date",
+        "correct": true,
+        "original_model_answer": "date",
+        "original_label": "date",
+        "file+idx": "103"
+    },
+    "\n                        INSTRUCTION: Choose exactly ONE label from the OPTIONS list that best describes the INPUT. Note that INPUT should be relative to the OPTIONS that you have\n\n                        This is just examples how it could look like:\n                        INPUT: [\"Moderna\", \"AstraZeneca\", \"Novavax\"]\n                        OPTIONS: [\"id\", \"age\", \"date\", \"vaccine_names\"]\n                        ANSWER: vaccine_names\n\n                        INPUT: [\"Tuberculosis\", \"Malaria\", \"Ebola\"]\n                        OPTIONS: [\"location\", \"disease\", \"symptoms\", \"occupation\"]\n                        ANSWER: disease\n\n                        Now it's your turn:\n                        INPUT: [3ev20b5-n4, an215m, t7b73u, 9bn8e8-v1, btu855]\n                        OPTIONS: - symptoms\n- gender\n- location\n- medical_boolean\n- outcome\n- age\n- id\n- date\n- case_status\n- occupation\n- contact_setting\n                        ANSWER:\n                        ": {
+        "response": "id",
+        "context": [
+            "3ev20b5-n4",
+            "an215m",
+            "t7b73u",
+            "9bn8e8-v1",
+            "btu855"
+        ],
+        "ground_truth": "id",
+        "correct": true,
+        "original_model_answer": "id",
+        "original_label": "id",
+        "file+idx": "104"
+    },
+    "\n                        INSTRUCTION: Choose exactly ONE label from the OPTIONS list that best describes the INPUT. Note that INPUT should be relative to the OPTIONS that you have\n\n                        This is just examples how it could look like:\n                        INPUT: [\"Moderna\", \"AstraZeneca\", \"Novavax\"]\n                        OPTIONS: [\"id\", \"age\", \"date\", \"vaccine_names\"]\n                        ANSWER: vaccine_names\n\n                        INPUT: [\"Tuberculosis\", \"Malaria\", \"Ebola\"]\n                        OPTIONS: [\"location\", \"disease\", \"symptoms\", \"occupation\"]\n                        ANSWER: disease\n\n                        Now it's your turn:\n                        INPUT: [yes, n]\n                        OPTIONS: - symptoms\n- gender\n- location\n- medical_boolean\n- outcome\n- age\n- id\n- date\n- case_status\n- occupation\n- contact_setting\n                        ANSWER:\n                        ": {
+        "response": "medical_boolean",
+        "context": [
+            "yes",
+            "n"
+        ],
+        "ground_truth": "medical_boolean",
+        "correct": true,
+        "original_model_answer": "medical_boolean",
+        "original_label": "medical_boolean",
+        "file+idx": "105"
+    },
+    "\n                        INSTRUCTION: Choose exactly ONE label from the OPTIONS list that best describes the INPUT. Note that INPUT should be relative to the OPTIONS that you have\n\n                        This is just examples how it could look like:\n                        INPUT: [\"Moderna\", \"AstraZeneca\", \"Novavax\"]\n                        OPTIONS: [\"id\", \"age\", \"date\", \"vaccine_names\"]\n                        ANSWER: vaccine_names\n\n                        INPUT: [\"Tuberculosis\", \"Malaria\", \"Ebola\"]\n                        OPTIONS: [\"location\", \"disease\", \"symptoms\", \"occupation\"]\n                        ANSWER: disease\n\n                        Now it's your turn:\n                        INPUT: [2020-06-22, 2020-06-20]\n                        OPTIONS: - symptoms\n- gender\n- location\n- medical_boolean\n- outcome\n- age\n- id\n- date\n- case_status\n- occupation\n- contact_setting\n                        ANSWER:\n                        ": {
+        "response": "date",
+        "context": [
+            "2020-06-22",
+            "2020-06-20"
+        ],
+        "ground_truth": "date",
+        "correct": true,
+        "original_model_answer": "date",
+        "original_label": "date",
+        "file+idx": "106"
+    },
+    "\n                        INSTRUCTION: Choose exactly ONE label from the OPTIONS list that best describes the INPUT. Note that INPUT should be relative to the OPTIONS that you have\n\n                        This is just examples how it could look like:\n                        INPUT: [\"Moderna\", \"AstraZeneca\", \"Novavax\"]\n                        OPTIONS: [\"id\", \"age\", \"date\", \"vaccine_names\"]\n                        ANSWER: vaccine_names\n\n                        INPUT: [\"Tuberculosis\", \"Malaria\", \"Ebola\"]\n                        OPTIONS: [\"location\", \"disease\", \"symptoms\", \"occupation\"]\n                        ANSWER: disease\n\n                        Now it's your turn:\n                        INPUT: [15, 22, 71, 31, 40]\n                        OPTIONS: - symptoms\n- gender\n- location\n- medical_boolean\n- outcome\n- age\n- id\n- date\n- case_status\n- occupation\n- contact_setting\n                        ANSWER:\n                        ": {
+        "response": "age",
+        "context": [
+            "15",
+            "22",
+            "71",
+            "31",
+            "40"
+        ],
+        "ground_truth": "age",
+        "correct": true,
+        "original_model_answer": "age",
+        "original_label": "age",
+        "file+idx": "107"
+    },
+    "\n                        INSTRUCTION: Choose exactly ONE label from the OPTIONS list that best describes the INPUT. Note that INPUT should be relative to the OPTIONS that you have\n\n                        This is just examples how it could look like:\n                        INPUT: [\"Moderna\", \"AstraZeneca\", \"Novavax\"]\n                        OPTIONS: [\"id\", \"age\", \"date\", \"vaccine_names\"]\n                        ANSWER: vaccine_names\n\n                        INPUT: [\"Tuberculosis\", \"Malaria\", \"Ebola\"]\n                        OPTIONS: [\"location\", \"disease\", \"symptoms\", \"occupation\"]\n                        ANSWER: disease\n\n                        Now it's your turn:\n                        INPUT: [2020-01-08, 2020-01-14, 2020-02-09, 2020-01-29, 2020-02-11]\n                        OPTIONS: - symptoms\n- gender\n- location\n- medical_boolean\n- outcome\n- age\n- id\n- date\n- case_status\n- occupation\n- contact_setting\n                        ANSWER:\n                        ": {
+        "response": "date",
+        "context": [
+            "2020-01-08",
+            "2020-01-14",
+            "2020-02-09",
+            "2020-01-29",
+            "2020-02-11"
+        ],
+        "ground_truth": "date",
+        "correct": true,
+        "original_model_answer": "date",
+        "original_label": "date",
+        "file+idx": "108"
+    }
+}

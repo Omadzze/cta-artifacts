@@ -1,0 +1,1031 @@
+Remainder of file ignored
+WARNING: Logging before flag parsing goes to stderr.
+W0813 17:53:11.159311 139674581943552 module_wrapper.py:139] From approachOne.py:48: The name tf.random.set_random_seed is deprecated. Please use tf.compat.v1.random.set_random_seed instead.
+
+Fold 1 Train {'age': 16, 'case_status': 18, 'contact_setting': 9, 'date': 87, 'gender': 16, 'id': 31, 'location': 40, 'medical_boolean': 141, 'occupation': 8, 'outcome': 16, 'symptoms': 7}
+Fold 1 Val {'age': 4, 'case_status': 5, 'contact_setting': 3, 'date': 22, 'gender': 4, 'id': 7, 'location': 10, 'medical_boolean': 36, 'occupation': 2, 'outcome': 3, 'symptoms': 2}
+W0813 17:53:11.552118 139674581943552 deprecation.py:506] From /home/omadbek/.conda/envs/sherlock/lib/python3.7/site-packages/tensorflow_core/python/ops/init_ops.py:97: calling Zeros.__init__ (from tensorflow.python.ops.init_ops) with dtype is deprecated and will be removed in a future version.
+Instructions for updating:
+Call initializer instance with the dtype argument instead of passing it to the constructor
+W0813 17:53:11.552350 139674581943552 deprecation.py:506] From /home/omadbek/.conda/envs/sherlock/lib/python3.7/site-packages/tensorflow_core/python/ops/init_ops.py:97: calling Ones.__init__ (from tensorflow.python.ops.init_ops) with dtype is deprecated and will be removed in a future version.
+Instructions for updating:
+Call initializer instance with the dtype argument instead of passing it to the constructor
+W0813 17:53:11.554057 139674581943552 deprecation.py:506] From /home/omadbek/.conda/envs/sherlock/lib/python3.7/site-packages/tensorflow_core/python/ops/init_ops.py:97: calling VarianceScaling.__init__ (from tensorflow.python.ops.init_ops) with dtype is deprecated and will be removed in a future version.
+Instructions for updating:
+Call initializer instance with the dtype argument instead of passing it to the constructor
+W0813 17:53:11.559317 139674581943552 deprecation.py:506] From /home/omadbek/.conda/envs/sherlock/lib/python3.7/site-packages/tensorflow_core/python/ops/init_ops.py:97: calling GlorotUniform.__init__ (from tensorflow.python.ops.init_ops) with dtype is deprecated and will be removed in a future version.
+Instructions for updating:
+Call initializer instance with the dtype argument instead of passing it to the constructor
+W0813 17:53:11.562094 139674581943552 deprecation.py:506] From /home/omadbek/.conda/envs/sherlock/lib/python3.7/site-packages/tensorflow_core/python/ops/resource_variable_ops.py:1630: calling BaseResourceVariable.__init__ (from tensorflow.python.ops.resource_variable_ops) with constraint is deprecated and will be removed in a future version.
+Instructions for updating:
+If using Keras pass *_constraint arguments to layers.
+2025-08-13 17:53:11.895271: I tensorflow/core/platform/cpu_feature_guard.cc:142] Your CPU supports instructions that this TensorFlow binary was not compiled to use: AVX2 FMA
+2025-08-13 17:53:11.903836: I tensorflow/core/platform/profile_utils/cpu_utils.cc:94] CPU Frequency: 2799955000 Hz
+2025-08-13 17:53:11.909269: I tensorflow/compiler/xla/service/service.cc:168] XLA service 0x3f80a50 initialized for platform Host (this does not guarantee that XLA will be used). Devices:
+2025-08-13 17:53:11.909304: I tensorflow/compiler/xla/service/service.cc:176]   StreamExecutor device (0): Host, Default Version
+Train on 389 samples, validate on 98 samples
+Epoch 1/200
+389/389 [==============================] - 1s 2ms/sample - loss: 2.6762 - categorical_accuracy: 0.2237 - val_loss: 2.5288 - val_categorical_accuracy: 0.4184
+Epoch 2/200
+389/389 [==============================] - 0s 388us/sample - loss: 1.9888 - categorical_accuracy: 0.5476 - val_loss: 2.4564 - val_categorical_accuracy: 0.4286
+Epoch 3/200
+389/389 [==============================] - 0s 368us/sample - loss: 1.6261 - categorical_accuracy: 0.6581 - val_loss: 2.4310 - val_categorical_accuracy: 0.1735
+Epoch 4/200
+389/389 [==============================] - 0s 380us/sample - loss: 1.4012 - categorical_accuracy: 0.7198 - val_loss: 2.3999 - val_categorical_accuracy: 0.1735
+Epoch 5/200
+389/389 [==============================] - 0s 375us/sample - loss: 1.2513 - categorical_accuracy: 0.7404 - val_loss: 2.3576 - val_categorical_accuracy: 0.1735
+Epoch 6/200
+389/389 [==============================] - 0s 428us/sample - loss: 1.1543 - categorical_accuracy: 0.7738 - val_loss: 2.2894 - val_categorical_accuracy: 0.3878
+Epoch 7/200
+389/389 [==============================] - 0s 405us/sample - loss: 1.0429 - categorical_accuracy: 0.7995 - val_loss: 2.1941 - val_categorical_accuracy: 0.5510
+Epoch 8/200
+389/389 [==============================] - 0s 396us/sample - loss: 0.9364 - categorical_accuracy: 0.8329 - val_loss: 2.1059 - val_categorical_accuracy: 0.6633
+Epoch 9/200
+389/389 [==============================] - 0s 366us/sample - loss: 0.9113 - categorical_accuracy: 0.8380 - val_loss: 2.0005 - val_categorical_accuracy: 0.6837
+Epoch 10/200
+389/389 [==============================] - 0s 392us/sample - loss: 0.8689 - categorical_accuracy: 0.8329 - val_loss: 1.9101 - val_categorical_accuracy: 0.6837
+Epoch 11/200
+389/389 [==============================] - 0s 395us/sample - loss: 0.8391 - categorical_accuracy: 0.8406 - val_loss: 1.8052 - val_categorical_accuracy: 0.6939
+Epoch 12/200
+389/389 [==============================] - 0s 472us/sample - loss: 0.8186 - categorical_accuracy: 0.8509 - val_loss: 1.6923 - val_categorical_accuracy: 0.7449
+Epoch 13/200
+389/389 [==============================] - 0s 379us/sample - loss: 0.7921 - categorical_accuracy: 0.8560 - val_loss: 1.5409 - val_categorical_accuracy: 0.7551
+Epoch 14/200
+389/389 [==============================] - 0s 388us/sample - loss: 0.7449 - categorical_accuracy: 0.8638 - val_loss: 1.4482 - val_categorical_accuracy: 0.7653
+Epoch 15/200
+389/389 [==============================] - 0s 395us/sample - loss: 0.7464 - categorical_accuracy: 0.8663 - val_loss: 1.3854 - val_categorical_accuracy: 0.7551
+Epoch 16/200
+389/389 [==============================] - 0s 393us/sample - loss: 0.6544 - categorical_accuracy: 0.9023 - val_loss: 1.2933 - val_categorical_accuracy: 0.7755
+Epoch 17/200
+389/389 [==============================] - 0s 393us/sample - loss: 0.6967 - categorical_accuracy: 0.8946 - val_loss: 1.1992 - val_categorical_accuracy: 0.7959
+Epoch 18/200
+389/389 [==============================] - 0s 384us/sample - loss: 0.6804 - categorical_accuracy: 0.8869 - val_loss: 1.1114 - val_categorical_accuracy: 0.7959
+Epoch 19/200
+389/389 [==============================] - 0s 399us/sample - loss: 0.6424 - categorical_accuracy: 0.8920 - val_loss: 1.0666 - val_categorical_accuracy: 0.8163
+Epoch 20/200
+389/389 [==============================] - 0s 279us/sample - loss: 0.6195 - categorical_accuracy: 0.9100 - val_loss: 1.0304 - val_categorical_accuracy: 0.8265
+Epoch 21/200
+389/389 [==============================] - 0s 254us/sample - loss: 0.5862 - categorical_accuracy: 0.9126 - val_loss: 1.0010 - val_categorical_accuracy: 0.8163
+Epoch 22/200
+389/389 [==============================] - 0s 317us/sample - loss: 0.5899 - categorical_accuracy: 0.9075 - val_loss: 0.9697 - val_categorical_accuracy: 0.8061
+Epoch 23/200
+389/389 [==============================] - 0s 269us/sample - loss: 0.5815 - categorical_accuracy: 0.9023 - val_loss: 0.9512 - val_categorical_accuracy: 0.7959
+Epoch 24/200
+389/389 [==============================] - 0s 376us/sample - loss: 0.5624 - categorical_accuracy: 0.9332 - val_loss: 0.9271 - val_categorical_accuracy: 0.8163
+Epoch 25/200
+389/389 [==============================] - 0s 403us/sample - loss: 0.5764 - categorical_accuracy: 0.9075 - val_loss: 0.9060 - val_categorical_accuracy: 0.8265
+Epoch 26/200
+389/389 [==============================] - 0s 384us/sample - loss: 0.5755 - categorical_accuracy: 0.9152 - val_loss: 0.8966 - val_categorical_accuracy: 0.8265
+Epoch 27/200
+389/389 [==============================] - 0s 404us/sample - loss: 0.5695 - categorical_accuracy: 0.9100 - val_loss: 0.8799 - val_categorical_accuracy: 0.8571
+Epoch 28/200
+389/389 [==============================] - 0s 401us/sample - loss: 0.5200 - categorical_accuracy: 0.9434 - val_loss: 0.8634 - val_categorical_accuracy: 0.8673
+Epoch 29/200
+389/389 [==============================] - 0s 387us/sample - loss: 0.5335 - categorical_accuracy: 0.9229 - val_loss: 0.8666 - val_categorical_accuracy: 0.8776
+Epoch 30/200
+389/389 [==============================] - 0s 395us/sample - loss: 0.5283 - categorical_accuracy: 0.9332 - val_loss: 0.8661 - val_categorical_accuracy: 0.8571
+Epoch 31/200
+389/389 [==============================] - 0s 390us/sample - loss: 0.5192 - categorical_accuracy: 0.9383 - val_loss: 0.8551 - val_categorical_accuracy: 0.8469
+Epoch 32/200
+389/389 [==============================] - 0s 390us/sample - loss: 0.5055 - categorical_accuracy: 0.9357 - val_loss: 0.8563 - val_categorical_accuracy: 0.8673
+Epoch 33/200
+389/389 [==============================] - 0s 398us/sample - loss: 0.5156 - categorical_accuracy: 0.9254 - val_loss: 0.8579 - val_categorical_accuracy: 0.8673
+Epoch 34/200
+389/389 [==============================] - 0s 354us/sample - loss: 0.4801 - categorical_accuracy: 0.9460 - val_loss: 0.8542 - val_categorical_accuracy: 0.8673
+Epoch 35/200
+389/389 [==============================] - 0s 439us/sample - loss: 0.4713 - categorical_accuracy: 0.9434 - val_loss: 0.8535 - val_categorical_accuracy: 0.8776
+Epoch 36/200
+389/389 [==============================] - 0s 368us/sample - loss: 0.4726 - categorical_accuracy: 0.9512 - val_loss: 0.8531 - val_categorical_accuracy: 0.8776
+Epoch 37/200
+389/389 [==============================] - 0s 382us/sample - loss: 0.4684 - categorical_accuracy: 0.9460 - val_loss: 0.8621 - val_categorical_accuracy: 0.8878
+Epoch 38/200
+389/389 [==============================] - 0s 421us/sample - loss: 0.4615 - categorical_accuracy: 0.9537 - val_loss: 0.8737 - val_categorical_accuracy: 0.8878
+Epoch 39/200
+389/389 [==============================] - 0s 367us/sample - loss: 0.5101 - categorical_accuracy: 0.9383 - val_loss: 0.8915 - val_categorical_accuracy: 0.8878
+Epoch 40/200
+389/389 [==============================] - 0s 427us/sample - loss: 0.4500 - categorical_accuracy: 0.9614 - val_loss: 0.9072 - val_categorical_accuracy: 0.8878
+Epoch 41/200
+389/389 [==============================] - 0s 337us/sample - loss: 0.4731 - categorical_accuracy: 0.9486 - val_loss: 0.9174 - val_categorical_accuracy: 0.8776
+Epoch 42/200
+389/389 [==============================] - 0s 382us/sample - loss: 0.4644 - categorical_accuracy: 0.9486 - val_loss: 0.9252 - val_categorical_accuracy: 0.8776
+Epoch 43/200
+389/389 [==============================] - 0s 361us/sample - loss: 0.4406 - categorical_accuracy: 0.9563 - val_loss: 0.9205 - val_categorical_accuracy: 0.8878
+Epoch 44/200
+389/389 [==============================] - 0s 396us/sample - loss: 0.4937 - categorical_accuracy: 0.9537 - val_loss: 0.9474 - val_categorical_accuracy: 0.8776
+Epoch 45/200
+389/389 [==============================] - 0s 356us/sample - loss: 0.4421 - categorical_accuracy: 0.9512 - val_loss: 0.9380 - val_categorical_accuracy: 0.8878
+Epoch 46/200
+389/389 [==============================] - 0s 382us/sample - loss: 0.4280 - categorical_accuracy: 0.9460 - val_loss: 0.9285 - val_categorical_accuracy: 0.8878
+Epoch 47/200
+389/389 [==============================] - 0s 382us/sample - loss: 0.4203 - categorical_accuracy: 0.9640 - val_loss: 0.9566 - val_categorical_accuracy: 0.8878
+Epoch 48/200
+389/389 [==============================] - 0s 424us/sample - loss: 0.4348 - categorical_accuracy: 0.9614 - val_loss: 0.9661 - val_categorical_accuracy: 0.8776
+Epoch 49/200
+389/389 [==============================] - 0s 348us/sample - loss: 0.4598 - categorical_accuracy: 0.9589 - val_loss: 0.9682 - val_categorical_accuracy: 0.8776
+Epoch 50/200
+389/389 [==============================] - 0s 371us/sample - loss: 0.4450 - categorical_accuracy: 0.9563 - val_loss: 0.9911 - val_categorical_accuracy: 0.8776
+Epoch 51/200
+389/389 [==============================] - 0s 386us/sample - loss: 0.4480 - categorical_accuracy: 0.9512 - val_loss: 0.9866 - val_categorical_accuracy: 0.8776
+Epoch 52/200
+389/389 [==============================] - 0s 388us/sample - loss: 0.4147 - categorical_accuracy: 0.9614 - val_loss: 1.0102 - val_categorical_accuracy: 0.8878
+Epoch 53/200
+389/389 [==============================] - 0s 386us/sample - loss: 0.4207 - categorical_accuracy: 0.9666 - val_loss: 1.0362 - val_categorical_accuracy: 0.8776
+Epoch 54/200
+389/389 [==============================] - 0s 382us/sample - loss: 0.4335 - categorical_accuracy: 0.9460 - val_loss: 1.0480 - val_categorical_accuracy: 0.8776
+Epoch 55/200
+389/389 [==============================] - 0s 385us/sample - loss: 0.4353 - categorical_accuracy: 0.9486 - val_loss: 1.0417 - val_categorical_accuracy: 0.8878
+Epoch 56/200
+389/389 [==============================] - 0s 379us/sample - loss: 0.4197 - categorical_accuracy: 0.9589 - val_loss: 1.0220 - val_categorical_accuracy: 0.8776
+[Scratch Fold 1/5] macroF1=0.674 | wF1=0.866 | acc=0.878 | fit 9.79s | infer 0.14s
+Fold 2 Train {'age': 16, 'case_status': 19, 'contact_setting': 9, 'date': 88, 'gender': 16, 'id': 30, 'location': 40, 'medical_boolean': 141, 'occupation': 8, 'outcome': 15, 'symptoms': 7}
+Fold 2 Val {'age': 4, 'case_status': 4, 'contact_setting': 3, 'date': 21, 'gender': 4, 'id': 8, 'location': 10, 'medical_boolean': 36, 'occupation': 2, 'outcome': 4, 'symptoms': 2}
+Train on 389 samples, validate on 98 samples
+Epoch 1/200
+389/389 [==============================] - 1s 2ms/sample - loss: 2.4573 - categorical_accuracy: 0.3548 - val_loss: 2.5763 - val_categorical_accuracy: 0.1020
+Epoch 2/200
+389/389 [==============================] - 0s 409us/sample - loss: 1.8655 - categorical_accuracy: 0.6041 - val_loss: 2.5526 - val_categorical_accuracy: 0.1327
+Epoch 3/200
+389/389 [==============================] - 0s 407us/sample - loss: 1.5651 - categorical_accuracy: 0.6710 - val_loss: 2.5466 - val_categorical_accuracy: 0.1633
+Epoch 4/200
+389/389 [==============================] - 0s 405us/sample - loss: 1.3636 - categorical_accuracy: 0.7147 - val_loss: 2.5025 - val_categorical_accuracy: 0.1939
+Epoch 5/200
+389/389 [==============================] - 0s 402us/sample - loss: 1.2581 - categorical_accuracy: 0.7352 - val_loss: 2.4391 - val_categorical_accuracy: 0.2041
+Epoch 6/200
+389/389 [==============================] - 0s 407us/sample - loss: 1.1517 - categorical_accuracy: 0.7506 - val_loss: 2.3610 - val_categorical_accuracy: 0.3061
+Epoch 7/200
+389/389 [==============================] - 0s 400us/sample - loss: 1.0382 - categorical_accuracy: 0.7789 - val_loss: 2.2578 - val_categorical_accuracy: 0.4184
+Epoch 8/200
+389/389 [==============================] - 0s 410us/sample - loss: 0.9932 - categorical_accuracy: 0.8072 - val_loss: 2.1640 - val_categorical_accuracy: 0.7245
+Epoch 9/200
+389/389 [==============================] - 0s 385us/sample - loss: 0.9475 - categorical_accuracy: 0.8175 - val_loss: 2.0577 - val_categorical_accuracy: 0.7551
+Epoch 10/200
+389/389 [==============================] - 0s 367us/sample - loss: 0.8492 - categorical_accuracy: 0.8535 - val_loss: 1.9279 - val_categorical_accuracy: 0.7347
+Epoch 11/200
+389/389 [==============================] - 0s 387us/sample - loss: 0.8644 - categorical_accuracy: 0.8560 - val_loss: 1.7785 - val_categorical_accuracy: 0.7449
+Epoch 12/200
+389/389 [==============================] - 0s 384us/sample - loss: 0.7711 - categorical_accuracy: 0.8766 - val_loss: 1.6680 - val_categorical_accuracy: 0.7347
+Epoch 13/200
+389/389 [==============================] - 0s 348us/sample - loss: 0.7468 - categorical_accuracy: 0.8663 - val_loss: 1.5411 - val_categorical_accuracy: 0.7449
+Epoch 14/200
+389/389 [==============================] - 0s 386us/sample - loss: 0.7534 - categorical_accuracy: 0.8638 - val_loss: 1.4279 - val_categorical_accuracy: 0.7449
+Epoch 15/200
+389/389 [==============================] - 0s 393us/sample - loss: 0.7265 - categorical_accuracy: 0.8766 - val_loss: 1.3290 - val_categorical_accuracy: 0.7653
+Epoch 16/200
+389/389 [==============================] - 0s 402us/sample - loss: 0.7156 - categorical_accuracy: 0.8792 - val_loss: 1.2292 - val_categorical_accuracy: 0.7551
+Epoch 17/200
+389/389 [==============================] - 0s 408us/sample - loss: 0.6829 - categorical_accuracy: 0.8920 - val_loss: 1.1634 - val_categorical_accuracy: 0.7551
+Epoch 18/200
+389/389 [==============================] - 0s 381us/sample - loss: 0.6515 - categorical_accuracy: 0.8972 - val_loss: 1.0984 - val_categorical_accuracy: 0.7551
+Epoch 19/200
+389/389 [==============================] - 0s 273us/sample - loss: 0.6338 - categorical_accuracy: 0.9023 - val_loss: 1.0322 - val_categorical_accuracy: 0.7755
+Epoch 20/200
+389/389 [==============================] - 0s 364us/sample - loss: 0.6392 - categorical_accuracy: 0.8946 - val_loss: 0.9831 - val_categorical_accuracy: 0.8061
+Epoch 21/200
+389/389 [==============================] - 0s 402us/sample - loss: 0.6082 - categorical_accuracy: 0.9075 - val_loss: 0.9424 - val_categorical_accuracy: 0.8061
+Epoch 22/200
+389/389 [==============================] - 0s 366us/sample - loss: 0.6386 - categorical_accuracy: 0.9152 - val_loss: 0.9127 - val_categorical_accuracy: 0.7959
+Epoch 23/200
+389/389 [==============================] - 0s 408us/sample - loss: 0.5931 - categorical_accuracy: 0.9152 - val_loss: 0.8814 - val_categorical_accuracy: 0.8061
+Epoch 24/200
+389/389 [==============================] - 0s 397us/sample - loss: 0.5810 - categorical_accuracy: 0.9229 - val_loss: 0.8577 - val_categorical_accuracy: 0.8265
+Epoch 25/200
+389/389 [==============================] - 0s 396us/sample - loss: 0.5898 - categorical_accuracy: 0.9152 - val_loss: 0.8352 - val_categorical_accuracy: 0.8367
+Epoch 26/200
+389/389 [==============================] - 0s 387us/sample - loss: 0.5474 - categorical_accuracy: 0.9306 - val_loss: 0.8137 - val_categorical_accuracy: 0.8367
+Epoch 27/200
+389/389 [==============================] - 0s 391us/sample - loss: 0.5578 - categorical_accuracy: 0.9306 - val_loss: 0.7916 - val_categorical_accuracy: 0.8469
+Epoch 28/200
+389/389 [==============================] - 0s 374us/sample - loss: 0.5564 - categorical_accuracy: 0.9229 - val_loss: 0.7756 - val_categorical_accuracy: 0.8469
+Epoch 29/200
+389/389 [==============================] - 0s 400us/sample - loss: 0.5497 - categorical_accuracy: 0.9229 - val_loss: 0.7684 - val_categorical_accuracy: 0.8469
+Epoch 30/200
+389/389 [==============================] - 0s 401us/sample - loss: 0.5382 - categorical_accuracy: 0.9254 - val_loss: 0.7616 - val_categorical_accuracy: 0.8469
+Epoch 31/200
+389/389 [==============================] - 0s 398us/sample - loss: 0.5548 - categorical_accuracy: 0.9280 - val_loss: 0.7477 - val_categorical_accuracy: 0.8571
+Epoch 32/200
+389/389 [==============================] - 0s 397us/sample - loss: 0.5398 - categorical_accuracy: 0.9306 - val_loss: 0.7301 - val_categorical_accuracy: 0.8673
+Epoch 33/200
+389/389 [==============================] - 0s 392us/sample - loss: 0.5289 - categorical_accuracy: 0.9332 - val_loss: 0.7149 - val_categorical_accuracy: 0.8776
+Epoch 34/200
+389/389 [==============================] - 0s 398us/sample - loss: 0.5004 - categorical_accuracy: 0.9434 - val_loss: 0.6988 - val_categorical_accuracy: 0.8776
+Epoch 35/200
+389/389 [==============================] - 0s 397us/sample - loss: 0.4771 - categorical_accuracy: 0.9383 - val_loss: 0.6921 - val_categorical_accuracy: 0.8878
+Epoch 36/200
+389/389 [==============================] - 0s 393us/sample - loss: 0.4700 - categorical_accuracy: 0.9589 - val_loss: 0.6907 - val_categorical_accuracy: 0.8980
+Epoch 37/200
+389/389 [==============================] - 0s 415us/sample - loss: 0.4860 - categorical_accuracy: 0.9486 - val_loss: 0.6809 - val_categorical_accuracy: 0.8878
+Epoch 38/200
+389/389 [==============================] - 0s 408us/sample - loss: 0.4972 - categorical_accuracy: 0.9409 - val_loss: 0.6709 - val_categorical_accuracy: 0.8878
+Epoch 39/200
+389/389 [==============================] - 0s 394us/sample - loss: 0.4882 - categorical_accuracy: 0.9357 - val_loss: 0.6675 - val_categorical_accuracy: 0.8776
+Epoch 40/200
+389/389 [==============================] - 0s 360us/sample - loss: 0.4816 - categorical_accuracy: 0.9537 - val_loss: 0.6708 - val_categorical_accuracy: 0.8673
+Epoch 41/200
+389/389 [==============================] - 0s 394us/sample - loss: 0.5053 - categorical_accuracy: 0.9332 - val_loss: 0.6703 - val_categorical_accuracy: 0.8776
+Epoch 42/200
+389/389 [==============================] - 0s 399us/sample - loss: 0.4855 - categorical_accuracy: 0.9460 - val_loss: 0.6656 - val_categorical_accuracy: 0.8878
+Epoch 43/200
+389/389 [==============================] - 0s 398us/sample - loss: 0.4405 - categorical_accuracy: 0.9537 - val_loss: 0.6554 - val_categorical_accuracy: 0.8980
+Epoch 44/200
+389/389 [==============================] - 0s 399us/sample - loss: 0.4723 - categorical_accuracy: 0.9486 - val_loss: 0.6424 - val_categorical_accuracy: 0.8980
+Epoch 45/200
+389/389 [==============================] - 0s 394us/sample - loss: 0.4407 - categorical_accuracy: 0.9614 - val_loss: 0.6461 - val_categorical_accuracy: 0.8980
+Epoch 46/200
+389/389 [==============================] - 0s 394us/sample - loss: 0.4597 - categorical_accuracy: 0.9460 - val_loss: 0.6468 - val_categorical_accuracy: 0.8776
+Epoch 47/200
+389/389 [==============================] - 0s 347us/sample - loss: 0.4599 - categorical_accuracy: 0.9563 - val_loss: 0.6541 - val_categorical_accuracy: 0.8776
+Epoch 48/200
+389/389 [==============================] - 0s 372us/sample - loss: 0.4420 - categorical_accuracy: 0.9666 - val_loss: 0.6565 - val_categorical_accuracy: 0.8878
+Epoch 49/200
+389/389 [==============================] - 0s 374us/sample - loss: 0.4549 - categorical_accuracy: 0.9434 - val_loss: 0.6530 - val_categorical_accuracy: 0.8776
+Epoch 50/200
+389/389 [==============================] - 0s 384us/sample - loss: 0.4384 - categorical_accuracy: 0.9512 - val_loss: 0.6582 - val_categorical_accuracy: 0.8673
+Epoch 51/200
+389/389 [==============================] - 0s 370us/sample - loss: 0.4840 - categorical_accuracy: 0.9486 - val_loss: 0.6518 - val_categorical_accuracy: 0.8673
+Epoch 52/200
+389/389 [==============================] - 0s 324us/sample - loss: 0.4725 - categorical_accuracy: 0.9537 - val_loss: 0.6509 - val_categorical_accuracy: 0.8878
+Epoch 53/200
+389/389 [==============================] - 0s 337us/sample - loss: 0.4279 - categorical_accuracy: 0.9692 - val_loss: 0.6503 - val_categorical_accuracy: 0.8878
+Epoch 54/200
+389/389 [==============================] - 0s 402us/sample - loss: 0.4443 - categorical_accuracy: 0.9589 - val_loss: 0.6360 - val_categorical_accuracy: 0.8980
+Epoch 55/200
+389/389 [==============================] - 0s 365us/sample - loss: 0.4151 - categorical_accuracy: 0.9666 - val_loss: 0.6344 - val_categorical_accuracy: 0.8980
+Epoch 56/200
+389/389 [==============================] - 0s 374us/sample - loss: 0.4163 - categorical_accuracy: 0.9640 - val_loss: 0.6436 - val_categorical_accuracy: 0.8776
+Epoch 57/200
+389/389 [==============================] - 0s 393us/sample - loss: 0.4295 - categorical_accuracy: 0.9512 - val_loss: 0.6333 - val_categorical_accuracy: 0.8776
+Epoch 58/200
+389/389 [==============================] - 0s 389us/sample - loss: 0.3903 - categorical_accuracy: 0.9743 - val_loss: 0.6261 - val_categorical_accuracy: 0.8878
+Epoch 59/200
+389/389 [==============================] - 0s 362us/sample - loss: 0.4178 - categorical_accuracy: 0.9614 - val_loss: 0.6236 - val_categorical_accuracy: 0.8878
+Epoch 60/200
+389/389 [==============================] - 0s 382us/sample - loss: 0.4156 - categorical_accuracy: 0.9640 - val_loss: 0.6283 - val_categorical_accuracy: 0.8673
+Epoch 61/200
+389/389 [==============================] - 0s 374us/sample - loss: 0.4144 - categorical_accuracy: 0.9640 - val_loss: 0.6484 - val_categorical_accuracy: 0.8571
+Epoch 62/200
+389/389 [==============================] - 0s 391us/sample - loss: 0.4280 - categorical_accuracy: 0.9589 - val_loss: 0.6269 - val_categorical_accuracy: 0.8776
+Epoch 63/200
+389/389 [==============================] - 0s 405us/sample - loss: 0.4265 - categorical_accuracy: 0.9589 - val_loss: 0.6343 - val_categorical_accuracy: 0.8571
+Epoch 64/200
+389/389 [==============================] - 0s 383us/sample - loss: 0.4047 - categorical_accuracy: 0.9769 - val_loss: 0.6431 - val_categorical_accuracy: 0.8776
+Epoch 65/200
+389/389 [==============================] - 0s 357us/sample - loss: 0.4152 - categorical_accuracy: 0.9614 - val_loss: 0.6611 - val_categorical_accuracy: 0.8571
+Epoch 66/200
+389/389 [==============================] - 0s 369us/sample - loss: 0.4415 - categorical_accuracy: 0.9434 - val_loss: 0.6626 - val_categorical_accuracy: 0.8571
+Epoch 67/200
+389/389 [==============================] - 0s 382us/sample - loss: 0.3996 - categorical_accuracy: 0.9614 - val_loss: 0.6556 - val_categorical_accuracy: 0.8571
+Epoch 68/200
+389/389 [==============================] - 0s 361us/sample - loss: 0.3984 - categorical_accuracy: 0.9743 - val_loss: 0.6647 - val_categorical_accuracy: 0.8673
+Epoch 69/200
+389/389 [==============================] - 0s 352us/sample - loss: 0.4023 - categorical_accuracy: 0.9717 - val_loss: 0.6789 - val_categorical_accuracy: 0.8571
+Epoch 70/200
+389/389 [==============================] - 0s 394us/sample - loss: 0.3810 - categorical_accuracy: 0.9717 - val_loss: 0.6810 - val_categorical_accuracy: 0.8673
+Epoch 71/200
+389/389 [==============================] - 0s 395us/sample - loss: 0.4116 - categorical_accuracy: 0.9666 - val_loss: 0.6725 - val_categorical_accuracy: 0.8673
+Epoch 72/200
+389/389 [==============================] - 0s 403us/sample - loss: 0.4141 - categorical_accuracy: 0.9563 - val_loss: 0.6615 - val_categorical_accuracy: 0.8673
+Epoch 73/200
+389/389 [==============================] - 0s 395us/sample - loss: 0.4102 - categorical_accuracy: 0.9589 - val_loss: 0.6746 - val_categorical_accuracy: 0.8673
+Epoch 74/200
+389/389 [==============================] - 0s 398us/sample - loss: 0.4031 - categorical_accuracy: 0.9692 - val_loss: 0.6835 - val_categorical_accuracy: 0.8673
+Epoch 75/200
+389/389 [==============================] - 0s 391us/sample - loss: 0.3695 - categorical_accuracy: 0.9820 - val_loss: 0.7038 - val_categorical_accuracy: 0.8673
+Epoch 76/200
+389/389 [==============================] - 0s 385us/sample - loss: 0.3987 - categorical_accuracy: 0.9614 - val_loss: 0.6953 - val_categorical_accuracy: 0.8673
+Epoch 77/200
+389/389 [==============================] - 0s 398us/sample - loss: 0.3642 - categorical_accuracy: 0.9846 - val_loss: 0.6779 - val_categorical_accuracy: 0.8776
+Epoch 78/200
+389/389 [==============================] - 0s 396us/sample - loss: 0.4017 - categorical_accuracy: 0.9692 - val_loss: 0.6855 - val_categorical_accuracy: 0.8776
+Epoch 79/200
+389/389 [==============================] - 0s 388us/sample - loss: 0.3835 - categorical_accuracy: 0.9743 - val_loss: 0.6821 - val_categorical_accuracy: 0.8673
+[Scratch Fold 2/5] macroF1=0.724 | wF1=0.856 | acc=0.867 | fit 13.62s | infer 0.19s
+Fold 3 Train {'age': 16, 'case_status': 19, 'contact_setting': 10, 'date': 87, 'gender': 16, 'id': 30, 'location': 40, 'medical_boolean': 142, 'occupation': 8, 'outcome': 15, 'symptoms': 7}
+Fold 3 Val {'age': 4, 'case_status': 4, 'contact_setting': 2, 'date': 22, 'gender': 4, 'id': 8, 'location': 10, 'medical_boolean': 35, 'occupation': 2, 'outcome': 4, 'symptoms': 2}
+Train on 390 samples, validate on 97 samples
+Epoch 1/200
+390/390 [==============================] - 1s 2ms/sample - loss: 2.4418 - categorical_accuracy: 0.3718 - val_loss: 2.4345 - val_categorical_accuracy: 0.2062
+Epoch 2/200
+390/390 [==============================] - 0s 397us/sample - loss: 1.9249 - categorical_accuracy: 0.5949 - val_loss: 2.3796 - val_categorical_accuracy: 0.3814
+Epoch 3/200
+390/390 [==============================] - 0s 415us/sample - loss: 1.5009 - categorical_accuracy: 0.6795 - val_loss: 2.3659 - val_categorical_accuracy: 0.3814
+Epoch 4/200
+390/390 [==============================] - 0s 416us/sample - loss: 1.3797 - categorical_accuracy: 0.7051 - val_loss: 2.3739 - val_categorical_accuracy: 0.3402
+Epoch 5/200
+390/390 [==============================] - 0s 439us/sample - loss: 1.2536 - categorical_accuracy: 0.7385 - val_loss: 2.3080 - val_categorical_accuracy: 0.4021
+Epoch 6/200
+390/390 [==============================] - 0s 407us/sample - loss: 1.1445 - categorical_accuracy: 0.7744 - val_loss: 2.2062 - val_categorical_accuracy: 0.4124
+Epoch 7/200
+390/390 [==============================] - 0s 403us/sample - loss: 1.0116 - categorical_accuracy: 0.7795 - val_loss: 2.1309 - val_categorical_accuracy: 0.4227
+Epoch 8/200
+390/390 [==============================] - 0s 394us/sample - loss: 1.0275 - categorical_accuracy: 0.7795 - val_loss: 2.0222 - val_categorical_accuracy: 0.6186
+Epoch 9/200
+390/390 [==============================] - 0s 431us/sample - loss: 0.9217 - categorical_accuracy: 0.8282 - val_loss: 1.9076 - val_categorical_accuracy: 0.6907
+Epoch 10/200
+390/390 [==============================] - 0s 375us/sample - loss: 0.8847 - categorical_accuracy: 0.8231 - val_loss: 1.7844 - val_categorical_accuracy: 0.7010
+Epoch 11/200
+390/390 [==============================] - 0s 364us/sample - loss: 0.8435 - categorical_accuracy: 0.8487 - val_loss: 1.7049 - val_categorical_accuracy: 0.7629
+Epoch 12/200
+390/390 [==============================] - 0s 352us/sample - loss: 0.8076 - categorical_accuracy: 0.8538 - val_loss: 1.5747 - val_categorical_accuracy: 0.7835
+Epoch 13/200
+390/390 [==============================] - 0s 389us/sample - loss: 0.7839 - categorical_accuracy: 0.8615 - val_loss: 1.4681 - val_categorical_accuracy: 0.7835
+Epoch 14/200
+390/390 [==============================] - 0s 400us/sample - loss: 0.7560 - categorical_accuracy: 0.8564 - val_loss: 1.3478 - val_categorical_accuracy: 0.7938
+Epoch 15/200
+390/390 [==============================] - 0s 364us/sample - loss: 0.7166 - categorical_accuracy: 0.8923 - val_loss: 1.2343 - val_categorical_accuracy: 0.7938
+Epoch 16/200
+390/390 [==============================] - 0s 392us/sample - loss: 0.7162 - categorical_accuracy: 0.8795 - val_loss: 1.1756 - val_categorical_accuracy: 0.8041
+Epoch 17/200
+390/390 [==============================] - 0s 395us/sample - loss: 0.6731 - categorical_accuracy: 0.8923 - val_loss: 1.1143 - val_categorical_accuracy: 0.8144
+Epoch 18/200
+390/390 [==============================] - 0s 407us/sample - loss: 0.6472 - categorical_accuracy: 0.9077 - val_loss: 1.0583 - val_categorical_accuracy: 0.7938
+Epoch 19/200
+390/390 [==============================] - 0s 368us/sample - loss: 0.6740 - categorical_accuracy: 0.8974 - val_loss: 0.9711 - val_categorical_accuracy: 0.7938
+Epoch 20/200
+390/390 [==============================] - 0s 399us/sample - loss: 0.6405 - categorical_accuracy: 0.8974 - val_loss: 0.9211 - val_categorical_accuracy: 0.7938
+Epoch 21/200
+390/390 [==============================] - 0s 384us/sample - loss: 0.6035 - categorical_accuracy: 0.9077 - val_loss: 0.9108 - val_categorical_accuracy: 0.8247
+Epoch 22/200
+390/390 [==============================] - 0s 399us/sample - loss: 0.6107 - categorical_accuracy: 0.9179 - val_loss: 0.8981 - val_categorical_accuracy: 0.8454
+Epoch 23/200
+390/390 [==============================] - 0s 388us/sample - loss: 0.6553 - categorical_accuracy: 0.8846 - val_loss: 0.8918 - val_categorical_accuracy: 0.8660
+Epoch 24/200
+390/390 [==============================] - 0s 292us/sample - loss: 0.6255 - categorical_accuracy: 0.9051 - val_loss: 0.8641 - val_categorical_accuracy: 0.8763
+Epoch 25/200
+390/390 [==============================] - 0s 339us/sample - loss: 0.5661 - categorical_accuracy: 0.9231 - val_loss: 0.8546 - val_categorical_accuracy: 0.8557
+Epoch 26/200
+390/390 [==============================] - 0s 367us/sample - loss: 0.5398 - categorical_accuracy: 0.9385 - val_loss: 0.8753 - val_categorical_accuracy: 0.8763
+Epoch 27/200
+390/390 [==============================] - 0s 354us/sample - loss: 0.5681 - categorical_accuracy: 0.9231 - val_loss: 0.8857 - val_categorical_accuracy: 0.8763
+Epoch 28/200
+390/390 [==============================] - 0s 389us/sample - loss: 0.5829 - categorical_accuracy: 0.9179 - val_loss: 0.8569 - val_categorical_accuracy: 0.8866
+Epoch 29/200
+390/390 [==============================] - 0s 389us/sample - loss: 0.5166 - categorical_accuracy: 0.9436 - val_loss: 0.8547 - val_categorical_accuracy: 0.8866
+Epoch 30/200
+390/390 [==============================] - 0s 386us/sample - loss: 0.5345 - categorical_accuracy: 0.9282 - val_loss: 0.8599 - val_categorical_accuracy: 0.8866
+Epoch 31/200
+390/390 [==============================] - 0s 392us/sample - loss: 0.5162 - categorical_accuracy: 0.9282 - val_loss: 0.8362 - val_categorical_accuracy: 0.8866
+Epoch 32/200
+390/390 [==============================] - 0s 347us/sample - loss: 0.5009 - categorical_accuracy: 0.9385 - val_loss: 0.8530 - val_categorical_accuracy: 0.8866
+Epoch 33/200
+390/390 [==============================] - 0s 360us/sample - loss: 0.4910 - categorical_accuracy: 0.9487 - val_loss: 0.8526 - val_categorical_accuracy: 0.8969
+Epoch 34/200
+390/390 [==============================] - 0s 352us/sample - loss: 0.5100 - categorical_accuracy: 0.9513 - val_loss: 0.8544 - val_categorical_accuracy: 0.8969
+Epoch 35/200
+390/390 [==============================] - 0s 384us/sample - loss: 0.5360 - categorical_accuracy: 0.9282 - val_loss: 0.8258 - val_categorical_accuracy: 0.8969
+Epoch 36/200
+390/390 [==============================] - 0s 391us/sample - loss: 0.5078 - categorical_accuracy: 0.9359 - val_loss: 0.7678 - val_categorical_accuracy: 0.9072
+Epoch 37/200
+390/390 [==============================] - 0s 370us/sample - loss: 0.4871 - categorical_accuracy: 0.9436 - val_loss: 0.7370 - val_categorical_accuracy: 0.9072
+Epoch 38/200
+390/390 [==============================] - 0s 379us/sample - loss: 0.4659 - categorical_accuracy: 0.9590 - val_loss: 0.7349 - val_categorical_accuracy: 0.9072
+Epoch 39/200
+390/390 [==============================] - 0s 379us/sample - loss: 0.5035 - categorical_accuracy: 0.9410 - val_loss: 0.7853 - val_categorical_accuracy: 0.9072
+Epoch 40/200
+390/390 [==============================] - 0s 387us/sample - loss: 0.4879 - categorical_accuracy: 0.9333 - val_loss: 0.7913 - val_categorical_accuracy: 0.9072
+Epoch 41/200
+390/390 [==============================] - 0s 383us/sample - loss: 0.4865 - categorical_accuracy: 0.9564 - val_loss: 0.7590 - val_categorical_accuracy: 0.9072
+Epoch 42/200
+390/390 [==============================] - 0s 384us/sample - loss: 0.4647 - categorical_accuracy: 0.9462 - val_loss: 0.7703 - val_categorical_accuracy: 0.9072
+Epoch 43/200
+390/390 [==============================] - 0s 398us/sample - loss: 0.4549 - categorical_accuracy: 0.9564 - val_loss: 0.7898 - val_categorical_accuracy: 0.9072
+Epoch 44/200
+390/390 [==============================] - 0s 355us/sample - loss: 0.4880 - categorical_accuracy: 0.9436 - val_loss: 0.7775 - val_categorical_accuracy: 0.9072
+Epoch 45/200
+390/390 [==============================] - 0s 424us/sample - loss: 0.4847 - categorical_accuracy: 0.9436 - val_loss: 0.7522 - val_categorical_accuracy: 0.9072
+Epoch 46/200
+390/390 [==============================] - 0s 395us/sample - loss: 0.4592 - categorical_accuracy: 0.9462 - val_loss: 0.7960 - val_categorical_accuracy: 0.9072
+Epoch 47/200
+390/390 [==============================] - 0s 379us/sample - loss: 0.4760 - categorical_accuracy: 0.9359 - val_loss: 0.8328 - val_categorical_accuracy: 0.9072
+Epoch 48/200
+390/390 [==============================] - 0s 404us/sample - loss: 0.4324 - categorical_accuracy: 0.9641 - val_loss: 0.8387 - val_categorical_accuracy: 0.9072
+Epoch 49/200
+390/390 [==============================] - 0s 383us/sample - loss: 0.4587 - categorical_accuracy: 0.9462 - val_loss: 0.8224 - val_categorical_accuracy: 0.9072
+Epoch 50/200
+390/390 [==============================] - 0s 380us/sample - loss: 0.4169 - categorical_accuracy: 0.9615 - val_loss: 0.8309 - val_categorical_accuracy: 0.9072
+Epoch 51/200
+390/390 [==============================] - 0s 391us/sample - loss: 0.4069 - categorical_accuracy: 0.9615 - val_loss: 0.8357 - val_categorical_accuracy: 0.9072
+Epoch 52/200
+390/390 [==============================] - 0s 282us/sample - loss: 0.4466 - categorical_accuracy: 0.9513 - val_loss: 0.8084 - val_categorical_accuracy: 0.9072
+Epoch 53/200
+390/390 [==============================] - 0s 261us/sample - loss: 0.4670 - categorical_accuracy: 0.9410 - val_loss: 0.8122 - val_categorical_accuracy: 0.9072
+Epoch 54/200
+390/390 [==============================] - 0s 363us/sample - loss: 0.4361 - categorical_accuracy: 0.9590 - val_loss: 0.8065 - val_categorical_accuracy: 0.9072
+Epoch 55/200
+390/390 [==============================] - 0s 396us/sample - loss: 0.4300 - categorical_accuracy: 0.9590 - val_loss: 0.7593 - val_categorical_accuracy: 0.9072
+Epoch 56/200
+390/390 [==============================] - 0s 383us/sample - loss: 0.4138 - categorical_accuracy: 0.9641 - val_loss: 0.7252 - val_categorical_accuracy: 0.9072
+Epoch 57/200
+390/390 [==============================] - 0s 388us/sample - loss: 0.4353 - categorical_accuracy: 0.9564 - val_loss: 0.7444 - val_categorical_accuracy: 0.9072
+Epoch 58/200
+390/390 [==============================] - 0s 378us/sample - loss: 0.4345 - categorical_accuracy: 0.9692 - val_loss: 0.7477 - val_categorical_accuracy: 0.9072
+Epoch 59/200
+390/390 [==============================] - 0s 293us/sample - loss: 0.4240 - categorical_accuracy: 0.9590 - val_loss: 0.7482 - val_categorical_accuracy: 0.9072
+Epoch 60/200
+390/390 [==============================] - 0s 371us/sample - loss: 0.4069 - categorical_accuracy: 0.9641 - val_loss: 0.7483 - val_categorical_accuracy: 0.9072
+Epoch 61/200
+390/390 [==============================] - 0s 377us/sample - loss: 0.3848 - categorical_accuracy: 0.9692 - val_loss: 0.7585 - val_categorical_accuracy: 0.9072
+Epoch 62/200
+390/390 [==============================] - 0s 399us/sample - loss: 0.4405 - categorical_accuracy: 0.9462 - val_loss: 0.7403 - val_categorical_accuracy: 0.9072
+Epoch 63/200
+390/390 [==============================] - 0s 404us/sample - loss: 0.3949 - categorical_accuracy: 0.9641 - val_loss: 0.7393 - val_categorical_accuracy: 0.9072
+Epoch 64/200
+390/390 [==============================] - 0s 374us/sample - loss: 0.4242 - categorical_accuracy: 0.9590 - val_loss: 0.7634 - val_categorical_accuracy: 0.9072
+Epoch 65/200
+390/390 [==============================] - 0s 363us/sample - loss: 0.4141 - categorical_accuracy: 0.9692 - val_loss: 0.7703 - val_categorical_accuracy: 0.9072
+Epoch 66/200
+390/390 [==============================] - 0s 396us/sample - loss: 0.3833 - categorical_accuracy: 0.9744 - val_loss: 0.7759 - val_categorical_accuracy: 0.9072
+Epoch 67/200
+390/390 [==============================] - 0s 380us/sample - loss: 0.3945 - categorical_accuracy: 0.9795 - val_loss: 0.7427 - val_categorical_accuracy: 0.9072
+Epoch 68/200
+390/390 [==============================] - 0s 390us/sample - loss: 0.4072 - categorical_accuracy: 0.9615 - val_loss: 0.7181 - val_categorical_accuracy: 0.9175
+Epoch 69/200
+390/390 [==============================] - 0s 389us/sample - loss: 0.4070 - categorical_accuracy: 0.9538 - val_loss: 0.7269 - val_categorical_accuracy: 0.9072
+Epoch 70/200
+390/390 [==============================] - 0s 391us/sample - loss: 0.3859 - categorical_accuracy: 0.9718 - val_loss: 0.7281 - val_categorical_accuracy: 0.9072
+Epoch 71/200
+390/390 [==============================] - 0s 385us/sample - loss: 0.3962 - categorical_accuracy: 0.9667 - val_loss: 0.6941 - val_categorical_accuracy: 0.9072
+Epoch 72/200
+390/390 [==============================] - 0s 383us/sample - loss: 0.4005 - categorical_accuracy: 0.9641 - val_loss: 0.6947 - val_categorical_accuracy: 0.9175
+Epoch 73/200
+390/390 [==============================] - 0s 391us/sample - loss: 0.3757 - categorical_accuracy: 0.9718 - val_loss: 0.6897 - val_categorical_accuracy: 0.9175
+Epoch 74/200
+390/390 [==============================] - 0s 391us/sample - loss: 0.4195 - categorical_accuracy: 0.9692 - val_loss: 0.7059 - val_categorical_accuracy: 0.9175
+Epoch 75/200
+390/390 [==============================] - 0s 389us/sample - loss: 0.4327 - categorical_accuracy: 0.9513 - val_loss: 0.7045 - val_categorical_accuracy: 0.9072
+Epoch 76/200
+390/390 [==============================] - 0s 377us/sample - loss: 0.4065 - categorical_accuracy: 0.9615 - val_loss: 0.7189 - val_categorical_accuracy: 0.9175
+Epoch 77/200
+390/390 [==============================] - 0s 391us/sample - loss: 0.3959 - categorical_accuracy: 0.9615 - val_loss: 0.7235 - val_categorical_accuracy: 0.9175
+Epoch 78/200
+390/390 [==============================] - 0s 381us/sample - loss: 0.4002 - categorical_accuracy: 0.9615 - val_loss: 0.7746 - val_categorical_accuracy: 0.9072
+Epoch 79/200
+390/390 [==============================] - 0s 389us/sample - loss: 0.4040 - categorical_accuracy: 0.9590 - val_loss: 0.7773 - val_categorical_accuracy: 0.9072
+Epoch 80/200
+390/390 [==============================] - 0s 378us/sample - loss: 0.4144 - categorical_accuracy: 0.9615 - val_loss: 0.7946 - val_categorical_accuracy: 0.9072
+Epoch 81/200
+390/390 [==============================] - 0s 386us/sample - loss: 0.3819 - categorical_accuracy: 0.9718 - val_loss: 0.7847 - val_categorical_accuracy: 0.9072
+Epoch 82/200
+390/390 [==============================] - 0s 382us/sample - loss: 0.3929 - categorical_accuracy: 0.9744 - val_loss: 0.7781 - val_categorical_accuracy: 0.9072
+Epoch 83/200
+390/390 [==============================] - 0s 382us/sample - loss: 0.3737 - categorical_accuracy: 0.9795 - val_loss: 0.8630 - val_categorical_accuracy: 0.8969
+Epoch 84/200
+390/390 [==============================] - 0s 392us/sample - loss: 0.3989 - categorical_accuracy: 0.9615 - val_loss: 0.8762 - val_categorical_accuracy: 0.8969
+Epoch 85/200
+390/390 [==============================] - 0s 381us/sample - loss: 0.3729 - categorical_accuracy: 0.9692 - val_loss: 0.9842 - val_categorical_accuracy: 0.8969
+Epoch 86/200
+390/390 [==============================] - 0s 379us/sample - loss: 0.3954 - categorical_accuracy: 0.9718 - val_loss: 0.9613 - val_categorical_accuracy: 0.8969
+Epoch 87/200
+390/390 [==============================] - 0s 359us/sample - loss: 0.3723 - categorical_accuracy: 0.9769 - val_loss: 0.9189 - val_categorical_accuracy: 0.8969
+Epoch 88/200
+390/390 [==============================] - 0s 348us/sample - loss: 0.3804 - categorical_accuracy: 0.9744 - val_loss: 0.9017 - val_categorical_accuracy: 0.9072
+Epoch 89/200
+390/390 [==============================] - 0s 365us/sample - loss: 0.3968 - categorical_accuracy: 0.9641 - val_loss: 0.8307 - val_categorical_accuracy: 0.9072
+Epoch 90/200
+390/390 [==============================] - 0s 382us/sample - loss: 0.3691 - categorical_accuracy: 0.9769 - val_loss: 0.7906 - val_categorical_accuracy: 0.9072
+Epoch 91/200
+390/390 [==============================] - 0s 398us/sample - loss: 0.3782 - categorical_accuracy: 0.9692 - val_loss: 0.7927 - val_categorical_accuracy: 0.9072
+Epoch 92/200
+390/390 [==============================] - 0s 356us/sample - loss: 0.3843 - categorical_accuracy: 0.9718 - val_loss: 0.8087 - val_categorical_accuracy: 0.9072
+Epoch 93/200
+390/390 [==============================] - 0s 294us/sample - loss: 0.3931 - categorical_accuracy: 0.9667 - val_loss: 0.7645 - val_categorical_accuracy: 0.9072
+[Scratch Fold 3/5] macroF1=0.848 | wF1=0.909 | acc=0.907 | fit 15.60s | infer 0.25s
+Fold 4 Train {'age': 16, 'case_status': 18, 'contact_setting': 10, 'date': 87, 'gender': 16, 'id': 30, 'location': 40, 'medical_boolean': 142, 'occupation': 8, 'outcome': 15, 'symptoms': 8}
+Fold 4 Val {'age': 4, 'case_status': 5, 'contact_setting': 2, 'date': 22, 'gender': 4, 'id': 8, 'location': 10, 'medical_boolean': 35, 'occupation': 2, 'outcome': 4, 'symptoms': 1}
+Train on 390 samples, validate on 97 samples
+Epoch 1/200
+390/390 [==============================] - 1s 2ms/sample - loss: 2.7606 - categorical_accuracy: 0.2000 - val_loss: 2.4978 - val_categorical_accuracy: 0.2474
+Epoch 2/200
+390/390 [==============================] - 0s 415us/sample - loss: 1.9355 - categorical_accuracy: 0.5205 - val_loss: 2.3989 - val_categorical_accuracy: 0.2268
+Epoch 3/200
+390/390 [==============================] - 0s 403us/sample - loss: 1.6146 - categorical_accuracy: 0.6359 - val_loss: 2.3328 - val_categorical_accuracy: 0.3505
+Epoch 4/200
+390/390 [==============================] - 0s 415us/sample - loss: 1.4277 - categorical_accuracy: 0.6949 - val_loss: 2.2835 - val_categorical_accuracy: 0.3711
+Epoch 5/200
+390/390 [==============================] - 0s 416us/sample - loss: 1.2892 - categorical_accuracy: 0.7179 - val_loss: 2.2315 - val_categorical_accuracy: 0.4742
+Epoch 6/200
+390/390 [==============================] - 0s 399us/sample - loss: 1.1543 - categorical_accuracy: 0.7641 - val_loss: 2.1342 - val_categorical_accuracy: 0.6804
+Epoch 7/200
+390/390 [==============================] - 0s 404us/sample - loss: 1.0441 - categorical_accuracy: 0.8026 - val_loss: 2.0585 - val_categorical_accuracy: 0.6907
+Epoch 8/200
+390/390 [==============================] - 0s 397us/sample - loss: 0.9996 - categorical_accuracy: 0.8051 - val_loss: 1.9544 - val_categorical_accuracy: 0.6907
+Epoch 9/200
+390/390 [==============================] - 0s 399us/sample - loss: 0.9938 - categorical_accuracy: 0.8051 - val_loss: 1.8583 - val_categorical_accuracy: 0.7010
+Epoch 10/200
+390/390 [==============================] - 0s 393us/sample - loss: 0.9043 - categorical_accuracy: 0.8333 - val_loss: 1.7460 - val_categorical_accuracy: 0.7423
+Epoch 11/200
+390/390 [==============================] - 0s 400us/sample - loss: 0.8538 - categorical_accuracy: 0.8487 - val_loss: 1.6249 - val_categorical_accuracy: 0.7423
+Epoch 12/200
+390/390 [==============================] - 0s 348us/sample - loss: 0.8005 - categorical_accuracy: 0.8436 - val_loss: 1.5065 - val_categorical_accuracy: 0.7423
+Epoch 13/200
+390/390 [==============================] - 0s 361us/sample - loss: 0.7630 - categorical_accuracy: 0.8641 - val_loss: 1.4067 - val_categorical_accuracy: 0.7423
+Epoch 14/200
+390/390 [==============================] - 0s 335us/sample - loss: 0.7444 - categorical_accuracy: 0.8590 - val_loss: 1.3289 - val_categorical_accuracy: 0.7732
+Epoch 15/200
+390/390 [==============================] - 0s 404us/sample - loss: 0.7709 - categorical_accuracy: 0.8692 - val_loss: 1.2538 - val_categorical_accuracy: 0.7835
+Epoch 16/200
+390/390 [==============================] - 0s 395us/sample - loss: 0.6852 - categorical_accuracy: 0.9026 - val_loss: 1.1612 - val_categorical_accuracy: 0.7835
+Epoch 17/200
+390/390 [==============================] - 0s 378us/sample - loss: 0.6803 - categorical_accuracy: 0.8846 - val_loss: 1.1030 - val_categorical_accuracy: 0.7938
+Epoch 18/200
+390/390 [==============================] - 0s 359us/sample - loss: 0.6364 - categorical_accuracy: 0.8949 - val_loss: 1.0580 - val_categorical_accuracy: 0.7938
+Epoch 19/200
+390/390 [==============================] - 0s 374us/sample - loss: 0.6351 - categorical_accuracy: 0.9205 - val_loss: 1.0162 - val_categorical_accuracy: 0.7938
+Epoch 20/200
+390/390 [==============================] - 0s 423us/sample - loss: 0.6456 - categorical_accuracy: 0.8974 - val_loss: 0.9857 - val_categorical_accuracy: 0.8144
+Epoch 21/200
+390/390 [==============================] - 0s 389us/sample - loss: 0.5681 - categorical_accuracy: 0.9308 - val_loss: 0.9476 - val_categorical_accuracy: 0.8351
+Epoch 22/200
+390/390 [==============================] - 0s 403us/sample - loss: 0.5739 - categorical_accuracy: 0.9179 - val_loss: 0.9129 - val_categorical_accuracy: 0.8454
+Epoch 23/200
+390/390 [==============================] - 0s 406us/sample - loss: 0.6191 - categorical_accuracy: 0.9103 - val_loss: 0.8991 - val_categorical_accuracy: 0.8454
+Epoch 24/200
+390/390 [==============================] - 0s 379us/sample - loss: 0.5298 - categorical_accuracy: 0.9333 - val_loss: 0.8872 - val_categorical_accuracy: 0.8557
+Epoch 25/200
+390/390 [==============================] - 0s 399us/sample - loss: 0.5554 - categorical_accuracy: 0.9256 - val_loss: 0.8768 - val_categorical_accuracy: 0.8660
+Epoch 26/200
+390/390 [==============================] - 0s 466us/sample - loss: 0.5272 - categorical_accuracy: 0.9385 - val_loss: 0.8540 - val_categorical_accuracy: 0.8660
+Epoch 27/200
+390/390 [==============================] - 0s 422us/sample - loss: 0.5179 - categorical_accuracy: 0.9385 - val_loss: 0.8389 - val_categorical_accuracy: 0.8660
+Epoch 28/200
+390/390 [==============================] - 0s 365us/sample - loss: 0.5470 - categorical_accuracy: 0.9205 - val_loss: 0.8391 - val_categorical_accuracy: 0.8660
+Epoch 29/200
+390/390 [==============================] - 0s 385us/sample - loss: 0.5677 - categorical_accuracy: 0.9154 - val_loss: 0.8207 - val_categorical_accuracy: 0.8763
+Epoch 30/200
+390/390 [==============================] - 0s 397us/sample - loss: 0.5313 - categorical_accuracy: 0.9231 - val_loss: 0.8138 - val_categorical_accuracy: 0.8763
+Epoch 31/200
+390/390 [==============================] - 0s 398us/sample - loss: 0.5233 - categorical_accuracy: 0.9282 - val_loss: 0.8058 - val_categorical_accuracy: 0.8763
+Epoch 32/200
+390/390 [==============================] - 0s 388us/sample - loss: 0.4923 - categorical_accuracy: 0.9410 - val_loss: 0.8002 - val_categorical_accuracy: 0.8969
+Epoch 33/200
+390/390 [==============================] - 0s 406us/sample - loss: 0.4850 - categorical_accuracy: 0.9410 - val_loss: 0.7970 - val_categorical_accuracy: 0.8660
+Epoch 34/200
+390/390 [==============================] - 0s 414us/sample - loss: 0.4862 - categorical_accuracy: 0.9538 - val_loss: 0.7805 - val_categorical_accuracy: 0.8660
+Epoch 35/200
+390/390 [==============================] - 0s 426us/sample - loss: 0.4812 - categorical_accuracy: 0.9487 - val_loss: 0.7645 - val_categorical_accuracy: 0.8866
+Epoch 36/200
+390/390 [==============================] - 0s 403us/sample - loss: 0.4556 - categorical_accuracy: 0.9641 - val_loss: 0.7686 - val_categorical_accuracy: 0.8866
+Epoch 37/200
+390/390 [==============================] - 0s 410us/sample - loss: 0.4610 - categorical_accuracy: 0.9513 - val_loss: 0.7647 - val_categorical_accuracy: 0.8866
+Epoch 38/200
+390/390 [==============================] - 0s 402us/sample - loss: 0.4723 - categorical_accuracy: 0.9564 - val_loss: 0.7599 - val_categorical_accuracy: 0.8866
+Epoch 39/200
+390/390 [==============================] - 0s 379us/sample - loss: 0.4914 - categorical_accuracy: 0.9538 - val_loss: 0.7590 - val_categorical_accuracy: 0.8866
+Epoch 40/200
+390/390 [==============================] - 0s 384us/sample - loss: 0.4607 - categorical_accuracy: 0.9513 - val_loss: 0.7702 - val_categorical_accuracy: 0.8866
+Epoch 41/200
+390/390 [==============================] - 0s 398us/sample - loss: 0.4378 - categorical_accuracy: 0.9641 - val_loss: 0.7832 - val_categorical_accuracy: 0.8969
+Epoch 42/200
+390/390 [==============================] - 0s 393us/sample - loss: 0.4458 - categorical_accuracy: 0.9462 - val_loss: 0.7905 - val_categorical_accuracy: 0.8866
+Epoch 43/200
+390/390 [==============================] - 0s 386us/sample - loss: 0.5137 - categorical_accuracy: 0.9205 - val_loss: 0.8142 - val_categorical_accuracy: 0.8866
+Epoch 44/200
+390/390 [==============================] - 0s 372us/sample - loss: 0.4553 - categorical_accuracy: 0.9538 - val_loss: 0.8224 - val_categorical_accuracy: 0.8866
+Epoch 45/200
+390/390 [==============================] - 0s 394us/sample - loss: 0.4501 - categorical_accuracy: 0.9564 - val_loss: 0.8266 - val_categorical_accuracy: 0.8969
+Epoch 46/200
+390/390 [==============================] - 0s 372us/sample - loss: 0.4384 - categorical_accuracy: 0.9590 - val_loss: 0.8136 - val_categorical_accuracy: 0.8969
+Epoch 47/200
+390/390 [==============================] - 0s 315us/sample - loss: 0.4283 - categorical_accuracy: 0.9564 - val_loss: 0.8005 - val_categorical_accuracy: 0.8969
+Epoch 48/200
+390/390 [==============================] - 0s 379us/sample - loss: 0.4326 - categorical_accuracy: 0.9564 - val_loss: 0.7912 - val_categorical_accuracy: 0.8969
+Epoch 49/200
+390/390 [==============================] - 0s 381us/sample - loss: 0.4540 - categorical_accuracy: 0.9590 - val_loss: 0.7824 - val_categorical_accuracy: 0.8969
+Epoch 50/200
+390/390 [==============================] - 0s 418us/sample - loss: 0.4490 - categorical_accuracy: 0.9641 - val_loss: 0.7806 - val_categorical_accuracy: 0.8969
+Epoch 51/200
+390/390 [==============================] - 0s 424us/sample - loss: 0.4250 - categorical_accuracy: 0.9538 - val_loss: 0.7795 - val_categorical_accuracy: 0.8969
+Epoch 52/200
+390/390 [==============================] - 0s 415us/sample - loss: 0.4097 - categorical_accuracy: 0.9744 - val_loss: 0.7808 - val_categorical_accuracy: 0.8969
+Epoch 53/200
+390/390 [==============================] - 0s 412us/sample - loss: 0.4465 - categorical_accuracy: 0.9487 - val_loss: 0.7954 - val_categorical_accuracy: 0.8969
+Epoch 54/200
+390/390 [==============================] - 0s 424us/sample - loss: 0.4272 - categorical_accuracy: 0.9538 - val_loss: 0.7987 - val_categorical_accuracy: 0.8969
+Epoch 55/200
+390/390 [==============================] - 0s 377us/sample - loss: 0.4047 - categorical_accuracy: 0.9692 - val_loss: 0.8005 - val_categorical_accuracy: 0.8969
+Epoch 56/200
+390/390 [==============================] - 0s 395us/sample - loss: 0.3847 - categorical_accuracy: 0.9692 - val_loss: 0.7937 - val_categorical_accuracy: 0.8969
+Epoch 57/200
+390/390 [==============================] - 0s 408us/sample - loss: 0.3982 - categorical_accuracy: 0.9692 - val_loss: 0.7870 - val_categorical_accuracy: 0.8969
+Epoch 58/200
+390/390 [==============================] - 0s 429us/sample - loss: 0.3863 - categorical_accuracy: 0.9821 - val_loss: 0.7927 - val_categorical_accuracy: 0.9072
+Epoch 59/200
+390/390 [==============================] - 0s 410us/sample - loss: 0.4018 - categorical_accuracy: 0.9692 - val_loss: 0.7837 - val_categorical_accuracy: 0.9072
+[Scratch Fold 4/5] macroF1=0.834 | wF1=0.905 | acc=0.907 | fit 11.08s | infer 0.32s
+Fold 5 Train {'age': 16, 'case_status': 18, 'contact_setting': 10, 'date': 87, 'gender': 16, 'id': 31, 'location': 40, 'medical_boolean': 142, 'occupation': 8, 'outcome': 15, 'symptoms': 7}
+Fold 5 Val {'age': 4, 'case_status': 5, 'contact_setting': 2, 'date': 22, 'gender': 4, 'id': 7, 'location': 10, 'medical_boolean': 35, 'occupation': 2, 'outcome': 4, 'symptoms': 2}
+Train on 390 samples, validate on 97 samples
+Epoch 1/200
+390/390 [==============================] - 1s 2ms/sample - loss: 2.6264 - categorical_accuracy: 0.2487 - val_loss: 2.5052 - val_categorical_accuracy: 0.4124
+Epoch 2/200
+390/390 [==============================] - 0s 409us/sample - loss: 1.8815 - categorical_accuracy: 0.6026 - val_loss: 2.4399 - val_categorical_accuracy: 0.2062
+Epoch 3/200
+390/390 [==============================] - 0s 419us/sample - loss: 1.6516 - categorical_accuracy: 0.6359 - val_loss: 2.4227 - val_categorical_accuracy: 0.1753
+Epoch 4/200
+390/390 [==============================] - 0s 417us/sample - loss: 1.3771 - categorical_accuracy: 0.6897 - val_loss: 2.3708 - val_categorical_accuracy: 0.2577
+Epoch 5/200
+390/390 [==============================] - 0s 439us/sample - loss: 1.3016 - categorical_accuracy: 0.7179 - val_loss: 2.3087 - val_categorical_accuracy: 0.2887
+Epoch 6/200
+390/390 [==============================] - 0s 447us/sample - loss: 1.1410 - categorical_accuracy: 0.7692 - val_loss: 2.2273 - val_categorical_accuracy: 0.5876
+Epoch 7/200
+390/390 [==============================] - 0s 432us/sample - loss: 1.0775 - categorical_accuracy: 0.7692 - val_loss: 2.1384 - val_categorical_accuracy: 0.7113
+Epoch 8/200
+390/390 [==============================] - 0s 438us/sample - loss: 0.9890 - categorical_accuracy: 0.8077 - val_loss: 2.0007 - val_categorical_accuracy: 0.7629
+Epoch 9/200
+390/390 [==============================] - 0s 406us/sample - loss: 0.9383 - categorical_accuracy: 0.8333 - val_loss: 1.8633 - val_categorical_accuracy: 0.7526
+Epoch 10/200
+390/390 [==============================] - 0s 414us/sample - loss: 0.8807 - categorical_accuracy: 0.8385 - val_loss: 1.7292 - val_categorical_accuracy: 0.7526
+Epoch 11/200
+390/390 [==============================] - 0s 431us/sample - loss: 0.8400 - categorical_accuracy: 0.8462 - val_loss: 1.6052 - val_categorical_accuracy: 0.7732
+Epoch 12/200
+390/390 [==============================] - 0s 416us/sample - loss: 0.8352 - categorical_accuracy: 0.8436 - val_loss: 1.4650 - val_categorical_accuracy: 0.7732
+Epoch 13/200
+390/390 [==============================] - 0s 421us/sample - loss: 0.8103 - categorical_accuracy: 0.8462 - val_loss: 1.3257 - val_categorical_accuracy: 0.7732
+Epoch 14/200
+390/390 [==============================] - 0s 437us/sample - loss: 0.7512 - categorical_accuracy: 0.8667 - val_loss: 1.2139 - val_categorical_accuracy: 0.8041
+Epoch 15/200
+390/390 [==============================] - 0s 403us/sample - loss: 0.6991 - categorical_accuracy: 0.8821 - val_loss: 1.1215 - val_categorical_accuracy: 0.7732
+Epoch 16/200
+390/390 [==============================] - 0s 409us/sample - loss: 0.6963 - categorical_accuracy: 0.8872 - val_loss: 1.0315 - val_categorical_accuracy: 0.8041
+Epoch 17/200
+390/390 [==============================] - 0s 410us/sample - loss: 0.6699 - categorical_accuracy: 0.8949 - val_loss: 0.9624 - val_categorical_accuracy: 0.8041
+Epoch 18/200
+390/390 [==============================] - 0s 420us/sample - loss: 0.6618 - categorical_accuracy: 0.8923 - val_loss: 0.9239 - val_categorical_accuracy: 0.8041
+Epoch 19/200
+390/390 [==============================] - 0s 423us/sample - loss: 0.6408 - categorical_accuracy: 0.9128 - val_loss: 0.8908 - val_categorical_accuracy: 0.8144
+Epoch 20/200
+390/390 [==============================] - 0s 426us/sample - loss: 0.5879 - categorical_accuracy: 0.9179 - val_loss: 0.8575 - val_categorical_accuracy: 0.8041
+Epoch 21/200
+390/390 [==============================] - 0s 409us/sample - loss: 0.5886 - categorical_accuracy: 0.9154 - val_loss: 0.8218 - val_categorical_accuracy: 0.8247
+Epoch 22/200
+390/390 [==============================] - 0s 403us/sample - loss: 0.6089 - categorical_accuracy: 0.9077 - val_loss: 0.7852 - val_categorical_accuracy: 0.8247
+Epoch 23/200
+390/390 [==============================] - 0s 398us/sample - loss: 0.5851 - categorical_accuracy: 0.9205 - val_loss: 0.7643 - val_categorical_accuracy: 0.8763
+Epoch 24/200
+390/390 [==============================] - 0s 382us/sample - loss: 0.5778 - categorical_accuracy: 0.9128 - val_loss: 0.7489 - val_categorical_accuracy: 0.8763
+Epoch 25/200
+390/390 [==============================] - 0s 416us/sample - loss: 0.5582 - categorical_accuracy: 0.9179 - val_loss: 0.7374 - val_categorical_accuracy: 0.8866
+Epoch 26/200
+390/390 [==============================] - 0s 420us/sample - loss: 0.5647 - categorical_accuracy: 0.9282 - val_loss: 0.7213 - val_categorical_accuracy: 0.8866
+Epoch 27/200
+390/390 [==============================] - 0s 420us/sample - loss: 0.5713 - categorical_accuracy: 0.9026 - val_loss: 0.7240 - val_categorical_accuracy: 0.8866
+Epoch 28/200
+390/390 [==============================] - 0s 449us/sample - loss: 0.5150 - categorical_accuracy: 0.9410 - val_loss: 0.7245 - val_categorical_accuracy: 0.8866
+Epoch 29/200
+390/390 [==============================] - 0s 423us/sample - loss: 0.5283 - categorical_accuracy: 0.9333 - val_loss: 0.7217 - val_categorical_accuracy: 0.8866
+Epoch 30/200
+390/390 [==============================] - 0s 385us/sample - loss: 0.5245 - categorical_accuracy: 0.9231 - val_loss: 0.7187 - val_categorical_accuracy: 0.8866
+Epoch 31/200
+390/390 [==============================] - 0s 426us/sample - loss: 0.5285 - categorical_accuracy: 0.9282 - val_loss: 0.7102 - val_categorical_accuracy: 0.8969
+Epoch 32/200
+390/390 [==============================] - 0s 433us/sample - loss: 0.4774 - categorical_accuracy: 0.9590 - val_loss: 0.7193 - val_categorical_accuracy: 0.8969
+Epoch 33/200
+390/390 [==============================] - 0s 424us/sample - loss: 0.4870 - categorical_accuracy: 0.9436 - val_loss: 0.7122 - val_categorical_accuracy: 0.8969
+Epoch 34/200
+390/390 [==============================] - 0s 433us/sample - loss: 0.4652 - categorical_accuracy: 0.9641 - val_loss: 0.7072 - val_categorical_accuracy: 0.8969
+Epoch 35/200
+390/390 [==============================] - 0s 445us/sample - loss: 0.4994 - categorical_accuracy: 0.9436 - val_loss: 0.7104 - val_categorical_accuracy: 0.8969
+Epoch 36/200
+390/390 [==============================] - 0s 449us/sample - loss: 0.5107 - categorical_accuracy: 0.9385 - val_loss: 0.7223 - val_categorical_accuracy: 0.8969
+Epoch 37/200
+390/390 [==============================] - 0s 454us/sample - loss: 0.4924 - categorical_accuracy: 0.9462 - val_loss: 0.7115 - val_categorical_accuracy: 0.8969
+Epoch 38/200
+390/390 [==============================] - 0s 478us/sample - loss: 0.5000 - categorical_accuracy: 0.9410 - val_loss: 0.7132 - val_categorical_accuracy: 0.8866
+Epoch 39/200
+390/390 [==============================] - 0s 469us/sample - loss: 0.4794 - categorical_accuracy: 0.9538 - val_loss: 0.7326 - val_categorical_accuracy: 0.8763
+Epoch 40/200
+390/390 [==============================] - 0s 487us/sample - loss: 0.4749 - categorical_accuracy: 0.9487 - val_loss: 0.7373 - val_categorical_accuracy: 0.8866
+Epoch 41/200
+390/390 [==============================] - 0s 488us/sample - loss: 0.4738 - categorical_accuracy: 0.9359 - val_loss: 0.7438 - val_categorical_accuracy: 0.8866
+Epoch 42/200
+390/390 [==============================] - 0s 444us/sample - loss: 0.4467 - categorical_accuracy: 0.9590 - val_loss: 0.7369 - val_categorical_accuracy: 0.8866
+Epoch 43/200
+390/390 [==============================] - 0s 399us/sample - loss: 0.4294 - categorical_accuracy: 0.9615 - val_loss: 0.7491 - val_categorical_accuracy: 0.8866
+Epoch 44/200
+390/390 [==============================] - 0s 431us/sample - loss: 0.4543 - categorical_accuracy: 0.9615 - val_loss: 0.7653 - val_categorical_accuracy: 0.8969
+Epoch 45/200
+390/390 [==============================] - 0s 452us/sample - loss: 0.4480 - categorical_accuracy: 0.9410 - val_loss: 0.7626 - val_categorical_accuracy: 0.8866
+Epoch 46/200
+390/390 [==============================] - 0s 425us/sample - loss: 0.4423 - categorical_accuracy: 0.9564 - val_loss: 0.7500 - val_categorical_accuracy: 0.8866
+Epoch 47/200
+390/390 [==============================] - 0s 407us/sample - loss: 0.4362 - categorical_accuracy: 0.9462 - val_loss: 0.7628 - val_categorical_accuracy: 0.8866
+Epoch 48/200
+390/390 [==============================] - 0s 427us/sample - loss: 0.4451 - categorical_accuracy: 0.9538 - val_loss: 0.7676 - val_categorical_accuracy: 0.8866
+Epoch 49/200
+390/390 [==============================] - 0s 409us/sample - loss: 0.4373 - categorical_accuracy: 0.9692 - val_loss: 0.7699 - val_categorical_accuracy: 0.8866
+Epoch 50/200
+390/390 [==============================] - 0s 380us/sample - loss: 0.4204 - categorical_accuracy: 0.9564 - val_loss: 0.7802 - val_categorical_accuracy: 0.8866
+Epoch 51/200
+390/390 [==============================] - 0s 284us/sample - loss: 0.4599 - categorical_accuracy: 0.9462 - val_loss: 0.7834 - val_categorical_accuracy: 0.8866
+Epoch 52/200
+390/390 [==============================] - 0s 386us/sample - loss: 0.4098 - categorical_accuracy: 0.9615 - val_loss: 0.7717 - val_categorical_accuracy: 0.8866
+Epoch 53/200
+390/390 [==============================] - 0s 417us/sample - loss: 0.4111 - categorical_accuracy: 0.9615 - val_loss: 0.7707 - val_categorical_accuracy: 0.8866
+Epoch 54/200
+390/390 [==============================] - 0s 416us/sample - loss: 0.4004 - categorical_accuracy: 0.9744 - val_loss: 0.7732 - val_categorical_accuracy: 0.8866
+[Scratch Fold 5/5] macroF1=0.726 | wF1=0.879 | acc=0.887 | fit 11.06s | infer 0.37s
+
+[Sherlock Scratch | 5-fold CV on 80%]
+macro-F1    : 0.761 ± 0.076
+weighted-F1 : 0.883 ± 0.023
+accuracy    : 0.889 ± 0.018
+fit_time(s) : 12.228 ± 2.341 | infer_time(s): 0.253 ± 0.092
+Training scratch wrapper on full 80% (with 10% internal val)...
+Train on 438 samples, validate on 49 samples
+Epoch 1/200
+438/438 [==============================] - 1s 2ms/sample - loss: 2.6502 - categorical_accuracy: 0.2785 - val_loss: 2.5646 - val_categorical_accuracy: 0.1429
+Epoch 2/200
+438/438 [==============================] - 0s 365us/sample - loss: 1.8323 - categorical_accuracy: 0.6187 - val_loss: 2.4403 - val_categorical_accuracy: 0.1429
+Epoch 3/200
+438/438 [==============================] - 0s 362us/sample - loss: 1.4960 - categorical_accuracy: 0.6895 - val_loss: 2.4108 - val_categorical_accuracy: 0.1429
+Epoch 4/200
+438/438 [==============================] - 0s 362us/sample - loss: 1.2988 - categorical_accuracy: 0.7215 - val_loss: 2.3371 - val_categorical_accuracy: 0.2245
+Epoch 5/200
+438/438 [==============================] - 0s 382us/sample - loss: 1.1832 - categorical_accuracy: 0.7580 - val_loss: 2.2700 - val_categorical_accuracy: 0.3265
+Epoch 6/200
+438/438 [==============================] - 0s 393us/sample - loss: 1.0615 - categorical_accuracy: 0.7877 - val_loss: 2.1727 - val_categorical_accuracy: 0.4082
+Epoch 7/200
+438/438 [==============================] - 0s 371us/sample - loss: 1.0085 - categorical_accuracy: 0.7854 - val_loss: 2.0544 - val_categorical_accuracy: 0.5918
+Epoch 8/200
+438/438 [==============================] - 0s 383us/sample - loss: 0.9357 - categorical_accuracy: 0.7991 - val_loss: 1.9144 - val_categorical_accuracy: 0.7551
+Epoch 9/200
+438/438 [==============================] - 0s 397us/sample - loss: 0.8822 - categorical_accuracy: 0.8288 - val_loss: 1.8020 - val_categorical_accuracy: 0.7755
+Epoch 10/200
+438/438 [==============================] - 0s 372us/sample - loss: 0.8533 - categorical_accuracy: 0.8493 - val_loss: 1.6540 - val_categorical_accuracy: 0.7755
+Epoch 11/200
+438/438 [==============================] - 0s 357us/sample - loss: 0.8044 - categorical_accuracy: 0.8356 - val_loss: 1.5161 - val_categorical_accuracy: 0.7755
+Epoch 12/200
+438/438 [==============================] - 0s 391us/sample - loss: 0.7445 - categorical_accuracy: 0.8676 - val_loss: 1.3732 - val_categorical_accuracy: 0.7959
+Epoch 13/200
+438/438 [==============================] - 0s 366us/sample - loss: 0.7215 - categorical_accuracy: 0.8767 - val_loss: 1.2719 - val_categorical_accuracy: 0.7959
+Epoch 14/200
+438/438 [==============================] - 0s 313us/sample - loss: 0.6742 - categorical_accuracy: 0.8950 - val_loss: 1.1361 - val_categorical_accuracy: 0.7959
+Epoch 15/200
+438/438 [==============================] - 0s 359us/sample - loss: 0.6981 - categorical_accuracy: 0.8653 - val_loss: 1.0516 - val_categorical_accuracy: 0.8163
+Epoch 16/200
+438/438 [==============================] - 0s 374us/sample - loss: 0.6509 - categorical_accuracy: 0.9064 - val_loss: 0.9868 - val_categorical_accuracy: 0.8163
+Epoch 17/200
+438/438 [==============================] - 0s 371us/sample - loss: 0.6375 - categorical_accuracy: 0.9110 - val_loss: 0.9083 - val_categorical_accuracy: 0.8367
+Epoch 18/200
+438/438 [==============================] - 0s 383us/sample - loss: 0.5913 - categorical_accuracy: 0.9155 - val_loss: 0.8642 - val_categorical_accuracy: 0.8776
+Epoch 19/200
+438/438 [==============================] - 0s 430us/sample - loss: 0.5952 - categorical_accuracy: 0.9064 - val_loss: 0.8169 - val_categorical_accuracy: 0.8776
+Epoch 20/200
+438/438 [==============================] - 0s 385us/sample - loss: 0.5500 - categorical_accuracy: 0.9338 - val_loss: 0.7766 - val_categorical_accuracy: 0.8776
+Epoch 21/200
+438/438 [==============================] - 0s 384us/sample - loss: 0.5852 - categorical_accuracy: 0.9178 - val_loss: 0.7459 - val_categorical_accuracy: 0.8776
+Epoch 22/200
+438/438 [==============================] - 0s 389us/sample - loss: 0.5307 - categorical_accuracy: 0.9315 - val_loss: 0.7313 - val_categorical_accuracy: 0.8980
+Epoch 23/200
+438/438 [==============================] - 0s 390us/sample - loss: 0.5295 - categorical_accuracy: 0.9269 - val_loss: 0.6990 - val_categorical_accuracy: 0.8980
+Epoch 24/200
+438/438 [==============================] - 0s 399us/sample - loss: 0.5215 - categorical_accuracy: 0.9338 - val_loss: 0.6746 - val_categorical_accuracy: 0.9184
+Epoch 25/200
+438/438 [==============================] - 0s 414us/sample - loss: 0.5049 - categorical_accuracy: 0.9361 - val_loss: 0.6666 - val_categorical_accuracy: 0.9184
+Epoch 26/200
+438/438 [==============================] - 0s 446us/sample - loss: 0.5150 - categorical_accuracy: 0.9498 - val_loss: 0.6664 - val_categorical_accuracy: 0.8980
+Epoch 27/200
+438/438 [==============================] - 0s 419us/sample - loss: 0.5237 - categorical_accuracy: 0.9361 - val_loss: 0.6517 - val_categorical_accuracy: 0.9184
+Epoch 28/200
+438/438 [==============================] - 0s 373us/sample - loss: 0.5085 - categorical_accuracy: 0.9315 - val_loss: 0.6427 - val_categorical_accuracy: 0.9184
+Epoch 29/200
+438/438 [==============================] - 0s 385us/sample - loss: 0.4784 - categorical_accuracy: 0.9384 - val_loss: 0.6315 - val_categorical_accuracy: 0.9184
+Epoch 30/200
+438/438 [==============================] - 0s 387us/sample - loss: 0.4969 - categorical_accuracy: 0.9429 - val_loss: 0.6313 - val_categorical_accuracy: 0.9184
+Epoch 31/200
+438/438 [==============================] - 0s 380us/sample - loss: 0.5075 - categorical_accuracy: 0.9361 - val_loss: 0.6332 - val_categorical_accuracy: 0.9184
+Epoch 32/200
+438/438 [==============================] - 0s 402us/sample - loss: 0.4724 - categorical_accuracy: 0.9475 - val_loss: 0.6155 - val_categorical_accuracy: 0.9184
+Epoch 33/200
+438/438 [==============================] - 0s 383us/sample - loss: 0.5302 - categorical_accuracy: 0.9315 - val_loss: 0.6133 - val_categorical_accuracy: 0.9184
+Epoch 34/200
+438/438 [==============================] - 0s 380us/sample - loss: 0.4777 - categorical_accuracy: 0.9543 - val_loss: 0.6176 - val_categorical_accuracy: 0.9184
+Epoch 35/200
+438/438 [==============================] - 0s 394us/sample - loss: 0.4867 - categorical_accuracy: 0.9475 - val_loss: 0.6264 - val_categorical_accuracy: 0.9184
+Epoch 36/200
+438/438 [==============================] - 0s 386us/sample - loss: 0.4621 - categorical_accuracy: 0.9521 - val_loss: 0.6329 - val_categorical_accuracy: 0.9184
+Epoch 37/200
+438/438 [==============================] - 0s 418us/sample - loss: 0.4517 - categorical_accuracy: 0.9475 - val_loss: 0.6360 - val_categorical_accuracy: 0.9184
+Epoch 38/200
+438/438 [==============================] - 0s 397us/sample - loss: 0.4347 - categorical_accuracy: 0.9635 - val_loss: 0.6346 - val_categorical_accuracy: 0.8980
+Epoch 39/200
+438/438 [==============================] - 0s 411us/sample - loss: 0.4320 - categorical_accuracy: 0.9521 - val_loss: 0.6426 - val_categorical_accuracy: 0.8980
+Epoch 40/200
+438/438 [==============================] - 0s 408us/sample - loss: 0.4429 - categorical_accuracy: 0.9658 - val_loss: 0.6566 - val_categorical_accuracy: 0.8776
+Epoch 41/200
+438/438 [==============================] - 0s 387us/sample - loss: 0.4409 - categorical_accuracy: 0.9521 - val_loss: 0.6648 - val_categorical_accuracy: 0.8776
+Epoch 42/200
+438/438 [==============================] - 0s 359us/sample - loss: 0.4590 - categorical_accuracy: 0.9498 - val_loss: 0.6684 - val_categorical_accuracy: 0.8776
+Epoch 43/200
+438/438 [==============================] - 0s 279us/sample - loss: 0.4513 - categorical_accuracy: 0.9566 - val_loss: 0.7007 - val_categorical_accuracy: 0.8776
+Epoch 44/200
+438/438 [==============================] - 0s 352us/sample - loss: 0.4339 - categorical_accuracy: 0.9635 - val_loss: 0.6975 - val_categorical_accuracy: 0.8776
+Epoch 45/200
+438/438 [==============================] - 0s 367us/sample - loss: 0.4394 - categorical_accuracy: 0.9566 - val_loss: 0.6956 - val_categorical_accuracy: 0.8776
+Epoch 46/200
+438/438 [==============================] - 0s 372us/sample - loss: 0.4288 - categorical_accuracy: 0.9589 - val_loss: 0.6958 - val_categorical_accuracy: 0.8776
+Epoch 47/200
+438/438 [==============================] - 0s 385us/sample - loss: 0.4278 - categorical_accuracy: 0.9612 - val_loss: 0.6971 - val_categorical_accuracy: 0.8776
+Epoch 48/200
+438/438 [==============================] - 0s 396us/sample - loss: 0.4148 - categorical_accuracy: 0.9703 - val_loss: 0.7109 - val_categorical_accuracy: 0.8776
+Epoch 49/200
+438/438 [==============================] - 0s 386us/sample - loss: 0.4125 - categorical_accuracy: 0.9635 - val_loss: 0.7416 - val_categorical_accuracy: 0.8776
+Epoch 50/200
+438/438 [==============================] - 0s 401us/sample - loss: 0.4407 - categorical_accuracy: 0.9521 - val_loss: 0.7749 - val_categorical_accuracy: 0.8776
+Epoch 51/200
+438/438 [==============================] - 0s 387us/sample - loss: 0.4086 - categorical_accuracy: 0.9703 - val_loss: 0.7770 - val_categorical_accuracy: 0.8776
+Epoch 52/200
+438/438 [==============================] - 0s 377us/sample - loss: 0.4162 - categorical_accuracy: 0.9612 - val_loss: 0.7972 - val_categorical_accuracy: 0.8776
+Epoch 53/200
+438/438 [==============================] - 0s 380us/sample - loss: 0.3967 - categorical_accuracy: 0.9612 - val_loss: 0.8060 - val_categorical_accuracy: 0.8776
+[Scratch | Holdout 20% test] Inference completed in 0.45s
+/home/omadbek/.conda/envs/sherlock/lib/python3.7/site-packages/sklearn/metrics/_classification.py:1248: UndefinedMetricWarning: Precision and F-score are ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+/home/omadbek/.conda/envs/sherlock/lib/python3.7/site-packages/sklearn/metrics/_classification.py:1248: UndefinedMetricWarning: Precision and F-score are ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+/home/omadbek/.conda/envs/sherlock/lib/python3.7/site-packages/sklearn/metrics/_classification.py:1248: UndefinedMetricWarning: Precision and F-score are ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+                 precision    recall  f1-score   support
+
+            age      1.000     1.000     1.000         3
+    case_status      1.000     0.500     0.667         2
+contact_setting      0.333     1.000     0.500         1
+           date      1.000     1.000     1.000        12
+         gender      1.000     1.000     1.000         2
+             id      1.000     0.600     0.750         5
+       location      0.714     0.833     0.769         6
+medical_boolean      1.000     0.950     0.974        20
+     occupation      0.000     0.000     0.000         1
+        outcome      0.667     1.000     0.800         2
+       symptoms      0.000     0.000     0.000         1
+
+       accuracy                          0.873        55
+      macro avg      0.701     0.717     0.678        55
+   weighted avg      0.908     0.873     0.878        55
+
+Confusion matrix shape: (11, 11)
+
+Sample-level Input vs Predicted:
+INPUT: benv-21955-ben-337,benv-22716-ben-965,benv-22146-ben-503,benv-21955-ben-340,benv-22146-ben-502,benv-22076-ben-430,benv-21933-ben-383,benv-21508-ben-1000,benv-22135-ben-201,benv-21955-ben-410,benv-21927-ben-18,benv-22716-ben-913,benv-22146-ben-533,benv-21955-ben-123,benv-21955-ben-102,benv-21955-ben-99,benv-21933-ben-274,benv-22076-ben-448,benv-21955-ben-103,benv-22354-ben-674,benv-21956-ben-36,benv-22146-ben-570,benv-22146-ben-624,benv-22716-ben-920,benv-21955-ben-795,benv-21927-ben-17,benv-21841-ben-10,benv-22146-ben-574,benv-22076-ben-431,benv-21955-ben-53,benv-21955-ben-403,benv-21955-ben-111,benv-22146-ben-652,benv-22135-ben-215,benv-21955-ben-327,benv-22076-ben-423,benv-22076-ben-994,benv-22465-ben-862,benv-22135-ben-190,benv-22146-ben-837,benv-21955-ben-147,benv-22146-ben-568,benv-21933-ben-266,benv-21841-ben-11,benv-22135-ben-198,benv-21955-ben-313,benv-21955-ben-784,benv-22146-ben-566,benv-21933-ben-384,benv-21933-ben-222,benv-21933-ben-765,benv-22716-ben-984,benv-21955-ben-144,benv-21955-ben-72,benv-22146-ben-594,benv-21955-ben-326,benv-21933-ben-287,benv-22455-ben-870,benv-22431-ben-903,benv-22146-ben-619,benv-22354-ben-675,benv-21955-ben-119,benv-21841-ben-6,benv-21955-ben-306,benv-22455-ben-874,benv-22135-ben-185,benv-21933-ben-395,benv-22146-ben-513,benv-21956-ben-27,benv-21933-ben-390,benv-22146-ben-851,benv-22135-ben-218,benv-22455-ben-884,benv-21933-ben-276,benv-21955-ben-400,benv-21955-ben-139,benv-21933-ben-763,benv-21955-ben-95,benv-21933-ben-286,benv-22146-ben-585,benv-22355-ben-741,benv-22355-ben-705,benv-21955-ben-76,benv-22076-ben-449,benv-22355-ben-731,benv-22135-ben-897,benv-22135-ben-895,benv-22146-ben-580,benv-22135-ben-998,benv-22135-ben-359,benv-22716-ben-969,benv-22716-ben-963,benv-22146-ben-598,benv-22146-ben-511,benv-22146-ben-601,benv-22146-ben-553,benv-22146-ben-499,benv-21956-ben-25,benv-22146-ben-572,benv-22455-ben-872,benv-21933-ben-288,benv-22716-ben-958,benv-22076-ben-987,benv-21955-ben-86,benv-22355-ben-727,benv-22354-ben-666,benv-22354-ben-693,benv-21955-ben-342,benv-21933-ben-229,benv-21955-ben-350,benv-22076-ben-478,benv-22455-ben-875,benv-22716-ben-983,benv-22146-ben-610,benv-21933-ben-257,benv-21955-ben-101,benv-22354-ben-671,benv-22354-ben-664,benv-22716-ben-981,benv-22146-ben-810,benv-22146-ben-596,benv-22146-ben-541,benv-21955-ben-67,benv-22076-ben-421,benv-22146-ben-569,benv-21955-ben-328,benv-21955-ben-329,benv-22135-ben-192,benv-21955-ben-57,benv-21955-ben-790,benv-22076-ben-467,benv-22455-ben-882,benv-22716-ben-971,benv-21955-ben-138,benv-21933-ben-267,benv-21955-ben-51,benv-22146-ben-811,benv-22716-ben-908,benv-22135-ben-888,benv-22135-ben-158,benv-22146-ben-822,benv-21955-ben-402,benv-22354-ben-686,benv-22146-ben-621,benv-22146-ben-517,benv-21933-ben-247,benv-22076-ben-453,benv-22146-ben-620,benv-22146-ben-843,benv-22146-ben-565,benv-21955-ben-83,benv-21841-ben-3,benv-21841-ben-9,benv-21956-ben-28,benv-21955-ben-405,benv-22076-ben-488,benv-22146-ben-850,benv-21933-ben-273,benv-22716-ben-936,benv-22716-ben-914,benv-21955-ben-75,benv-22355-ben-736,benv-22716-ben-918,benv-21933-ben-265,benv-21955-ben-344,benv-21955-ben-84,benv-21933-ben-303,benv-21933-ben-262,benv-22146-ben-524,benv-21955-ben-69,benv-21956-ben-39,benv-22355-ben-712,benv-21956-ben-21,benv-18573-ben-1,benv-22354-ben-690,benv-21955-ben-143,benv-22135-ben-360,benv-21955-ben-62,benv-21955-ben-800,benv-21955-ben-782,benv-22146-ben-814,benv-22135-ben-161,benv-22076-ben-426,benv-22146-ben-633,benv-22135-ben-375,benv-22354-ben-655,benv-21955-ben-778,benv-22146-ben-605,benv-22076-ben-451,benv-21933-ben-394,benv-21955-ben-791,benv-22146-ben-495,benv-21956-ben-45,benv-21955-ben-60,benv-21955-ben-773,benv-21955-ben-105,benv-21933-ben-767,benv-22076-ben-461,benv-21955-ben-806,benv-21955-ben-797,benv-21933-ben-244,benv-21933-ben-235,benv-22431-ben-902,benv-21933-ben-768,benv-22135-ben-180,benv-22146-ben-836,benv-22076-ben-442,benv-22146-ben-528,benv-22354-ben-661,benv-22146-ben-575,benv-21955-ben-114,benv-22076-ben-422,benv-22076-ben-416,benv-22443-ben-746,benv-22716-ben-937,benv-21933-ben-228,benv-22716-ben-953,benv-22146-ben-818,benv-22135-ben-206,benv-22135-ben-203,benv-22135-ben-171,benv-21933-ben-385,benv-21955-ben-409,benv-21955-ben-396,benv-21933-ben-260,benv-21933-ben-226,benv-22076-ben-425,benv-21841-ben-5,benv-21933-ben-389,benv-22716-ben-923,benv-22146-ben-609,benv-22355-ben-737,benv-21955-ben-352,benv-21955-ben-109,benv-21955-ben-58,benv-22716-ben-938,benv-22076-ben-460,benv-22146-ben-650,benv-22716-ben-926,benv-22716-ben-909,benv-22716-ben-961,benv-22465-ben-860,benv-22076-ben-885,benv-21955-ben-779,benv-21956-ben-20,benv-22355-ben-728,benv-21955-ben-786,benv-21933-ben-380,benv-22146-ben-646,benv-22716-ben-932,benv-22135-ben-356,benv-21933-ben-245,benv-21955-ben-354,benv-21955-ben-91,benv-22354-ben-656,benv-21933-ben-281,benv-21955-ben-397,benv-22146-ben-599,benv-22146-ben-514,benv-22076-ben-470,benv-22146-ben-529,benv-22076-ben-476,benv-22146-ben-516,benv-21955-ben-772,benv-22354-ben-700,benv-22354-ben-688,benv-22354-ben-695,benv-21933-ben-264,benv-22146-ben-812,benv-22146-ben-588,benv-22355-ben-742,benv-22355-ben-718,benv-22716-ben-928,benv-21955-ben-794,benv-22135-ben-368,benv-22135-ben-182,benv-21955-ben-318,benv-21933-ben-379,benv-22146-ben-559,benv-22354-ben-670,benv-22076-ben-463,benv-22146-ben-636,benv-22076-ben-419,benv-21933-ben-232,benv-22354-ben-691,benv-21955-ben-788,benv-21955-ben-339,benv-21933-ben-223,benv-22135-ben-167,benv-21933-ben-285,benv-22135-ben-164,benv-22135-ben-373,benv-22146-ben-823,benv-22354-ben-665,benv-21955-ben-121,benv-21933-ben-246,benv-22146-ben-625,benv-21841-ben-8,benv-21955-ben-136,benv-22146-ben-817,benv-22355-ben-716,benv-22146-ben-809,benv-22146-ben-525,benv-21955-ben-798,benv-22135-ben-358,benv-22146-ben-515,benv-22354-ben-659,benv-21955-ben-82,benv-21955-ben-324,benv-22355-ben-745,benv-21955-ben-115,benv-22146-ben-622,benv-21955-ben-64,benv-22146-ben-587,benv-22716-ben-949,benv-22146-ben-540,benv-21956-ben-22,benv-22443-ben-864,benv-22146-ben-505,benv-21955-ben-789,benv-22146-ben-643,benv-22465-ben-863,benv-22135-ben-154,benv-22076-ben-450,benv-21933-ben-391,benv-22076-ben-466,benv-21955-ben-100,benv-22716-ben-948,benv-22146-ben-819,benv-22076-ben-991,benv-22146-ben-555,benv-22146-ben-845,benv-21955-ben-407,benv-22355-ben-703,benv-22355-ben-713,benv-22146-ben-561,benv-22146-ben-544,benv-22355-ben-729,benv-21933-ben-764,benv-22135-ben-184,benv-22354-ben-687,benv-22135-ben-177,benv-22354-ben-668,benv-22146-ben-820,benv-22135-ben-176,benv-21841-ben-14,benv-21955-ben-781,benv-21955-ben-404,benv-22076-ben-474,benv-21933-ben-300,benv-22076-ben-477,benv-22135-ben-202,benv-21956-ben-37,benv-22135-ben-363,benv-22146-ben-558,benv-21955-ben-334,benv-22716-ben-968,benv-22076-ben-471,benv-22354-ben-681,benv-21956-ben-33,benv-22135-ben-364,benv-22135-ben-493,benv-21933-ben-279,benv-22146-ben-974,benv-22355-ben-715,benv-22716-ben-907,benv-22135-ben-170,benv-22146-ben-649,benv-22146-ben-840,benv-22135-ben-212,benv-22443-ben-751,benv-22455-ben-866,benv-21956-ben-44,benv-22146-ben-627,benv-22146-ben-640,benv-21955-ben-89,benv-22354-ben-682,benv-21933-ben-270,benv-22076-ben-436,benv-21933-ben-240,benv-21955-ben-770,benv-22135-ben-209,benv-22716-ben-940,benv-21955-ben-347,benv-22076-ben-485,benv-21933-ben-758,benv-22135-ben-889,benv-22354-ben-676,benv-21955-ben-343,benv-21955-ben-141,benv-22146-ben-583,benv-22135-ben-175,benv-21933-ben-225,benv-22146-ben-496,benv-21955-ben-146,benv-21955-ben-124,benv-22455-ben-869,benv-22076-ben-886,benv-22146-ben-844,benv-21955-ben-317,benv-21955-ben-331,benv-22146-ben-616,benv-22716-ben-945,benv-21933-ben-298,benv-22716-ben-976,benv-21955-ben-355,benv-21933-ben-272,benv-21955-ben-112,benv-22146-ben-631,benv-21955-ben-345,benv-22076-ben-990,benv-21955-ben-415,benv-22146-ben-825,benv-22146-ben-581,benv-22716-ben-970,benv-21955-ben-412,benv-21955-ben-774,benv-22146-ben-508,benv-21955-ben-780,benv-22716-ben-910,benv-21956-ben-35,benv-21933-ben-252,benv-21933-ben-295,benv-21841-ben-13,benv-21933-ben-387,benv-22431-ben-901,benv-22076-ben-458,benv-22135-ben-357,benv-22465-ben-858,benv-22716-ben-930,benv-21955-ben-323,benv-22076-ben-420,benv-22146-ben-637,benv-21933-ben-258,benv-22076-ben-986,benv-21933-ben-237,benv-21956-ben-32,benv-21933-ben-291,benv-22146-ben-824,benv-22354-ben-684,benv-22146-ben-584,benv-22355-ben-724,benv-22146-ben-560,benv-22135-ben-372,benv-22716-ben-933,benv-22135-ben-894,benv-22076-ben-424,benv-22135-ben-178,benv-21933-ben-248,benv-22146-ben-593,benv-22355-ben-725,benv-22146-ben-579,benv-22146-ben-537,benv-22146-ben-606,benv-22146-ben-530,benv-22076-ben-439,benv-22146-ben-813,benv-22146-ben-626,benv-21933-ben-284,benv-22146-ben-838,benv-22355-ben-733,benv-22146-ben-518,benv-22716-ben-924,benv-21955-ben-319,benv-22146-ben-604,benv-22716-ben-977,benv-22455-ben-883,benv-22135-ben-376,benv-21956-ben-24,benv-22146-ben-531,benv-22076-ben-462,benv-22076-ben-438,benv-21955-ben-98,benv-21955-ben-59,benv-22146-ben-500,benv-22354-ben-697,benv-22431-ben-905,benv-21956-ben-46,benv-21933-ben-251,benv-22146-ben-526,benv-22455-ben-879,benv-22355-ben-726,benv-22455-ben-865,benv-22302-ben-150,benv-22146-ben-586,benv-22146-ben-498,benv-22355-ben-711,benv-22354-ben-683,benv-22135-ben-220,benv-22355-ben-701,benv-22355-ben-740,benv-21933-ben-296,benv-22354-ben-679,benv-21933-ben-239,benv-22146-ben-592,benv-22076-ben-993,benv-21955-ben-140,benv-22355-ben-706,benv-21933-ben-269,benv-22146-ben-618,benv-21956-ben-31,benv-21841-ben-2,benv-21955-ben-87,benv-22135-ben-214,benv-22146-ben-557,benv-22135-ben-997,benv-21933-ben-754,benv-22146-ben-846,benv-22135-ben-208,benv-21933-ben-290,benv-22135-ben-172,benv-22076-ben-479,benv-22135-ben-890,benv-21933-ben-293,benv-22076-ben-483,benv-22146-ben-578,benv-22135-ben-186,benv-21955-ben-104,benv-22146-ben-563,benv-22135-ben-199,benv-21955-ben-88,benv-22355-ben-738,benv-22355-ben-732,benv-22355-ben-734,benv-22135-ben-168,benv-22431-ben-906,benv-22355-ben-702,benv-21955-ben-401,benv-22302-ben-151,benv-22076-ben-456,benv-22146-ben-642,benv-22076-ben-429,benv-22455-ben-867,benv-22146-ben-603,benv-22354-ben-677,benv-22146-ben-521,benv-21955-ben-338,benv-22716-ben-917,benv-22465-ben-861,benv-21955-ben-120,benv-21933-ben-263,benv-22355-ben-739,benv-22465-ben-857,benv-22146-ben-645,benv-22135-ben-371,benv-21955-ben-771,benv-22135-ben-361,benv-22146-ben-651,benv-22302-ben-149,benv-22076-ben-432,benv-22716-ben-919,benv-22076-ben-444,benv-22135-ben-194,benv-22146-ben-826,benv-21955-ben-351,benv-22716-ben-944,benv-21955-ben-52,benv-22135-ben-362,benv-22146-ben-512,benv-22146-ben-634,benv-22135-ben-898,benv-22455-ben-871,benv-22146-ben-556,benv-22146-ben-577,benv-22716-ben-962,benv-22135-ben-152,benv-21955-ben-133,benv-21933-ben-283,benv-22135-ben-492,benv-22716-ben-927,benv-21933-ben-299,benv-21933-ben-289,benv-22146-ben-842,benv-22455-ben-881,benv-22146-ben-815,benv-21955-ben-775,benv-21955-ben-792,benv-22135-ben-163,benv-21955-ben-309,benv-21955-ben-353,benv-21955-ben-321,benv-22354-ben-698,benv-22146-ben-639,benv-22146-ben-527,benv-22146-ben-545,benv-21933-ben-241
+Predicted: id
+
+INPUT: no
+Predicted: medical_boolean
+
+INPUT: diednovhep,alive,stilltreatment
+Predicted: outcome
+
+INPUT: no,yes
+Predicted: medical_boolean
+
+INPUT: 2020-06-26,2020-07-01,2020-06-12,2020-06-04,2020-06-21,2020-06-01,2020-06-18,2020-07-18,2020-07-17,2020-07-25,2020-06-17,2020-06-22,2020-06-25,2020-07-19,2020-07-13,2020-07-14,2020-06-24,2020-07-27,2020-06-16,2020-07-16,2020-07-04,2020-07-07,2020-07-09,2020-06-02,2020-07-08,2020-06-08,2020-06-19,2020-06-28,2020-06-20,2020-07-12,2020-06-09,2020-07-03,2020-06-27,2020-07-10,2020-07-22,2020-07-20,2020-06-30,2020-06-15,2020-06-23,2020-07-23,2020-07-11,2020-06-29,2020-06-13,2020-07-05,2020-07-06,2020-07-21,2020-06-14,2020-07-02
+Predicted: date
+
+INPUT: 2022-04-08,2022-04-26,2022-04-20,2022-04-15,2022-05-15,2022-05-01,2022-04-10,2022-01-08,2022-04-27,2022-04-29,2022-04-13,2022-03-27,2022-05-12,2022-02-02,2022-03-18,2022-05-10,2022-04-03
+Predicted: date
+
+INPUT: 2022-05-31,2022-05-12,2022-05-09,2022-05-04
+Predicted: date
+
+INPUT: 2020-05-26,2020-07-07
+Predicted: date
+
+INPUT: non,oui
+Predicted: medical_boolean
+
+INPUT: 2019-09-26,2019-03-15,2019-09-12,2019-07-21,2018-10-17,2019-08-11,2019-07-29,2018-12-25,2019-06-15,2018-12-05,2019-02-09,2018-10-06,2019-05-18,2019-07-06,2019-07-15,2018-12-02,2019-05-16,2019-08-30,2019-08-15,2019-07-27,2019-04-17,2019-09-20,2019-08-17,2019-05-25,2018-11-29,2019-03-17,2018-11-19,2018-10-31,2019-08-10,2019-05-05,2019-07-20,2019-02-05,2019-02-01,2018-09-29,2018-11-27,2019-04-22,2019-08-05,2019-04-23,2019-07-26,2018-09-25,2019-04-06,2019-04-01,2018-10-27,2019-10-17,2018-10-25,2019-01-01,2019-06-30,2019-05-12,2019-06-11,2019-07-11,2019-04-02,2019-07-22,2019-09-17,2019-05-19,2018-08-07,2018-10-13,2018-07-12,2019-04-07,2019-05-26,2019-09-22,2019-04-05,2018-11-11,2019-02-08,2019-09-03,2018-08-30,2019-06-14,2019-06-09,2018-11-24,2018-08-10,2019-06-27,2019-04-04,2018-10-21,2019-06-02,2018-11-22,2019-06-05,2019-08-27,2019-03-08,2019-06-29,2019-08-18,2019-01-20,2019-04-30,2019-05-10,2019-07-05,2019-07-13,2019-09-30,2019-07-08,2019-03-05,2018-08-11,2018-10-08,2019-01-17,2019-07-03,2018-10-10,2019-10-02,2018-12-26,2018-12-06,2019-10-08,2019-06-18,2019-05-30,2019-05-01,2019-09-25,2019-04-14,2018-08-05,2019-01-25,2018-07-22,2019-09-07,2019-05-22,2019-03-29,2019-01-12,2018-07-29,2019-10-27,2019-09-18,2019-08-26,2019-02-06,2018-11-05,2019-06-22,2018-11-08,2018-09-08,2019-08-29,2018-12-15,2019-09-27,2019-07-19,2019-01-04,2018-10-14,2019-08-20,2019-02-07,2019-06-12,2019-09-05,2018-09-18,2018-11-16,2018-11-21,2019-01-19,2019-05-11,2019-09-13,2019-05-27,2018-09-02,2019-04-09,2019-09-10,2018-08-15,2018-10-30,2019-04-29,2019-05-13,2019-05-08,2019-02-21,2019-09-01,2018-09-11,2018-07-31,2018-10-28,2018-12-20,2019-03-13,2018-10-11,2019-01-02,2018-09-10,2019-03-04,2019-06-21,2018-10-24,2019-01-31,2019-06-04,2019-03-26,2018-08-06,2018-11-03,2018-08-09,2018-12-16,2019-06-13,2019-07-09,2019-01-16,2018-10-29,2018-09-16,2019-04-19,2018-11-20,2019-03-14,2019-08-08,2019-06-26,2019-01-18,2019-09-11,2018-12-03,2019-03-11,2019-07-04,2019-05-29,2019-02-24,2019-05-23,2018-10-03,2019-02-22,2018-09-23,2019-03-25,2019-10-19,2019-01-13,2019-07-28,2019-02-17,2018-12-12,2019-09-19,2018-10-18,2019-03-09,2018-11-13,2019-07-24,2019-07-14,2019-05-24,2018-08-01,2019-01-06,2019-06-20,2018-11-23,2019-08-03,2019-08-06,2019-02-16,2019-03-22,2019-04-26,2019-06-07,2019-03-24,2019-04-15,2019-03-12,2019-03-30,2019-10-10,2019-05-06,2018-12-24,2019-03-21,2019-06-08,2018-10-04,2018-10-23,2019-05-14,2019-06-01,2019-02-14,2019-05-21,2018-08-08,2018-08-02,2019-09-29,2019-10-03,2019-03-23,2018-08-12,2019-01-03,2019-08-28,2019-01-27,2019-01-26,2019-05-04,2018-10-15,2019-04-12,2019-06-28,2019-07-30,2018-10-01,2018-12-27,2018-09-09,2018-07-23,2018-11-15,2019-01-09,2019-07-16,2019-07-02,2018-11-26,2019-04-21,2019-09-28,2018-12-10,2018-12-29,2019-04-10,2018-12-14,2019-08-24,2019-02-20,2019-06-19,2019-10-01,2019-06-06,2019-08-21,2018-11-04,2019-07-10,2018-09-17,2018-09-13,2019-03-28,2018-11-01,2019-08-23,2019-06-03,2019-08-07,2018-09-20,2019-04-16,2019-07-01,2019-05-07,2018-11-17,2019-10-20,2019-04-25,2019-06-10,2019-02-02,2019-07-07,2018-12-01,2019-08-04,2019-03-20,2019-07-17,2019-02-27,2019-10-23,2019-04-27,2019-06-16,2018-10-02,2018-08-03,2018-10-22,2018-11-06,2019-10-22,2018-10-09,2019-07-18,2019-08-16,2018-08-13,2019-09-15,2019-02-25,2018-09-30,2019-05-20,2018-12-23,2019-09-04,2019-08-22,2019-06-24,2019-10-24,2019-08-09,2019-03-06,2019-08-14,2018-09-03,2018-10-19,2019-03-16,2019-02-04,2019-03-18,2019-01-29,2019-08-01,2019-09-21,2019-08-25,2019-04-08,2018-11-30,2018-11-14
+Predicted: date
+
+INPUT: cholera,nil
+Predicted: location
+
+INPUT: vivant,dcd
+Predicted: outcome
+
+INPUT: f,m
+Predicted: gender
+
+INPUT: no
+Predicted: medical_boolean
+
+INPUT: 2020-06-22,2020-06-20
+Predicted: date
+
+INPUT: yes,no
+Predicted: medical_boolean
+
+INPUT: g4lb0023,0bl5g006,0bg05l46,48g500lb,2l0b07g0,500lb0g0,bg900l50,02l04g2b,028bl06g,g200b2l9,09bl0g30,6g6006bl,g69l00b0,g04l023b,20lgb024,16b0l08g,0098glb4,7glb3000,00780bgl,l94g0b09,02b09g1l,06006lgb,2g0bl010,g40l0b83,40g00lb0,0500l5gb,g80b9l90,gb71007l,gl9600b6,01g0bl70,0g38lb00,bl0806g6,0gl52b07,0b110gl7,0g02l7b1,gl770b80,0b6l8g70,7b056g0l,g7l09b03,002gl6b8,0glb6003,0bg450l7,0l60bg53,l4b0820g,g30040lb,0lg00b85,0b9380gl,5b6l008g,2180g0bl,4b1gl900,0g976l0b,92g04bl0,0b0g27l4,60gl570b,004gbl86,6l20g0b0,9lg008b2,b00l5g39,7480glb0,bgl20051,88gb06l0,0g4b0l98,bl701g09,2080gl0b,750b10gl,l480b2g0,2g300lb7,07g0l13b,7b050l0g,4000lbg9,l77400gb,020g3bl0,g00l14b2,84l2b00g,30g3l10b,0l5760bg,g09b7l20,70l0bg90,lb009g05,b01l600g,19l060gb,308glb50,b07gl100,bg7003l2,l0081bg7,0bg0l741,311l0gb0,570b0g4l,0050lg8b,g06b170l,99l00bg6,0lb334g0,3b0gl910,0g00bl65,23glb060,030gl2b7,b1g0089l,6b0l90g4,46lb008g,7520g0lb,0l650bg9,g0352bl0,b39l8g00,g22b0l08,l00b6g40,47glb900,702l0g1b,8l09bg01,05l3g00b,190l0bg4,2g9l0b05,36l004bg,lb08012g,b60304lg,0b308g0l,bl02058g,l9g05b70,l5049g0b,0lg031b9,018l7b0g,37l0g9b0,5l73b0g0,0lg10b05,0905bl8g,b3g70l00,0g10l70b,lb0006g3,90b57gl0,06l10gb0,bg43060l,g7lb0550,1l00g80b,0l4g9b01,l0b0g731,6l00b76g,0b8l015g,41l0gb06,494l00gb,062lgb06,30g0b2l3,40bg0l48,lbg09360,0l4g9b09,bg003l40,809g3l0b,g210bl05,9l9002gb,l310bg50,lbg80057,8150b0gl,g9bl0028,80026gbl,93b05l0g,67005lbg,74b04l0g,801bgl80,0480l0gb,4l0g097b,088g10lb,9bg3l500,09b09gl0,210b0lg3,lb50g007,3l16bg00,g9l5050b,0l2g55b0,l10b00g2,l08gb140,8bgl0060,504bl5g0,l8gb2030,60b91gl0,3bl7700g,11l0g00b,00l502bg,9b30g0l2,077l00gb,gb5l0340,lb3200g8,6l0g0b65,0l09gb60,l009b6g2,5gb0702l,0b001gl2,b5gl0430,046g3bl0,2b0gl099,09b00l7g,b0044g0l,1l600gb3,06gb60l2,bl900g58,20lb880g,73bg0l04,404lb70g,0g10l7b8,lb455g00,0500b7gl,9l0gb036,6500glb2,9007lgb2,lbg30303,02bl020g,010g83bl,0g000lb8,b3l6g300,lg0302b6,58080blg,2gl4009b,0l89bg50,0b75l0g0,b0gl6801,l0608gb5,l6003gb3,500bgl06,9gl5020b,81g1lb00,1097lgb0,0l4903gb,glb10042,8gl0008b,037blg04,0l02g9b4,06gbl909,g03b83l0,0l22g0b7,g0045b2l,lb40610g,0bgl9707,5b500lg3,6l56b0g0,0bg30l80,0b8gl600,8630blg0,l081gb03,02l7b03g,6bg0l046,b50l3g40,96b4g00l,185g00lb,0lb0045g,0l950b1g,lg73b007,lb03602g,b0005gl9,l33b9g00,0g90lb34,b10lg604,0l870b8g,25006blg,0g0lb443,0b2g501l,gb00895l,bl50g030,lb01g900,09l9g08b,70glb089,400b8gl1,002bl50g,04g030lb,38bl01g0,bl00g565,0gl6b070,0100gbl8,48b30lg0,0b1l50g1,603b60lg,60g81b0l,0lb30g10,g7070lb6,gl00b160,bg030l48,30b0g86l,4007gl8b,blg00795,g270l02b,0b8g0l04,006g6bl0,0670g0bl,3041g0lb,l20g004b,0b0g556l,1b3l00g4,09bl70g0,g0b0l050,898g0lb0,2b0l80g0,100bgl75,b1gl6200,6010bl3g,0l0b406g,0bl0054g,bgl91000,g802l0b5,10g02l5b,7bgl0301,80b40gl0,400l00bg,81b0lg07,481lg00b,70bl08g6,54bg0l03,001g80bl,2lg05b02,l67400bg,3g3l00b6,2008bg3l,046l0gb0,90l78g0b,7g09l07b,g60702lb,b090gl40,3g10b00l,l07gb270,060l9bg0,20120bgl,0310lbg1,203l0g9b,9l0b05g1,b530l02g,077gl04b,00l688gb,b4gl6060,l0bg0789,b00g70l1,b0001l0g,00g6bl61,40b09g8l,gl067b09,0b071gl2,00170bgl,033bl10g,09gb100l,g1b08l04,005gb6l3,308lb0g0,30g055bl,g070b00l,09b0l9g9,00g8lb27,b00965lg,0l5bg037,lb0573g0,0gb780l3,1gb1070l,l1b00g51,0lg015b7,gl5001b6,40g14lb0,g07b081l,9lgb0606,lbg00618,5gl061b0,87l30b0g,b900gl13,g003lb10,b0l9g107,lb3800g4,0g505l7b,lg0029b0,glb07091,40075lgb,370l3b0g,50610bgl,b00lg890,90g0l09b,g8044bl0,15b0l0g1,blg00780,06072blg,4g0l73b0,bg09l810,1900lb9g,700g70lb,9blg0012,gl1094b0,200b00lg,3g0b2l10,200bg90l,4007g0lb,40lb0g97,72l200gb,0g5570bl,glb09101,8l70b70g,3l00b82g,5lg0b063,0b9210gl,b020lg03,0b0099gl,lb208g90,lb76000g,851l00bg,lb15g003,b00lg174,0g0b00l1,049g00lb,4l08gb05,3g300l0b,0l4gb904,b0l121g0,lg06b054,34g0lb30,00979blg,0l9g06b4,0l0g5b03,b00g5l37,b9l00g48,5060b5gl,l104g80b,3g0048lb,b42001lg,00bl819g,0gbl6104,g00l150b,40g30l8b,b2080l8g,b0l601g0,0bgl9055,6l71g00b,g002l8b2,0b09g54l,050b2g5l,800g9b8l,0bgl5208,08gb70l2,04l96g0b,60blg000,77g7b0l0,lg0b9350,bl820g07,l2g5b800,608l0g9b,bg875l00,b0l0920g,04b41g0l,0037b9gl,bl06g970,09g2l0b2,g612b00l,7b08l7g0,06044glb,0bl68g00,0829g0lb,0bg0l015,b4g01l05,9088b0gl,4g089l0b,g06b80l0,b030gl39,g71lb400,2bg67l00,g2l0809b,l5g00b33,005gl40b,072lg09b,9b00g1l0,0950b6lg,4b0057lg,40gb60l0,090lbg37,b0600l1g,8gb0l109,80gl8b07,01bg033l,20g50l2b,bg0l0367,3blg0006,g90bl026,70520bgl,bg60l160,2g9b0l50,309g0bl9,4602lbg0,b8l0007g,20bl540g,b23g06l0,670g7bl0,lg3508b0,16l0b09g,4blg4600,b0l6g204,4gb005l6,0808bl0g,9070bg2l,100lb0g4,b1g064l0,9l0b057g,bl8540g0,l30g10b5,1lb06g03,1b0gl073,8l0bg505,8blg0490,8lb00g85,9b0000lg,b0033l0g,5g0b09l9,b5l0380g,6b060gl3,8g7lb000,66900glb,8blg0088,b7g0083l,0006gl0b,9086lg0b,g27lb000,gb04l044,53l700gb,230lb0g0,b82g004l,600lb0g9,7900blg9,g900b0l8,2g00b5l8,0l008gb8,b7g140l0,g51000lb,3bl00g70,003lg0b0,lb0g9740,0g3950lb,91lbg020,l80g04b0,012g0l0b,b30l0g16,000b47gl,gb3780l0,0g5lb036,6bg092l0,09l0g74b,010gb3l0,0gbl0872,100l6bg0,6g802lb0,6bl0g605,1l0gb650,gbl00360,14l01bg0,5b30l70g,lg0b5090,7420bgl0,72l900bg,0g30l6b0,b04g27l0,7l0g0b57,g6bl8600,b305g0l3,909b5lg0,l5010b5g,b0l010g8,gb84060l,000gb4l4,004bl43g,0390g9bl,70l6g07b,9007g0lb,0b9l02g0,5g4b0l30,b208g04l,7lg600b0,50091glb,b020g06l,03lg0b21,380b2gl0,l10g010b,b04g04l8,0gb06l68,9g7b0l60
+Predicted: contact_setting
+
+INPUT: 55,6,70,8,34,41,37,57,11,22,38,16,78,30,68,60,86,49,10,23,21,4,26,32,67,1.6,45,53,39,9,52,25,42,61,63,7,1,56,27,5.2,43,46,18,59,73,36,1 an,3,31,3.5,17,4.2,64,44,13,0.6,3.2,58,75,76,65,15,40,48,12,62,72,50,47,71,51,2.6,14,29,28,6.5,35,2,24,5,20,33,19
+Predicted: age
+
+INPUT: 2020-07-11,2020-07-25,2020-07-26,2020-07-27,2020-07-17,2020-07-13,2020-07-24,2020-07-09,2020-07-10,2020-07-08,2020-07-06,2020-07-07,2020-07-23
+Predicted: date
+
+INPUT: inc,oui,non
+Predicted: medical_boolean
+
+INPUT: non,inc,oui
+Predicted: medical_boolean
+
+INPUT: bouca,damara,bossangoa,ndl,ippy,birao,bamingui-bangoran,baoro,kaga-bandoro,ouaka,carnot,boguila,grimari,bossembl,zmio,mbaiki,berberati,paoua,bria,bouar
+Predicted: location
+
+INPUT: 15,22,71,31,40,60,62,48,30,45,37,32,42,47,17,25,51,29,35,46,19
+Predicted: age
+
+INPUT: inc,oui,non
+Predicted: medical_boolean
+
+INPUT: -brq6-7tm7ecd300o21,brq2et6-21do-0831cm0,qm0-2et1-30462bcr9od,d--3b23emo620c1tr0q4,0r26b0-edt137om-cq2,tq00040--r10gt41c18dew,b1o0-q1cr2d-00t6e3m3,001r04c192t-dwg1qte-60,e2b0qo6-1t-m61rd8c09,53g4-w01-td0r091qt1e0c,t01dkl61rc-92m0661q2-e,-01310t0re2t21gc4q-8wd,5b11dot6-030rmcq2-0e,wqgr04tc04001td01e-6-1,191dwqg007ett0r2c-071-,88bo41qcd6-r0m-201te,22-r136me18q071lc0t-kd,7d53er0w04-t1c0011tgq-,1rec10d24-wt104800qtg-,-c1g380rt1de4q00w-t401,1wd-11400t-g2e6t0qr1c0,40g-0dc-ewt6qr10t01101,1007cqew0t0d01r-15-1tg,1ml00-k1c162qt8de12-3r,6bqr51-7mcde1o8t020-,9cdm6202k010-1lrt-16eq,11m02r0c-2eq68tdk21-1l,0c4dt0-qewt1-041r14g00,17-1q62-02lc60re17dmkt,1l-cer240-m0tk7912dq16,r1c0qt026-t11wgd024e-0,321w--1q0t7edtg0120c8r,2rel5606dm80kqc-112t1-,rbom1eq82010dt--28c6,10o8660mcbeq8rt-d-21,d1lt2c7m-1r-6qk0661e02,611-5-c3b00dq3eom2rt,01c41et-dtw4g0r-2060q1,44dc0wte-71-0g3r10q10t,c-10eq404-60g04d11wrtt,mcl301t72dr-1k2qe76-01,18tl7-c6r-5e0d2m0kq211,0rqt8-kd2l06112m3-21ec,0g1-e3-q5r1d108t0cw4t0,tt0q9c1wge0-101210d1r-,21w1-1t060t0ce5gr1qd4-,qo63c0-m0r24d5-1ebt1,6011t0001g0e11cwq-d-tr,d6om-0c-bt3r68e1q20,0wg1-104et7d00trq-031c,0tqrc0t12w-10-01ed025g,0bt0rc2m4qo-12-e6d32,q1d-11e7602m20t2l6-ckr,g-1q7c-01twd0100r0et11,o-m0d2083c-36rte1bq,l-01q1k16m072-4cterd32,1-e20d-lt477m0kc21r6q1,ecl7q0t10-1622d1k8m1-r,0-07w-0tr0113t1c00qgde,q1cte1-72d0r9w50t1-4g0,toeb04d6r--032mqc1,0te09r4g-c-031t10wd51q,1-13-mkcldt2006e212qr7,2rw001t0gq150ce1-dt1-0,b1o6210q031cemr-t-d2,er1-t2d1q30ctw03-830g1,er62121-1140kqdt-l07mc,ctbo08q3-e021-m6r3d,3r0-72q10tte01-gcd07w1,d1e5-g2500024wr11tcqt-,1-t-r044c038gd100wtq1e,6d2rqt361ceb00m-o4-,q4-1t4g0e-c8wt02d14r01,qd1c-6t00512e8wt140g-r,e60rc-12t0bqdm-o6322,g03rc-dq0-10108wte1t30,rq102gwt1cd05t0-17-46e,qtd20w154c10-t4rg11-0e,dl9mkr2c12101--8t760eq,tc00g12--w0tq5e4d10r31,4gt1ew430qt0-0-cd0r191,r5t001q90w0-cg-e101dt1,cdt0r61q2m-202417-kle1,ec00bd6t-2or283-5mq1,l11q251mrc6de0370-t2-k,828e26r1010-tdbq-ocm,0q-118e1ck0126l2m-0drt,rc-ewdt-061t0901q0g712,t-dc0351m2-b5r61o0eq,140cdt061-4w100g-etrq2,0r0d2t61g01t10ewqc3-0-,0g8trdq40-1001-1cwet10,-4tegw1-00401d1rt04cq4,-0-2tg711e80r100td7cqw,-t710e-r111g00d0ctq5w0,te11kq-60217l201-m1crd,cqt0r-0d270111g90e8wt-,-qr01d062o3be-m6t1c,4003t5w2d1-rq114g-0tec,kdtr6e02lm7-6611c-012q,dgr3t107-q0c001ew1t70-,c3q6r-50t2emd01-b0o2,td06r3e26-bm-o1qc02,d8q12ktm-e016210l9r1c-,qm21erc3117d2t0k601l--,-qtt40c0e1d12rw1-4g004,-t0180ed43112wtc3qg0-r,07r54c1tt20-g-wd5eq101,-812e8o-mc0rbtqd0661,11rteq-0c0-203810d0gwt,03m0c6d1o0rb62e-t-q,0wr0g25-0d16t0e1q1c4-t,6qr6-e3ct1m20d0o-b9,-l6-d01e82q01c22m1r1tk,500wq1c001gt6-r146-dte,61-d101ge-t00qt0r6w01c,q00-0ct0e051wg2121r-td,0103tb-1e2rmd12qc6o-,0td42c5r0-1g14e0-tq41w,102l-c50rq2k7m2dt-e611,qc-3dw51-1e4004tgt0r10,62c087lm00k2t-1-e1dqr1,1-r0c-1mbdt60q274eo3,6c1e8qk11t2-6l-1020drm,22d0t8e01-k0-65c1lrmq1,5rd11q03t210tg480w-e-c,268-00tr-ocbm2eq2d13,10-0qc1dt04tg089-w13er,0c36o0q41b2t-r13-mde,e6mq302-t0b1r28-odc,-1r2-6c06qbmedt04o32,tq6d--8kce1092lm1130r2,-2127drek021-ltm1c7q60,t0-50q4-wt010r4dge1c11,wr00d1t-t8qcg1-09101e0,-k2120c1dq76l-r0m71e3t,te0rqm621c6b-o3d0-6,109t01te2-2-0q16gdcr4w,1c2dt100qe10tr-0w9g-21,6e3qr802b18c01d--tmo,7-6c2-12tq10e01kl7drm1,-2t5r1gedc1q1004t0w4-7,01c7dw-11q00tteg0-7r24,qm177rte51-0l2kd20c61-,de-r01-0w108tg10t203qc,--29rc0b10tmo6eq3d8,0dmqe-1r2268t0-clk1162,72cd114k3q-l20etr1-06m,1-t5210cd-6qt1g0e0rw00,ormd-0c10qe2t-136b62,m121-rtce01dk072-q260l,e60t11-0q41-r2wcg10t7d,r00-wctq10e4dg4t10051-,te-8c0-rdqw1311t0001g0,r-11qd2eo31600tbmc-1,2d14e-t19-1cg06wr0tq10,q38ed-rtbc12o506-0m,0g4105e1w-010td-ct6q1r,d1cr-t40g4q0t10041e8w-,-q1g4t100c6013-edwt0r8,1l6-t1e6mr210k082c6-qd,mtr5q7lk021-de2c1-1160,e7-1tw041r2d0t1-g0c4q0,0--brq4mcd16to01e312,eq-43gtw1dc02r6t01-107,1c89-r207q-mb06et1do,qt1403100-19rc4edwt0g-,6q10cem62dl0t102-k-7r1,-1ge30wtc11001r02d-q0t,ek08-4ld1072rm6-c1t1q2,01c-9qt2ke0-1r802d61lm,812md-006q652t1e1krl-c,wr10t28tdce-0g1120-70q,10006t1cq0wrd-t1g0-12e,2r5106m07ke--dtc12l12q,0tk02ceq26rl111m07d5--,0qc-0twe1d0110t-0501rg,re1dq0gt1192w-t00c002-,-ew0qgd3rt101048t-10c1,-b621e3mt5200o8cqrd-,m3d0tcq2130ore-6b3-,31rt0we0--1c900dg41tq4,t7-r001cqg0810wd3-te01,61cmt1r2q-d2e2-096lk10,mrd55q--1et63bco020,7m-oc1rdb3e60q2t-05,t1ge0c1r0-w10-qtd80101,e6-t12-134qw0rd0c10tg3,er10-d-t08obc282m46q,23tgcr19ed00w0-t2181q-,2r7l-q01e6k20md5t6-11c,r1d0g20e-9c-wt8qt01701,c0m3t-1dq-0rb6213eo3,-0b14e3ord5c2qm6-t0,641tqc002re0-gtd041w1-,1etr2c-109gdqt010-021w,-e05t-0bor326m1c12qd,6w1g4tc10-r50001detq-3,2qo3c-665er0dt1mb0-,30g-0101r0d1t0c-we2t5q,c1rg107et1t0-d01q20w0-,ct0r1-1e010dt41qwg07-0,10-1t4t4dq0gc-01e901wr,c2d0m91-o-178q06rbte,q121e6r0-65tlc1-28kd0m,3tdmb2r0e6001-c26q-o,tl12e0c2m-170rk86-d61q,t8102-mro-18e05cdb6q,-r01w4dt01-0g1qc62e05t,2-t3qd00wt-0g1e0c10r31,0rd32m-6qc6eb01to-1,2e80d2-2rc611mq-1k0tl9,c10e--83gqtt00011dr0w1,bq2c06713-re4o-0dtm,g0t4c249e--011rw01qd0t,er092-qlm2d-1tk60651c1,022t81g0e1dw1-t1rc-30q,-q01tbo1-cm302erd670,t1100-03-tr0w3g70d1eqc,q016t44tg-w1e04dc1-00r,615wqrd2e48010g--tct10,1d10t6-22ebo8r-qc0m7,e02t-9wd-0r0t112gq10c0,5r5e12c040-wt0g0d1-qt1,0-2dme-rt10k12lc9761q9,--21g0ttrecd1012q0060w,1-20t0707d01wrecqg71-t,et6g310ct40dw-q112r0-0,tr70-d09251001w-cqegt1,-9d-2e8o6010ctrb1m0q,2806-t1c10lq46emk21-dr,tw1et-0q400-104gd112cr,0wt0e4gc4120q1-r2t01d-,-dt10020443rw1qe18g-tc,11-0w-104qc1etgrdt0041,ed3rqmb0t2o-01c671-,cet9q15--0t440wgd0121r,1m-2e8c1qtbr-02od600,3ct1g-ew02d1090-r10qt4,10-q041wt-2e06cg5td1r4,ec03m9--b320o2q1dr6t,d-1k4q821lm01t-0r22c6e,3-d21t0163q-o5rceb0m,1cg0tr4de-1w10940-qt80,0ewc-814021qd6-g11tr0t,-0m0rle4112-dt0cq62k18,001-retc9w0t11qd40g-01,gq20-6-wer1d4tt0110c52,290tg54q2-c0et1w1-d1r0,6r0-q0eg41t1d0w2t-6c11,t0qec1262m-2o0-b3r2d,0etm81-r0q107-od6c2b,e-g0c00r1-1d40t14tq1w8,80d010g14t01-cq4t-rwe1,-qdg10wte010711t0-cr27,0e1410tt0rw3dq-7c1g1-0,r-t6-8m230cb1qeod0,0-rmc63d0eb12t3q5-o,qc010r08w-2201d0t-et9g,8t1d310re2-1cqwt00g03-,edm1-rt06b023c-q2o9,61r6019dk-8m1ceq2-tl02,7-0t1td1313qg04-rc00ew,4-tqd1g00rt1c041e0-00w,w02r1-tcd200e9qg21t-01,14wtc-12d10q26er0g0-6t,m06c1rd60qbe2t2-81-o,3e1t62r61bd-1m-q00co,t0eq04k112cm-27-rl16d0,r1070t1gw7c2t1-00q0d-e,d1201m2100cr6k-te-q6l6,30qe-wgc10-0d4115tr0t1,e112t4-tqw00gr05dc1-02,drc-002b11-6e0o6tqm3,q1g04-0dc4t-1rt4we2106,016c2r-e170-q2dmltk212,0210w61104cd1e--rtg0tq,w1-0-1qc00009g1r1tedt6,3tgw-q1-e0040ct181d00r,3db0o1tm-e3cr0-6q12,1-d4ret65c000wq-g110t4,20k6cem-1r7t27q-ld2110,-g1rcwtq01t01-4047ed00,10ttrwq009301ec--g0d80,1400wtq-g0td017ec42-r1,d1teq2r-01g0121t-04cw5,oct2e32--1q60m5bd0r4,-qeo6c01b-8301trm2d,r60tq1el-k2c1m0d-16208,2mdc-0o6-1b3t20eq1r,t0461g1we-q0r10-t5dc02,0r-2t60oq-0cdemb4113,kemrt0271qd100c661-2l-,10376tb-12oerd-qmc20,e0-dm2qc5r3o029-6tb1,-47td01q1we1-404tr0cg0,w1-d44e00c40rqt1-0tg15,1-r10dqg-t4ec40t00w210,2k3917le1-m-01r0q2tcd6,-2d0tcemq2k14-816041rl,2etc31-130-r00tg8q12wd,2ct101dq-4r27t0g5w-e01,67k6mt12012e-0c-dqr1l9,0oq020emtc23d6-r1-b1,t01kem2-cl6r6019qd2-51,50-ew1r-t0dc8q1011g0t0,d1mq-ce1r07k706-122l0t,04tq11c01edg-7rw0-401t,13-eq2r140-c00t5wg3td1,000-ce0r1q1tw1200gd2t-,01e7511-wgct200r0d-tq8,02g-70te1-q171tcdw060r,-2ro6cb2t0q8e1-d006m,-1-0w30c4dre190g01qt1t,1t-50wc0qge602114dt0-r,1tod9-2c1q006e-5rbm8,21tcr216q8e0l-1d04km7-,62--de0bmt41c0orq39,ctrq-7mek2ld161191020-,4qrgw0-0t213d310c-1e8t,e0-1tq3d12mo-0b6c5r,qcb-7d0632omr06t-e1,00d-grt-51024tw11e9qc5,-rmq2c1-e61l5td10018k2,91tdrt-q1404e0-c1g00w0,631-rcdb21tq9oe-0m0,212-1mqd6k0r08t1e7c7-l,0tt06-1c01dqe0170wr-g1,4301rc-gw1e300qdt01-t6,w00ceqdt510g11-11tr0-0,2-ct72r1m06kqe-4l11d40,10e-c06101tr1tgqd090-w,1w03qg-et102cd0-0r01t8,101t1k-2r9-0m26qldec70,-1r1t60c6t4g24wed100-q,qw0r110d14440e0c-ttg1-,6301c4mb-1t-rd21q0oe,g68t01d100-0-2rtewcq17,b01e36dqr9--72mtoc0,1-031t1crdt-egwq001500,0-182m64-0dqtorc21eb,0--151qc0we554t0rg12td,4d1t6g00014trqec-501w-,82qrc6lktd801110-5em-2,6de0322bq1mt01--4orc,51dc04gq--wt07t1er2710,q1-128m0t0-1c06e0r2kdl,ld-260c-t26r21k611meq0,-tg1c0e45001-1r4d0wtq3,rg000-0qtd117w9-34ct1e,86l12rem4c0d1qt-72k-10,12el101kq0-mtc2r8d6-17,0ckd-0e1-712t0m8lr12q6,1rl-52k270m11de-t760qc,0erqd0w1--4t1g21t0c085,tre01421d0wct501q-1g0-,tg1d6ecwrt04721-0-1q00,mbd0t31eoc3-26q2r-0,1-2r-t1186q02le30km4dc,rqcw801g1e-7dt510-024t,e-8q1lm1d1t1-6c0k0r221,et0q-w5c21143gr011t-d0,etm0716ld81--2q1rk80c2,0w2-11e06cqr6-tg0d041t,060--32d127mteqo5crb,t-q001t0021r-00ed1cg1w,1lc6t02-2-211kqdem704r,t2gr01et5--40004wq11cd,350c-t1tr146eg0w00q-d1,1w2g30c1t40q0--det361r,0wec111--t0d05102t4rgq,l23361ekmd00ct7r2-1-q1,8bd01cmt0-ore2-436q2,r12e8d1l0t-8m0q6k221-c,401-0r10qt0gd10c-w2t3e,2el1r810160120-kqmtdc-,06q-c010kd17te2-r1l2m1,1010t0tedgcr746--01wq4,c2e3q0rbt4dm0-6-o10,q0e4m1r2--2d23ocbt06,gqc00-153r1d64tew201-t,8rc2-tq3-0011tegw01d46,d0-04c2gt901541-1erwqt,t4tg-601we1c0d-r019q40,150-weqr1tt0d4gc10-172,td13q0c50-g01-140er0wt,q5g040te0141w-d-1c4r0t,-002q3gc1tre5540wd-11t,2k6merq-101l16t-0d2c65,632br319o0tq0ce-m-d,c-3r81tqd2tg002w-e8011,-340m-rq40dctob122e6,-r1e2cgt9q10d00w1-030t,219mt6cer0o--003dbq,0c-8ger020tw10q0d1t-11,4gt-0-q181t0dce0018r4w,0-wttc0grd-e01100q,1813eg-t0w1400r7-ct0dq,m168td0-37eq22bc0o-r,q01-w006-t1gcr2403e1dt,qr01lm1ct62k102d407e--,k2-relm00t12c616-19dq7,-e6t711w0-0qr0dt08g21c,w10d01-er4q0c-140g2t0t,0d2-5qmc3o3et60b-1r,0le21q2c1dmk-80-62t0r1,92o0c-b60mert1q3-d8,6l10d0-r16ketm2c-3712q,0-01q2b0rt826-c0oedm,q302e2-rot-bc66m1d10,rm-o036q2e11c4-dt3b0,-1002d0c0rtg081eqwt21-,r6k2211-e5c-01dmlt8q01,9twc0g141r-e8dt-001q03,w00tq90e0-tg810rc-11d1,cr30-40w0e11-21gd4tt6q,6g-102td12rct4e4-001wq,d1br30069c-e7mtqo2-,0cm17tbod701826--qre,1d2e6-0c71622k-q0lrtm1,cg1r52t-0we1041-td270q,1q4rdwt0-g4e10c360t0-1,0tcw2-241-5rqd0et1410g,2mor0d23--et1026b1cq,qtr0et--001w0g14130dc2,q--100d101r9cwe3gt010t,t-3ctw0131d0q1r4e0g40-,t3e06r-19mo8dbq2-10c,112-9cwtgr03eqd14-t050,-11-l2mkcret0366d10q26,40rt--610qd2e0c13w1tg6,c2kr712--t861m0601qlde,w00td0e1tg1cq11-0-078r,c11d8e716q-22k0r0m7l-t,q26r7012cd-1eltm-1062k,66l20c11tm0k-1582qer-d,1-0d1gq002r0-6w1etct00,c1td40t11q60-eg003w0-r,3-eq0c4mrd32-t01b6o,t0e-gw10q2ct213rd0-001,1o103t04mr-db-q6c2e8,132q3-068ot0dbcm-e1r,q900rw1etcg--80d110t21,qwt1g1-d001r41-201c5te,oc-0-te1m3qb2r0d136,8grc0et101q4w1d-t-4000,1rd-tq20410c-2g1wte051,m2014r61c8-delk2t21q-0,co-3erd0-310btm26q,r-e12dc2t610q-9170mlk1,e0r7-bqo02-t061m2cd8,g021wrc101tt00-eq50-0d,90wq50r1112c0-d04tte-g,1q21ct50-w-tge1064d01r,-r01t1c4et1g0w543-dq00,eqdc1t-064t0r8g0-411w0,0e-1-18gqcw0td0tr19002,101q0we0t--d05rg6c1t02,1-0q201-02dtt10egcwr40,7k1de2r10026l1t6cm1--q,67r0w11d0tq00-g-34tc1e,dtc-e94102001q9-rg1tw5,131e80c0-tdb-oqm0r26,3-261retc0o8m2q3bd0-,w01t1104gt-4dr05-qc05e,q11rc10-t2g00w3et50d0-,tc1w1qg114t52-e-00r4d0,0d-cbm6-2r031toeq82,1g40718r01ec3-0tq0d-wt,rt0w05c40t1-1001d-qg1e,101-q-80b2emd21oct6r,-drqe4t-292080c1611kml,0e8-ctrd042118m6k1q-2l,61c0057troeq23b-m-d,t0cw000dt120r-g01qe1-0,rmq-e1dct7k601282l101-,er4cdttg1-01-q109010w4,1cdt6170o6q82-bm0re-,r93--etq0b266odc1m0,15-5tg007112-qetwcrd40,q2r1t40w14--t20e0cdg51,ttdq1r9-c1120ge1w540-0,c5r1-7t16d03-02kmlq21e,t-1-g4018et1r0042cwdq0,2-q0d0881ro6t7c1m-eb,71lqd9-26-06110tmc2ekr,-2-tqr010b1m3o7ce6d3,dto7q-61me2-1r0b8c06,2g-01tr10e1d6cwq4-1t02,tk01dl2c88121-67eq0-rm,k32t0q1l16edc-m128-06r,t12100qr1-wetc00g10d-9,51r0-cq12-8090wge4tdt1,b01o4emd3t6--102qrc,1m22-63-tc015r0bdoeq,w-0c4d3013g1t7-10t2req,00w2qd016t0c0--reg14t1,t6-dwq0-0110e4r0gt410c,0ed30011107t4c4-t-rgqw,1t0q4dg1-2rt00w-c000e1,d-0r21t126-cleqk008m17,1003or-t1q6e2mc8-d2b,d2r2-07q3tb-eo2c60m1,tk61l-2emcq6r21d61-600,-d17-63cme0qtb320or,40d22qg1rt6c7-ewt-0101,02-5-6bd0m3qoc8er1t1,20mcr2d12e6-l7qt-18k10,o836t10c-erd002-2mqb,4t0e4q1c01-rw-901tg04d,1d1q0c160e6-r-2219ktml,-mq0t1c65-l2rkd1e10428,de32-qt-t47r10c1000wg1,1-041120cg1-3wttqe6rd0,g0c1-r0440et21d0w11t-q,bdt-00r22o2m36c-e16q,03b11d-40cr2tmq6eo-,1rq0e3wt0t111gc00d-7-7,1cqg0-tt026ew9r5-4d101,7r0t2we00t1d0c1-19q-g1,2m00bet8qc-ro-612d20,t026cqm-b3-23or021de,e-0cl6kt106-d221q5r7m1,m-6oq80tb-122er080cd,-gq01219r-t01ecwt7000d,21m--bc620oeq8r10td0,-41ctt1ger0-d180wq0245,cq6o3e20t1d-b0rm7-,14r0wt0eg8q4t--1c010d5,-06q02t-63oem4crbd1,t0g1-cedw08510t0q1-r10,210dctr-59100w1tgqe0-0,0cqg0tw0r410e-d113-4t7,01c01e2m6dt-8qo-2rb2,wc001g1--2ttd0q62re001,2101cdbre-08oq8t6m-1,29k2c17t11l0d-mer0q-65,10160rdc07ewg2-t71t-0q,8rqmlke31670t021--1d2c,tq0d1-7t4we7r010-140cg,kq6-0-6cr40t2mle81d211,t0t04e120c-g63d-0rq11w,rt80qo1-8-b2cdm00e16,3dbt651-60em21qroc-0,1r1e41cw0tdq0-t1g0002-,24dqc-900w64eg101-rtt1,r06e030bq12--mctdo2,1q308-21w1g0rtd3-e0ct2,-06-1m4r1l2t27ed51qkc0,0g2we1dr8t01q-0t5-c100,we90t1dc0-t03q401g1r0-,t286190-0c-r2b0mdeqo,0t017g81q-r4t1c-00wed4,5016b-2qm25r3cd-ot0e,2d1-e1r0ctwt-1g01q0049,10-1ct11q55e00g0wt0-rd,-t7l1160decrqmk620211-,014t0wc13er6d0-1t-0qg8,o0-b2d5r0-3q1e761tmc,q050r6-14-20c0tt1degw1,-4118to0qcd07-2ber6m,cb-2m126td03qe0r4-o,411-082tce1q2r0-67ldkm,-60-13r2qm1b206dcoet,t114t91qd-e-g4400wc0r0,6r0q61-c250edw0-tt14g1,4lcqr1m0-8162-211tkd0e,ro4b-03d60e1-2tq4cm,t0r2cq114100wt-5egd54-,75r-c1ed-g0141t3t200qw,4-10t1tcqr0-d00wge6163,r1g0e30d128wq-t1103ct-,q3cme7o6--d120rt0b8,t11cd00--0001twrqge197,008kec1r-60md-2211qlt6,d-0-te03co42bq6r91m,q0gt6d8c01-41e42t1w0r-,1qt0w10cg015r-dt0-e423,20812-dcr1lt00qmk615e-,d-tt1ce250173qr1-g04w0,2qo1dbr0360cme-t4-20,t082l6em1c120qr8-kd-61,-mr06oq-8322e102ctbd,5r0-04d2t11t03c-10qgew,5cmlr6d1-e080t215k2-q1,0dm6eb-8c220t29or1q-
+Predicted: id
+
+INPUT: inconnu,non,oui
+Predicted: medical_boolean
+
+INPUT: ramsey,solano,monmouth,chelan,broward,williamson,berkshire,spokane,madera,yolo,suffolk,ulster,manatee,larimer,clark,eagle,fayette,spartanburg,king,contra costa,klamath,collin,napa,hudson,fairfax,johnson,cherokee,hillsborough,placer,bexar,grafton,santa cruz,montgomery,fairfield,rockland,new york city,volusia,virginia beach city,fort bend,floyd,st. louis,polk,el paso,tulsa,jackson,sonoma,district of columbia,fulton,bergen,shelby,dekalb,pottawattamie,kittitas,honolulu,alameda,passaic,fresno,maricopa,wayne,carver,dane,rockingham,charlotte,walla walla,saratoga,washoe,davidson,worcester,harris,jefferson,cuyahoga,arapahoe,marion,salt lake,shasta,chatham,pima,snohomish,harrison,riverside,camden,san francisco,santa clara,san mateo,denver,kershaw,okaloosa,bennington,lee,prince george's,nassau,pinal,delaware,gwinnett,orange,harford,humboldt,davis,middlesex,wake,noble,santa rosa,marin,los angeles,cobb,hendricks,cook,charleston,union,norfolk,douglas,washington,kitsap,westchester,sacramento,san diego
+Predicted: occupation
+
+INPUT: 2020-08-07,2020-07-28,2020-06-07,2020-07-10,2020-06-04,2020-06-16,2020-07-09,2020-07-08,2020-07-07,2020-07-26,2020-07-27
+Predicted: date
+
+INPUT: f,m
+Predicted: gender
+
+INPUT: estonia,greenland,new zealand,romania,germany,poland,uruguay,vietnam,turkey,bolivia,united kingdom,albania,paraguay,united arab emirates,cambodia,tunisia,suriname,taiwan,south korea,czechia
+Predicted: location
+
+INPUT: 2022-11-06,2022-11-03,2022-11-04,2022-10-28,2022-11-09,2022-10-23,2022-10-19,2022-11-02,2022-10-06,2022-10-14,2022-10-08,2022-10-22,2022-10-15,2022-10-30,2022-10-10,2022-10-29,2022-09-28,2022-10-11,2022-10-07,2022-10-27
+Predicted: date
+
+INPUT: oui,non
+Predicted: medical_boolean
+
+INPUT: 1.0,0.0
+Predicted: medical_boolean
+
+INPUT: communautaire,funerailles,nosocomial
+Predicted: contact_setting
+
+INPUT: 20s,60s,40s,50s,10s,30s,70s,80s
+Predicted: age
+
+INPUT: ouaka,basse-kotto,ouham-pend,bangui,haute-kotto,ombella-m'poko,nana-grbizi,bamingui-bangoran,kmo,nana-mambr,ouham,lobaye,mbomou,vakaga,sangha-mbar,mambr-kad,haut-mbomou
+Predicted: location
+
+INPUT: 2t050w0g,90tg066w,00209wgt,1d3tcer00q90,0909wgt3,c010erd0qt94,tc40er0q80d8,0tcrd5084e0q,7c2q000t9red,d0rcq50e0t98,6qt00ed0rc92,c0te009q0r8d,1g4w500t,00q9207dtrce,e090t0qdr01c,d0t5c77e00rq,er0dtc0998q0,09crtqd0330e,ct601d0qe0r8,7erd0500qc5t,d0t32cr0q90e,09w650tg,q70ed9r0t50c,qe7c1t0007rd,tr80010qed0c,5cqd470et00r,50ceq250r0dt,50w0gt03,t01w003g,8e0c30q0rtd0,c09tq20rde00,qretdc,t8w880g0,2gtw0501,00t019gw,t1w0g051,6q000dtc0r0e,t002gw77,08t080gw,13t02w0g,w00t78g0,q0de900rct96,qt05c9edr080,0d10rc2teq00,7090tcre7q0d,e006d08q2ctr,cr60e0qdt900,3qedct5r0070,0055t4gw,w002g41t,0r04qet8d05c,0g31t30w,60r079ctde0q,96qre50c0t0d,4tg0w002,09t0r900dcqe,q0cr9ted0200,06w09tg8,d03te00crq09,r2q90c20e0dt,2r908q0t0edc,q90rtec00d10,g0w17t00,05ce6t070dqr,010w0g5t,t5c0030ed8rq,890de00ctqr9,909c0erdqt09,tw07g089,wt050g20,5dc0r34t00qe
+Predicted: id
+
+INPUT: 2024-02-09,2024-02-22,2024-01-29,2024-01-30,2024-03-12,2024-03-01
+Predicted: date
+
+INPUT: inc,non,oui
+Predicted: medical_boolean
+
+INPUT: 2022-03-20,2022-04-28,2022-05-03,2022-03-17,2022-03-30,2022-05-09,2022-03-11,2022-06-06,2022-03-01,2022-03-25,2022-05-10,2022-04-20,2022-05-23,2022-05-30,2022-03-07,2022-05-26,2022-02-17,2022-04-19,2022-02-23,2022-04-17,2022-03-15,2022-05-20,2021-10-21,2022-04-07,2021-05-05,2022-03-21,2022-03-12,2022-04-13,2022-05-19,2021-10-02,2022-03-05,2022-05-27,2022-05-02,2022-03-24,2022-04-18,2022-02-09,2022-03-10,2022-05-13,2022-05-12,2022-01-02,2022-04-05,2022-01-17,2022-05-01,2022-03-28,2022-06-02,2022-03-27,2022-02-12,2022-04-27,2022-05-24,2022-04-12,2022-04-15,2022-04-30,2022-03-19,2022-04-06,2022-05-07,2022-04-29,2022-05-04,2022-03-04,2022-04-22,2022-05-06,2022-04-14,2022-04-21,2022-02-15,2022-02-05,2022-02-16,2022-05-08,2022-06-03,2022-01-15,2022-02-28,2022-05-31,2022-03-26,2022-05-25,2022-03-22,2022-03-31,2022-01-26,2022-01-12,2022-05-05,2022-04-10,2022-05-18,2022-04-25,2022-03-14,2022-05-14,2022-05-16,2021-10-28,2022-04-09,2022-05-11,2022-01-11,2022-04-01,2022-04-08,2022-04-16,2022-02-04,2022-01-07,2022-01-19,2022-05-17
+Predicted: date
+
+INPUT: inconnu,oui,non
+Predicted: medical_boolean
+
+INPUT: azerbaijan,cuba,slovakia,albania,ukraine,taiwan,bosnia & herzegovina,lebanon,croatia,dominican republic,iraq,ecuador,guatemala,armenia,greece,north macedonia,denmark,morocco,united states,gibraltar,haiti,spain,jersey,san marino,peru,belgium,bangladesh,italy,costa rica,portugal,austria,venezuela,egypt,kyrgyzstan,fiji,moldova,serbia,kuwait,bolivia,bulgaria,latvia,jamaica,cambodia,vietnam,india,south korea,turkey,jordan,isle of man,guernsey,suriname,netherlands,kazakhstan,russia
+Predicted: location
+
+INPUT: no,yes
+Predicted: medical_boolean
+
+INPUT: 2020-05-31,2020-06-02,2020-06-30,2020-06-06,2020-06-29,2020-06-28,2020-07-12,2020-07-22,2020-06-18,2020-07-25,2020-06-22,2020-07-19,2020-07-06,2020-06-11,2020-07-16,2020-06-26,2020-07-05,2020-05-30,2020-06-15,2020-07-10,2020-06-24,2020-07-15,2020-07-13,2020-07-24,2020-07-01,2020-05-26,2020-07-04,2020-07-02,2020-07-14,2020-07-03,2020-06-07
+Predicted: date
+
+INPUT: no
+Predicted: medical_boolean
+
+INPUT: dcd,vivant
+Predicted: outcome
+
+INPUT: 6l170b0g,g08l03b0,l20gb406,0bg90l29,3gl0780b,70b0lg96,0bl054g4,b09l050g,76lbg090,bg764l00,5lg5b005,03208glb,b012gl00,00gb673l,0glb0426,l0037bg1,0l461b0g,0g3b20l3,l801gb05,92g0lb90,0b0g420l,b50g03l4,b0424gl0,6gb001l0,90000lbg,bg0l7602,bg105l04,b7l000g8,1l74b00g,000lb2g5,00l08gb5,85b0lg08,g1701lb0,794l0g0b,7071gl0b,gl05330b,l490bg07,1lg022b0,l0g9660b,0b2023gl,0b939lg0,003gb60l,10gl025b,50bgl078,3bg0005l,bl00650g,507gb6l0,80glb024,l06g003b,b02903lg,11lbg005,770b4lg0,057lbg90,7b05g00l,8l730gb0,1200lgb6,g3l0b206,bl0005g0,lgb90077,50lb890g,1020lg6b,0b0307gl,g7068lb0,bg4l0003,0l0g1b04,b5g0l450,g0b90l04,1g2lb300,4l0bg920,10g7b05l,gl800b82,g0l7063b,5b56gl00,g030b9l0,02b0l3g0,gl0705b7,71l0bg20,80lb61g0,0gb640l3,l08b20g0,bg40l503,5b0g0l27,0bg0222l,l02b90g0,l63b030g,0g7l1b30,3099bgl0,004l80bg,30b09g0l,61g8b0l0,0bg59l80,031gb0l1,00l3g47b,g540b0l0,60bl00g0,0g08b71l,01g06bl1,bg100l60,g2l09b30,22gb00l0,210g3b0l,780bg2l0,83030blg,0lg3109b,20l5b0g6,l0099g4b,gl30b089,502lbg20,0g027l8b,0l09b87g,0l40b46g,0bgl0471,006bgl54,0b6gl056,40g0b06l,5006bgl0,4090l6gb,lg20b080,0b2l097g,84b0l4g0,3b9gl004,40b30gl2,l50gb260,b0040l0g,87l0b0g3,4018lgb0,b7l4070g,007gb1l4,l054g50b,50001blg,l5b0g700,g6bl0080,0b6l940g,lg07002b,g20b0l83,43l030gb,900bg8l8,0l90gb23,3b0810lg,00b20gl9,02g047bl,bg509l90,g404b30l,0gbl0204,lb4g0103,lg1b1000,g3lb0013,g0l00b75,9009lgb8,0l02b6g0,5bl00g03,3lg0300b,40g90bl6,49g0lb60,1lb0750g,g51b0l30,50b95lg0,3b0l85g0,b0g03l66,0420g4bl,00lb1g20,0bg2500l,718b0lg0,g4l09b01,blg01046,0b9g04l0,05l0g32b,00lbg002,600bl98g,3440glb0,lgb06039,lg306b80,8g00b4l3,lbg50052,gb70l903,l2g040b2,g001lb90,b1l0200g,395blg00,80gl0b33,0800b4lg,722lg00b,g04l0b07,0lg3b402,lg2300b0,503g6bl0,bgl27007,b90g705l,gb57600l,00l6g74b,gb05l500,7g0lb950,g7l1b300,l055g00b,0bl9050g,580lb06g,32l500bg,60g020bl,71lb050g,8g0l01b5,4b7g0l50,b4g600l1,b07g70l0,0g643lb0,063gl0b6,l9gb7010,50b59gl0,01g08lb0,g09b50l0,50b7lg08,l41b00g9,092gl05b,7l0g0b22,05b60lg2,076glb30,0bl078g0,0lb6g081,l0b09g07,lg00238b,34g0lb60,7l0b081g,0605g0lb,1g27bl00,0gb1l380,g903l0b9,09l098gb,7lb0102g,g3l00b06,b0lg3000,524g0bl0,7b0g03l0,bg51l009,bl00g878,g0b0516l,l0b83g00,g80l180b,6bl6200g,8l00g1b0,l45gb020,0018lbg8,00b76g0l,1b7800gl,gl9b7900,09b90l0g,0b460l8g,30l104bg,l09b6g90,09g0lb21,460lg80b,7b790g0l,l62bg400,75003bgl,b98gl030,50g7l30b,9b0lg190,05bg0l35,9blg0079,00bg705l,l05gb200,0gl6b600,b0g0l211,30g9b05l,b80g0l06,90l0bg05,10bl81g0,60b5lg30,8150glb0,0b0486lg,0l8b20g6,b8l0750g,2g4b800l,bl0027g1,100b40gl,007b70gl,090g3l6b,l600gb53,8050bgl0,l000g4b0,80lg9b08,0170b4gl,gl70006b,bl30g470,860gl0b7,l06b300g,g2b7900l,4gb0l013,g900b05l,50bl310g,00l0bg66,0g617lb0,010lbg50,7g0b907l,0307b9lg,b90g000l,050g8l7b,40gbl090,5006l8bg,7l1b00g3,lg201b30,6g4800bl,gb95004l,b08g30l5,0l43b0g8,6100b7lg,9l001b2g,90l2g0b8,030b9gl0,0b8l610g,0810gbl6,0g70l2b0,03l30bg7,20bg26l0,0190g2bl,gbl20404,00bl73g5,8b090lg4,b7009gl8,690l8b0g,006g90bl,gb0l1270,glb56200,l0bg0958,b0l0g674,glb08014,0003lgb6,2g6l600b,400b8g5l,lbg00136,lgb29020,08g900lb,00l2b86g,00gbl880,0l25bg50,4490lbg0,90g0b65l,30bgl062,5bg60l60,0801b0gl,25l0bg80,gb8680l0,049l0gb9,40b1g9l0,0l3g6b30,g1lb0520,gb1007l0,l90b3g00,07bl6g02,09b0l6g5,l6b9g006,0g054l0b,908lg0b1,01b00lg4,09570glb,002b7g9l,g900b98l,g4b00l60,g0010lb5,b80lg000,30g04l2b,400lb44g,80gl5b04,90201lgb,2g0lb308,g064b6l0,7b00l7g4,5bl0g508,4bg0l085,bl69020g,l0gb8405,b0801l3g,g40b70l2,bg6l0007,2b000gl5,702b1l0g,g020bl78,2l1900gb,3lb5g400,6g703lb0,6380bgl0,4lg7b400,l900g8b0,b0g07l90,00l01g0b,l0049gb2,l5g800b9,l2g08b00,g0202bl4,00gl915b,097l0g0b,10b0g59l,061g0bl9,3g90bl05,g0609b0l,l02b810g,lb8350g0,l150g00b,30b04lg1,5l7g05b0,0l4606gb,7g080bl7,g4lb3006,lb9g0140,7gl045b0,0b0gl403,g50860lb,03lg010b,0gb23l02,0bg9l306,10g9b0l4,0b1091lg,l8g0202b,8g0250lb,g57b400l,0lb0066g,b6504g0l,30l0g5b6,00b6g95l,3g00bl95,l00b510g,lb19g600,9gl0760b,70l00g3b,g4l800b4,042b6l0g,30gb30l8,lg0b2509,08b0l06g,0b012lg2,b1080gl4,4lb000g7,0g56l01b,l045b0g0,80b9gl00,4650bgl0,687g0l0b,g050b4l6,g02b021l,0blg7502,50l0b8g3,04g606bl,l040b2g0,0b6070lg,l1g140b0,260bg10l,00g7b7l3,710l0g6b,l0g34b90,004lg3b3,b00lg575,0b5g39l0,020g0bl5,0l91b0g7,l00848bg,8gl6400b,0b7g404l,3g10l05b,g00b28l4,b17l090g,0g570lb6,0736l0bg,69070lgb,2057gl0b,08g96b0l,20blg004,06lb031g,06g35b0l,800lbg63,0l0gb740,00gb8l47,00bl01g3,903gbl10,gl0b3300,gb6l9090,20gl0b20,73bl007g,b381lg00,151g0lb0,l600g76b,g06l009b,0403l8gb,0g8890lb,g668b00l,0308l9bg,0g5204lb,b0036g1l,80b70gl8,30gb4l00,760gb70l,4g10l00b,005lg28b,9lgb0830,0bgl0120,b80l6g02,060g6l1b,80bl904g,7gb03l05,gl1b9500,l40g00b7,3gl75b00,047bl30g,g8450b0l,70gb2l03,bg00l901,gl39060b,b305g07l,030bg2l0,3l81g0b0,bl950g70,50l0gb60,l3gb0105,gb027l03,26b00l9g,g003bl30,gbl00178,b0g7l302,lbg00931,g3l00b55,l20gb200,7blg0606,570b6gl0,0065l1gb,b8l0g008,4g4l0b07,b1l00g39,54lgb100,lb8307g0,30gl08b8,83b40lg0,g042b07l,6g10b80l,0lg48b09,4g0008bl,g06l8b02,0b7gl029,80150glb,2b9gl010,2bg99l00,8500gbl0,lg04b008,g37200bl,0l4870bg,bg0l0599,9gl400b7,lg30b701,037g09bl,60gl15b0,0l603b1g,l0bg0021,b2g050l2,5g04l8b0,003gl31b,0gl0707b,8l0g1b50,0l90bg73,0l0g693b,lb05904g,070l2b7g,00lgb287,950lg04b,80l040gb,028lbg70,004b1gl0,l515bg00,g0b085l5,1lg59b00,70bl022g,g8bl8004,b604l70g,g7000l6b,6lb370g0,201bg4l0
+Predicted: contact_setting
+
+INPUT: no
+Predicted: medical_boolean
+
+INPUT: kaga-bandoro,bambio,kmo,bangui,ouham-pend,mobaye,mbomou,gamboula,amada-gaza,paoua,carnot,bimbo,zmio,mambr-kad,baboua
+Predicted: location
+
+INPUT: confirme,probable
+Predicted: case_status
+
+INPUT: hepatitis b,high blood pressure, hypercholesterol, mia,copd,pacemaker for bradycardia, hyperlipidemia,bronchial asthma,high blood pressure,hyperlipidemia
+Predicted: occupation
+
+INPUT: chasseur,cultivateur,infirmier,commercant,reco,mnagre,cultivatrice,enseignant,taxi moto,commerant,menagere
+Predicted: location
+
+INPUT: no,yes
+Predicted: medical_boolean
+
+INPUT: 0.0,1.0
+Predicted: medical_boolean
+
+INPUT: no
+Predicted: medical_boolean
